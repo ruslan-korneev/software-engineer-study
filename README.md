@@ -2,6 +2,8 @@
 
 Персональный roadmap для изучения backend-разработки на основе [roadmap.sh](https://roadmap.sh/backend).
 
+[![roadmap.sh](https://roadmap.sh/card/wide/651d61b21205b5c21b76a3f9?variant=dark&roadmaps=backend)](https://roadmap.sh)
+
 ## Структура
 
 ```
