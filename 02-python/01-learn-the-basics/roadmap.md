@@ -6,6 +6,6 @@
 - [x] [Loops](./04-loops.md)
 - [x] [Type Casting](./05-type-casting.md)
 - [x] [Exceptions](./06-exceptions.md)
-- [ ] [Functions](./07-functions.md)
+- [x] [Functions](./07-functions.md)
 - [ ] [Lists, Tuples, Sets](./08-lists-tuples-sets.md)
 - [ ] [Dictionaries](./09-dictionaries.md)
