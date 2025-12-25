@@ -1,6 +1,6 @@
 # Internet
 
-- [ ] [How Does the Internet Work?](./01-how-does-internet-work.md)
+- [x] [How Does the Internet Work?](./01-how-does-internet-work.md)
 - [ ] [What is HTTP?](./02-what-is-http.md)
 - [ ] [What is Domain Name?](./03-what-is-domain-name.md)
 - [ ] [What is Hosting?](./04-what-is-hosting.md)
