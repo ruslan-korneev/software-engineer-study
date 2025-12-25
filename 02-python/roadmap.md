@@ -1,0 +1,17 @@
+# Python
+
+- [ ] [Learn the Basics](./01-learn-the-basics/roadmap.md)
+- [ ] [Data Structures & Algorithms](./02-data-structures-and-algorithms/roadmap.md)
+- [ ] [Modules](./03-modules.md)
+- [ ] [Lambdas](./04-lambdas.md)
+- [ ] [Decorators](./05-decorators.md)
+- [ ] [Iterators](./06-iterators.md)
+- [ ] [Regular Expressions](./07-regular-expressions.md)
+- [ ] [Object Oriented Programming](./08-oop/roadmap.md)
+- [ ] [Package Managers](./09-package-managers.md)
+- [ ] [Environments](./10-environments.md)
+- [ ] [Static Typing](./11-static-typing.md)
+- [ ] [Code Formatting](./12-code-formatting.md)
+- [ ] [Testing](./13-testing.md)
+- [ ] [Concurrency](./14-concurrency/roadmap.md)
+- [ ] [Frameworks](./15-frameworks/roadmap.md)
