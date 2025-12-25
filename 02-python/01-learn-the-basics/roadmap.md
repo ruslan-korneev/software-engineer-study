@@ -7,5 +7,5 @@
 - [x] [Type Casting](./05-type-casting.md)
 - [x] [Exceptions](./06-exceptions.md)
 - [x] [Functions](./07-functions.md)
-- [ ] [Lists, Tuples, Sets](./08-lists-tuples-sets.md)
+- [x] [Lists, Tuples, Sets](./08-lists-tuples-sets.md)
 - [ ] [Dictionaries](./09-dictionaries.md)
