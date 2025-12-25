@@ -8,4 +8,4 @@
 - [x] [Exceptions](./06-exceptions.md)
 - [x] [Functions](./07-functions.md)
 - [x] [Lists, Tuples, Sets](./08-lists-tuples-sets.md)
-- [ ] [Dictionaries](./09-dictionaries.md)
+- [x] [Dictionaries](./09-dictionaries.md)
