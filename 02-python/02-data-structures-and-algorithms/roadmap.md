@@ -1,6 +1,6 @@
 # Data Structures & Algorithms
 
-- [ ] [Arrays and Linked Lists](./01-arrays-and-linked-lists.md)
+- [x] [Arrays and Linked Lists](./01-arrays-and-linked-lists.md)
 - [ ] [Hash Tables](./02-hash-tables.md)
 - [ ] [Heaps, Stacks, Queues](./03-heaps-stacks-queues.md)
 - [ ] [Binary Search Tree](./04-binary-search-tree.md)
