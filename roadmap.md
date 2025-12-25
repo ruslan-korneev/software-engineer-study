@@ -2,7 +2,7 @@
 
 ## Core Path
 
-- [ ] [Internet](./01-internet/roadmap.md)
+- [x] [Internet](./01-internet/roadmap.md)
 - [ ] [Python](./02-python/roadmap.md)
 - [ ] [Version Control Systems](./03-version-control-systems/roadmap.md)
 - [ ] [Relational Databases](./04-relational-databases/roadmap.md)
