@@ -5,7 +5,7 @@
 - [x] [Modules](./03-modules.md)
 - [x] [Lambdas](./04-lambdas.md)
 - [x] [Decorators](./05-decorators.md)
-- [ ] [Iterators](./06-iterators.md)
+- [x] [Iterators](./06-iterators.md)
 - [ ] [Regular Expressions](./07-regular-expressions.md)
 - [ ] [Object Oriented Programming](./08-oop/roadmap.md)
 - [ ] [Package Managers](./09-package-managers.md)
