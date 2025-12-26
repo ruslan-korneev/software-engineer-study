@@ -9,3 +9,7 @@
 - [ ] [Persistence Options](./07-persistence-options.md)
 - [ ] [Replication and HA](./08-replication-and-ha.md)
 - [ ] [Security](./09-security.md)
+- [ ] [Pub/Sub](./10-pub-sub.md)
+- [ ] [Monitoring and Optimization](./11-monitoring-and-optimization.md)
+- [ ] [Redis Modules](./12-redis-modules.md)
+- [ ] [Production Management](./13-production-management.md)
