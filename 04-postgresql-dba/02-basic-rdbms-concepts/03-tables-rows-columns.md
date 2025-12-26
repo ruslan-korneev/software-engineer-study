@@ -1,0 +1,481 @@
+# Таблицы, строки и столбцы в PostgreSQL
+
+## Введение
+
+**Таблица** (Table) — основная структура хранения данных в реляционных СУБД. Таблица состоит из **столбцов** (Columns), определяющих структуру данных, и **строк** (Rows), содержащих сами данные.
+
+## Таблицы (Tables)
+
+### Создание таблицы
+
+```sql
+-- Базовый синтаксис
+CREATE TABLE table_name (
+    column1 datatype constraints,
+    column2 datatype constraints,
+    ...
+    table_constraints
+);
+
+-- Практический пример
+CREATE TABLE employees (
+    id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    hire_date DATE DEFAULT CURRENT_DATE,
+    salary NUMERIC(10, 2),
+    department_id INTEGER,
+    is_active BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP DEFAULT NOW(),
+    updated_at TIMESTAMP DEFAULT NOW()
+);
+```
+
+### Типы таблиц в PostgreSQL
+
+```sql
+-- 1. Обычная таблица (permanent table)
+CREATE TABLE regular_table (
+    id SERIAL PRIMARY KEY,
+    data TEXT
+);
+
+-- 2. Временная таблица (существует только в сессии)
+CREATE TEMPORARY TABLE temp_data (
+    id SERIAL,
+    value INTEGER
+);
+
+-- Временная таблица с ON COMMIT поведением
+CREATE TEMP TABLE session_cart (
+    product_id INTEGER,
+    quantity INTEGER
+) ON COMMIT DELETE ROWS;  -- очищается при COMMIT
+
+-- 3. Нелогируемая таблица (быстрая, но не восстанавливается после краша)
+CREATE UNLOGGED TABLE cache_data (
+    key TEXT PRIMARY KEY,
+    value JSONB,
+    expires_at TIMESTAMP
+);
+
+-- 4. Партиционированная таблица
+CREATE TABLE measurements (
+    id SERIAL,
+    sensor_id INTEGER,
+    measured_at TIMESTAMP NOT NULL,
+    value NUMERIC
+) PARTITION BY RANGE (measured_at);
+
+CREATE TABLE measurements_2024 PARTITION OF measurements
+    FOR VALUES FROM ('2024-01-01') TO ('2025-01-01');
+```
+
+### Изменение структуры таблицы
+
+```sql
+-- Добавление столбца
+ALTER TABLE employees ADD COLUMN phone VARCHAR(20);
+
+-- Удаление столбца
+ALTER TABLE employees DROP COLUMN phone;
+
+-- Изменение типа данных
+ALTER TABLE employees ALTER COLUMN salary TYPE NUMERIC(12, 2);
+
+-- Переименование столбца
+ALTER TABLE employees RENAME COLUMN first_name TO given_name;
+
+-- Переименование таблицы
+ALTER TABLE employees RENAME TO staff;
+
+-- Добавление ограничения
+ALTER TABLE employees ADD CONSTRAINT salary_positive CHECK (salary > 0);
+
+-- Удаление ограничения
+ALTER TABLE employees DROP CONSTRAINT salary_positive;
+
+-- Установка значения по умолчанию
+ALTER TABLE employees ALTER COLUMN is_active SET DEFAULT TRUE;
+
+-- Удаление значения по умолчанию
+ALTER TABLE employees ALTER COLUMN is_active DROP DEFAULT;
+```
+
+### Удаление таблицы
+
+```sql
+-- Удаление таблицы
+DROP TABLE employees;
+
+-- Удаление, если существует (без ошибки)
+DROP TABLE IF EXISTS employees;
+
+-- Удаление с каскадом (удаляет зависимые объекты)
+DROP TABLE employees CASCADE;
+
+-- Очистка таблицы (удаление всех строк)
+TRUNCATE TABLE employees;
+
+-- TRUNCATE быстрее DELETE, но:
+-- - не вызывает триггеры ON DELETE
+-- - сбрасывает SERIAL/IDENTITY на начальное значение
+TRUNCATE TABLE employees RESTART IDENTITY;
+```
+
+## Столбцы (Columns)
+
+### Определение столбцов
+
+```sql
+CREATE TABLE products (
+    -- Автоинкрементный первичный ключ
+    id SERIAL PRIMARY KEY,
+
+    -- Строка с ограничением длины
+    name VARCHAR(200) NOT NULL,
+
+    -- Текст без ограничения длины
+    description TEXT,
+
+    -- Числовое значение с точностью
+    price NUMERIC(10, 2) NOT NULL CHECK (price >= 0),
+
+    -- Целое число с ограничением
+    stock_quantity INTEGER DEFAULT 0 CHECK (stock_quantity >= 0),
+
+    -- UUID как альтернатива SERIAL
+    external_id UUID DEFAULT gen_random_uuid(),
+
+    -- JSON данные
+    metadata JSONB DEFAULT '{}',
+
+    -- Массив строк
+    tags TEXT[],
+
+    -- Вычисляемый столбец (generated column)
+    name_lower TEXT GENERATED ALWAYS AS (lower(name)) STORED,
+
+    -- Временные метки
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+```
+
+### Типы генерируемых столбцов
+
+```sql
+-- STORED — значение вычисляется и сохраняется физически
+CREATE TABLE orders (
+    id SERIAL PRIMARY KEY,
+    quantity INTEGER NOT NULL,
+    unit_price NUMERIC(10, 2) NOT NULL,
+    total_price NUMERIC(10, 2) GENERATED ALWAYS AS (quantity * unit_price) STORED
+);
+
+INSERT INTO orders (quantity, unit_price) VALUES (5, 100.00);
+SELECT * FROM orders;
+-- id | quantity | unit_price | total_price
+-- 1  | 5        | 100.00     | 500.00
+
+-- VIRTUAL столбцы (PostgreSQL 17+)
+-- Значение вычисляется при каждом запросе, не хранится
+```
+
+### Identity Columns (SQL-стандарт)
+
+```sql
+-- Современная альтернатива SERIAL (рекомендуется)
+CREATE TABLE users (
+    -- ALWAYS — PostgreSQL всегда генерирует значение
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+
+    -- BY DEFAULT — можно переопределить
+    code INTEGER GENERATED BY DEFAULT AS IDENTITY,
+
+    name VARCHAR(100)
+);
+
+-- ALWAYS не позволяет указать значение вручную
+INSERT INTO users (name) VALUES ('Иван');  -- OK
+INSERT INTO users (id, name) VALUES (100, 'Мария');  -- ERROR
+
+-- Для override используйте:
+INSERT INTO users (id, name) OVERRIDING SYSTEM VALUE VALUES (100, 'Мария');
+
+-- BY DEFAULT позволяет указать значение
+INSERT INTO users (code, name) VALUES (500, 'Пётр');  -- OK
+```
+
+## Строки (Rows)
+
+### Вставка строк
+
+```sql
+-- Вставка одной строки
+INSERT INTO employees (first_name, last_name, email, salary)
+VALUES ('Иван', 'Петров', 'ivan@company.com', 75000);
+
+-- Вставка нескольких строк
+INSERT INTO employees (first_name, last_name, email, salary) VALUES
+    ('Мария', 'Сидорова', 'maria@company.com', 80000),
+    ('Пётр', 'Иванов', 'petr@company.com', 65000),
+    ('Анна', 'Козлова', 'anna@company.com', 90000);
+
+-- Вставка с возвратом данных
+INSERT INTO employees (first_name, last_name, email)
+VALUES ('Сергей', 'Волков', 'sergey@company.com')
+RETURNING id, created_at;
+
+-- Вставка из SELECT
+INSERT INTO employees_archive
+SELECT * FROM employees WHERE is_active = FALSE;
+
+-- Вставка с обработкой конфликтов (UPSERT)
+INSERT INTO employees (email, first_name, last_name, salary)
+VALUES ('ivan@company.com', 'Иван', 'Петров', 80000)
+ON CONFLICT (email) DO UPDATE SET
+    salary = EXCLUDED.salary,
+    updated_at = NOW();
+
+-- Игнорировать конфликт
+INSERT INTO employees (email, first_name, last_name)
+VALUES ('ivan@company.com', 'Иван', 'Петров')
+ON CONFLICT (email) DO NOTHING;
+```
+
+### Обновление строк
+
+```sql
+-- Простое обновление
+UPDATE employees SET salary = 85000 WHERE id = 1;
+
+-- Обновление нескольких столбцов
+UPDATE employees SET
+    salary = salary * 1.1,
+    updated_at = NOW()
+WHERE department_id = 3;
+
+-- Обновление с подзапросом
+UPDATE employees e SET
+    department_id = d.id
+FROM departments d
+WHERE d.name = 'IT' AND e.email LIKE '%@it.company.com';
+
+-- Обновление с возвратом
+UPDATE employees SET salary = salary + 5000
+WHERE performance_rating > 4
+RETURNING id, first_name, salary;
+
+-- Условное обновление
+UPDATE employees SET
+    bonus = CASE
+        WHEN salary > 100000 THEN salary * 0.1
+        WHEN salary > 50000 THEN salary * 0.05
+        ELSE 1000
+    END;
+```
+
+### Удаление строк
+
+```sql
+-- Удаление по условию
+DELETE FROM employees WHERE is_active = FALSE;
+
+-- Удаление с возвратом удалённых данных
+DELETE FROM employees WHERE id = 5 RETURNING *;
+
+-- Удаление с подзапросом
+DELETE FROM employees
+WHERE department_id IN (
+    SELECT id FROM departments WHERE is_closed = TRUE
+);
+
+-- Удаление с JOIN (PostgreSQL-специфично)
+DELETE FROM employees e
+USING departments d
+WHERE e.department_id = d.id AND d.name = 'Closed Department';
+```
+
+### Выборка строк
+
+```sql
+-- Базовая выборка
+SELECT * FROM employees;
+
+-- Выборка определённых столбцов
+SELECT first_name, last_name, salary FROM employees;
+
+-- Алиасы
+SELECT
+    first_name AS "Имя",
+    last_name AS "Фамилия",
+    salary AS "Зарплата"
+FROM employees e;
+
+-- Фильтрация
+SELECT * FROM employees
+WHERE salary > 70000 AND department_id = 1;
+
+-- Сортировка
+SELECT * FROM employees
+ORDER BY salary DESC, last_name ASC;
+
+-- Ограничение результатов
+SELECT * FROM employees
+ORDER BY salary DESC
+LIMIT 10 OFFSET 0;
+
+-- Агрегация
+SELECT
+    department_id,
+    COUNT(*) AS employee_count,
+    AVG(salary) AS avg_salary,
+    MAX(salary) AS max_salary
+FROM employees
+GROUP BY department_id
+HAVING COUNT(*) > 5;
+
+-- DISTINCT
+SELECT DISTINCT department_id FROM employees;
+```
+
+## Физическое хранение
+
+### Как PostgreSQL хранит таблицы
+
+```sql
+-- Каждая таблица хранится в файле(ах) на диске
+SELECT pg_relation_filepath('employees');
+-- Результат: base/16384/16389
+
+-- Размер таблицы
+SELECT pg_size_pretty(pg_table_size('employees'));
+-- Результат: 48 kB
+
+-- Размер включая индексы
+SELECT pg_size_pretty(pg_total_relation_size('employees'));
+-- Результат: 96 kB
+
+-- Информация о строках
+SELECT
+    relname,
+    reltuples AS estimated_rows,
+    relpages AS disk_pages
+FROM pg_class
+WHERE relname = 'employees';
+```
+
+### Страничная организация
+
+PostgreSQL хранит данные в страницах (pages) по 8 КБ:
+
+```
+┌─────────────────────────────────────────┐
+│ Page Header (24 bytes)                  │
+├─────────────────────────────────────────┤
+│ Item Pointers (4 bytes each)            │
+│ [Item 1] [Item 2] [Item 3] ...          │
+├─────────────────────────────────────────┤
+│                                         │
+│ Free Space                              │
+│                                         │
+├─────────────────────────────────────────┤
+│ Tuple 3 data                            │
+│ Tuple 2 data                            │
+│ Tuple 1 data                            │
+└─────────────────────────────────────────┘
+```
+
+### TOAST (The Oversized-Attribute Storage Technique)
+
+Для больших значений (обычно > 2 КБ) PostgreSQL использует TOAST:
+
+```sql
+-- Проверка TOAST-таблицы
+SELECT relname, reltoastrelid::regclass
+FROM pg_class
+WHERE relname = 'employees' AND reltoastrelid != 0;
+
+-- Настройка порога TOAST для столбца
+ALTER TABLE documents
+    ALTER COLUMN content SET STORAGE EXTERNAL;  -- не сжимать, выносить
+
+-- Варианты STORAGE:
+-- PLAIN    - не использовать TOAST
+-- EXTENDED - сжимать и выносить (по умолчанию для TEXT/BYTEA)
+-- EXTERNAL - только выносить, не сжимать
+-- MAIN     - только сжимать, не выносить
+```
+
+## Best Practices
+
+### Именование
+
+```sql
+-- Используйте snake_case для имён
+CREATE TABLE user_orders (
+    order_id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    total_amount NUMERIC(10, 2)
+);
+
+-- Избегайте зарезервированных слов
+CREATE TABLE "user" (id SERIAL);  -- плохо, требует кавычки
+CREATE TABLE users (id SERIAL);   -- хорошо
+```
+
+### Проектирование таблиц
+
+```sql
+-- 1. Всегда добавляйте первичный ключ
+CREATE TABLE logs (
+    id BIGSERIAL PRIMARY KEY,  -- или UUID
+    ...
+);
+
+-- 2. Добавляйте временные метки
+CREATE TABLE orders (
+    id SERIAL PRIMARY KEY,
+    ...
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- 3. Используйте CHECK-ограничения
+CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    price NUMERIC(10, 2) CHECK (price > 0),
+    status VARCHAR(20) CHECK (status IN ('active', 'inactive', 'deleted'))
+);
+
+-- 4. Предпочитайте NOT NULL где возможно
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,  -- обязательное поле
+    phone VARCHAR(20)             -- опциональное
+);
+```
+
+### Оптимизация
+
+```sql
+-- Выбирайте правильный тип данных
+-- INTEGER вместо BIGINT если достаточно
+-- VARCHAR(n) вместо TEXT если нужно ограничение
+-- NUMERIC для денег, не FLOAT
+
+-- Используйте индексы для часто фильтруемых столбцов
+CREATE INDEX idx_employees_department ON employees(department_id);
+CREATE INDEX idx_employees_email ON employees(email);
+
+-- Партиционирование для больших таблиц
+CREATE TABLE events (
+    id BIGSERIAL,
+    event_time TIMESTAMP NOT NULL,
+    data JSONB
+) PARTITION BY RANGE (event_time);
+```
+
+Таблицы, строки и столбцы — фундаментальные концепции работы с PostgreSQL. Правильное их использование обеспечивает целостность данных и производительность системы.
