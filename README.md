@@ -9,7 +9,7 @@
 - [ ] [NoSQL Databases](./05-nosql-databases/readme.md)
 - [ ] [More about Databases](./06-more-about-databases/readme.md)
 - [ ] [Scaling Databases](./07-scaling-databases/readme.md)
-- [ ] [APIs](./08-apis/readme.md)
+- [x] [APIs](./08-apis/readme.md)
 - [ ] [Caching](./09-caching/readme.md)
 - [ ] [Web Security](./10-web-security/readme.md)
 - [ ] [Testing](./11-testing/readme.md)
