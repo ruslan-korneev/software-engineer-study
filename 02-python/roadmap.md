@@ -8,7 +8,7 @@
 - [x] [Iterators](./06-iterators.md)
 - [x] [Regular Expressions](./07-regular-expressions.md)
 - [x] [Object Oriented Programming](./08-oop/roadmap.md)
-- [ ] [Paradigms](./08a-paradigms.md)
+- [x] [Paradigms](./08a-paradigms.md)
 - [ ] [Context Manager](./08b-context-manager.md)
 - [x] [Package Managers](./09-package-managers.md)
 - [x] [Environments](./10-environments.md)
