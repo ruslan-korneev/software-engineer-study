@@ -2,10 +2,10 @@
 
 ## Network Basics
 
-- [ ] [How Networks Work](./01-how-networks-work.md)
-- [ ] [IP Addresses](./02-ip-addresses.md)
-- [ ] [TCP and UDP](./03-tcp-udp.md)
-- [ ] [Ports](./04-ports.md)
+- [x] [How Networks Work](./01-how-networks-work.md)
+- [x] [IP Addresses](./02-ip-addresses.md)
+- [x] [TCP and UDP](./03-tcp-udp.md)
+- [x] [Ports](./04-ports.md)
 
 ## Internet
 
