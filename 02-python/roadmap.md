@@ -14,7 +14,7 @@
 - [x] [Environments](./10-environments.md)
 - [x] [pyproject.toml](./10a-pyproject-toml.md)
 - [x] [Common Packages](./10b-common-packages.md)
-- [ ] [Static Typing](./11-static-typing.md)
+- [x] [Static Typing](./11-static-typing.md)
 - [ ] [Code Formatting](./12-code-formatting.md)
 - [ ] [Testing](./13-testing.md)
 - [ ] [Concurrency](./14-concurrency/roadmap.md)
