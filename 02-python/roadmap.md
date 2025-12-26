@@ -2,7 +2,7 @@
 
 - [x] [Learn the Basics](./01-learn-the-basics/roadmap.md)
 - [x] [Data Structures & Algorithms](./02-data-structures-and-algorithms/roadmap.md)
-- [ ] [Modules](./03-modules.md)
+- [x] [Modules](./03-modules.md)
 - [ ] [Lambdas](./04-lambdas.md)
 - [ ] [Decorators](./05-decorators.md)
 - [ ] [Iterators](./06-iterators.md)
