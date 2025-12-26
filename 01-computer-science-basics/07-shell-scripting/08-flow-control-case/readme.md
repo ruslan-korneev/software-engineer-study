@@ -1,4 +1,4 @@
 # Flow Control: case
 
-- [ ] [case Statement](./01-case-statement.md)
-- [ ] [Patterns](./02-patterns.md)
+- [x] [case Statement](./01-case-statement.md)
+- [x] [Patterns](./02-patterns.md)

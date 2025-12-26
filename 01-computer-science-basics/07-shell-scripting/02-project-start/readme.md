@@ -1,5 +1,5 @@
 # Project Start
 
-- [ ] [Variables](./01-variables.md)
-- [ ] [Constants](./02-constants.md)
-- [ ] [Here Documents](./03-here-documents.md)
+- [x] [Variables](./01-variables.md)
+- [x] [Constants](./02-constants.md)
+- [x] [Here Documents](./03-here-documents.md)
