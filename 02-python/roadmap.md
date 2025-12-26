@@ -12,7 +12,7 @@
 - [x] [Context Manager](./08b-context-manager.md)
 - [x] [Package Managers](./09-package-managers.md)
 - [x] [Environments](./10-environments.md)
-- [ ] [pyproject.toml](./10a-pyproject-toml.md)
+- [x] [pyproject.toml](./10a-pyproject-toml.md)
 - [ ] [Common Packages](./10b-common-packages.md)
 - [ ] [Static Typing](./11-static-typing.md)
 - [ ] [Code Formatting](./12-code-formatting.md)
