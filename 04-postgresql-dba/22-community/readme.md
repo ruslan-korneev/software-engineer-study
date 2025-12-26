@@ -1,5 +1,5 @@
 # Get Involved in Development
 
-- [ ] [Mailing Lists](./01-mailing-lists.md)
-- [ ] [Reviewing Patches](./02-reviewing-patches.md)
-- [ ] [Writing Patches](./03-writing-patches.md)
+- [x] [Mailing Lists](./01-mailing-lists.md)
+- [x] [Reviewing Patches](./02-reviewing-patches.md)
+- [x] [Writing Patches](./03-writing-patches.md)
