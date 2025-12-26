@@ -1,3 +1,3 @@
 # Printing
 
-- [ ] [lpr and lpstat](./01-lpr-lpstat.md)
+- [x] [lpr and lpstat](./01-lpr-lpstat.md)

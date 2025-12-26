@@ -1,4 +1,4 @@
 # Compiling
 
-- [ ] [What is Compiling](./01-what-is-compiling.md)
-- [ ] [make](./02-make.md)
+- [x] [What is Compiling](./01-what-is-compiling.md)
+- [x] [make](./02-make.md)
