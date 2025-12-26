@@ -4,7 +4,7 @@
 - [x] [Data Structures & Algorithms](./02-data-structures-and-algorithms/roadmap.md)
 - [x] [Modules](./03-modules.md)
 - [x] [Lambdas](./04-lambdas.md)
-- [ ] [Decorators](./05-decorators.md)
+- [x] [Decorators](./05-decorators.md)
 - [ ] [Iterators](./06-iterators.md)
 - [ ] [Regular Expressions](./07-regular-expressions.md)
 - [ ] [Object Oriented Programming](./08-oop/roadmap.md)
