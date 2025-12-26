@@ -1,5 +1,5 @@
 # Containerization
 
-- [ ] [Docker](./01-docker/roadmap.md)
-- [ ] [Kubernetes](./02-kubernetes/roadmap.md)
+- [ ] [Docker](./01-docker/readme.md.md)
+- [ ] [Kubernetes](./02-kubernetes/readme.md.md)
 - [ ] [LXC](./03-lxc.md)
