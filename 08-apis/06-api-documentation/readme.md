@@ -1,6 +1,6 @@
 # API Documentation
 
-- [ ] [Swagger/OpenAPI](./01-swagger-openapi.md)
-- [ ] [Postman](./02-postman.md)
-- [ ] [Readme.com](./03-readme-com.md)
-- [ ] [Stoplight](./04-stoplight.md)
+- [x] [Swagger/OpenAPI](./01-swagger-openapi.md)
+- [x] [Postman](./02-postman.md)
+- [x] [Readme.com](./03-readme-com.md)
+- [x] [Stoplight](./04-stoplight.md)
