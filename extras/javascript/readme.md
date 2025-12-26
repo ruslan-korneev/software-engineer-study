@@ -1,0 +1,21 @@
+# JavaScript
+
+- [ ] Introduction to JavaScript
+- [ ] All about Variables
+- [ ] Data Types
+- [ ] Type Casting
+- [ ] Data Structures
+- [ ] Equality Comparisons
+- [ ] Loops and Iterations
+- [ ] Control Flow
+- [ ] Expressions & Operators
+- [ ] Functions
+- [ ] Strict Mode
+- [ ] Using (this) keyword
+- [ ] Asynchronous JavaScript
+- [ ] Working with APIs
+- [ ] Modules in JavaScript
+- [ ] Iterators and Generators
+- [ ] Classes
+- [ ] Memory Management
+- [ ] Using Browser DevTools
