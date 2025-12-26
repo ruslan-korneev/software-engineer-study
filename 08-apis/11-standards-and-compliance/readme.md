@@ -1,7 +1,7 @@
 # Standards and Compliance
 
-- [ ] [GDPR](./01-gdpr.md)
-- [ ] [CCPA](./02-ccpa.md)
-- [ ] [PCI DSS](./03-pci-dss.md)
-- [ ] [HIPAA](./04-hipaa.md)
-- [ ] [PII](./05-pii.md)
+- [x] [GDPR](./01-gdpr.md)
+- [x] [CCPA](./02-ccpa.md)
+- [x] [PCI DSS](./03-pci-dss.md)
+- [x] [HIPAA](./04-hipaa.md)
+- [x] [PII](./05-pii.md)
