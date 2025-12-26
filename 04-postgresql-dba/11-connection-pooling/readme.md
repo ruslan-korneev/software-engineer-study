@@ -1,4 +1,4 @@
 # Connection Pooling
 
-- [ ] [PgBouncer](./01-pgbouncer.md)
-- [ ] [PgBouncer Alternatives](./02-pgbouncer-alternatives.md)
+- [x] [PgBouncer](./01-pgbouncer.md)
+- [x] [PgBouncer Alternatives](./02-pgbouncer-alternatives.md)
