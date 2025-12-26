@@ -1,0 +1,15 @@
+# Shell Scripting
+
+- [ ] [First Script](./01-first-script/roadmap.md)
+- [ ] [Project Start](./02-project-start/roadmap.md)
+- [ ] [Top-Down Design](./03-top-down-design/roadmap.md)
+- [ ] [Flow Control: if](./04-flow-control-if/roadmap.md)
+- [ ] [Reading Input](./05-reading-input/roadmap.md)
+- [ ] [Flow Control: Loops](./06-flow-control-loops/roadmap.md)
+- [ ] [Debugging](./07-debugging/roadmap.md)
+- [ ] [Flow Control: case](./08-flow-control-case/roadmap.md)
+- [ ] [Positional Parameters](./09-positional-parameters/roadmap.md)
+- [ ] [For Loop](./10-for-loop/roadmap.md)
+- [ ] [Strings and Numbers](./11-strings-numbers/roadmap.md)
+- [ ] [Arrays](./12-arrays/roadmap.md)
+- [ ] [Exotica](./13-exotica/roadmap.md)

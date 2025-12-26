@@ -1,2 +1,0 @@
-# Pipes and Redirects
-
