@@ -9,3 +9,4 @@
 - [ ] [Cookies](./07-cookies.md)
 - [ ] [Content Negotiation](./08-content-negotiation.md)
 - [ ] [CORS](./09-cors.md)
+- [ ] [HTTP Versions](./10-http-versions.md)

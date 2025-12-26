@@ -8,3 +8,5 @@
 - [ ] [Idempotency](./06-idempotency.md)
 - [ ] [HATEOAS](./07-hateoas.md)
 - [ ] [Error Handling](./08-error-handling.md)
+- [ ] [CRUD Operations](./09-crud-operations.md)
+- [ ] [RFC 7807 - Problem Details](./10-rfc-7807-problem-details.md)

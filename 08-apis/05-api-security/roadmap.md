@@ -6,3 +6,5 @@
 - [ ] [Input Validation](./04-input-validation.md)
 - [ ] [Output Encoding](./05-output-encoding.md)
 - [ ] [CI/CD Security](./06-ci-cd-security.md)
+- [ ] [Monitoring](./07-monitoring.md)
+- [ ] [Processing](./08-processing.md)

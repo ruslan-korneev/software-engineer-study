@@ -7,3 +7,8 @@
 - [ ] [Session Based Auth](./05-session-based-auth.md)
 - [ ] [RBAC](./06-rbac.md)
 - [ ] [ABAC](./07-abac.md)
+- [ ] [API Keys & Management](./08-api-keys.md)
+- [ ] [MAC](./09-mac.md)
+- [ ] [ReBAC](./10-rebac.md)
+- [ ] [DAC](./11-dac.md)
+- [ ] [PBAC](./12-pbac.md)
