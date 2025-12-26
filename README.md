@@ -5,7 +5,7 @@
 - [x] [Computer Science Basics](./01-computer-science-basics/roadmap.md)
 - [x] [Python](./02-python/roadmap.md)
 - [x] [Version Control Systems](./03-version-control-systems/roadmap.md)
-- [ ] [PostgreSQL DBA](./04-postgresql-dba/roadmap.md)
+- [x] [PostgreSQL DBA](./04-postgresql-dba/roadmap.md)
 - [ ] [NoSQL Databases](./05-nosql-databases/roadmap.md)
 - [ ] [More about Databases](./06-more-about-databases/roadmap.md)
 - [ ] [Scaling Databases](./07-scaling-databases/roadmap.md)
