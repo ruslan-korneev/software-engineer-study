@@ -9,3 +9,6 @@
 - [ ] [Transactions](./07-transactions.md)
 - [ ] [Scaling MongoDB](./08-scaling-mongodb.md)
 - [ ] [MongoDB Security](./09-mongodb-security.md)
+- [ ] [Useful Concepts](./10-useful-concepts.md)
+- [ ] [Backup and Recovery](./11-backup-recovery.md)
+- [ ] [Developer Tools](./12-developer-tools.md)
