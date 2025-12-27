@@ -1,5 +1,6 @@
 # Algorithms (Алгоритмы)
 
+- [x] [Intro](./00-intro/)
 - [x] [Recursion](./01-recursion/)
 - [x] [Searching](./02-searching/)
 - [x] [Sorting](./03-sorting/)

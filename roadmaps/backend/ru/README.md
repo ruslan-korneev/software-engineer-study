@@ -1,7 +1,6 @@
 # Backend Developer Roadmap
 
-- [x] [Computer Science Basics](./01-computer-science-basics/readme.md)
-- [x] [Computer Science Part 2](./01-computer-science-part-2/readme.md)
+- [x] [Computer Science](./01-computer-science/readme.md)
 - [x] [Python](./02-python/readme.md)
 - [x] [Version Control Systems](./03-version-control-systems/readme.md)
 - [x] [PostgreSQL DBA](./04-postgresql-dba/readme.md)

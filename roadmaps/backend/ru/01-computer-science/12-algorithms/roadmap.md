@@ -1,5 +1,6 @@
 # Algorithms - Прогресс
 
+- [ ] [Intro](./00-intro/)
 - [ ] [Recursion](./01-recursion/)
 - [ ] [Searching](./02-searching/)
 - [ ] [Sorting](./03-sorting/)
