@@ -8,7 +8,7 @@
 - [x] [Version Control Systems](./03-version-control-systems/readme.md)
 - [x] [PostgreSQL DBA](./04-postgresql-dba/readme.md)
 - [x] [NoSQL Databases](./05-nosql-databases/readme.md)
-- [ ] [More about Databases](./06-more-about-databases/readme.md)
+- [x] [More about Databases](./06-more-about-databases/readme.md)
 - [ ] [Scaling Databases](./07-scaling-databases/readme.md)
 - [x] [APIs](./08-apis/readme.md)
 - [ ] [Caching](./09-caching/readme.md)
