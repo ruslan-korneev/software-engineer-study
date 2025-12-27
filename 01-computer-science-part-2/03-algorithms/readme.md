@@ -1,0 +1,10 @@
+# Algorithms (Алгоритмы)
+
+- [x] [Recursion](./01-recursion/)
+- [x] [Searching](./02-searching/)
+- [x] [Sorting](./03-sorting/)
+- [x] [Tree Traversals](./04-tree-traversals/)
+- [x] [Graph Algorithms](./05-graph-algorithms/)
+- [x] [Backtracking](./06-backtracking/)
+- [x] [Greedy Algorithms](./07-greedy/)
+- [x] [Dynamic Programming](./08-dynamic-programming/)
