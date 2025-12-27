@@ -6,7 +6,7 @@ Multi-language study roadmaps for various software engineering paths.
 
 | Roadmap | RU | EN | Status |
 |---------|----|----|--------|
-| **Backend** | [ru](./roadmaps/backend/ru/) | [en](./roadmaps/backend/en/) | Active |
+| **Backend** | [ru](./roadmaps/backend/ru/) \[23/23\] | [en](./roadmaps/backend/en/) | Active |
 | **Frontend** | [ru](./roadmaps/frontend/ru/) | [en](./roadmaps/frontend/en/) | Planned |
 | **DevOps** | [ru](./roadmaps/devops/ru/) | [en](./roadmaps/devops/en/) | Planned |
 | **Blockchain** | [ru](./roadmaps/blockchain/ru/) | [en](./roadmaps/blockchain/en/) | Planned |
