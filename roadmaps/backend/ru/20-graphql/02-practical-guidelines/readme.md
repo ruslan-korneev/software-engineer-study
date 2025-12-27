@@ -1,0 +1,15 @@
+# Practical Guidelines
+
+- [ ] [Introduction](01-introduction.md)
+- [ ] [Thinking in Graphs](02-thinking-in-graphs.md)
+- [ ] [Serving over HTTP](03-serving-over-http.md)
+- [ ] [File Uploads](04-file-uploads.md)
+- [ ] [Authorization](05-authorization.md)
+- [ ] [Pagination](06-pagination.md)
+- [ ] [Schema Design](07-schema-design.md)
+- [ ] [Global Object Identification](08-global-object-identification.md)
+- [ ] [Caching](09-caching.md)
+- [ ] [Performance](10-performance.md)
+- [ ] [Security](11-security.md)
+- [ ] [Federation](12-federation.md)
+- [ ] [Common GraphQL over HTTP Errors](13-common-gql-over-http-errors.md)

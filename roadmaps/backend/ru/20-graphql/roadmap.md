@@ -1,8 +1,4 @@
 # GraphQL
 
-- [ ] Introduction
-- [ ] Schema Definition
-- [ ] Queries and Mutations
-- [ ] Resolvers
-- [ ] Subscriptions
-- [ ] Best Practices
+- [ ] [Getting Started](01-getting-started/)
+- [ ] [Practical Guidelines](02-practical-guidelines/)
