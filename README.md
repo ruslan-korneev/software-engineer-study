@@ -15,7 +15,7 @@
 - [ ] [Web Security](./10-web-security/readme.md)
 - [ ] [Testing](./11-testing/readme.md)
 - [ ] [CI/CD](./12-ci-cd/readme.md)
-- [ ] [Software Design & Architecture](./13-software-design-and-architecture/readme.md)
+- [x] [Software Design & Architecture](./13-software-design-and-architecture/readme.md)
 - [ ] [Architectural Patterns](./14-architectural-patterns/readme.md)
 - [x] [Containerization](./15-containerization/readme.md)
 - [ ] [Web Servers](./16-web-servers/readme.md)
