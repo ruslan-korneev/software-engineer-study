@@ -1,9 +1,9 @@
 # MongoDB
 
-- [ ] [Basics](./01-basics.md)
-- [ ] [Data Model and Types](./02-data-model-and-types.md)
-- [ ] [Collections and Methods](./03-collections-and-methods.md)
-- [ ] [Query Operators](./04-query-operators.md)
+- [x] [Basics](./01-basics.md)
+- [x] [Data Model and Types](./02-data-model-and-types.md)
+- [x] [Collections and Methods](./03-collections-and-methods.md)
+- [x] [Query Operators](./04-query-operators.md)
 - [ ] [Performance Optimization](./05-performance-optimization.md)
 - [ ] [Aggregation](./06-aggregation.md)
 - [ ] [Transactions](./07-transactions.md)
