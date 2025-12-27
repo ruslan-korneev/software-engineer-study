@@ -1,12 +1,12 @@
 # System Design
 
 ## Блок 1: Фундамент
-- [ ] [Introduction](./01-introduction.md)
-- [ ] [Performance vs Scalability](./02-performance-vs-scalability.md)
-- [ ] [Latency vs Throughput](./03-latency-vs-throughput.md)
-- [ ] [Availability vs Consistency](./04-availability-vs-consistency.md)
-- [ ] [CAP Theorem](./05-cap-theorem.md)
-- [ ] [Consistency Patterns](./06-consistency-patterns.md)
+- [x] [Introduction](./01-introduction.md)
+- [x] [Performance vs Scalability](./02-performance-vs-scalability.md)
+- [x] [Latency vs Throughput](./03-latency-vs-throughput.md)
+- [x] [Availability vs Consistency](./04-availability-vs-consistency.md)
+- [x] [CAP Theorem](./05-cap-theorem.md)
+- [x] [Consistency Patterns](./06-consistency-patterns.md)
 - [ ] [Availability Patterns](./07-availability-patterns.md)
 
 ## Блок 2: Инфраструктура
