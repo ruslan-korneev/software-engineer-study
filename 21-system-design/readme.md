@@ -7,16 +7,16 @@
 - [x] [Availability vs Consistency](./04-availability-vs-consistency.md)
 - [x] [CAP Theorem](./05-cap-theorem.md)
 - [x] [Consistency Patterns](./06-consistency-patterns.md)
-- [ ] [Availability Patterns](./07-availability-patterns.md)
+- [x] [Availability Patterns](./07-availability-patterns.md)
 
 ## Блок 2: Инфраструктура
-- [ ] [DNS](./08-dns.md)
-- [ ] [CDN](./09-cdn.md)
-- [ ] [Load Balancers](./10-load-balancers.md)
-- [ ] [Horizontal vs Vertical Scaling](./11-horizontal-vs-vertical-scaling.md)
+- [x] [DNS](./08-dns.md)
+- [x] [CDN](./09-cdn.md)
+- [x] [Load Balancers](./10-load-balancers.md)
+- [x] [Horizontal vs Vertical Scaling](./11-horizontal-vs-vertical-scaling.md)
 
 ## Блок 3: Архитектура приложений
-- [ ] [Application Layer](./12-application-layer.md)
+- [x] [Application Layer](./12-application-layer.md)
 - [ ] [Microservices](./13-microservices.md)
 - [ ] [Service Discovery](./14-service-discovery.md)
 - [ ] [API Gateway](./15-api-gateway.md)
