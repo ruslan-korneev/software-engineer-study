@@ -15,7 +15,7 @@
 - [x] [Testing](./11-testing/readme.md)
 - [x] [CI/CD](./12-ci-cd/readme.md)
 - [x] [Software Design & Architecture](./13-software-design-and-architecture/readme.md)
-- [ ] [Architectural Patterns](./14-architectural-patterns/readme.md)
+- [x] [Architectural Patterns](./14-architectural-patterns/readme.md)
 - [x] [Containerization](./15-containerization/readme.md)
 - [x] [Web Servers](./16-web-servers/readme.md)
 - [x] [Search Engines](./17-search-engines/readme.md)
