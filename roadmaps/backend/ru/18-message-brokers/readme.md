@@ -1,4 +1,4 @@
 # Message Brokers
 
-- [ ] [RabbitMQ](./01-rabbitmq/readme.md)
-- [ ] [Kafka](./02-kafka/readme.md)
+- [x] [RabbitMQ](./01-rabbitmq/readme.md)
+- [x] [Kafka](./02-kafka/readme.md)
