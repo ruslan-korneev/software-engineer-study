@@ -11,7 +11,7 @@
 - [x] [More about Databases](./06-more-about-databases/readme.md)
 - [x] [APIs](./08-apis/readme.md)
 - [x] [Caching](./09-caching/readme.md)
-- [ ] [Web Security](./10-web-security/readme.md)
+- [x] [Web Security](./10-web-security/readme.md)
 - [ ] [Testing](./11-testing/readme.md)
 - [ ] [CI/CD](./12-ci-cd/readme.md)
 - [x] [Software Design & Architecture](./13-software-design-and-architecture/readme.md)
