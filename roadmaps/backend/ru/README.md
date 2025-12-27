@@ -10,7 +10,7 @@
 - [x] [NoSQL Databases](./05-nosql-databases/readme.md)
 - [x] [More about Databases](./06-more-about-databases/readme.md)
 - [x] [APIs](./08-apis/readme.md)
-- [ ] [Caching](./09-caching/readme.md)
+- [x] [Caching](./09-caching/readme.md)
 - [ ] [Web Security](./10-web-security/readme.md)
 - [ ] [Testing](./11-testing/readme.md)
 - [ ] [CI/CD](./12-ci-cd/readme.md)
