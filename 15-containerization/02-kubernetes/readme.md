@@ -10,7 +10,7 @@
 - [x] [Security](./08-security.md)
 - [x] [Monitoring and Logging](./09-monitoring-and-logging.md)
 - [x] [Autoscaling](./10-autoscaling.md)
-- [ ] [Scheduling](./11-scheduling.md)
+- [x] [Scheduling](./11-scheduling.md)
 - [ ] [Deployment Patterns](./12-deployment-patterns.md)
 - [ ] [Advanced Topics](./13-advanced-topics.md)
 - [ ] [Cluster Operations](./14-cluster-operations.md)

@@ -16,7 +16,7 @@
 - [ ] [CI/CD](./12-ci-cd/readme.md)
 - [ ] [Software Design & Architecture](./13-software-design-and-architecture/readme.md)
 - [ ] [Architectural Patterns](./14-architectural-patterns/readme.md)
-- [ ] [Containerization](./15-containerization/readme.md)
+- [x] [Containerization](./15-containerization/readme.md)
 - [ ] [Web Servers](./16-web-servers/readme.md)
 - [ ] [Search Engines](./17-search-engines/readme.md)
 - [ ] [Message Brokers](./18-message-brokers/readme.md)
