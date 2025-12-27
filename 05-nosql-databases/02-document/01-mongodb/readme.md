@@ -10,5 +10,5 @@
 - [x] [Scaling MongoDB](./08-scaling-mongodb.md)
 - [x] [MongoDB Security](./09-mongodb-security.md)
 - [x] [Useful Concepts](./10-useful-concepts.md)
-- [ ] [Backup and Recovery](./11-backup-recovery.md)
-- [ ] [Developer Tools](./12-developer-tools.md)
+- [x] [Backup and Recovery](./11-backup-recovery.md)
+- [x] [Developer Tools](./12-developer-tools.md)
