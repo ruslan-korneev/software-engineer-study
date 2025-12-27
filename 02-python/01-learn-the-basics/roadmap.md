@@ -9,3 +9,6 @@
 - [x] [Functions](./07-functions.md)
 - [x] [Lists, Tuples, Sets](./08-lists-tuples-sets.md)
 - [x] [Dictionaries](./09-dictionaries.md)
+- [ ] [Comprehensions](./10-comprehensions.md)
+- [ ] [File I/O](./11-file-io.md)
+- [ ] [Built-in Functions](./12-builtin-functions.md)
