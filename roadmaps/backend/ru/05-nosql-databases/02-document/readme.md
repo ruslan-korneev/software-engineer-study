@@ -24,4 +24,4 @@ Document DB — это тип NoSQL баз данных, где данные х�
 
 ## Базы данных
 
-- [ ] [MongoDB](./01-mongodb/readme.md)
+- [x] [MongoDB](./01-mongodb/readme.md)

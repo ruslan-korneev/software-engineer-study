@@ -25,5 +25,5 @@ Key-Value DB — это базы данных, которые хранят да�
 
 ## Базы данных
 
-- [ ] [Redis](./01-redis/readme.md)
+- [x] [Redis](./01-redis/readme.md)
 - [ ] [DynamoDB](./02-dynamodb/readme.md)

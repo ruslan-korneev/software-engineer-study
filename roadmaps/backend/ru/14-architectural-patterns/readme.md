@@ -8,45 +8,45 @@
 
 Основные подходы к организации архитектуры приложений.
 
-- [ ] [Layered Architecture](./01-architectural-styles/01-layered.md) — Многослойная архитектура
-- [ ] [Client-Server](./01-architectural-styles/02-client-server.md) — Клиент-серверная архитектура
-- [ ] [Monolithic](./01-architectural-styles/03-monolithic.md) — Монолитные приложения
-- [ ] [SOA](./01-architectural-styles/04-soa.md) — Service-Oriented Architecture
-- [ ] [Microservices](./01-architectural-styles/05-microservices.md) — Микросервисная архитектура
-- [ ] [Serverless](./01-architectural-styles/06-serverless.md) — Бессерверная архитектура
+- [x] [Layered Architecture](./01-architectural-styles/01-layered.md) — Многослойная архитектура
+- [x] [Client-Server](./01-architectural-styles/02-client-server.md) — Клиент-серверная архитектура
+- [x] [Monolithic](./01-architectural-styles/03-monolithic.md) — Монолитные приложения
+- [x] [SOA](./01-architectural-styles/04-soa.md) — Service-Oriented Architecture
+- [x] [Microservices](./01-architectural-styles/05-microservices.md) — Микросервисная архитектура
+- [x] [Serverless](./01-architectural-styles/06-serverless.md) — Бессерверная архитектура
 
 ### 02. Паттерны данных и состояния
 
 Паттерны для управления данными, состоянием и транзакциями в распределённых системах.
 
-- [ ] [CQRS](./02-data-patterns/01-cqrs.md) — Command Query Responsibility Segregation
-- [ ] [Event Sourcing](./02-data-patterns/02-event-sourcing.md) — Хранение событий как источник истины
-- [ ] [Sharding](./02-data-patterns/03-sharding.md) — Горизонтальное партиционирование данных
-- [ ] [Saga](./02-data-patterns/04-saga.md) — Распределённые транзакции
+- [x] [CQRS](./02-data-patterns/01-cqrs.md) — Command Query Responsibility Segregation
+- [x] [Event Sourcing](./02-data-patterns/02-event-sourcing.md) — Хранение событий как источник истины
+- [x] [Sharding](./02-data-patterns/03-sharding.md) — Горизонтальное партиционирование данных
+- [x] [Saga](./02-data-patterns/04-saga.md) — Распределённые транзакции
 
 ### 03. Паттерны коммуникации
 
 Паттерны организации взаимодействия между компонентами системы.
 
-- [ ] [MVC](./03-communication-patterns/01-mvc.md) — Model-View-Controller
-- [ ] [Pub-Sub](./03-communication-patterns/02-pub-sub.md) — Publish-Subscribe
-- [ ] [Controller-Responder](./03-communication-patterns/03-controller-responder.md) — Master-Slave
+- [x] [MVC](./03-communication-patterns/01-mvc.md) — Model-View-Controller
+- [x] [Pub-Sub](./03-communication-patterns/02-pub-sub.md) — Publish-Subscribe
+- [x] [Controller-Responder](./03-communication-patterns/03-controller-responder.md) — Master-Slave
 
 ### 04. Паттерны устойчивости
 
 Паттерны для обеспечения отказоустойчивости и стабильности системы.
 
-- [ ] [Circuit Breaker](./04-resilience-patterns/01-circuit-breaker.md) — Предохранитель
-- [ ] [Throttling](./04-resilience-patterns/02-throttling.md) — Rate Limiting
-- [ ] [Service Mesh](./04-resilience-patterns/03-service-mesh.md) — Сервисная сетка
+- [x] [Circuit Breaker](./04-resilience-patterns/01-circuit-breaker.md) — Предохранитель
+- [x] [Throttling](./04-resilience-patterns/02-throttling.md) — Rate Limiting
+- [x] [Service Mesh](./04-resilience-patterns/03-service-mesh.md) — Сервисная сетка
 
 ### 05. Паттерны развёртывания и миграции
 
 Паттерны для развёртывания, миграции и эксплуатации приложений.
 
-- [ ] [Strangler](./05-deployment-patterns/01-strangler.md) — Постепенная миграция
-- [ ] [Static Content Hosting](./05-deployment-patterns/02-static-content-hosting.md) — Хостинг статики
-- [ ] [Twelve-Factor App](./05-deployment-patterns/03-twelve-factor-apps.md) — 12 факторов
+- [x] [Strangler](./05-deployment-patterns/01-strangler.md) — Постепенная миграция
+- [x] [Static Content Hosting](./05-deployment-patterns/02-static-content-hosting.md) — Хостинг статики
+- [x] [Twelve-Factor App](./05-deployment-patterns/03-twelve-factor-apps.md) — 12 факторов
 
 ---
 
