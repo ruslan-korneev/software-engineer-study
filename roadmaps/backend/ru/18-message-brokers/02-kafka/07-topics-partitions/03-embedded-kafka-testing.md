@@ -1,0 +1,2 @@
+# Тестирование с EmbeddedKafkaCluster
+
