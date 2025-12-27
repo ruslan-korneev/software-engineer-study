@@ -1,7 +1,7 @@
 # Redis
 
-- [ ] [Overview](./01-overview.md)
-- [ ] [Getting Started](./02-getting-started.md)
+- [x] [Overview](./01-overview.md)
+- [x] [Getting Started](./02-getting-started.md)
 - [ ] [Core Data Structures](./03-core-data-structures/roadmap.md)
 - [ ] [Advanced Data Structures](./04-advanced-data-structures.md)
 - [ ] [Transactions](./05-transactions.md)
