@@ -1,10 +1,10 @@
 # Docker
 
-- [ ] [Introduction](./01-introduction.md)
-- [ ] [Underlying Technologies](./02-underlying-technologies.md)
-- [ ] [Installation and Setup](./03-installation-and-setup.md)
-- [ ] [Basics of Docker](./04-basics-of-docker.md)
-- [ ] [Data Persistence](./05-data-persistence.md)
+- [x] [Introduction](./01-introduction.md)
+- [x] [Underlying Technologies](./02-underlying-technologies.md)
+- [x] [Installation and Setup](./03-installation-and-setup.md)
+- [x] [Basics of Docker](./04-basics-of-docker.md)
+- [x] [Data Persistence](./05-data-persistence.md)
 - [ ] [Using 3rd Party Images](./06-using-3rd-party-images.md)
 - [ ] [Building Container Images](./07-building-container-images.md)
 - [ ] [Container Registries](./08-container-registries.md)
