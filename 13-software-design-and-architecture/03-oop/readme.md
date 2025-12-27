@@ -1,5 +1,11 @@
 # Object Oriented Programming
 
-- [ ] [Primary Principles](./01-primary-principles.md)
-- [ ] [Paradigm Features](./02-paradigm-features.md)
-- [ ] [Model-Driven Design](./03-model-driven-design.md)
+## Содержание
+
+- [ ] [Four Pillars of OOP](01-four-pillars.md)
+- [ ] [Classes](02-classes.md)
+- [ ] [Interfaces](03-interfaces.md)
+- [ ] [Scope and Visibility](04-scope-visibility.md)
+- [ ] [Composition over Inheritance](05-composition-over-inheritance.md)
+- [ ] [Domain Models](06-domain-models.md)
+- [ ] [Domain Language](07-domain-language.md)
