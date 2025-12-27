@@ -18,7 +18,7 @@
 - [ ] [Architectural Patterns](./14-architectural-patterns/readme.md)
 - [x] [Containerization](./15-containerization/readme.md)
 - [x] [Web Servers](./16-web-servers/readme.md)
-- [ ] [Search Engines](./17-search-engines/readme.md)
+- [x] [Search Engines](./17-search-engines/readme.md)
 - [x] [Message Brokers](./18-message-brokers/readme.md)
 - [ ] [Real-Time Data](./19-real-time-data/readme.md)
 - [x] [GraphQL](./20-graphql/readme.md)
