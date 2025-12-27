@@ -24,7 +24,7 @@
 - [x] [GraphQL](./20-graphql/readme.md)
 - [x] [System Design](./21-system-design/readme.md)
 - [ ] [Building For Scale](./22-building-for-scale/readme.md)
-- [ ] [Observability](./23-observability/readme.md)
+- [x] [Observability](./23-observability/readme.md)
 
 ## Additional Topics
 

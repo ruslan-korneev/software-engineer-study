@@ -1,3 +1,3 @@
 # Практический проект
 
-- [ ] [Observability Stack](./01-observability-stack.md)
+- [x] [Observability Stack](./01-observability-stack.md)

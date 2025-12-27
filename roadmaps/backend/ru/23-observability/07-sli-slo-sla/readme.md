@@ -1,6 +1,6 @@
 # SLI, SLO, SLA
 
-- [ ] [Концепции SLI, SLO, SLA](./01-concepts.md)
-- [ ] [Инструмент Sloth](./02-sloth-tool.md)
-- [ ] [Визуализация SLO](./03-visualizing-slos.md)
-- [ ] [Best Practices](./04-best-practices.md)
+- [x] [Концепции SLI, SLO, SLA](./01-concepts.md)
+- [x] [Инструмент Sloth](./02-sloth-tool.md)
+- [x] [Визуализация SLO](./03-visualizing-slos.md)
+- [x] [Best Practices](./04-best-practices.md)
