@@ -8,7 +8,6 @@
 - [ ] [PostgreSQL DBA](./04-postgresql-dba/roadmap.md)
 - [ ] [NoSQL Databases](./05-nosql-databases/roadmap.md)
 - [ ] [More about Databases](./06-more-about-databases/roadmap.md)
-- [ ] [Scaling Databases](./07-scaling-databases/roadmap.md)
 - [ ] [APIs](./08-apis/roadmap.md)
 - [ ] [Caching](./09-caching/roadmap.md)
 - [ ] [Web Security](./10-web-security/roadmap.md)
