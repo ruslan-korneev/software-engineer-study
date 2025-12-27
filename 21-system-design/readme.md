@@ -27,18 +27,18 @@
 - [x] [Sharding and Replication](./18-sharding-and-replication.md)
 - [x] [Caching](./19-caching.md)
 - [x] [Asynchronism](./20-asynchronism.md)
-- [ ] [Message Queues](./21-message-queues.md)
+- [x] [Message Queues](./21-message-queues.md)
 
 ## Блок 5: Коммуникация
-- [ ] [Communication](./22-communication.md)
-- [ ] [Event-Driven Architecture](./23-event-driven-architecture.md)
+- [x] [Communication](./22-communication.md)
+- [x] [Event-Driven Architecture](./23-event-driven-architecture.md)
 
 ## Блок 6: Качество и надежность
-- [ ] [Performance Antipatterns](./24-performance-antipatterns.md)
-- [ ] [Monitoring](./25-monitoring.md)
-- [ ] [Cloud Design Patterns](./26-cloud-design-patterns.md)
-- [ ] [Reliability Patterns](./27-reliability-patterns.md)
+- [x] [Performance Antipatterns](./24-performance-antipatterns.md)
+- [x] [Monitoring](./25-monitoring.md)
+- [x] [Cloud Design Patterns](./26-cloud-design-patterns.md)
+- [x] [Reliability Patterns](./27-reliability-patterns.md)
 
 ## Блок 7: Практика
-- [ ] [Security Basics](./28-security-basics.md)
-- [ ] [Case Studies](./29-case-studies.md)
+- [x] [Security Basics](./28-security-basics.md)
+- [x] [Case Studies](./29-case-studies.md)
