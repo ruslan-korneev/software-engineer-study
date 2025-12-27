@@ -21,7 +21,7 @@
 - [ ] [Search Engines](./17-search-engines/readme.md)
 - [x] [Message Brokers](./18-message-brokers/readme.md)
 - [ ] [Real-Time Data](./19-real-time-data/readme.md)
-- [ ] [GraphQL](./20-graphql/readme.md)
+- [x] [GraphQL](./20-graphql/readme.md)
 - [x] [System Design](./21-system-design/readme.md)
 - [ ] [Building For Scale](./22-building-for-scale/readme.md)
 - [ ] [Observability](./23-observability/readme.md)
