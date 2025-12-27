@@ -3,7 +3,7 @@
 ## Core Path
 
 - [x] [Computer Science Basics](./01-computer-science-basics/readme.md)
-- [x] [Python](./02-python/readme.md)
+- [ ] [Python](./02-python/readme.md) <!-- нужно перегенерировать -->
 - [x] [Version Control Systems](./03-version-control-systems/readme.md)
 - [x] [PostgreSQL DBA](./04-postgresql-dba/readme.md)
 - [ ] [NoSQL Databases](./05-nosql-databases/readme.md)
