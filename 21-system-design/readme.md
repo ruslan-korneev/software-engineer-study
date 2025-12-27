@@ -17,16 +17,16 @@
 
 ## Блок 3: Архитектура приложений
 - [x] [Application Layer](./12-application-layer.md)
-- [ ] [Microservices](./13-microservices.md)
-- [ ] [Service Discovery](./14-service-discovery.md)
-- [ ] [API Gateway](./15-api-gateway.md)
+- [x] [Microservices](./13-microservices.md)
+- [x] [Service Discovery](./14-service-discovery.md)
+- [x] [API Gateway](./15-api-gateway.md)
 
 ## Блок 4: Данные
-- [ ] [Databases](./16-databases.md)
-- [ ] [Database Types](./17-database-types.md)
-- [ ] [Sharding and Replication](./18-sharding-and-replication.md)
-- [ ] [Caching](./19-caching.md)
-- [ ] [Asynchronism](./20-asynchronism.md)
+- [x] [Databases](./16-databases.md)
+- [x] [Database Types](./17-database-types.md)
+- [x] [Sharding and Replication](./18-sharding-and-replication.md)
+- [x] [Caching](./19-caching.md)
+- [x] [Asynchronism](./20-asynchronism.md)
 - [ ] [Message Queues](./21-message-queues.md)
 
 ## Блок 5: Коммуникация
