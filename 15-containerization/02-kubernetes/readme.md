@@ -1,10 +1,10 @@
 # Kubernetes
 
-- [ ] [Introduction](./01-introduction.md)
-- [ ] [Setting up Kubernetes](./02-setting-up-kubernetes.md)
-- [ ] [Running Applications](./03-running-applications.md)
-- [ ] [Services and Networking](./04-services-and-networking.md)
-- [ ] [Configuration Management](./05-configuration-management.md)
+- [x] [Introduction](./01-introduction.md)
+- [x] [Setting up Kubernetes](./02-setting-up-kubernetes.md)
+- [x] [Running Applications](./03-running-applications.md)
+- [x] [Services and Networking](./04-services-and-networking.md)
+- [x] [Configuration Management](./05-configuration-management.md)
 - [ ] [Storage and Volumes](./06-storage-and-volumes.md)
 - [ ] [Resource Management](./07-resource-management.md)
 - [ ] [Security](./08-security.md)
