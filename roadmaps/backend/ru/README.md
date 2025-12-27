@@ -1,7 +1,5 @@
 # Backend Developer Roadmap
 
-## Core Path
-
 - [x] [Computer Science Basics](./01-computer-science-basics/readme.md)
 - [x] [Computer Science Part 2](./01-computer-science-part-2/readme.md)
 - [x] [Python](./02-python/readme.md)
@@ -25,9 +23,3 @@
 - [x] [System Design](./21-system-design/readme.md)
 - [x] [Building For Scale](./22-building-for-scale/readme.md)
 - [x] [Observability](./23-observability/readme.md)
-
-## Additional Topics
-
-- [ ] [DevOps Basics](./24-devops-basics/readme.md)
-- [ ] [Cyber Security](./25-cyber-security/readme.md)
-- [ ] [Extras (HTML/CSS/JS)](./extras/readme.md)
