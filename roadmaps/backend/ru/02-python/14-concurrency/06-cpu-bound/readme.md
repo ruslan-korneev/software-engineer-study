@@ -6,12 +6,12 @@
 
 ## Содержание
 
-- [ ] [Введение в multiprocessing](./01-multiprocessing-intro.md)
-- [ ] [Использование пулов процессов](./02-process-pools.md)
-- [ ] [ProcessPoolExecutor с asyncio](./03-process-pool-executors.md)
-- [ ] [MapReduce с asyncio](./04-map-reduce.md)
-- [ ] [Разделяемые данные и блокировки](./05-shared-data.md)
-- [ ] [Несколько циклов событий](./06-multiple-event-loops.md)
+- [x] [Введение в multiprocessing](./01-multiprocessing-intro.md)
+- [x] [Использование пулов процессов](./02-process-pools.md)
+- [x] [ProcessPoolExecutor с asyncio](./03-process-pool-executors.md)
+- [x] [MapReduce с asyncio](./04-map-reduce.md)
+- [x] [Разделяемые данные и блокировки](./05-shared-data.md)
+- [x] [Несколько циклов событий](./06-multiple-event-loops.md)
 
 ---
 
