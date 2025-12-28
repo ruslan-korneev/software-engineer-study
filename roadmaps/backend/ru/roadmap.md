@@ -3,7 +3,7 @@
 ## Core Path
 
 - [ ] [Computer Science](./01-computer-science/roadmap.md)
-- [x] [Python](./02-python/roadmap.md)
+- [ ] [Python](./02-python/roadmap.md)
 - [ ] [Version Control Systems](./03-version-control-systems/roadmap.md)
 - [ ] [PostgreSQL DBA](./04-postgresql-dba/roadmap.md)
 - [ ] [NoSQL Databases](./05-nosql-databases/roadmap.md)

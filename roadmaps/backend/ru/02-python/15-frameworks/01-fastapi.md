@@ -1,6 +1,6 @@
 # FastAPI
 
-[prev: 04-asyncio](../14-concurrency/04-asyncio.md) | [next: 02-django](./02-django.md)
+[prev: 14-concurrency](../14-concurrency/14-advanced/05-custom-event-loop.md) | [next: 02-django](./02-django.md)
 ---
 
 Современный async веб-фреймворк с автодокументацией.
@@ -165,4 +165,4 @@ app = FastAPI(lifespan=lifespan)
 **Когда:** REST API, микросервисы, async приложения.
 
 ---
-[prev: 04-asyncio](../14-concurrency/04-asyncio.md) | [next: 02-django](./02-django.md)
+[prev: 14-concurrency](../14-concurrency/14-advanced/05-custom-event-loop.md) | [next: 02-django](./02-django.md)
