@@ -1,5 +1,9 @@
 # Network Partitions в RabbitMQ
 
+[prev: 03-cluster-formation](./03-cluster-formation.md) | [next: 05-quorum-queues-ha](./05-quorum-queues-ha.md)
+
+---
+
 ## Что такое Network Partition?
 
 Network Partition (сетевой раздел) — это ситуация, когда узлы кластера теряют связь друг с другом, но продолжают работать. Это приводит к так называемому **split-brain** — состоянию, когда кластер разделяется на несколько независимых частей.
@@ -433,3 +437,7 @@ Network Partitions — критическая проблема в распред
 3. Использовать Quorum Queues вместо Classic Mirrored
 4. Настроить мониторинг и алерты
 5. Регулярно тестировать восстановление после partition
+
+---
+
+[prev: 03-cluster-formation](./03-cluster-formation.md) | [next: 05-quorum-queues-ha](./05-quorum-queues-ha.md)

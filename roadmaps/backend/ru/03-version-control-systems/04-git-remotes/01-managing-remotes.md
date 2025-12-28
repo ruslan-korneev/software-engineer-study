@@ -1,5 +1,8 @@
 # Managing Remotes
 
+[prev: 05-merging-basics](../03-branching/05-merging-basics.md) | [next: 02-push-pull](./02-push-pull.md)
+---
+
 ## Что такое Remote?
 
 **Remote** (удалённый репозиторий) — это версия вашего проекта, размещённая на сервере в интернете или локальной сети. Remotes позволяют:
@@ -289,3 +292,6 @@ git remote set-url <имя> <url> # Изменить URL
 git ls-remote <имя>            # Проверить соединение
 git remote prune <имя>         # Очистить устаревшие ссылки
 ```
+
+---
+[prev: 05-merging-basics](../03-branching/05-merging-basics.md) | [next: 02-push-pull](./02-push-pull.md)

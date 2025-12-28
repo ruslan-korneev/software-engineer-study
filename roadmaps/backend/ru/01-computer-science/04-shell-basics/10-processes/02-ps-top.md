@@ -1,5 +1,8 @@
 # Команды ps и top
 
+[prev: 01-how-process-works](./01-how-process-works.md) | [next: 03-jobs-fg-bg](./03-jobs-fg-bg.md)
+
+---
 ## Команда ps
 
 **ps** (process status) — показывает снимок текущих процессов.
@@ -235,3 +238,7 @@ $ ps -eo pid,etime,cmd --sort=-etime | head
 $ ps aux | wc -l
 $ ps -e --no-headers | wc -l
 ```
+
+---
+
+[prev: 01-how-process-works](./01-how-process-works.md) | [next: 03-jobs-fg-bg](./03-jobs-fg-bg.md)

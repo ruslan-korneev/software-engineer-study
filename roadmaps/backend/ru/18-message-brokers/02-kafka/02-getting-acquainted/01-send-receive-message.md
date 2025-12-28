@@ -1,5 +1,9 @@
 # Отправка и прием сообщения
 
+[prev: 05-online-resources](../01-introduction/05-online-resources.md) | [next: 02-what-is-broker](./02-what-is-broker.md)
+
+---
+
 ## Описание
 
 Отправка и прием сообщений — это базовые операции при работе с Apache Kafka. Прежде чем погружаться в сложные концепции, важно понять, как настроить окружение и выполнить первые операции с брокером сообщений.
@@ -485,3 +489,7 @@ kafka-topics.sh --describe --topic my-topic --bootstrap-server localhost:9092
 - [Официальная документация Apache Kafka](https://kafka.apache.org/documentation/)
 - [Confluent Documentation](https://docs.confluent.io/)
 - [Kafka: The Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
+
+---
+
+[prev: 05-online-resources](../01-introduction/05-online-resources.md) | [next: 02-what-is-broker](./02-what-is-broker.md)

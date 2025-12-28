@@ -1,5 +1,8 @@
 # Операции с массивами
 
+[prev: 01-creating-arrays](./01-creating-arrays.md) | [next: 03-associative-arrays](./03-associative-arrays.md)
+
+---
 ## Доступ к элементам
 
 ### Отдельный элемент
@@ -341,3 +344,7 @@ for n in "${numbers[@]}"; do
 done
 echo "Больше 5: ${greater[@]}"  # 6 7 8 9 10
 ```
+
+---
+
+[prev: 01-creating-arrays](./01-creating-arrays.md) | [next: 03-associative-arrays](./03-associative-arrays.md)

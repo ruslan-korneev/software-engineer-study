@@ -1,5 +1,8 @@
 # break и continue
 
+[prev: 02-until-loop](./02-until-loop.md) | [next: 04-reading-files](./04-reading-files.md)
+
+---
 ## Команда break
 
 `break` немедленно прерывает выполнение цикла:
@@ -357,3 +360,7 @@ for item in "$@"; do
     fi
 done
 ```
+
+---
+
+[prev: 02-until-loop](./02-until-loop.md) | [next: 04-reading-files](./04-reading-files.md)

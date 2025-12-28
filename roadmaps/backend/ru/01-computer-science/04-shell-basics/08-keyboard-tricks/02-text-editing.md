@@ -1,5 +1,8 @@
 # Редактирование текста (Text Editing)
 
+[prev: 01-cursor-movement](./01-cursor-movement.md) | [next: 03-completion](./03-completion.md)
+
+---
 ## Удаление текста
 
 ### Удаление символов
@@ -183,3 +186,7 @@ $ cat /very/long/path/to/file.txt
 3. **Ctrl+K** полезен для удаления хвоста команды
 4. **Ctrl+L** вместо `clear` — быстрее и сохраняет текущую строку
 5. **Ctrl+_** для отмены — можно нажимать многократно
+
+---
+
+[prev: 01-cursor-movement](./01-cursor-movement.md) | [next: 03-completion](./03-completion.md)

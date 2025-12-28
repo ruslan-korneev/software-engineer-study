@@ -1,5 +1,8 @@
 # Файлы запуска оболочки (Startup Files)
 
+[prev: 01-environment-variables](./01-environment-variables.md) | [next: 03-modifying-environment](./03-modifying-environment.md)
+
+---
 ## Типы сессий оболочки
 
 Прежде чем разбираться с файлами запуска, нужно понять типы сессий shell:
@@ -316,3 +319,7 @@ bash --norc
 - Храните алиасы и функции в `~/.bashrc`
 - В `~/.bash_profile` добавьте `source ~/.bashrc`
 - Используйте `source` для применения изменений без перезапуска
+
+---
+
+[prev: 01-environment-variables](./01-environment-variables.md) | [next: 03-modifying-environment](./03-modifying-environment.md)

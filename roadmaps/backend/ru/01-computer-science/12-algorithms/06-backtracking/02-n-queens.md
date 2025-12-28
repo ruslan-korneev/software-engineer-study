@@ -1,5 +1,8 @@
 # Задача N ферзей (N-Queens Problem)
 
+[prev: 01-backtracking-concept](./01-backtracking-concept.md) | [next: 03-maze-solving](./03-maze-solving.md)
+---
+
 ## Определение
 
 **Задача N ферзей** — классическая задача на backtracking: расставить N ферзей на шахматной доске N×N так, чтобы ни один ферзь не атаковал другого.
@@ -424,3 +427,6 @@ if solution:
 3. Битовые операции — максимальная скорость для подсчёта
 4. Для N > 15 рассмотрите параллельные вычисления
 5. N=2 и N=3 не имеют решений — это не ошибка
+
+---
+[prev: 01-backtracking-concept](./01-backtracking-concept.md) | [next: 03-maze-solving](./03-maze-solving.md)

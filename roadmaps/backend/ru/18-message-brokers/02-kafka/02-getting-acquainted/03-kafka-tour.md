@@ -1,5 +1,9 @@
 # Экскурсия по Kafka
 
+[prev: 02-what-is-broker](./02-what-is-broker.md) | [next: 04-source-packages](./04-source-packages.md)
+
+---
+
 ## Описание
 
 Эта экскурсия познакомит вас с основными компонентами и концепциями Apache Kafka. Мы рассмотрим архитектуру системы, ключевые абстракции и то, как все части работают вместе для обеспечения надежной передачи сообщений.
@@ -521,3 +525,7 @@ Production рекомендации:
 - [Kafka Documentation](https://kafka.apache.org/documentation/)
 - [Kafka: The Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
 - [Confluent Developer](https://developer.confluent.io/)
+
+---
+
+[prev: 02-what-is-broker](./02-what-is-broker.md) | [next: 04-source-packages](./04-source-packages.md)

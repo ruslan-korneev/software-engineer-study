@@ -1,5 +1,9 @@
 # Типы данных в PostgreSQL
 
+[prev: 02-dml-queries](./02-dml-queries.md) | [next: 04-joining-tables](./04-joining-tables.md)
+
+---
+
 ## Обзор типов данных
 
 PostgreSQL предлагает богатый набор встроенных типов данных, а также возможность создавать собственные типы. Правильный выбор типа данных важен для:
@@ -573,3 +577,7 @@ phone VARCHAR(20),  -- NULL = телефон не указан
 is_active BOOLEAN DEFAULT true,
 created_at TIMESTAMPTZ DEFAULT NOW()
 ```
+
+---
+
+[prev: 02-dml-queries](./02-dml-queries.md) | [next: 04-joining-tables](./04-joining-tables.md)

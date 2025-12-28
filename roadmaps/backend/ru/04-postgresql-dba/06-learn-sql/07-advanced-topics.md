@@ -1,5 +1,9 @@
 # Продвинутые темы SQL
 
+[prev: 06-subqueries](./06-subqueries.md) | [next: 08-cte](./08-cte.md)
+
+---
+
 ## Оконные функции (Window Functions)
 
 Оконные функции выполняют вычисления над набором строк, связанных с текущей строкой, без группировки результата.
@@ -604,3 +608,7 @@ SELECT u.name, s.total
 FROM users u
 JOIN stats s ON u.id = s.user_id;
 ```
+
+---
+
+[prev: 06-subqueries](./06-subqueries.md) | [next: 08-cte](./08-cte.md)

@@ -1,5 +1,8 @@
 # Сравнение алгоритмов сортировки
 
+[prev: 06-heap-sort](./06-heap-sort.md) | [next: 01-preorder](../04-tree-traversals/01-preorder.md)
+---
+
 ## Обзор
 
 Выбор алгоритма сортировки зависит от множества факторов: размер данных, их начальное состояние, ограничения памяти, требования к стабильности и производительности.
@@ -328,3 +331,6 @@ Python sort()     | ~5         | Адаптивен
 | Связанные списки | Merge Sort |
 | Внешняя сортировка | Merge Sort |
 | Почти отсортировано | Insertion Sort или Timsort |
+
+---
+[prev: 06-heap-sort](./06-heap-sort.md) | [next: 01-preorder](../04-tree-traversals/01-preorder.md)

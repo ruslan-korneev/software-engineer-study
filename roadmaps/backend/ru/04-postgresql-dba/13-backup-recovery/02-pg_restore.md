@@ -1,5 +1,9 @@
 # pg_restore - Восстановление из дампа PostgreSQL
 
+[prev: 01-pg_dump](./01-pg_dump.md) | [next: 03-pg_basebackup](./03-pg_basebackup.md)
+
+---
+
 ## Введение
 
 **pg_restore** - это утилита PostgreSQL для восстановления базы данных из архива, созданного pg_dump. Она работает с форматами custom (-Fc), directory (-Fd) и tar (-Ft), но не с plain text SQL (-Fp).
@@ -544,3 +548,7 @@ pg_restore - мощный инструмент для восстановлени
 - Интеграция с системами автоматизации через скрипты
 
 Для критичных систем рекомендуется всегда тестировать восстановление на отдельной базе перед применением в production.
+
+---
+
+[prev: 01-pg_dump](./01-pg_dump.md) | [next: 03-pg_basebackup](./03-pg_basebackup.md)

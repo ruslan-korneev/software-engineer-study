@@ -1,5 +1,9 @@
 # Знакомство с брокерами
 
+[prev: 06-factory-requirements](../05-consumers/06-factory-requirements.md) | [next: 02-zookeeper-role](./02-zookeeper-role.md)
+
+---
+
 ## Описание
 
 **Брокер Kafka** — это сервер, который принимает сообщения от продюсеров, сохраняет их на диск и отдаёт консьюмерам. Каждый брокер — это отдельный экземпляр Kafka, работающий как самостоятельный процесс на сервере или в контейнере.
@@ -243,3 +247,7 @@ broker.rack=rack1
 2. Завершает текущие запросы
 3. Переносит лидерство партиций на другие брокеры
 4. Закрывает соединения с ZooKeeper/контроллером
+
+---
+
+[prev: 06-factory-requirements](../05-consumers/06-factory-requirements.md) | [next: 02-zookeeper-role](./02-zookeeper-role.md)

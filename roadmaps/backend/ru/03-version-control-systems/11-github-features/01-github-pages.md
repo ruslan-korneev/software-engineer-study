@@ -1,5 +1,8 @@
 # GitHub Pages
 
+[prev: 10-github-actions](../10-github-actions.md) | [next: 02-github-gists](./02-github-gists.md)
+---
+
 ## Что такое GitHub Pages?
 
 **GitHub Pages** - это бесплатный хостинг для статических сайтов, интегрированный непосредственно с репозиториями GitHub. Он позволяет публиковать веб-страницы прямо из репозитория без необходимости настраивать собственный сервер.
@@ -395,3 +398,6 @@ bundle exec jekyll serve
 - [Официальная документация GitHub Pages](https://docs.github.com/en/pages)
 - [Jekyll документация](https://jekyllrb.com/docs/)
 - [Supported themes](https://pages.github.com/themes/)
+
+---
+[prev: 10-github-actions](../10-github-actions.md) | [next: 02-github-gists](./02-github-gists.md)

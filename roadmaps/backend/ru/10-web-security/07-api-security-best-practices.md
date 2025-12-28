@@ -1,5 +1,9 @@
 # Лучшие практики безопасности API
 
+[prev: 06-server-security](./06-server-security.md) | [next: 08-hashing-algorithms](./08-hashing-algorithms.md)
+
+---
+
 ## Введение
 
 API (Application Programming Interface) — основа современных веб-приложений. Безопасность API критически важна, так как они часто обрабатывают конфиденциальные данные и предоставляют доступ к бизнес-логике. В этом разделе рассмотрим лучшие практики защиты REST и GraphQL API.
@@ -673,3 +677,7 @@ app.use('/api/v1/', (req, res, next) => {
 3. **Минимальные привилегии** — давайте только необходимые права
 4. **Мониторинг** — отслеживайте и реагируйте на инциденты
 5. **Обновления** — следите за уязвимостями в зависимостях
+
+---
+
+[prev: 06-server-security](./06-server-security.md) | [next: 08-hashing-algorithms](./08-hashing-algorithms.md)

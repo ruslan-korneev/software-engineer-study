@@ -1,5 +1,9 @@
 # Системный каталог PostgreSQL
 
+[prev: 05-physical-storage](./05-physical-storage.md) | [next: 07-workload-tuning](./07-workload-tuning.md)
+
+---
+
 ## Обзор
 
 **Системный каталог** — набор таблиц и представлений, содержащих метаданные о всех объектах базы данных. PostgreSQL хранит всю информацию о структуре БД в этих таблицах.
@@ -327,3 +331,7 @@ SELECT pg_get_constraintdef(oid) FROM pg_constraint WHERE conname = 'my_fk';
 3. **Никогда не модифицируйте** системные таблицы напрямую
 4. **Кэшируйте** результаты запросов к каталогу — они не меняются часто
 5. **Используйте regclass/regproc** для безопасного приведения имен к OID
+
+---
+
+[prev: 05-physical-storage](./05-physical-storage.md) | [next: 07-workload-tuning](./07-workload-tuning.md)

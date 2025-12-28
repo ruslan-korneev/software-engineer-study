@@ -1,5 +1,8 @@
 # Команда mkdir
 
+[prev: 01-wildcards](./01-wildcards.md) | [next: 03-cp](./03-cp.md)
+
+---
 ## Что такое mkdir?
 
 **mkdir** (make directory) — команда для создания новых директорий (папок).
@@ -219,3 +222,7 @@ DIR="/path/to/dir"
    ```bash
    mkdir -pv complex/path/structure
    ```
+
+---
+
+[prev: 01-wildcards](./01-wildcards.md) | [next: 03-cp](./03-cp.md)

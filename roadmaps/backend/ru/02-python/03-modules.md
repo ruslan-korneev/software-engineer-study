@@ -1,5 +1,8 @@
 # Модули (Modules)
 
+[prev: 06-sorting-algorithms](02-data-structures-and-algorithms/06-sorting-algorithms.md) | [next: 04-lambdas](./04-lambdas.md)
+---
+
 **Модуль** — это файл с Python-кодом (`.py`), который можно импортировать и использовать в других файлах.
 
 ## Зачем нужны модули?
@@ -569,3 +572,6 @@ pip install -r requirements.txt
 3. **Используй псевдонимы** для длинных имён (`import numpy as np`)
 4. **Организуй код в пакеты** при росте проекта
 5. **Пиши `if __name__ == "__main__"`** — позволяет и импортировать, и запускать
+
+---
+[prev: 06-sorting-algorithms](02-data-structures-and-algorithms/06-sorting-algorithms.md) | [next: 04-lambdas](./04-lambdas.md)

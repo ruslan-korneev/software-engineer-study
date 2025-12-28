@@ -1,5 +1,9 @@
 # Транзакции в PostgreSQL
 
+[prev: 04-joining-tables](./04-joining-tables.md) | [next: 06-subqueries](./06-subqueries.md)
+
+---
+
 ## Что такое транзакция?
 
 **Транзакция** — это группа операций с базой данных, которые выполняются как единое целое. Либо все операции выполняются успешно, либо ни одна из них не применяется.
@@ -567,3 +571,7 @@ JOIN pg_locks AS blocking_locks ON blocked_locks.locktype = blocking_locks.lockt
 JOIN pg_stat_activity AS blocking ON blocking_locks.pid = blocking.pid
 WHERE NOT blocked_locks.granted;
 ```
+
+---
+
+[prev: 04-joining-tables](./04-joining-tables.md) | [next: 06-subqueries](./06-subqueries.md)

@@ -1,5 +1,9 @@
 # Что такое брокер?
 
+[prev: 01-send-receive-message](./01-send-receive-message.md) | [next: 03-kafka-tour](./03-kafka-tour.md)
+
+---
+
 ## Описание
 
 **Брокер (Broker)** — это отдельный сервер Kafka, который является частью кластера и отвечает за хранение данных и обработку запросов от клиентов. В контексте Apache Kafka брокер выполняет роль посредника между производителями (producers) и потребителями (consumers) сообщений.
@@ -462,3 +466,7 @@ kafka-configs.sh --bootstrap-server localhost:9092 \
 - [Kafka Broker Configuration](https://kafka.apache.org/documentation/#brokerconfigs)
 - [Kafka Operations](https://kafka.apache.org/documentation/#operations)
 - [Monitoring Kafka](https://kafka.apache.org/documentation/#monitoring)
+
+---
+
+[prev: 01-send-receive-message](./01-send-receive-message.md) | [next: 03-kafka-tour](./03-kafka-tour.md)

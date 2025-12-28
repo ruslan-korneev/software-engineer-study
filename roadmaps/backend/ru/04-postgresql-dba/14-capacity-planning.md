@@ -1,5 +1,9 @@
 # Планирование ёмкости PostgreSQL (Capacity Planning)
 
+[prev: 06-backup-validation](./13-backup-recovery/06-backup-validation.md) | [next: 01-shell-scripts](./15-automation/01-shell-scripts.md)
+
+---
+
 ## Введение
 
 **Capacity Planning** (планирование ёмкости) — это процесс определения и прогнозирования ресурсов, необходимых для обеспечения стабильной и производительной работы базы данных PostgreSQL. Это критически важная практика для предотвращения проблем с производительностью, минимизации простоев и оптимизации затрат на инфраструктуру.
@@ -753,3 +757,7 @@ df -h /var/lib/postgresql
 5. **Регулярного пересмотра** — потребности меняются со временем
 
 Правильно настроенный capacity planning позволяет избежать неожиданных простоев, оптимизировать расходы на инфраструктуру и обеспечить стабильную работу приложений.
+
+---
+
+[prev: 06-backup-validation](./13-backup-recovery/06-backup-validation.md) | [next: 01-shell-scripts](./15-automation/01-shell-scripts.md)

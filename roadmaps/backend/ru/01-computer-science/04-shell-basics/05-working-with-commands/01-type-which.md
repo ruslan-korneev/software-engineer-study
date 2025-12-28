@@ -1,5 +1,8 @@
 # Команды type и which
 
+[prev: 06-ln](../04-file-operations/06-ln.md) | [next: 02-help-man-info](./02-help-man-info.md)
+
+---
 ## Типы команд в shell
 
 В shell существует несколько типов команд:
@@ -243,3 +246,7 @@ $ type -P python
 3. **`which -a`** чтобы найти все версии программы
 4. **`type -a`** чтобы понять приоритет команд
 5. **Помните**: алиас имеет приоритет над внешней командой
+
+---
+
+[prev: 06-ln](../04-file-operations/06-ln.md) | [next: 02-help-man-info](./02-help-man-info.md)

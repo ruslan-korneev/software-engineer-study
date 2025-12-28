@@ -1,5 +1,8 @@
 # GitHub CLI
 
+[prev: 10-github-releases](08-intermediate-git-topics/10-github-releases.md) | [next: 10-github-actions](./10-github-actions.md)
+---
+
 ## Что такое GitHub CLI (gh)
 
 **GitHub CLI (gh)** — это официальный инструмент командной строки от GitHub, который позволяет работать с GitHub напрямую из терминала. Вместо того чтобы переключаться между терминалом и браузером, вы можете выполнять большинство операций GitHub прямо в командной строке.
@@ -935,3 +938,6 @@ gh extension upgrade --all
    ```bash
    gh pr list --json number,title,state --jq '.[] | select(.state=="OPEN")'
    ```
+
+---
+[prev: 10-github-releases](08-intermediate-git-topics/10-github-releases.md) | [next: 10-github-actions](./10-github-actions.md)

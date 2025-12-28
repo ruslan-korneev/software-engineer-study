@@ -1,5 +1,9 @@
 # Загрузка файлов в GraphQL
 
+[prev: 03-serving-over-http](./03-serving-over-http.md) | [next: 05-authorization](./05-authorization.md)
+
+---
+
 ## Введение
 
 GraphQL изначально не поддерживает загрузку файлов, так как работает с JSON. Однако существует несколько подходов для реализации этой функциональности. Наиболее популярный — спецификация **graphql-multipart-request-spec**.
@@ -451,3 +455,7 @@ const resolvers = {
 ## Заключение
 
 Загрузка файлов в GraphQL требует дополнительной настройки, но существующие решения делают этот процесс достаточно простым. Выбор между Multipart Request и Signed URLs зависит от масштаба приложения и инфраструктуры.
+
+---
+
+[prev: 03-serving-over-http](./03-serving-over-http.md) | [next: 05-authorization](./05-authorization.md)

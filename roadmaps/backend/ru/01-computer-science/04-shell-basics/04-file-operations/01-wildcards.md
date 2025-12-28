@@ -1,5 +1,8 @@
 # Wildcards (подстановочные символы)
 
+[prev: 04-symbolic-hard-links](../03-exploring-system/04-symbolic-hard-links.md) | [next: 02-mkdir](./02-mkdir.md)
+
+---
 ## Что такое wildcards?
 
 **Wildcards** (подстановочные символы, шаблоны) — это специальные символы, которые позволяют выбирать несколько файлов одновременно по шаблону. Shell раскрывает эти шаблоны в список соответствующих файлов.
@@ -192,3 +195,7 @@ Wildcards проще, но менее мощные, чем регулярные 
    ```bash
    $ rm -i *.txt    # спросит подтверждение для каждого файла
    ```
+
+---
+
+[prev: 04-symbolic-hard-links](../03-exploring-system/04-symbolic-hard-links.md) | [next: 02-mkdir](./02-mkdir.md)

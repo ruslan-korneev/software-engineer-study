@@ -1,5 +1,9 @@
 # Доступность vs Согласованность (Availability vs Consistency)
 
+[prev: 03-latency-vs-throughput](./03-latency-vs-throughput.md) | [next: 05-cap-theorem](./05-cap-theorem.md)
+
+---
+
 ## Введение
 
 В распределённых системах два ключевых свойства часто находятся в конфликте: **доступность** (Availability) и **согласованность** (Consistency). Понимание этого компромисса критически важно для проектирования надёжных систем.

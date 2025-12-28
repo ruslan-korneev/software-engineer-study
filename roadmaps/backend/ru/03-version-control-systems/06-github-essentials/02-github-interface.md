@@ -1,5 +1,8 @@
 # Интерфейс GitHub
 
+[prev: 01-creating-account](./01-creating-account.md) | [next: 03-creating-repositories](./03-creating-repositories.md)
+---
+
 ## Введение
 
 Интерфейс GitHub может показаться перегруженным для новичка, но он логично организован и со временем становится интуитивным. В этом разделе разберём основные элементы интерфейса и научимся эффективно навигировать по платформе.
@@ -502,3 +505,6 @@ Settings → Appearance → Tab size preference
 - Экспериментируйте с темами и настройками для комфорта
 
 С опытом интерфейс станет привычным и удобным инструментом ежедневной работы.
+
+---
+[prev: 01-creating-account](./01-creating-account.md) | [next: 03-creating-repositories](./03-creating-repositories.md)

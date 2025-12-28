@@ -1,5 +1,8 @@
 # Права доступа и PATH
 
+[prev: 02-script-format](./02-script-format.md) | [next: 04-formatting-tips](./04-formatting-tips.md)
+
+---
 ## Права на выполнение
 
 Чтобы запустить скрипт напрямую (не через интерпретатор), файл должен иметь право на выполнение (execute permission).
@@ -208,3 +211,7 @@ script.sh    # Может выполнить не тот скрипт
 cat script.sh
 less script.sh
 ```
+
+---
+
+[prev: 02-script-format](./02-script-format.md) | [next: 04-formatting-tips](./04-formatting-tips.md)

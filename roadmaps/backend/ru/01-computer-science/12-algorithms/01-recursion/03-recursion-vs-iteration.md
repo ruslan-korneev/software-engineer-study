@@ -1,5 +1,8 @@
 # Рекурсия vs Итерация
 
+[prev: 02-tail-recursion](./02-tail-recursion.md) | [next: 01-linear-search](../02-searching/01-linear-search.md)
+---
+
 ## Определение
 
 **Рекурсия** — метод решения задачи путём разбиения её на меньшие подзадачи того же типа. Функция вызывает сама себя.
@@ -393,3 +396,6 @@ def list_files_iterative(path):
 3. Для глубокой рекурсии в Python используйте итерацию
 4. Мемоизация может сделать рекурсию столь же эффективной, как итерация
 5. Не усложняйте простые задачи ради "элегантности"
+
+---
+[prev: 02-tail-recursion](./02-tail-recursion.md) | [next: 01-linear-search](../02-searching/01-linear-search.md)

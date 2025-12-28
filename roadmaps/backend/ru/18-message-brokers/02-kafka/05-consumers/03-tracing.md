@@ -1,5 +1,9 @@
 # Трассировка и Poll Loop
 
+[prev: 02-consumer-interaction](./02-consumer-interaction.md) | [next: 04-offset-marking](./04-offset-marking.md)
+
+---
+
 ## Описание
 
 Poll Loop — это центральный механизм работы Kafka Consumer, представляющий собой бесконечный цикл вызовов метода `poll()`. Этот цикл отвечает за получение сообщений, отправку heartbeat координатору группы и участие в процессе ребалансировки. Трассировка (tracing) позволяет отслеживать путь сообщений через систему и диагностировать проблемы производительности.
@@ -804,3 +808,7 @@ try {
 - [Kafka Consumer Poll Behavior](https://kafka.apache.org/documentation/#consumerconfigs)
 - [OpenTelemetry Kafka Instrumentation](https://opentelemetry.io/docs/instrumentation/java/automatic/spring-boot/)
 - [Confluent Consumer Configuration](https://docs.confluent.io/platform/current/installation/configuration/consumer-configs.html)
+
+---
+
+[prev: 02-consumer-interaction](./02-consumer-interaction.md) | [next: 04-offset-marking](./04-offset-marking.md)

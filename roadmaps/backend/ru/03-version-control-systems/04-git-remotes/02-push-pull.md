@@ -1,5 +1,8 @@
 # Push and Pull
 
+[prev: 01-managing-remotes](./01-managing-remotes.md) | [next: 03-fetch](./03-fetch.md)
+---
+
 ## Введение
 
 **Push** и **Pull** — это две основные операции для синхронизации локального репозитория с удалённым:
@@ -428,3 +431,6 @@ git branch -u origin/main          # Установить upstream
 git log origin/main..HEAD          # Коммиты для push
 git log HEAD..origin/main          # Коммиты для pull
 ```
+
+---
+[prev: 01-managing-remotes](./01-managing-remotes.md) | [next: 03-fetch](./03-fetch.md)

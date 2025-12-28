@@ -1,5 +1,9 @@
 # Управление блокировками в PostgreSQL
 
+[prev: 03-buffer-management](./03-buffer-management.md) | [next: 05-physical-storage](./05-physical-storage.md)
+
+---
+
 ## Концепция блокировок
 
 **Блокировки (locks)** обеспечивают согласованность данных при конкурентном доступе. PostgreSQL использует несколько уровней блокировок для балансировки между параллелизмом и целостностью данных.
@@ -296,3 +300,7 @@ END $$;
 -- Создание индекса без блокировки записи
 CREATE INDEX CONCURRENTLY idx_users_email ON users(email);
 ```
+
+---
+
+[prev: 03-buffer-management](./03-buffer-management.md) | [next: 05-physical-storage](./05-physical-storage.md)

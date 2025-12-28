@@ -1,5 +1,9 @@
 # Мониторинг репликации PostgreSQL
 
+[prev: 04-kubernetes-deployment](./04-kubernetes-deployment.md) | [next: 06-load-balancing](./06-load-balancing.md)
+
+---
+
 ## Введение
 
 Мониторинг репликации — критически важный аспект администрирования PostgreSQL кластеров. Эффективный мониторинг позволяет своевременно обнаруживать проблемы, предотвращать потерю данных и обеспечивать высокую доступность.
@@ -863,3 +867,7 @@ slot_retained_wal:
 - Состояние подключения репликации
 - Размер WAL, удерживаемого слотами
 - Timeline ID для обнаружения split-brain
+
+---
+
+[prev: 04-kubernetes-deployment](./04-kubernetes-deployment.md) | [next: 06-load-balancing](./06-load-balancing.md)

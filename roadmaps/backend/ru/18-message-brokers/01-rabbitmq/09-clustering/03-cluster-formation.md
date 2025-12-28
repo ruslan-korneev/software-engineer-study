@@ -1,5 +1,9 @@
 # Формирование кластера RabbitMQ
 
+[prev: 02-node-configuration](./02-node-configuration.md) | [next: 04-network-partitions](./04-network-partitions.md)
+
+---
+
 ## Способы формирования кластера
 
 RabbitMQ поддерживает несколько способов создания кластера:
@@ -444,3 +448,7 @@ rabbitmqctl stop_app
 rabbitmqctl force_reset
 rabbitmqctl start_app
 ```
+
+---
+
+[prev: 02-node-configuration](./02-node-configuration.md) | [next: 04-network-partitions](./04-network-partitions.md)

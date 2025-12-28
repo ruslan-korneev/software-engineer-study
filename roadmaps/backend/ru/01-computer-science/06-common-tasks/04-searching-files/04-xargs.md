@@ -1,5 +1,8 @@
 # xargs - построение и выполнение команд из стандартного ввода
 
+[prev: 03-find-advanced](./03-find-advanced.md) | [next: 01-gzip-bzip2](../05-archiving/01-gzip-bzip2.md)
+
+---
 ## Что такое xargs?
 
 **xargs** (extended arguments) - утилита, которая читает данные из stdin и преобразует их в аргументы для указанной команды. Это позволяет эффективно обрабатывать большие списки файлов.
@@ -390,3 +393,7 @@ find ... -print0 | xargs -0 -P 4 -n 1 command
 # Сложная команда
 find ... | xargs -I {} sh -c 'complex command with {}'
 ```
+
+---
+
+[prev: 03-find-advanced](./03-find-advanced.md) | [next: 01-gzip-bzip2](../05-archiving/01-gzip-bzip2.md)

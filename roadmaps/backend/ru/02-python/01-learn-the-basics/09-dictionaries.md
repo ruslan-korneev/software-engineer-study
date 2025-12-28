@@ -1,5 +1,8 @@
 # Словари (Dictionaries)
 
+[prev: 08-lists-tuples-sets](./08-lists-tuples-sets.md) | [next: 10-comprehensions](./10-comprehensions.md)
+---
+
 Словарь — коллекция пар **ключ: значение**.
 
 ```python
@@ -391,3 +394,6 @@ if action in commands:
 else:
     print("Unknown command")
 ```
+
+---
+[prev: 08-lists-tuples-sets](./08-lists-tuples-sets.md) | [next: 10-comprehensions](./10-comprehensions.md)

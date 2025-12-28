@@ -1,5 +1,8 @@
 # Webhooks
 
+[prev: 02-github-apps](./02-github-apps.md) | [next: 13-github-security](../13-github-security.md)
+---
+
 Webhooks - это механизм уведомлений, который позволяет GitHub отправлять HTTP-запросы на ваш сервер при возникновении определенных событий. Это основа для создания интеграций, ботов и автоматизации рабочих процессов.
 
 ## Что такое Webhooks
@@ -1108,3 +1111,6 @@ app.post('/webhook', webhookLimiter, validateWebhook, handleWebhook);
 - [Securing Your Webhooks](https://docs.github.com/en/developers/webhooks-and-events/webhooks/securing-your-webhooks)
 - [ngrok](https://ngrok.com/) - для локальной разработки
 - [smee.io](https://smee.io/) - webhook proxy для разработки
+
+---
+[prev: 02-github-apps](./02-github-apps.md) | [next: 13-github-security](../13-github-security.md)

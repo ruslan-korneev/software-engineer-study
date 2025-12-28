@@ -1,5 +1,8 @@
 # Взвешенные графы (Weighted Graphs)
 
+[prev: 03-representations](./03-representations.md) | [next: 01-what-is-algorithm](../../12-algorithms/00-intro/01-what-is-algorithm.md)
+---
+
 ## Определение
 
 **Взвешенный граф** — это граф, в котором каждому ребру присвоено числовое значение (вес). Вес может представлять расстояние, стоимость, время, пропускную способность и т.д.
@@ -476,3 +479,6 @@ dist[start] = 0
 **Крускал:**
 - MST для разреженного графа
 - Рёбра уже в списке
+
+---
+[prev: 03-representations](./03-representations.md) | [next: 01-what-is-algorithm](../../12-algorithms/00-intro/01-what-is-algorithm.md)

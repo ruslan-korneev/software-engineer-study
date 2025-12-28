@@ -1,5 +1,8 @@
 # locate - быстрый поиск файлов по базе данных
 
+[prev: 04-ssh-scp](../03-networking/04-ssh-scp.md) | [next: 02-find-basics](./02-find-basics.md)
+
+---
 ## Что такое locate?
 
 **locate** - утилита для быстрого поиска файлов по имени. В отличие от `find`, который сканирует файловую систему в реальном времени, `locate` использует предварительно созданную базу данных, что делает поиск мгновенным.
@@ -356,3 +359,7 @@ locate newfile.txt
 | `which cmd` | Путь к команде |
 | `whereis cmd` | Бинарники + man + src |
 | `type cmd` | Информация о команде |
+
+---
+
+[prev: 04-ssh-scp](../03-networking/04-ssh-scp.md) | [next: 02-find-basics](./02-find-basics.md)

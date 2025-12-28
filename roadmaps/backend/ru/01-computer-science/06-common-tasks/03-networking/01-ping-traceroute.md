@@ -1,5 +1,8 @@
 # ping и traceroute - диагностика сети
 
+[prev: 04-dd](../02-storage-devices/04-dd.md) | [next: 02-ip-netstat](./02-ip-netstat.md)
+
+---
 ## ping - проверка доступности хоста
 
 ### Что такое ping?
@@ -380,3 +383,7 @@ traceroute -T -p 80 google.com
 | `traceroute -I host` | Использовать ICMP |
 | `mtr host` | Интерактивный мониторинг |
 | `mtr -r host` | Отчёт |
+
+---
+
+[prev: 04-dd](../02-storage-devices/04-dd.md) | [next: 02-ip-netstat](./02-ip-netstat.md)

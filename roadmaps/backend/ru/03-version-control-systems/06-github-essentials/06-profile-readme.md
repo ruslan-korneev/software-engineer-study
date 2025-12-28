@@ -1,5 +1,8 @@
 # Profile README
 
+[prev: 05-profile-setup](./05-profile-setup.md) | [next: 01-forking-vs-cloning](../07-collaboration-on-github/01-forking-vs-cloning.md)
+---
+
 ## Введение
 
 Profile README — это специальный файл, который отображается на главной странице вашего GitHub профиля. Это уникальная возможность представить себя, показать свои проекты и выделиться среди других разработчиков. С момента запуска этой функции в 2020 году она стала стандартом для профессионального оформления профиля.
@@ -652,3 +655,6 @@ Profile README — это возможность:
 ---
 ⭐ Понравилось? Поставьте звезду моим проектам!
 ```
+
+---
+[prev: 05-profile-setup](./05-profile-setup.md) | [next: 01-forking-vs-cloning](../07-collaboration-on-github/01-forking-vs-cloning.md)

@@ -1,5 +1,9 @@
 # HIPAA (Health Insurance Portability and Accountability Act)
 
+[prev: 03-pci-dss](./03-pci-dss.md) | [next: 05-pii](./05-pii.md)
+
+---
+
 ## Введение
 
 **HIPAA** (Health Insurance Portability and Accountability Act) — это федеральный закон США, принятый в 1996 году, который устанавливает национальные стандарты для защиты конфиденциальной медицинской информации пациентов. HIPAA регулирует, как организации здравоохранения и их партнёры должны обрабатывать, хранить и передавать защищённую медицинскую информацию (PHI).
@@ -1504,3 +1508,7 @@ class HIPAAAPIComplianceChecker:
 - [OCR Breach Portal](https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf)
 - [NIST HIPAA Security Rule Toolkit](https://csrc.nist.gov/projects/security-content-automation-protocol/hipaa)
 - [HHS Sample BAA Provisions](https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/)
+
+---
+
+[prev: 03-pci-dss](./03-pci-dss.md) | [next: 05-pii](./05-pii.md)

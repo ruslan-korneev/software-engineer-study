@@ -1,5 +1,9 @@
 # GIN индексы
 
+[prev: 03-gist](./03-gist.md) | [next: 05-brin](./05-brin.md)
+
+---
+
 ## Введение
 
 GIN (Generalized Inverted Index) — это **инвертированный индекс**, оптимизированный для поиска в составных значениях. GIN идеально подходит для индексирования данных, где одно значение содержит множество элементов: массивы, JSONB, полнотекстовые документы.
@@ -582,3 +586,7 @@ ANALYZE table_name;
 -- Для data->>'key' = 'value' лучше создать B-Tree индекс
 CREATE INDEX idx ON products ((data->>'category'));
 ```
+
+---
+
+[prev: 03-gist](./03-gist.md) | [next: 05-brin](./05-brin.md)

@@ -1,5 +1,8 @@
 # GitHub Security
 
+[prev: 03-webhooks](12-github-developer-tools/03-webhooks.md) | [next: 14-github-marketplace](./14-github-marketplace.md)
+---
+
 ## Введение
 
 Безопасность на GitHub — это комплексный набор инструментов и практик, направленных на защиту кода, секретов, зависимостей и всей инфраструктуры разработки. GitHub предоставляет множество встроенных функций безопасности, которые помогают разработчикам и организациям защищать свои проекты от уязвимостей, утечек данных и несанкционированного доступа.
@@ -990,3 +993,6 @@ gh api "/orgs/{org}/audit-log?phrase=action:repo.destroy"
 - [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/)
 
 Безопасность — это непрерывный процесс, требующий регулярного внимания и обновления практик в соответствии с новыми угрозами и возможностями платформы.
+
+---
+[prev: 03-webhooks](12-github-developer-tools/03-webhooks.md) | [next: 14-github-marketplace](./14-github-marketplace.md)

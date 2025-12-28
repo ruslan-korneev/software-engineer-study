@@ -1,5 +1,8 @@
 # Встроенные функции (Built-in Functions)
 
+[prev: 11-file-io](./11-file-io.md) | [next: 01-arrays-and-linked-lists](../02-data-structures-and-algorithms/01-arrays-and-linked-lists.md)
+---
+
 ## Обзор
 
 Python имеет множество встроенных функций, доступных без импорта. Здесь рассмотрены функции для работы с итерируемыми объектами.
@@ -465,3 +468,6 @@ A: `sorted()` возвращает новый список, `sort()` измен�
 
 **Q: any([]) возвращает False, а all([]) — True. Почему?**
 A: `any` ищет хоть один True (не нашёл = False). `all` ищет хоть один False (не нашёл = True). Это "vacuous truth" в логике.
+
+---
+[prev: 11-file-io](./11-file-io.md) | [next: 01-arrays-and-linked-lists](../02-data-structures-and-algorithms/01-arrays-and-linked-lists.md)

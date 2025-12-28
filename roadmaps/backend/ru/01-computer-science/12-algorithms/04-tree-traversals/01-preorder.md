@@ -1,5 +1,8 @@
 # Прямой обход дерева (Preorder Traversal)
 
+[prev: 07-sorting-comparison](../03-sorting/07-sorting-comparison.md) | [next: 02-inorder](./02-inorder.md)
+---
+
 ## Определение
 
 **Прямой обход (Preorder)** — это способ обхода дерева, при котором для каждого узла сначала посещается сам узел, затем рекурсивно обходится левое поддерево, а потом правое поддерево.
@@ -405,3 +408,6 @@ def preorder_nary(root):
 3. Для больших деревьев предпочтите итеративный подход
 4. Morris traversal экономит память, но сложнее в понимании
 5. Помните порядок: Корень → Левое → Правое
+
+---
+[prev: 07-sorting-comparison](../03-sorting/07-sorting-comparison.md) | [next: 02-inorder](./02-inorder.md)

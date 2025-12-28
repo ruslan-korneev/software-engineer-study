@@ -1,5 +1,8 @@
 # Команда test
 
+[prev: 02-exit-status](./02-exit-status.md) | [next: 04-logical-operators](./04-logical-operators.md)
+
+---
 ## Что такое test
 
 Команда `test` оценивает условные выражения и возвращает код возврата:
@@ -360,3 +363,7 @@ fi
 # Используйте скобки для явного порядка
 [[ -f "$file" && ( -r "$file" || -w "$file" ) ]]
 ```
+
+---
+
+[prev: 02-exit-status](./02-exit-status.md) | [next: 04-logical-operators](./04-logical-operators.md)

@@ -1,5 +1,9 @@
 # Безопасность ZooKeeper в Apache Kafka
 
+[prev: 03-authorization](./03-authorization.md) | [next: 05-quotas](./05-quotas.md)
+
+---
+
 ## Описание
 
 ZooKeeper играет критическую роль в архитектуре Apache Kafka (до версии 3.0+, где появился KRaft mode), храня метаданные кластера, конфигурации топиков, информацию о брокерах и ACLs. Компрометация ZooKeeper означает полную компрометацию Kafka кластера, поэтому его безопасность крайне важна.
@@ -556,3 +560,7 @@ tail -f /var/log/zookeeper/zookeeper.log | grep -i "auth\|sasl\|ssl"
 - [ZooKeeper Security](https://zookeeper.apache.org/doc/current/zookeeperProgrammers.html#sc_ZooKeeperAccessControl)
 - [Kafka ZooKeeper Security](https://kafka.apache.org/documentation/#zk_authz)
 - [KRaft Documentation](https://kafka.apache.org/documentation/#kraft)
+
+---
+
+[prev: 03-authorization](./03-authorization.md) | [next: 05-quotas](./05-quotas.md)

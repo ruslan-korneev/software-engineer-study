@@ -1,5 +1,8 @@
 # Paradigms (Парадигмы программирования)
 
+[prev: 05-protocols](08-oop/05-protocols.md) | [next: 08b-context-manager](./08b-context-manager.md)
+---
+
 Python — **мультипарадигменный** язык: процедурный, ООП, функциональный.
 
 ---
@@ -162,3 +165,6 @@ def filter_adults(users: list[User]) -> list[User]:
 - **OOP** — структура, для больших систем
 - **Functional** — предсказуемость, для обработки данных
 - **Python** — используй то, что подходит задаче
+
+---
+[prev: 05-protocols](08-oop/05-protocols.md) | [next: 08b-context-manager](./08b-context-manager.md)

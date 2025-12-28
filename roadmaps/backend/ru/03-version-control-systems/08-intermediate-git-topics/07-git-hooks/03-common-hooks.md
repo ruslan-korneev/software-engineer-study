@@ -1,5 +1,8 @@
 # Common Hooks - Распространённые хуки
 
+[prev: 02-client-vs-server](./02-client-vs-server.md) | [next: 08-head-and-detached-head](../08-head-and-detached-head.md)
+---
+
 ## Обзор популярных хуков
 
 В реальных проектах чаще всего используются три хука:
@@ -872,3 +875,6 @@ echo "  git commit --no-verify"
 echo "test: example message" > /tmp/test-msg
 .git/hooks/commit-msg /tmp/test-msg
 ```
+
+---
+[prev: 02-client-vs-server](./02-client-vs-server.md) | [next: 08-head-and-detached-head](../08-head-and-detached-head.md)

@@ -1,5 +1,9 @@
 # Error Handling and Retries (Обработка ошибок и повторные попытки)
 
+[prev: 06-contract-testing](./06-contract-testing.md) | [next: 01-websockets](../10-real-time-apis/01-websockets.md)
+
+---
+
 ## Введение
 
 **Обработка ошибок и механизмы повторных попыток** - это критически важные аспекты надежного взаимодействия с API. Правильная реализация этих механизмов позволяет создавать устойчивые системы, которые корректно работают даже при сбоях сети, временной недоступности сервисов и других проблемах.
@@ -771,3 +775,7 @@ def get_user_data(user_id: int) -> dict:
 - Различайте retryable и non-retryable ошибки
 - Реализуйте circuit breaker для защиты от каскадных сбоев
 - Логируйте все ошибки и повторы
+
+---
+
+[prev: 06-contract-testing](./06-contract-testing.md) | [next: 01-websockets](../10-real-time-apis/01-websockets.md)

@@ -1,5 +1,9 @@
 # Пример потребителя (Consumer API)
 
+[prev: 03-code-generation](../04-producers/03-code-generation.md) | [next: 02-consumer-interaction](./02-consumer-interaction.md)
+
+---
+
 ## Описание
 
 Kafka Consumer API — это набор интерфейсов и классов для чтения данных из топиков Apache Kafka. Consumer (потребитель) подписывается на один или несколько топиков и получает сообщения, опубликованные продюсерами. Consumer API предоставляет гибкий механизм для управления чтением данных, включая контроль над позицией чтения (offset), группировку потребителей и обработку ошибок.
@@ -397,3 +401,7 @@ consumer.commitSync();
 - [Apache Kafka Documentation - Consumer](https://kafka.apache.org/documentation/#consumerapi)
 - [Confluent Kafka Consumer Guide](https://docs.confluent.io/platform/current/clients/consumer.html)
 - [Kafka Consumer Javadoc](https://kafka.apache.org/35/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html)
+
+---
+
+[prev: 03-code-generation](../04-producers/03-code-generation.md) | [next: 02-consumer-interaction](./02-consumer-interaction.md)

@@ -1,5 +1,9 @@
 # Extensions (Расширения PostgreSQL)
 
+[prev: 06-logging-statistics](./06-logging-statistics.md) | [next: 08-postgresql-conf](./08-postgresql-conf.md)
+
+---
+
 Расширения — это модули, добавляющие новую функциональность в PostgreSQL: типы данных, функции, операторы, индексы и другие возможности.
 
 ## Управление расширениями
@@ -441,3 +445,7 @@ CREATE EXTENSION hstore;              -- key-value хранение
 CREATE EXTENSION ltree;               -- иерархии
 CREATE EXTENSION postgis;             -- геоданные
 ```
+
+---
+
+[prev: 06-logging-statistics](./06-logging-statistics.md) | [next: 08-postgresql-conf](./08-postgresql-conf.md)

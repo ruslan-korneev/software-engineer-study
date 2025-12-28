@@ -1,5 +1,8 @@
 # Команда shift
 
+[prev: 01-accessing-arguments](./01-accessing-arguments.md) | [next: 03-getopts](./03-getopts.md)
+
+---
 ## Что такое shift
 
 Команда `shift` сдвигает позиционные параметры влево:
@@ -340,3 +343,7 @@ process_args() {
 process_args "Item" "a" "b" "c"
 echo "Аргументы скрипта: $@"  # Не изменились
 ```
+
+---
+
+[prev: 01-accessing-arguments](./01-accessing-arguments.md) | [next: 03-getopts](./03-getopts.md)

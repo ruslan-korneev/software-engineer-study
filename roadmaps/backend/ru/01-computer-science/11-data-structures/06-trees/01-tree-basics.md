@@ -1,5 +1,8 @@
 # Основы деревьев (Tree Basics)
 
+[prev: 03-hash-table-operations](../05-hash-tables/03-hash-table-operations.md) | [next: 02-binary-tree](./02-binary-tree.md)
+
+---
 ## Определение
 
 **Дерево** — это иерархическая структура данных, состоящая из узлов (nodes), соединённых рёбрами (edges). Дерево имеет один корневой узел (root), от которого все остальные узлы достижимы по единственному пути.
@@ -597,3 +600,7 @@ b.children.append(a)  # цикл! Это уже не дерево
 6. Trie (префиксное дерево)
    - Для строк и автодополнения
 ```
+
+---
+
+[prev: 03-hash-table-operations](../05-hash-tables/03-hash-table-operations.md) | [next: 02-binary-tree](./02-binary-tree.md)

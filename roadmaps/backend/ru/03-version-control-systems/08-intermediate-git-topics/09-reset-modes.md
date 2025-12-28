@@ -1,5 +1,8 @@
 # Reset Modes - Режимы Reset
 
+[prev: 08-head-and-detached-head](./08-head-and-detached-head.md) | [next: 10-github-releases](./10-github-releases.md)
+---
+
 ## Три дерева Git
 
 Чтобы понять `git reset`, нужно понимать три "дерева" (три состояния файлов) в Git:
@@ -685,3 +688,6 @@ git reset --hard origin/main
 git reflog
 git reset --hard HEAD@{N}
 ```
+
+---
+[prev: 08-head-and-detached-head](./08-head-and-detached-head.md) | [next: 10-github-releases](./10-github-releases.md)

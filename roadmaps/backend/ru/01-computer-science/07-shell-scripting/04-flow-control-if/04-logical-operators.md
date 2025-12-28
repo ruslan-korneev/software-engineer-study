@@ -1,5 +1,8 @@
 # Логические операторы
 
+[prev: 03-test-command](./03-test-command.md) | [next: 01-read-command](../05-reading-input/01-read-command.md)
+
+---
 ## Обзор логических операторов
 
 В bash есть несколько способов комбинирования условий:
@@ -320,3 +323,7 @@ set +x  # Выключить трассировку
 + echo OK
 OK
 ```
+
+---
+
+[prev: 03-test-command](./03-test-command.md) | [next: 01-read-command](../05-reading-input/01-read-command.md)

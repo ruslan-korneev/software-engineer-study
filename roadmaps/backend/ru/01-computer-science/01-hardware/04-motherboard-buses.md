@@ -1,5 +1,9 @@
 # Motherboard and Buses
 
+[prev: 03-storage-hdd-ssd](./03-storage-hdd-ssd.md) | [next: 05-peripherals](./05-peripherals.md)
+
+---
+
 ## Материнская плата
 
 Главная плата, соединяющая все компоненты: CPU, RAM, накопители, периферию.
@@ -45,3 +49,7 @@
 - **IPMI/BMC** — удалённое управление сервером
 - **10 Gb/s+ сеть** — для высоких нагрузок
 - **DMA** — диск ↔ RAM без участия CPU
+
+---
+
+[prev: 03-storage-hdd-ssd](./03-storage-hdd-ssd.md) | [next: 05-peripherals](./05-peripherals.md)

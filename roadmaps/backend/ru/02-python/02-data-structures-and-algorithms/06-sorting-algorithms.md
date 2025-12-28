@@ -1,5 +1,8 @@
 # Алгоритмы сортировки (Sorting Algorithms)
 
+[prev: 05-recursion](./05-recursion.md) | [next: 03-modules](../03-modules.md)
+---
+
 Сортировка — упорядочивание элементов по определённому критерию.
 
 ## Обзор алгоритмов
@@ -512,3 +515,6 @@ arr = [random.randint(0, 10000) for _ in range(5000)]
 4. **Merge Sort** — когда нужна стабильность или работа со списками
 5. **Counting/Radix Sort** — когда данные позволяют (целые числа)
 6. **Всегда проверяй** — нужна ли сортировка вообще? Может, хватит `heapq.nlargest()`?
+
+---
+[prev: 05-recursion](./05-recursion.md) | [next: 03-modules](../03-modules.md)

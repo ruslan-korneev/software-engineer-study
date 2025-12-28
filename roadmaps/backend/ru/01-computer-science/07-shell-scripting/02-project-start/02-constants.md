@@ -1,5 +1,8 @@
 # Константы в Bash
 
+[prev: 01-variables](./01-variables.md) | [next: 03-here-documents](./03-here-documents.md)
+
+---
 ## Что такое константы
 
 Константы - это переменные, значения которых не должны изменяться после инициализации. В bash нет настоящих констант как в компилируемых языках, но есть способы создать переменные "только для чтения".
@@ -268,3 +271,7 @@ readonly MAX_FILE_SIZE=104857600  # 100MB в байтах
 readonly MAX_UPLOAD_COUNT=10
 readonly SESSION_TIMEOUT=3600
 ```
+
+---
+
+[prev: 01-variables](./01-variables.md) | [next: 03-here-documents](./03-here-documents.md)

@@ -1,5 +1,9 @@
 # Лучшие практики CI/CD
 
+[prev: 02-github-actions](./02-github-actions.md) | [next: 01-naming-conventions](../13-software-design-and-architecture/01-clean-code/01-naming-conventions.md)
+
+---
+
 ## Введение
 
 Правильно настроенный CI/CD пайплайн — это основа надёжной и быстрой доставки программного обеспечения. В этом документе собраны проверенные практики, которые помогут избежать типичных ошибок и построить эффективный процесс разработки.
@@ -871,3 +875,7 @@ jobs:
 - [DORA Metrics](https://www.devops-research.com/research.html)
 - [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/)
 - [Accelerate: Building High Performing Technology Organizations](https://itrevolution.com/accelerate-book/)
+
+---
+
+[prev: 02-github-actions](./02-github-actions.md) | [next: 01-naming-conventions](../13-software-design-and-architecture/01-clean-code/01-naming-conventions.md)

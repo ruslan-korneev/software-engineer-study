@@ -1,5 +1,8 @@
 # Управление PostgreSQL с помощью pg_ctlcluster
 
+[prev: 02-using-pg_ctl](./02-using-pg_ctl.md) | [next: 01-ddl-queries](../06-learn-sql/01-ddl-queries.md)
+---
+
 ## Введение
 
 **pg_ctlcluster** — это утилита, специфичная для дистрибутивов Debian и Ubuntu, которая предоставляет удобный интерфейс для управления несколькими кластерами (инстансами) PostgreSQL на одной системе. Она является частью пакета `postgresql-common` и служит обёрткой над pg_ctl с дополнительной функциональностью.
@@ -570,3 +573,6 @@ pg_ctlcluster и сопутствующие инструменты (pg_createclu
 - Тестирования разных версий PostgreSQL
 - Плавной миграции между версиями
 - Разделения production и development окружений
+
+---
+[prev: 02-using-pg_ctl](./02-using-pg_ctl.md) | [next: 01-ddl-queries](../06-learn-sql/01-ddl-queries.md)

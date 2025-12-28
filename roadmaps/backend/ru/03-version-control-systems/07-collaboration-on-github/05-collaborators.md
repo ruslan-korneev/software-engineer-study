@@ -1,5 +1,8 @@
 # Collaborators (Коллабораторы)
 
+[prev: 04-pr-from-fork](./04-pr-from-fork.md) | [next: 01-git-stash](../08-intermediate-git-topics/01-git-stash.md)
+---
+
 ## Введение
 
 **Collaborators** — это пользователи GitHub, которым предоставлен доступ к репозиторию. Система управления доступом позволяет:
@@ -516,3 +519,6 @@ numberOfReviewers: 2
 - **Protected Branches** для защиты важных веток
 - **CODEOWNERS** для автоматизации review
 - **Rulesets** для сложных сценариев
+
+---
+[prev: 04-pr-from-fork](./04-pr-from-fork.md) | [next: 01-git-stash](../08-intermediate-git-topics/01-git-stash.md)

@@ -1,5 +1,8 @@
 # Чтение файлов в циклах
 
+[prev: 03-break-continue](./03-break-continue.md) | [next: 01-syntax-errors](../07-debugging/01-syntax-errors.md)
+
+---
 ## Стандартный паттерн чтения файла
 
 ```bash
@@ -339,3 +342,7 @@ done < input.txt >> log.txt
 3. **Проверяйте существование файла** перед чтением
 4. **Используйте process substitution** вместо pipe для сохранения переменных
 5. **Закрывайте файловые дескрипторы** при использовании exec
+
+---
+
+[prev: 03-break-continue](./03-break-continue.md) | [next: 01-syntax-errors](../07-debugging/01-syntax-errors.md)

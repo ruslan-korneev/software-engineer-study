@@ -1,5 +1,9 @@
 # CTE (Common Table Expressions)
 
+[prev: 07-advanced-topics](./07-advanced-topics.md) | [next: 09-lateral-join](./09-lateral-join.md)
+
+---
+
 ## Что такое CTE?
 
 **CTE (Common Table Expression)** — это именованный временный результат запроса, который можно использовать в основном запросе. CTE определяется с помощью ключевого слова `WITH` и существует только в рамках одного запроса.
@@ -587,3 +591,7 @@ SELECT * FROM tree;
 3. **Не злоупотребляйте CTE** — простые подзапросы могут быть эффективнее
 4. **В рекурсивных CTE всегда предусматривайте выход** из рекурсии
 5. **Используйте MATERIALIZED/NOT MATERIALIZED** осознанно в PostgreSQL 12+
+
+---
+
+[prev: 07-advanced-topics](./07-advanced-topics.md) | [next: 09-lateral-join](./09-lateral-join.md)

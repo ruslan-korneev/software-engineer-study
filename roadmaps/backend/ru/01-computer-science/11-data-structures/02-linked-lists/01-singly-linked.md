@@ -1,5 +1,8 @@
 # Односвязный список (Singly Linked List)
 
+[prev: 03-array-operations](../01-arrays/03-array-operations.md) | [next: 02-doubly-linked](./02-doubly-linked.md)
+
+---
 ## Определение
 
 **Односвязный список** — это линейная структура данных, состоящая из узлов (nodes), где каждый узел содержит данные и ссылку (указатель) на следующий узел. Последний узел указывает на `null` (или `None`), обозначая конец списка.
@@ -520,3 +523,7 @@ void remove_first(List* list) {
 
 *Амортизированное для динамического массива
 **С указателем на tail
+
+---
+
+[prev: 03-array-operations](../01-arrays/03-array-operations.md) | [next: 02-doubly-linked](./02-doubly-linked.md)

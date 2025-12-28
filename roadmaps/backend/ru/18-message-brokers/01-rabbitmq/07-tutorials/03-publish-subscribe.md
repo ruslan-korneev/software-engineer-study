@@ -1,5 +1,9 @@
 # Publish/Subscribe
 
+[prev: 02-work-queues](./02-work-queues.md) | [next: 04-routing](./04-routing.md)
+
+---
+
 ## Введение
 
 В предыдущих туториалах мы отправляли сообщения в конкретную очередь. Теперь мы изучим паттерн **Publish/Subscribe** — отправка одного сообщения нескольким получателям одновременно.
@@ -409,3 +413,7 @@ pika.exceptions.ChannelClosedByBroker: (404, "NOT_FOUND - no exchange 'logs'")
 4. **Bindings** — связи между exchange и очередями
 
 Следующий туториал: **Routing** — выборочное получение сообщений с помощью direct exchange.
+
+---
+
+[prev: 02-work-queues](./02-work-queues.md) | [next: 04-routing](./04-routing.md)

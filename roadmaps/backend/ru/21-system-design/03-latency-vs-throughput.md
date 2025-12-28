@@ -1,5 +1,9 @@
 # Latency vs Throughput (Задержка vs Пропускная способность)
 
+[prev: 02-performance-vs-scalability](./02-performance-vs-scalability.md) | [next: 04-availability-vs-consistency](./04-availability-vs-consistency.md)
+
+---
+
 ## Введение
 
 Латентность и пропускная способность — два фундаментальных понятия в проектировании систем. Они тесно связаны, но описывают разные аспекты производительности. Понимание этих концепций критически важно для создания эффективных и масштабируемых backend-систем.

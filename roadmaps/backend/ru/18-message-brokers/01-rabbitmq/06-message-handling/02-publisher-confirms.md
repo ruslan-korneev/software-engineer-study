@@ -1,5 +1,9 @@
 # Publisher Confirms
 
+[prev: 01-acknowledgments](./01-acknowledgments.md) | [next: 03-message-persistence](./03-message-persistence.md)
+
+---
+
 ## Введение
 
 Publisher Confirms - это механизм RabbitMQ, который позволяет издателю (publisher) получать подтверждение о том, что сообщение было успешно принято брокером. Это дополняет механизм consumer acknowledgments и обеспечивает сквозную надежность доставки сообщений.
@@ -604,3 +608,7 @@ except pika.exceptions.ChannelError:
 ## Заключение
 
 Publisher Confirms - важный механизм для построения надежных систем обмена сообщениями. В сочетании с consumer acknowledgments и persistent messages он обеспечивает сквозную гарантию доставки сообщений от издателя до потребителя.
+
+---
+
+[prev: 01-acknowledgments](./01-acknowledgments.md) | [next: 03-message-persistence](./03-message-persistence.md)

@@ -1,5 +1,9 @@
 # Процесс VACUUM в PostgreSQL
 
+[prev: 01-processes-memory-architecture](./01-processes-memory-architecture.md) | [next: 03-buffer-management](./03-buffer-management.md)
+
+---
+
 ## Зачем нужен VACUUM
 
 PostgreSQL использует **MVCC** (Multi-Version Concurrency Control), что означает:
@@ -250,3 +254,7 @@ VACUUM ANALYZE newly_loaded_table;
 -- Периодическое обслуживание
 VACUUM VERBOSE ANALYZE;
 ```
+
+---
+
+[prev: 01-processes-memory-architecture](./01-processes-memory-architecture.md) | [next: 03-buffer-management](./03-buffer-management.md)

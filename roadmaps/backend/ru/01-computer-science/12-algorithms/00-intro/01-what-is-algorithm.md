@@ -1,5 +1,8 @@
 # Что такое алгоритм
 
+[prev: 04-weighted-graphs](../../11-data-structures/07-graphs/04-weighted-graphs.md) | [next: 02-pseudocode](./02-pseudocode.md)
+---
+
 ## Определение
 
 **Алгоритм** — это конечная последовательность чётко определённых инструкций, предназначенных для решения определённой задачи или выполнения вычисления.
@@ -162,3 +165,6 @@ print(f"Элемент найден на позиции: {index}")  # Элеме
 ---
 
 **Следующая тема:** [Псевдокод](./02-pseudocode.md)
+
+---
+[prev: 04-weighted-graphs](../../11-data-structures/07-graphs/04-weighted-graphs.md) | [next: 02-pseudocode](./02-pseudocode.md)

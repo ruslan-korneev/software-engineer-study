@@ -1,5 +1,8 @@
 # Типы данных в PostgreSQL
 
+[prev: 04-schemas-databases](./04-schemas-databases.md) | [next: 06-constraints](./06-constraints.md)
+---
+
 ## Введение
 
 PostgreSQL предоставляет богатый набор встроенных типов данных, а также возможность создавать собственные. Правильный выбор типа данных влияет на:
@@ -457,3 +460,6 @@ CREATE TABLE orders (
     updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 ```
+
+---
+[prev: 04-schemas-databases](./04-schemas-databases.md) | [next: 06-constraints](./06-constraints.md)

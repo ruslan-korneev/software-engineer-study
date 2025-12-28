@@ -1,5 +1,9 @@
 # Реестр схем (Schema Registry)
 
+[prev: 01-kafka-maturity-model](./01-kafka-maturity-model.md) | [next: 03-registry-components](./03-registry-components.md)
+
+---
+
 ## Описание
 
 Schema Registry — это централизованный сервис для управления схемами данных в Apache Kafka. Он хранит версионированные схемы Avro, Protobuf и JSON Schema, обеспечивая согласованность формата сообщений между продюсерами и консьюмерами. Schema Registry разработан компанией Confluent и является ключевым компонентом для построения надежных событийно-ориентированных архитектур.
@@ -526,3 +530,7 @@ props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass
 props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, SpecificAvroSerde.class);
 props.put("schema.registry.url", "http://localhost:8081");
 ```
+
+---
+
+[prev: 01-kafka-maturity-model](./01-kafka-maturity-model.md) | [next: 03-registry-components](./03-registry-components.md)

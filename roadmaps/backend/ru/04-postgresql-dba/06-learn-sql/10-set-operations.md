@@ -1,5 +1,9 @@
 # Операции над множествами (Set Operations)
 
+[prev: 09-lateral-join](./09-lateral-join.md) | [next: 11-copy-import-export](./11-copy-import-export.md)
+
+---
+
 ## Обзор операций над множествами
 
 Операции над множествами позволяют комбинировать результаты нескольких SELECT-запросов. PostgreSQL поддерживает три основные операции:
@@ -600,3 +604,7 @@ ORDER BY name;
 4. **Используйте скобки** для явного порядка операций
 5. **Проверяйте типы данных** соответствующих столбцов
 6. **Сортировку и LIMIT** размещайте в конце или в подзапросах с LIMIT
+
+---
+
+[prev: 09-lateral-join](./09-lateral-join.md) | [next: 11-copy-import-export](./11-copy-import-export.md)

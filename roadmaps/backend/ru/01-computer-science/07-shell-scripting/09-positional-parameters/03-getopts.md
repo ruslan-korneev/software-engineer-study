@@ -1,5 +1,8 @@
 # Команда getopts
 
+[prev: 02-shift](./02-shift.md) | [next: 01-for-traditional](../10-for-loop/01-for-traditional.md)
+
+---
 ## Что такое getopts
 
 `getopts` - встроенная команда bash для парсинга опций командной строки в стиле UNIX. Поддерживает короткие опции (-a, -b) с возможными аргументами.
@@ -318,3 +321,7 @@ parse_args() {
 # Или
 OPTIND=1  # Сброс перед повторным использованием
 ```
+
+---
+
+[prev: 02-shift](./02-shift.md) | [next: 01-for-traditional](../10-for-loop/01-for-traditional.md)

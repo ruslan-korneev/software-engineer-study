@@ -1,5 +1,9 @@
 # Рассылки PostgreSQL сообщества
 
+[prev: 05-brin](../21-sql-optimization/03-indexes/05-brin.md) | [next: 02-reviewing-patches](./02-reviewing-patches.md)
+
+---
+
 Рассылки (mailing lists) — основной канал коммуникации в сообществе PostgreSQL. Через них обсуждаются новые фичи, баги, анонсы релизов и общие вопросы.
 
 ## Основные рассылки
@@ -205,3 +209,7 @@ site:postgresql.org pgsql-general "error message"
 3. **Читайте pgsql-hackers** — чтобы понимать направление развития
 4. **Используйте дайджест** — если не хотите много писем
 5. **Отвечайте на вопросы других** — так вы учитесь и помогаете сообществу
+
+---
+
+[prev: 05-brin](../21-sql-optimization/03-indexes/05-brin.md) | [next: 02-reviewing-patches](./02-reviewing-patches.md)

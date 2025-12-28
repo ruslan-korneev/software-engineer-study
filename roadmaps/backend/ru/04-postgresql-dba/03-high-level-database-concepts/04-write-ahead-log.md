@@ -1,5 +1,8 @@
 # Write-Ahead Log (WAL) — Журнал упреждающей записи
 
+[prev: 03-transactions](./03-transactions.md) | [next: 05-query-processing](./05-query-processing.md)
+---
+
 ## Введение
 
 **Write-Ahead Log (WAL)** — это механизм журналирования, который обеспечивает долговечность (durability) и атомарность транзакций в PostgreSQL. Основной принцип: изменения сначала записываются в журнал, и только потом применяются к файлам данных.
@@ -493,3 +496,6 @@ WAL — это критически важный компонент PostgreSQL, 
 4. **PITR** — восстановление на любой момент времени
 
 Правильная настройка WAL влияет на производительность и надёжность всей системы.
+
+---
+[prev: 03-transactions](./03-transactions.md) | [next: 05-query-processing](./05-query-processing.md)

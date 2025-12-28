@@ -1,5 +1,8 @@
 # Context Manager (Контекстные менеджеры)
 
+[prev: 08a-paradigms](./08a-paradigms.md) | [next: 08c-dataclasses](./08c-dataclasses.md)
+---
+
 ## Что это?
 
 Объект, управляющий ресурсами через `with`. Гарантирует освобождение даже при ошибках.
@@ -190,3 +193,6 @@ with open("in.txt") as src, open("out.txt", "w") as dst:
 - `with` гарантирует очистку ресурсов
 - `__exit__` вызывается даже при исключениях
 - `return True` в `__exit__` подавляет исключение
+
+---
+[prev: 08a-paradigms](./08a-paradigms.md) | [next: 08c-dataclasses](./08c-dataclasses.md)

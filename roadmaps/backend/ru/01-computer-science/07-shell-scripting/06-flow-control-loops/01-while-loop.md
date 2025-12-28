@@ -1,5 +1,8 @@
 # Цикл while
 
+[prev: 04-menus](../05-reading-input/04-menus.md) | [next: 02-until-loop](./02-until-loop.md)
+
+---
 ## Базовый синтаксис
 
 Цикл `while` выполняет команды, пока условие истинно:
@@ -374,3 +377,7 @@ while [[ $i -lt 5 ]]; do
     ((i++))
 done
 ```
+
+---
+
+[prev: 04-menus](../05-reading-input/04-menus.md) | [next: 02-until-loop](./02-until-loop.md)

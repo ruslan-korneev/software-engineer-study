@@ -1,5 +1,8 @@
 # Brace Expansion (раскрытие фигурных скобок)
 
+[prev: 02-tilde-expansion](./02-tilde-expansion.md) | [next: 04-parameter-expansion](./04-parameter-expansion.md)
+
+---
 ## Что такое brace expansion?
 
 **Brace expansion** — механизм shell, который генерирует произвольные строки из шаблона с фигурными скобками. В отличие от pathname expansion, не зависит от существующих файлов.
@@ -223,3 +226,7 @@ $ curl -O http://example.com/file{01..10}.zip
 3. **Помните о порядке** — brace expansion происходит первым
 4. **Ведущие нули** автоматически выравнивают числа: `{01..10}`
 5. **Пустой элемент** полезен для бэкапов: `file{,.bak}`
+
+---
+
+[prev: 02-tilde-expansion](./02-tilde-expansion.md) | [next: 04-parameter-expansion](./04-parameter-expansion.md)

@@ -1,5 +1,8 @@
 # Ассоциативные массивы
 
+[prev: 02-array-operations](./02-array-operations.md) | [next: 01-group-commands](../13-exotica/01-group-commands.md)
+
+---
 ## Что такое ассоциативные массивы
 
 Ассоциативные массивы (хеш-таблицы, словари) используют строковые ключи вместо числовых индексов. Доступны в bash 4.0+.
@@ -338,3 +341,7 @@ fi
 declare -A my_hash
 # ...
 ```
+
+---
+
+[prev: 02-array-operations](./02-array-operations.md) | [next: 01-group-commands](../13-exotica/01-group-commands.md)

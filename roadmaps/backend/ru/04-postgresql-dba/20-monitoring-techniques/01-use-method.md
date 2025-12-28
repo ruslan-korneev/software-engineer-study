@@ -1,5 +1,9 @@
 # USE Method для мониторинга PostgreSQL
 
+[prev: 04-explain-dalibo](../19-query-analysis/04-explain-dalibo.md) | [next: 02-red-method](./02-red-method.md)
+
+---
+
 ## Что такое USE Method
 
 **USE Method** — методология мониторинга, разработанная Бренданом Греггом (Brendan Gregg) для анализа производительности систем. Название — аббревиатура:
@@ -285,3 +289,7 @@ SELECT * FROM use_metrics;
 
 - [Brendan Gregg - USE Method](https://www.brendangregg.com/usemethod.html)
 - [PostgreSQL Statistics Collector](https://www.postgresql.org/docs/current/monitoring-stats.html)
+
+---
+
+[prev: 04-explain-dalibo](../19-query-analysis/04-explain-dalibo.md) | [next: 02-red-method](./02-red-method.md)

@@ -1,5 +1,8 @@
 # Multiprocessing (Процессы)
 
+[prev: 02-threading](./02-threading.md) | [next: 04-asyncio](./04-asyncio.md)
+---
+
 ## Зачем?
 
 - Обход GIL — каждый процесс имеет свой
@@ -113,3 +116,6 @@ with lock:
 | `Lock` | Синхронизация |
 
 Используй для **CPU-bound** задач.
+
+---
+[prev: 02-threading](./02-threading.md) | [next: 04-asyncio](./04-asyncio.md)

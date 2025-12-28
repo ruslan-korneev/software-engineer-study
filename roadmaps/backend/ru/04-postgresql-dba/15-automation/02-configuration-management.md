@@ -1,5 +1,9 @@
 # Configuration Management для PostgreSQL
 
+[prev: 01-shell-scripts](./01-shell-scripts.md) | [next: 03-migrations](./03-migrations.md)
+
+---
+
 ## Введение
 
 Configuration Management (управление конфигурацией) - это практика автоматизации настройки и поддержания состояния серверов и приложений. Для PostgreSQL это означает автоматическую установку, настройку, и управление кластерами баз данных в согласованном и воспроизводимом состоянии.
@@ -985,3 +989,7 @@ Configuration Management для PostgreSQL позволяет:
 - **Terraform** - для облачной инфраструктуры (RDS, Cloud SQL)
 
 Следующий шаг - изучение миграций схемы базы данных для управления изменениями структуры БД.
+
+---
+
+[prev: 01-shell-scripts](./01-shell-scripts.md) | [next: 03-migrations](./03-migrations.md)

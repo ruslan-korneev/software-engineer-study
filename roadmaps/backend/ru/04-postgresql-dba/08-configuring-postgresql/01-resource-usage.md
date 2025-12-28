@@ -1,5 +1,9 @@
 # Resource Usage (Использование ресурсов)
 
+[prev: 04-aggregate-window-functions](../07-advanced-sql/04-aggregate-window-functions.md) | [next: 02-vacuums](./02-vacuums.md)
+
+---
+
 Конфигурация использования ресурсов в PostgreSQL определяет, как сервер распределяет память, CPU и дисковые операции. Правильная настройка этих параметров критически важна для производительности базы данных.
 
 ## Управление памятью
@@ -259,3 +263,7 @@ SELECT
 3. **Используйте connection pooler** (PgBouncer) при большом количестве соединений
 4. **Настраивайте параметры под тип нагрузки** (OLTP vs OLAP)
 5. **Регулярно пересматривайте настройки** при изменении данных или нагрузки
+
+---
+
+[prev: 04-aggregate-window-functions](../07-advanced-sql/04-aggregate-window-functions.md) | [next: 02-vacuums](./02-vacuums.md)

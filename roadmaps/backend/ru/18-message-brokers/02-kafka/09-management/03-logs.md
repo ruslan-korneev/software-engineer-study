@@ -1,5 +1,9 @@
 # Журналы Kafka
 
+[prev: 02-systemd-service](./02-systemd-service.md) | [next: 04-firewalls](./04-firewalls.md)
+
+---
+
 ## Описание
 
 Журналы (логи) в Apache Kafka делятся на два типа: логи данных (commit logs) и логи приложения (application logs). Логи данных — это файлы, в которых хранятся сообщения топиков. Логи приложения — это журналы работы брокера, записываемые через Log4j.
@@ -409,3 +413,7 @@ chown -R kafka:kafka /var/log/kafka
 # Исключение чувствительных данных
 # В log4j.properties добавить фильтры для паролей и токенов
 ```
+
+---
+
+[prev: 02-systemd-service](./02-systemd-service.md) | [next: 04-firewalls](./04-firewalls.md)

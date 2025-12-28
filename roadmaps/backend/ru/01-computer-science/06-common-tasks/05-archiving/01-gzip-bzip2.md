@@ -1,5 +1,8 @@
 # gzip и bzip2 - сжатие файлов
 
+[prev: 04-xargs](../04-searching-files/04-xargs.md) | [next: 02-tar](./02-tar.md)
+
+---
 ## Обзор утилит сжатия
 
 В Linux существует несколько утилит для сжатия файлов:
@@ -429,3 +432,7 @@ curl https://example.com/file.gz | gzip -d | process_data
 | `-t` | Проверить целостность |
 | `-v` | Подробный вывод |
 | `-1...-9` | Уровень сжатия |
+
+---
+
+[prev: 04-xargs](../04-searching-files/04-xargs.md) | [next: 02-tar](./02-tar.md)

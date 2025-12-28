@@ -1,5 +1,8 @@
 # Что такое HTTP?
 
+[prev: 07-what-is-domain-name](./07-what-is-domain-name.md) | [next: 09-what-is-hosting](./09-what-is-hosting.md)
+
+---
 **HTTP (HyperText Transfer Protocol)** — протокол передачи данных в вебе. Это "язык", на котором браузер общается с сервером.
 
 ## Как работает?
@@ -213,3 +216,7 @@ CA — организации, выдающие сертификаты: Let's En
 0x17 0x03 0x03 0x00 0x1F 0xA3 0x8B 0x2C...
 (нечитаемый мусор вместо данных)
 ```
+
+---
+
+[prev: 07-what-is-domain-name](./07-what-is-domain-name.md) | [next: 09-what-is-hosting](./09-what-is-hosting.md)

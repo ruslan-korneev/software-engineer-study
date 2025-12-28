@@ -1,5 +1,9 @@
 # CDN (Content Delivery Network)
 
+[prev: 12-api-lifecycle-management](../08-apis/12-api-lifecycle-management.md) | [next: 02-server-side](./02-server-side.md)
+
+---
+
 ## Что такое CDN?
 
 **CDN (Content Delivery Network)** — это географически распределённая сеть серверов, которая доставляет контент пользователям с ближайшего к ним сервера. Это значительно уменьшает задержку (latency) и ускоряет загрузку веб-страниц.
@@ -358,3 +362,7 @@ CDN — это критически важный компонент соврем
 - Экономит bandwidth
 
 Правильная настройка кэширования и инвалидации — ключ к эффективному использованию CDN.
+
+---
+
+[prev: 12-api-lifecycle-management](../08-apis/12-api-lifecycle-management.md) | [next: 02-server-side](./02-server-side.md)

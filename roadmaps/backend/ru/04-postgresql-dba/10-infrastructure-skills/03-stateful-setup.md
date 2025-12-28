@@ -1,5 +1,9 @@
 # Stateful настройки PostgreSQL в контейнерах
 
+[prev: 02-logical-replication](./02-logical-replication.md) | [next: 04-helm-operators](./04-helm-operators.md)
+
+---
+
 ## Введение
 
 Запуск PostgreSQL в контейнерах требует особого подхода к управлению состоянием (stateful workloads). В отличие от stateless-приложений, базы данных хранят критически важные данные, которые должны пережить перезапуск контейнера, обновления и даже сбои инфраструктуры.
@@ -652,3 +656,7 @@ docker exec -it postgres-new psql -U postgres -c "\l"
 - [Docker Hub: postgres](https://hub.docker.com/_/postgres)
 - [Kubernetes StatefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
 - [PostgreSQL on Kubernetes](https://www.postgresql.org/docs/current/high-availability.html)
+
+---
+
+[prev: 02-logical-replication](./02-logical-replication.md) | [next: 04-helm-operators](./04-helm-operators.md)

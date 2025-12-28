@@ -1,5 +1,8 @@
 # Выключение и перезагрузка системы
 
+[prev: 04-signals-kill](./04-signals-kill.md) | [next: 01-environment-variables](../../05-shell-environment/01-environment/01-environment-variables.md)
+
+---
 ## Команда shutdown
 
 **shutdown** — безопасное выключение или перезагрузка системы с уведомлением пользователей.
@@ -230,3 +233,7 @@ $ echo b | sudo tee /proc/sysrq-trigger   # через sysrq
 3. **Проверяйте журналы** после нештатных перезагрузок
 4. **Не используйте -f** без крайней необходимости
 5. **Magic SysRq** — последний шанс при полном зависании
+
+---
+
+[prev: 04-signals-kill](./04-signals-kill.md) | [next: 01-environment-variables](../../05-shell-environment/01-environment/01-environment-variables.md)

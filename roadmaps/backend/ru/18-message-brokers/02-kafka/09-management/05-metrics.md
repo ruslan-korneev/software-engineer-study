@@ -1,5 +1,9 @@
 # Метрики Kafka
 
+[prev: 04-firewalls](./04-firewalls.md) | [next: 06-tracing-methods](./06-tracing-methods.md)
+
+---
+
 ## Описание
 
 Метрики Apache Kafka предоставляют детальную информацию о состоянии и производительности кластера. Kafka экспортирует метрики через JMX (Java Management Extensions), которые можно собирать с помощью различных инструментов мониторинга: Prometheus, Datadog, Grafana и других.
@@ -531,3 +535,7 @@ Info (P3):
 - Часовые агрегаты: 1 год
 - Дневные агрегаты: 3 года
 ```
+
+---
+
+[prev: 04-firewalls](./04-firewalls.md) | [next: 06-tracing-methods](./06-tracing-methods.md)

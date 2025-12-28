@@ -1,5 +1,9 @@
 # WebSockets (Веб-сокеты)
 
+[prev: 03-next-steps](../18-message-brokers/02-kafka/12-stream-processing/03-next-steps.md) | [next: 02-server-sent-events](./02-server-sent-events.md)
+
+---
+
 ## Введение
 
 **WebSocket** — это протокол связи, обеспечивающий полнодуплексное (двунаправленное) соединение между клиентом и сервером через одно TCP-соединение. В отличие от традиционного HTTP, где клиент всегда инициирует запрос, WebSocket позволяет серверу самостоятельно отправлять данные клиенту в любой момент.
@@ -1252,3 +1256,7 @@ WebSocket — мощный протокол для создания прилож
 - [MDN Web Docs — WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
 - [websockets (Python)](https://websockets.readthedocs.io/)
 - [Socket.IO](https://socket.io/)
+
+---
+
+[prev: 03-next-steps](../18-message-brokers/02-kafka/12-stream-processing/03-next-steps.md) | [next: 02-server-sent-events](./02-server-sent-events.md)

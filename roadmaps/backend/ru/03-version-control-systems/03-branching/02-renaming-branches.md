@@ -1,5 +1,8 @@
 # Renaming Branches
 
+[prev: 01-creating-branches](./01-creating-branches.md) | [next: 03-deleting-branches](./03-deleting-branches.md)
+---
+
 ## Зачем переименовывать ветки?
 
 Переименование веток может понадобиться в различных ситуациях:
@@ -247,3 +250,6 @@ git fetch --prune
 git rename new-name                    # локальное переименование
 git rename-remote new-name             # переименование с обновлением remote
 ```
+
+---
+[prev: 01-creating-branches](./01-creating-branches.md) | [next: 03-deleting-branches](./03-deleting-branches.md)

@@ -1,5 +1,8 @@
 # Традиционный цикл for
 
+[prev: 03-getopts](../09-positional-parameters/03-getopts.md) | [next: 02-for-c-style](./02-for-c-style.md)
+
+---
 ## Базовый синтаксис
 
 ```bash
@@ -333,3 +336,7 @@ for item in "${empty_array[@]}"; do
 done
 echo "Цикл пройден"
 ```
+
+---
+
+[prev: 03-getopts](../09-positional-parameters/03-getopts.md) | [next: 02-for-c-style](./02-for-c-style.md)

@@ -1,5 +1,8 @@
 # Пирамидальная сортировка (Heap Sort)
 
+[prev: 05-quick-sort](./05-quick-sort.md) | [next: 07-sorting-comparison](./07-sorting-comparison.md)
+---
+
 ## Определение
 
 **Пирамидальная сортировка** — это алгоритм сортировки, основанный на структуре данных "куча" (heap). Алгоритм строит max-heap из массива, затем многократно извлекает максимальный элемент (корень) и помещает его в конец массива, восстанавливая свойства кучи после каждого извлечения.
@@ -419,3 +422,6 @@ def build_heap_floyd(arr):
 3. Heap Sort не cache-friendly — на практике медленнее Quick Sort
 4. Используйте heapq для priority queue операций
 5. Помните о нестабильности при сортировке объектов
+
+---
+[prev: 05-quick-sort](./05-quick-sort.md) | [next: 07-sorting-comparison](./07-sorting-comparison.md)

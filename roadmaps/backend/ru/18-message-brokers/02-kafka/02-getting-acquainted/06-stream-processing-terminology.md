@@ -1,5 +1,9 @@
 # Потоковая обработка и терминология
 
+[prev: 05-confluent-clients](./05-confluent-clients.md) | [next: 01-kafka-based-project](../03-project-development/01-kafka-based-project.md)
+
+---
+
 ## Описание
 
 Потоковая обработка данных (Stream Processing) — это парадигма обработки данных, при которой данные обрабатываются непрерывно по мере их поступления, а не пакетами (batch). Apache Kafka и его экосистема (Kafka Streams, ksqlDB) предоставляют мощные инструменты для реализации потоковой обработки.
@@ -658,3 +662,7 @@ consumer_config = {
 - [Faust Documentation](https://faust.readthedocs.io/)
 - [Designing Event-Driven Systems](https://www.confluent.io/designing-event-driven-systems/)
 - [Stream Processing with Apache Kafka](https://www.confluent.io/blog/stream-processing-apache-kafka/)
+
+---
+
+[prev: 05-confluent-clients](./05-confluent-clients.md) | [next: 01-kafka-based-project](../03-project-development/01-kafka-based-project.md)

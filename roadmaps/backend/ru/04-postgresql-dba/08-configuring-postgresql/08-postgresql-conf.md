@@ -1,5 +1,9 @@
 # postgresql.conf (Основной файл конфигурации)
 
+[prev: 07-extensions](./07-extensions.md) | [next: 01-object-privileges](../09-security/01-object-privileges.md)
+
+---
+
 postgresql.conf — главный файл конфигурации PostgreSQL, содержащий все параметры настройки сервера. Понимание структуры и методов работы с этим файлом критически важно для администрирования.
 
 ## Расположение конфигурационных файлов
@@ -479,3 +483,7 @@ COPY (
     ORDER BY name
 ) TO '/tmp/current_settings.csv' CSV HEADER;
 ```
+
+---
+
+[prev: 07-extensions](./07-extensions.md) | [next: 01-object-privileges](../09-security/01-object-privileges.md)

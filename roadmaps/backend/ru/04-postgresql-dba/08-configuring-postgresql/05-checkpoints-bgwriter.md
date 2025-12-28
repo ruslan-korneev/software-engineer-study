@@ -1,5 +1,9 @@
 # Checkpoints & Background Writer (Контрольные точки и фоновая запись)
 
+[prev: 04-query-planner](./04-query-planner.md) | [next: 06-logging-statistics](./06-logging-statistics.md)
+
+---
+
 Checkpoints и Background Writer — два ключевых механизма PostgreSQL для записи данных из памяти на диск. Правильная настройка этих компонентов критически важна для производительности и надёжности.
 
 ## Checkpoints (Контрольные точки)
@@ -318,3 +322,7 @@ FROM pg_stat_bgwriter;
 -- Сброс статистики для fresh monitoring
 SELECT pg_stat_reset_shared('bgwriter');
 ```
+
+---
+
+[prev: 04-query-planner](./04-query-planner.md) | [next: 06-logging-statistics](./06-logging-statistics.md)

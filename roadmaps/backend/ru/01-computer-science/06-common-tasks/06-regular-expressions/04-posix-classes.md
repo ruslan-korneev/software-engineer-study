@@ -1,5 +1,8 @@
 # POSIX классы символов
 
+[prev: 03-metacharacters](./03-metacharacters.md) | [next: 05-quantifiers](./05-quantifiers.md)
+
+---
 ## Что такое POSIX классы?
 
 **POSIX классы** (bracket expressions) - это предопределённые наборы символов, которые работают независимо от локали и кодировки. Они обеспечивают переносимость регулярных выражений между разными системами.
@@ -295,3 +298,7 @@ grep '[^[:digit:]]' file.txt
 # Комбинация
 grep '[[:alpha:][:digit:]]' file.txt
 ```
+
+---
+
+[prev: 03-metacharacters](./03-metacharacters.md) | [next: 05-quantifiers](./05-quantifiers.md)

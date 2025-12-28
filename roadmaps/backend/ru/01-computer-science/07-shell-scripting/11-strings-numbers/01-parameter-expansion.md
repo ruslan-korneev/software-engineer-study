@@ -1,5 +1,8 @@
 # Раскрытие параметров (Parameter Expansion)
 
+[prev: 02-for-c-style](../10-for-loop/02-for-c-style.md) | [next: 02-string-operations](./02-string-operations.md)
+
+---
 ## Что такое Parameter Expansion
 
 Parameter Expansion - это механизм bash для работы с переменными и их преобразования. Базовая форма `${parameter}` может быть расширена множеством модификаторов.
@@ -298,3 +301,7 @@ pass="${userinfo#*:}"        # pass
 hostpath="${rest#*@}"        # example.com:8080/path?query=value
 host="${hostpath%%:*}"       # example.com
 ```
+
+---
+
+[prev: 02-for-c-style](../10-for-loop/02-for-c-style.md) | [next: 02-string-operations](./02-string-operations.md)

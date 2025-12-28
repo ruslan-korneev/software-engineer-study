@@ -1,5 +1,9 @@
 # Bits and Bytes (Биты и байты)
 
+[prev: 02-hexadecimal](./02-hexadecimal.md) | [next: 04-character-encoding](./04-character-encoding.md)
+
+---
+
 ## Определение
 
 **Бит (bit)** — минимальная единица информации в вычислительной технике. Может принимать только два значения: 0 или 1.
@@ -285,3 +289,7 @@ back_to_host = socket.ntohs(network_short)  # network to host short
 - **Шестнадцатеричная система** — удобное представление байтов
 - **Кодировки** — байты как представление символов
 - **Структуры данных** — выравнивание в памяти
+
+---
+
+[prev: 02-hexadecimal](./02-hexadecimal.md) | [next: 04-character-encoding](./04-character-encoding.md)

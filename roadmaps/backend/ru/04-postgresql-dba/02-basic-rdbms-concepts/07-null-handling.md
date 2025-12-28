@@ -1,5 +1,8 @@
 # Обработка NULL в PostgreSQL
 
+[prev: 06-constraints](./06-constraints.md) | [next: 01-acid](../03-high-level-database-concepts/01-acid.md)
+---
+
 ## Что такое NULL?
 
 **NULL** — это специальное значение, означающее "отсутствие данных" или "неизвестное значение". NULL — это не пустая строка, не ноль, не false. Это особое состояние, которое требует специальной обработки.
@@ -483,3 +486,6 @@ CREATE TABLE address (
 | `ORDER BY` | NULL "больше" всех (по умолчанию) |
 
 Правильная обработка NULL критически важна для корректной работы с данными в PostgreSQL.
+
+---
+[prev: 06-constraints](./06-constraints.md) | [next: 01-acid](../03-high-level-database-concepts/01-acid.md)

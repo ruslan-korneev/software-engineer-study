@@ -1,5 +1,8 @@
 # Преимущества и ограничения RDBMS
 
+[prev: 01-what-are-relational-databases](./01-what-are-relational-databases.md) | [next: 03-postgresql-vs-other-rdbms](./03-postgresql-vs-other-rdbms.md)
+---
+
 ## Преимущества реляционных баз данных
 
 ### 1. Целостность данных (Data Integrity)
@@ -304,3 +307,6 @@ WHERE payload->>'user_id' = '123';
 5. **Используйте транзакции** — не пренебрегайте ACID
 6. **Планируйте масштабирование** — read replicas, партиционирование
 7. **Мониторьте производительность** — EXPLAIN ANALYZE ваш друг
+
+---
+[prev: 01-what-are-relational-databases](./01-what-are-relational-databases.md) | [next: 03-postgresql-vs-other-rdbms](./03-postgresql-vs-other-rdbms.md)

@@ -1,5 +1,8 @@
 # Алиасы (alias)
 
+[prev: 02-help-man-info](./02-help-man-info.md) | [next: 01-stdin-stdout-stderr](../06-redirection/01-stdin-stdout-stderr.md)
+
+---
 ## Что такое алиас?
 
 **Алиас** (alias) — это псевдоним для команды или последовательности команд. Позволяет создавать сокращения для часто используемых команд.
@@ -271,3 +274,7 @@ alias gp='git push'
 alias h='history'
 alias c='clear'
 ```
+
+---
+
+[prev: 02-help-man-info](./02-help-man-info.md) | [next: 01-stdin-stdout-stderr](../06-redirection/01-stdin-stdout-stderr.md)

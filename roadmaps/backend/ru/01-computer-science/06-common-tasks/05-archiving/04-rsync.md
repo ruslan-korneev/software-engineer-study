@@ -1,5 +1,8 @@
 # rsync - синхронизация файлов и директорий
 
+[prev: 03-zip](./03-zip.md) | [next: 01-what-is-regex](../06-regular-expressions/01-what-is-regex.md)
+
+---
 ## Что такое rsync?
 
 **rsync** (remote sync) - мощная утилита для синхронизации файлов и директорий. Главная особенность - передаёт только изменения (дельта-сжатие), что делает rsync идеальным для резервного копирования и репликации.
@@ -390,3 +393,7 @@ rsync -avz --delete --exclude=".git" source/ server:/dest/
 # Зеркало
 rsync -avz --delete user@source:/data/ /mirror/
 ```
+
+---
+
+[prev: 03-zip](./03-zip.md) | [next: 01-what-is-regex](../06-regular-expressions/01-what-is-regex.md)

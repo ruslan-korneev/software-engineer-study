@@ -1,5 +1,8 @@
 # Условные операторы (Conditionals)
 
+[prev: 02-variables-and-data-types](./02-variables-and-data-types.md) | [next: 04-loops](./04-loops.md)
+---
+
 Условия позволяют выполнять разный код в зависимости от ситуации.
 
 ## if
@@ -319,3 +322,6 @@ elif password.islower():
 else:
     print("Пароль принят")
 ```
+
+---
+[prev: 02-variables-and-data-types](./02-variables-and-data-types.md) | [next: 04-loops](./04-loops.md)

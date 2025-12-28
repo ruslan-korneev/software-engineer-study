@@ -1,5 +1,9 @@
 # Mocking APIs (Мокирование API)
 
+[prev: 04-load-testing](./04-load-testing.md) | [next: 06-contract-testing](./06-contract-testing.md)
+
+---
+
 ## Введение
 
 **Мокирование (Mocking)** - это техника создания имитации (мока) внешних зависимостей для изолированного тестирования. В контексте API мокирование позволяет:
@@ -800,3 +804,7 @@ def mock_oauth_flow(mocker):
 - Проверяйте вызовы моков
 - Используйте реалистичные данные
 - Не забывайте тестировать реальную интеграцию
+
+---
+
+[prev: 04-load-testing](./04-load-testing.md) | [next: 06-contract-testing](./06-contract-testing.md)

@@ -1,5 +1,8 @@
 # Threading (Потоки)
 
+[prev: 01-gil](./01-gil.md) | [next: 03-multiprocessing](./03-multiprocessing.md)
+---
+
 ## Основы
 
 ```python
@@ -108,3 +111,6 @@ t = threading.Thread(target=func, daemon=True)
 | `ThreadPoolExecutor` | Пул потоков |
 
 Используй для **I/O-bound** задач (сеть, файлы).
+
+---
+[prev: 01-gil](./01-gil.md) | [next: 03-multiprocessing](./03-multiprocessing.md)

@@ -1,5 +1,8 @@
 # Оператор if
 
+[prev: 03-script-structure](../03-top-down-design/03-script-structure.md) | [next: 02-exit-status](./02-exit-status.md)
+
+---
 ## Базовый синтаксис
 
 Оператор `if` позволяет выполнять код в зависимости от условия:
@@ -320,3 +323,7 @@ if [ "$var" = "value" ]; then
 # В [[ ]] можно использовать и =, и ==
 if [[ "$var" == "value" ]]; then
 ```
+
+---
+
+[prev: 03-script-structure](../03-top-down-design/03-script-structure.md) | [next: 02-exit-status](./02-exit-status.md)

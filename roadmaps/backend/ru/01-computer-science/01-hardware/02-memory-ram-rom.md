@@ -1,5 +1,9 @@
 # Memory (RAM, ROM)
 
+[prev: 01-cpu](./01-cpu.md) | [next: 03-storage-hdd-ssd](./03-storage-hdd-ssd.md)
+
+---
+
 ## Иерархия памяти
 
 ```
@@ -53,3 +57,7 @@
 - **ECC RAM** — обязательна для серверов (исправляет ошибки)
 - **Утечки памяти** — мониторить через `tracemalloc`, `memory_profiler`
 - **In-memory DB** (Redis) — вся БД в RAM = молниеносный доступ
+
+---
+
+[prev: 01-cpu](./01-cpu.md) | [next: 03-storage-hdd-ssd](./03-storage-hdd-ssd.md)

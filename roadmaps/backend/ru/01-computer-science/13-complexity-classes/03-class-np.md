@@ -1,5 +1,8 @@
 # Класс NP (Nondeterministic Polynomial Time)
 
+[prev: 02-class-p](./02-class-p.md) | [next: 04-np-complete](./04-np-complete.md)
+---
+
 ## Определение
 
 ### Формальное определение
@@ -436,3 +439,6 @@ co-NP = { L | L̄ ∈ NP }
 5. **co-NP** — дополнения NP-задач (отношение с NP неизвестно)
 6. **Большинство практических задач** оптимизации лежат в NP
 7. **Открытый вопрос**: P = NP? (главный вопрос теоретической информатики)
+
+---
+[prev: 02-class-p](./02-class-p.md) | [next: 04-np-complete](./04-np-complete.md)

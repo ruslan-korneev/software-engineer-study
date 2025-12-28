@@ -1,5 +1,8 @@
 # Переменные в Bash
 
+[prev: 04-formatting-tips](../01-first-script/04-formatting-tips.md) | [next: 02-constants](./02-constants.md)
+
+---
 ## Основы переменных
 
 Переменные в bash - это именованные области памяти для хранения данных. В отличие от многих языков программирования, bash не требует объявления типа переменной.
@@ -280,3 +283,7 @@ echo "Temporary file: $tmp_file"
 # Очистка при выходе
 trap "rm -f $tmp_file" EXIT
 ```
+
+---
+
+[prev: 04-formatting-tips](../01-first-script/04-formatting-tips.md) | [next: 02-constants](./02-constants.md)

@@ -1,5 +1,8 @@
 # Цвета в командной строке (Colors)
 
+[prev: 01-prompt-structure](./01-prompt-structure.md) | [next: 03-saving-prompt](./03-saving-prompt.md)
+
+---
 ## ANSI Escape-коды
 
 Терминалы поддерживают цветной вывод через **ANSI escape-коды**. Это специальные последовательности символов, которые терминал интерпретирует как команды форматирования.
@@ -310,3 +313,7 @@ echo $TERM
 - В PS1 обязательно оборачивать в `\[` и `\]`
 - Коды комбинируются через `;`
 - 256 цветов: `\e[38;5;Nm` и `\e[48;5;Nm`
+
+---
+
+[prev: 01-prompt-structure](./01-prompt-structure.md) | [next: 03-saving-prompt](./03-saving-prompt.md)

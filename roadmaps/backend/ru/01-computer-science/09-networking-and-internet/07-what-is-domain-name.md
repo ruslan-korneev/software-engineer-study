@@ -1,5 +1,8 @@
 # Что такое доменное имя?
 
+[prev: 06-dns-and-how-it-works](./06-dns-and-how-it-works.md) | [next: 08-what-is-http](./08-what-is-http.md)
+
+---
 **Доменное имя** — это человекочитаемый адрес сайта вместо IP-адреса.
 
 ```
@@ -165,3 +168,7 @@ Pending Delete (5 дней)
 - **Open TLD** — продают домены другим (.io, .app)
 
 Последний раунд заявок был в 2012 году. Следующий ожидается в 2026-2027.
+
+---
+
+[prev: 06-dns-and-how-it-works](./06-dns-and-how-it-works.md) | [next: 08-what-is-http](./08-what-is-http.md)

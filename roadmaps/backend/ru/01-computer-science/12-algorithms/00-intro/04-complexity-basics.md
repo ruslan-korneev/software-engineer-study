@@ -1,5 +1,8 @@
 # Основы сложности алгоритмов
 
+[prev: 03-flowcharts](./03-flowcharts.md) | [next: 01-recursion-basics](../01-recursion/01-recursion-basics.md)
+---
+
 ## Зачем нужен анализ сложности?
 
 Когда мы пишем алгоритм, нам важно понимать:
@@ -457,3 +460,6 @@ for i in range(n):
 ---
 
 **Предыдущая тема:** [Блок-схемы](./03-flowcharts.md)
+
+---
+[prev: 03-flowcharts](./03-flowcharts.md) | [next: 01-recursion-basics](../01-recursion/01-recursion-basics.md)

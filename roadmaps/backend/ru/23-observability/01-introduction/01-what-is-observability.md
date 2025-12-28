@@ -1,5 +1,9 @@
 # Что такое Observability
 
+[prev: 03-mitigation-strategies](../../22-building-for-scale/03-mitigation-strategies.md) | [next: 02-distributed-systems](./02-distributed-systems.md)
+
+---
+
 ## Введение
 
 **Observability** (наблюдаемость) — это способность понять внутреннее состояние системы, анализируя её внешние выходные данные. Термин пришёл из теории управления, где он означает возможность определить внутреннее состояние системы по её внешним выводам.

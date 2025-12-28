@@ -1,5 +1,8 @@
 # Abstract Base Classes (ABC)
 
+[prev: 03-methods-dunder](./03-methods-dunder.md) | [next: 05-protocols](./05-protocols.md)
+---
+
 ## Что такое ABC?
 
 **Abstract Base Class (ABC)** — абстрактный базовый класс, который нельзя инстанцировать напрямую. Используется для определения интерфейса, который должны реализовать подклассы.
@@ -407,3 +410,6 @@ A: ABC могут содержать реализацию методов, сос
 
 **Q: Почему register() не проверяет реализацию методов?**
 A: Это для совместимости с duck typing. Ответственность за корректность на разработчике.
+
+---
+[prev: 03-methods-dunder](./03-methods-dunder.md) | [next: 05-protocols](./05-protocols.md)

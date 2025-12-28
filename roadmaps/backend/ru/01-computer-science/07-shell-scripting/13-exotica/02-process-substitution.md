@@ -1,5 +1,8 @@
 # Подстановка процессов (Process Substitution)
 
+[prev: 01-group-commands](./01-group-commands.md) | [next: 03-traps](./03-traps.md)
+
+---
 ## Что такое Process Substitution
 
 Process Substitution позволяет использовать вывод команды как файл. Это решает проблемы, когда программа ожидает файл, а не stdin.
@@ -252,3 +255,7 @@ if [[ -n "$BASH_VERSION" ]]; then
     cat <(echo "Works!")
 fi
 ```
+
+---
+
+[prev: 01-group-commands](./01-group-commands.md) | [next: 03-traps](./03-traps.md)

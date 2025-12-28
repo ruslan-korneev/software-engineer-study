@@ -1,5 +1,8 @@
 # Что такое регулярные выражения
 
+[prev: 04-rsync](../05-archiving/04-rsync.md) | [next: 02-grep](./02-grep.md)
+
+---
 ## Введение
 
 **Регулярные выражения** (regular expressions, regex, regexp) - это язык описания шаблонов для поиска и обработки текста. Они позволяют:
@@ -278,3 +281,7 @@ grep -v 'pattern' file.txt
 - `grep` - поиск
 - `sed` - замена
 - `awk` - обработка
+
+---
+
+[prev: 04-rsync](../05-archiving/04-rsync.md) | [next: 02-grep](./02-grep.md)

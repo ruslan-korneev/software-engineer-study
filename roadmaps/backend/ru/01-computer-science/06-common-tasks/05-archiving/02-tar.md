@@ -1,5 +1,8 @@
 # tar - архивирование файлов
 
+[prev: 01-gzip-bzip2](./01-gzip-bzip2.md) | [next: 03-zip](./03-zip.md)
+
+---
 ## Что такое tar?
 
 **tar** (tape archive) - утилита для объединения множества файлов в один архив. Изначально создана для записи на магнитные ленты, сейчас является стандартом для архивирования в Unix/Linux.
@@ -375,3 +378,7 @@ tar -cv --file=archive.tar dir/
 | `.tar.bz2`, `.tbz2` | bzip2 |
 | `.tar.xz`, `.txz` | xz |
 | `.tar.zst` | zstd |
+
+---
+
+[prev: 01-gzip-bzip2](./01-gzip-bzip2.md) | [next: 03-zip](./03-zip.md)

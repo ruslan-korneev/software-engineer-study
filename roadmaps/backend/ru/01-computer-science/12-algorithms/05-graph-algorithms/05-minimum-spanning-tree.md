@@ -1,5 +1,8 @@
 # Минимальное остовное дерево (Minimum Spanning Tree)
 
+[prev: 04-bellman-ford](./04-bellman-ford.md) | [next: 01-backtracking-concept](../06-backtracking/01-backtracking-concept.md)
+---
+
 ## Определение
 
 **Минимальное остовное дерево (MST)** — это подграф связного взвешенного неориентированного графа, который:
@@ -421,3 +424,6 @@ print(f"MST weight: {weight:.2f}")
 3. Оба алгоритма дают правильный результат
 4. MST работает с отрицательными весами
 5. Проверяйте связность графа перед построением MST
+
+---
+[prev: 04-bellman-ford](./04-bellman-ford.md) | [next: 01-backtracking-concept](../06-backtracking/01-backtracking-concept.md)

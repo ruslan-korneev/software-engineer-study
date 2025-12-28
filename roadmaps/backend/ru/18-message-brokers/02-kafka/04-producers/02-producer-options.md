@@ -1,5 +1,9 @@
 # Конфигурация Producer - Параметры производителя
 
+[prev: 01-example](./01-example.md) | [next: 03-code-generation](./03-code-generation.md)
+
+---
+
 ## Описание
 
 Конфигурация Kafka Producer определяет поведение отправки сообщений, включая надёжность доставки, производительность, обработку ошибок и использование ресурсов. Правильная настройка параметров критически важна для достижения баланса между производительностью и гарантиями доставки.
@@ -399,3 +403,7 @@ config = {
 - [Kafka Producer Configs](https://kafka.apache.org/documentation/#producerconfigs)
 - [Kafka: The Definitive Guide](https://www.confluent.io/resources/kafka-the-definitive-guide/)
 - [Optimizing Kafka Producers](https://www.confluent.io/blog/optimizing-apache-kafka-producers/)
+
+---
+
+[prev: 01-example](./01-example.md) | [next: 03-code-generation](./03-code-generation.md)

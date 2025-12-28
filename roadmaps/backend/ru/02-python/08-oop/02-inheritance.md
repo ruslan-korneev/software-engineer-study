@@ -1,5 +1,8 @@
 # Inheritance (Наследование)
 
+[prev: 01-classes](./01-classes.md) | [next: 03-methods-dunder](./03-methods-dunder.md)
+---
+
 ## Что такое наследование?
 
 Механизм создания нового класса на основе существующего.
@@ -193,3 +196,6 @@ class Shape:
 ```
 
 **Важно:** `raise NotImplemented` — ошибка! Это не исключение.
+
+---
+[prev: 01-classes](./01-classes.md) | [next: 03-methods-dunder](./03-methods-dunder.md)

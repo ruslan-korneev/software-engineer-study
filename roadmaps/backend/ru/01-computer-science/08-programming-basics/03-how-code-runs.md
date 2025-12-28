@@ -1,5 +1,8 @@
 # How Code Runs
 
+[prev: 02-compiled-vs-interpreted](./02-compiled-vs-interpreted.md) | [next: 04-choosing-language](./04-choosing-language.md)
+
+---
 ## От исходного кода к исполнению
 
 Понимание того, как код превращается в работающую программу, помогает писать более эффективный код и отлаживать сложные проблемы.
@@ -458,3 +461,7 @@ thread2 = threading.Thread(target=cpu_intensive_task)
 5. **Куча** используется для динамического выделения памяти
 6. **Runtime** предоставляет среду выполнения (GC, стандартная библиотека)
 7. **Сборщик мусора** автоматически освобождает неиспользуемую память
+
+---
+
+[prev: 02-compiled-vs-interpreted](./02-compiled-vs-interpreted.md) | [next: 04-choosing-language](./04-choosing-language.md)

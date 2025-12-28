@@ -1,5 +1,8 @@
 # GitHub Sponsors
 
+[prev: 04-github-codespaces](./04-github-codespaces.md) | [next: 06-github-education](./06-github-education.md)
+---
+
 ## Что такое GitHub Sponsors?
 
 **GitHub Sponsors** - это программа финансовой поддержки разработчиков и проектов с открытым исходным кодом. Она позволяет спонсорам напрямую поддерживать людей и организации, которые создают и поддерживают open source проекты.
@@ -420,3 +423,6 @@ GitHub добавляет: $10/месяц (matching)
 - [Setting up GitHub Sponsors](https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors)
 - [Sponsors API](https://docs.github.com/en/graphql/reference/objects#sponsorship)
 - [Explore GitHub Sponsors](https://github.com/sponsors/explore)
+
+---
+[prev: 04-github-codespaces](./04-github-codespaces.md) | [next: 06-github-education](./06-github-education.md)

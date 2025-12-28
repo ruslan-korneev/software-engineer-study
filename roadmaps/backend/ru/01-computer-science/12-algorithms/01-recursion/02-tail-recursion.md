@@ -1,5 +1,8 @@
 # Хвостовая рекурсия (Tail Recursion)
 
+[prev: 01-recursion-basics](./01-recursion-basics.md) | [next: 03-recursion-vs-iteration](./03-recursion-vs-iteration.md)
+---
+
 ## Определение
 
 **Хвостовая рекурсия** — это особая форма рекурсии, при которой рекурсивный вызов является **последней операцией** в функции. После возврата из рекурсивного вызова не выполняется никаких дополнительных вычислений.
@@ -348,3 +351,6 @@ def collect_tail_good(n, result=None):
 3. Используйте трамплин или декораторы для эмуляции TCO в Python
 4. Всегда проверяйте начальное значение аккумулятора
 5. Избегайте изменяемых значений по умолчанию
+
+---
+[prev: 01-recursion-basics](./01-recursion-basics.md) | [next: 03-recursion-vs-iteration](./03-recursion-vs-iteration.md)

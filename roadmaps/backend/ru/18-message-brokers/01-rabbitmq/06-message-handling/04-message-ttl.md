@@ -1,5 +1,9 @@
 # TTL сообщений (Time-To-Live)
 
+[prev: 03-message-persistence](./03-message-persistence.md) | [next: 05-priority-queues](./05-priority-queues.md)
+
+---
+
 ## Введение
 
 TTL (Time-To-Live) - это механизм RabbitMQ, определяющий время жизни сообщений или очередей. После истечения TTL сообщение автоматически удаляется из очереди или перемещается в Dead Letter Exchange. TTL помогает управлять устаревшими данными и предотвращать переполнение очередей.
@@ -172,8 +176,8 @@ channel.basic_publish(
 """
 Правило: Применяется МЕНЬШИЙ из двух TTL
 - Queue TTL: 1 час
-- Message TTL: 5 минут → Результат: 5 минут
-- Message TTL: 2 часа → Результат: 1 час (Queue TTL)
+- Message TTL: 5 минут -> Результат: 5 минут
+- Message TTL: 2 часа -> Результат: 1 час (Queue TTL)
 """
 ```
 
@@ -630,3 +634,7 @@ TTL - мощный инструмент для управления жизнен
 3. Всегда настраивайте DLX для отслеживания истекших сообщений
 4. Помните о порядке удаления в Per-Message TTL
 5. Комбинируйте с x-expires для автоматической очистки очередей
+
+---
+
+[prev: 03-message-persistence](./03-message-persistence.md) | [next: 05-priority-queues](./05-priority-queues.md)

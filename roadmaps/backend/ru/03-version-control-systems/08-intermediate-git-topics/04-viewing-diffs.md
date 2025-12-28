@@ -1,5 +1,8 @@
 # Просмотр различий (Diff) в Git
 
+[prev: 03-undoing-changes](./03-undoing-changes.md) | [next: 05-rewriting-history](./05-rewriting-history.md)
+---
+
 ## Введение
 
 `git diff` — одна из самых часто используемых команд Git. Она показывает различия между разными состояниями файлов: рабочей директорией, staging area, коммитами и ветками.
@@ -545,3 +548,6 @@ git apply my_changes.patch
 | `git diff --word-diff` | Diff по словам |
 | `git difftool` | Визуальный diff |
 | `git diff -- file` | Diff конкретного файла |
+
+---
+[prev: 03-undoing-changes](./03-undoing-changes.md) | [next: 05-rewriting-history](./05-rewriting-history.md)

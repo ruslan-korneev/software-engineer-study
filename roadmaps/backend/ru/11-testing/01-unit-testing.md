@@ -1,5 +1,9 @@
 # Модульное (Unit) тестирование
 
+[prev: 08-hashing-algorithms](../10-web-security/08-hashing-algorithms.md) | [next: 02-integration-testing](./02-integration-testing.md)
+
+---
+
 ## Что такое Unit-тестирование?
 
 **Модульное тестирование** (Unit Testing) — это метод тестирования программного обеспечения, при котором отдельные компоненты (модули) программы тестируются изолированно от остальной системы. Цель — убедиться, что каждый модуль работает корректно сам по себе.
@@ -505,3 +509,7 @@ addopts = -v --tb=short
 - [Python Testing with pytest (книга)](https://pragprog.com/titles/bopytest2/python-testing-with-pytest-second-edition/)
 - [unittest документация](https://docs.python.org/3/library/unittest.html)
 - [Mock Object Library](https://docs.python.org/3/library/unittest.mock.html)
+
+---
+
+[prev: 08-hashing-algorithms](../10-web-security/08-hashing-algorithms.md) | [next: 02-integration-testing](./02-integration-testing.md)

@@ -1,5 +1,8 @@
 # Функции (Functions)
 
+[prev: 06-exceptions](./06-exceptions.md) | [next: 08-lists-tuples-sets](./08-lists-tuples-sets.md)
+---
+
 Функция — это именованный блок кода, который можно вызывать многократно.
 
 ## Зачем нужны функции?
@@ -434,3 +437,6 @@ my_counter()  # 1
 my_counter()  # 2
 my_counter()  # 3
 ```
+
+---
+[prev: 06-exceptions](./06-exceptions.md) | [next: 08-lists-tuples-sets](./08-lists-tuples-sets.md)

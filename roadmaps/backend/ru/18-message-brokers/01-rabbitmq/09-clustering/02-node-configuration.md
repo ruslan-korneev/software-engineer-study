@@ -1,5 +1,9 @@
 # Конфигурация узлов RabbitMQ
 
+[prev: 01-cluster-basics](./01-cluster-basics.md) | [next: 03-cluster-formation](./03-cluster-formation.md)
+
+---
+
 ## Обзор системы конфигурации
 
 RabbitMQ использует несколько уровней конфигурации:
@@ -409,3 +413,7 @@ rabbitmqctl import_definitions /backup/definitions.json
 2. **Неправильные hostname** — DNS должен корректно разрешать имена
 3. **Закрытые порты** — 4369, 5672, 25672 должны быть доступны
 4. **Несовместимые версии** — все узлы должны иметь одинаковую версию
+
+---
+
+[prev: 01-cluster-basics](./01-cluster-basics.md) | [next: 03-cluster-formation](./03-cluster-formation.md)

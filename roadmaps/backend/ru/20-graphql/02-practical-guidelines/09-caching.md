@@ -1,5 +1,9 @@
 # Кэширование в GraphQL
 
+[prev: 08-global-object-identification](./08-global-object-identification.md) | [next: 10-performance](./10-performance.md)
+
+---
+
 ## Введение
 
 Кэширование в GraphQL сложнее, чем в REST, из-за динамической природы запросов. Каждый запрос может быть уникальным, что делает традиционное HTTP-кэширование менее эффективным. Однако существуют стратегии для эффективного кэширования на разных уровнях.
@@ -478,3 +482,7 @@ const cacheStats = {
 ## Заключение
 
 Кэширование в GraphQL требует многоуровневого подхода. Используйте DataLoader для батчинга, Redis для серверного кэша, и нормализованный кэш на клиенте. Правильная стратегия инвалидации — ключ к согласованности данных.
+
+---
+
+[prev: 08-global-object-identification](./08-global-object-identification.md) | [next: 10-performance](./10-performance.md)

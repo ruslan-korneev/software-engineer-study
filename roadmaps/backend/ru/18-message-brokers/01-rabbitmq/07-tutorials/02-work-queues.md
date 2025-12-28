@@ -1,5 +1,9 @@
 # Work Queues
 
+[prev: 01-hello-world](./01-hello-world.md) | [next: 03-publish-subscribe](./03-publish-subscribe.md)
+
+---
+
 ## Введение
 
 В этом туториале мы создадим **Work Queue** (рабочую очередь), которая распределяет ресурсоёмкие задачи между несколькими workers. Это основная идея паттерна **Task Queue**.
@@ -354,3 +358,7 @@ inequivalent arg 'durable' for queue 'task_queue'")
 4. **Message Durability** — сохранение сообщений на диск
 
 Следующий туториал: **Publish/Subscribe** — отправка сообщений нескольким получателям одновременно.
+
+---
+
+[prev: 01-hello-world](./01-hello-world.md) | [next: 03-publish-subscribe](./03-publish-subscribe.md)

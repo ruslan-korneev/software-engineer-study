@@ -1,5 +1,9 @@
 # TLS/SSL в RabbitMQ
 
+[prev: 02-authorization](./02-authorization.md) | [next: 04-access-control](./04-access-control.md)
+
+---
+
 ## Введение
 
 TLS (Transport Layer Security) обеспечивает шифрование данных между клиентами и RabbitMQ, а также между узлами кластера. Это критически важно для защиты учётных данных и сообщений от перехвата.
@@ -485,3 +489,7 @@ log.connection.level = info
 - Регулярно проверяйте и обновляйте сертификаты
 - Защищайте приватные ключи правильными правами доступа
 - Включайте TLS для всех компонентов: AMQP, Management UI, inter-node
+
+---
+
+[prev: 02-authorization](./02-authorization.md) | [next: 04-access-control](./04-access-control.md)

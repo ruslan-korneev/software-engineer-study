@@ -1,5 +1,8 @@
 # Кольцевой (циклический) связный список (Circular Linked List)
 
+[prev: 02-doubly-linked](./02-doubly-linked.md) | [next: 01-stack-concept](../03-stacks/01-stack-concept.md)
+
+---
 ## Определение
 
 **Кольцевой связный список** — это разновидность связного списка, в которой последний узел указывает не на `null`, а обратно на первый узел, образуя замкнутый цикл. Может быть односвязным или двусвязным.
@@ -629,3 +632,7 @@ def prepend(self, data):
 | Хранение | head (+ tail) | tail (head = tail.next) |
 | Вставка в конец | O(1) с tail | O(1) с tail |
 | Применение | Общего назначения | Round-robin, карусели |
+
+---
+
+[prev: 02-doubly-linked](./02-doubly-linked.md) | [next: 01-stack-concept](../03-stacks/01-stack-concept.md)

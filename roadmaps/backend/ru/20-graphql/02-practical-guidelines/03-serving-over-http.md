@@ -1,5 +1,9 @@
 # GraphQL через HTTP
 
+[prev: 02-thinking-in-graphs](./02-thinking-in-graphs.md) | [next: 04-file-uploads](./04-file-uploads.md)
+
+---
+
 ## Введение
 
 GraphQL — это спецификация языка запросов, а не транспортный протокол. Однако на практике GraphQL чаще всего работает поверх HTTP. Понимание того, как правильно интегрировать GraphQL с HTTP, критически важно для построения надёжного API.
@@ -380,3 +384,7 @@ app.use('/graphql', express.json({ limit: '1mb' }));
 ## Заключение
 
 Правильная настройка HTTP-транспорта для GraphQL обеспечивает надёжную работу API. Следуйте стандартам, используйте правильные статус-коды и заголовки, и ваш API будет удобен для интеграции.
+
+---
+
+[prev: 02-thinking-in-graphs](./02-thinking-in-graphs.md) | [next: 04-file-uploads](./04-file-uploads.md)

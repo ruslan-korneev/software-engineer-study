@@ -1,5 +1,9 @@
 # Способы трассировки в Kafka
 
+[prev: 05-metrics](./05-metrics.md) | [next: 07-monitoring-tools](./07-monitoring-tools.md)
+
+---
+
 ## Описание
 
 Трассировка (tracing) в Apache Kafka позволяет отслеживать путь сообщений через распределённую систему, измерять латентность на каждом этапе обработки и диагностировать проблемы производительности. Это критически важно для микросервисных архитектур, где одно сообщение может проходить через множество сервисов.
@@ -638,3 +642,7 @@ tracestate: vendor1=value1,vendor2=value2
 - trace_sampling_decisions — решения семплирования
 - tracing_overhead_seconds — накладные расходы на трассировку
 ```
+
+---
+
+[prev: 05-metrics](./05-metrics.md) | [next: 07-monitoring-tools](./07-monitoring-tools.md)

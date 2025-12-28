@@ -1,5 +1,9 @@
 # Развертывание PostgreSQL в Kubernetes
 
+[prev: 03-patroni](./03-patroni.md) | [next: 05-monitoring](./05-monitoring.md)
+
+---
+
 ## Введение
 
 Развертывание PostgreSQL в Kubernetes требует особого подхода из-за stateful природы баз данных. В этом разделе рассмотрим различные способы развертывания, от простого StatefulSet до использования специализированных операторов.
@@ -1110,3 +1114,7 @@ kubectl exec -it postgres-0 -n postgres -- fio --name=test --size=1G --rw=randre
 - Используйте SSD хранилище с низкой латентностью
 - Настройте автоматические бэкапы с первого дня
 - Мониторьте метрики через Prometheus/Grafana
+
+---
+
+[prev: 03-patroni](./03-patroni.md) | [next: 05-monitoring](./05-monitoring.md)

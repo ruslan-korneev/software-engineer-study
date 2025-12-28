@@ -1,5 +1,9 @@
 # Инструменты мониторинга PostgreSQL
 
+[prev: 04-helm-operators](./04-helm-operators.md) | [next: 01-pgbouncer](../11-connection-pooling/01-pgbouncer.md)
+
+---
+
 ## Введение
 
 Мониторинг PostgreSQL критически важен для обеспечения производительности, доступности и своевременного обнаружения проблем. Эффективная система мониторинга должна отслеживать метрики на уровне ОС, самой базы данных и приложений.
@@ -686,3 +690,7 @@ exit 0
 - [pgBadger](https://github.com/darold/pgbadger)
 - [check_postgres](https://github.com/bucardo/check_postgres)
 - [Grafana PostgreSQL Dashboards](https://grafana.com/grafana/dashboards/?search=postgresql)
+
+---
+
+[prev: 04-helm-operators](./04-helm-operators.md) | [next: 01-pgbouncer](../11-connection-pooling/01-pgbouncer.md)

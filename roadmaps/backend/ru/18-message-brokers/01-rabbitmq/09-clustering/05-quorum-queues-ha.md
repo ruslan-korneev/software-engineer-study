@@ -1,5 +1,9 @@
 # Quorum Queues и High Availability
 
+[prev: 04-network-partitions](./04-network-partitions.md) | [next: 01-authentication](../10-security/01-authentication.md)
+
+---
+
 ## Введение в Quorum Queues
 
 Quorum Queues — это современный тип очередей в RabbitMQ, разработанный для обеспечения высокой доступности (HA) и надёжности данных. Они используют алгоритм консенсуса **Raft** для репликации данных между узлами.
@@ -537,3 +541,7 @@ Quorum Queues — рекомендуемый тип очередей для prod
 - Настройте delivery limits и DLX
 - Мониторьте состояние реплик
 - Используйте publisher confirms
+
+---
+
+[prev: 04-network-partitions](./04-network-partitions.md) | [next: 01-authentication](../10-security/01-authentication.md)

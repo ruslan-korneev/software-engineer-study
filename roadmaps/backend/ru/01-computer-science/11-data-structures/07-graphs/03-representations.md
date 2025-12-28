@@ -1,5 +1,8 @@
 # Представления графа (Graph Representations)
 
+[prev: 02-directed-undirected](./02-directed-undirected.md) | [next: 04-weighted-graphs](./04-weighted-graphs.md)
+---
+
 ## Определение
 
 Граф можно представить в памяти компьютера разными способами. Выбор представления влияет на эффективность операций и использование памяти.
@@ -557,3 +560,6 @@ adj[v].add(u)
 matrix[A][B] = 1  # ПРАВИЛЬНО
 matrix[B][A] = 1  # НЕПРАВИЛЬНО (это B → A)
 ```
+
+---
+[prev: 02-directed-undirected](./02-directed-undirected.md) | [next: 04-weighted-graphs](./04-weighted-graphs.md)

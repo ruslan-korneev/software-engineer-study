@@ -1,5 +1,8 @@
 # Подключение к PostgreSQL с помощью psql
 
+[prev: 02-package-managers](./02-package-managers.md) | [next: 04-cloud-deployment](./04-cloud-deployment.md)
+---
+
 ## Введение
 
 **psql** — это официальный интерактивный терминальный клиент для PostgreSQL. Он позволяет выполнять SQL-запросы, управлять базами данных и администрировать сервер через командную строку.
@@ -458,3 +461,6 @@ sudo -u postgres psql -c "SELECT * FROM pg_hba_file_rules;"
 
 - [Официальная документация psql](https://www.postgresql.org/docs/current/app-psql.html)
 - [PostgreSQL Connection Strings](https://www.postgresql.org/docs/current/libpq-connect.html)
+
+---
+[prev: 02-package-managers](./02-package-managers.md) | [next: 04-cloud-deployment](./04-cloud-deployment.md)

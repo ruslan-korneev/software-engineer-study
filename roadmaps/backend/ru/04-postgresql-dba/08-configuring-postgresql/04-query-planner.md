@@ -1,5 +1,9 @@
 # Query Planner (Планировщик запросов)
 
+[prev: 03-replication-config](./03-replication-config.md) | [next: 05-checkpoints-bgwriter](./05-checkpoints-bgwriter.md)
+
+---
+
 Планировщик запросов (Query Planner или Optimizer) PostgreSQL анализирует SQL-запросы и выбирает наиболее эффективный план выполнения на основе статистики и конфигурационных параметров.
 
 ## Как работает планировщик
@@ -384,3 +388,7 @@ WHERE mean_exec_time > 1000  -- более 1 секунды
 ORDER BY mean_exec_time DESC
 LIMIT 20;
 ```
+
+---
+
+[prev: 03-replication-config](./03-replication-config.md) | [next: 05-checkpoints-bgwriter](./05-checkpoints-bgwriter.md)

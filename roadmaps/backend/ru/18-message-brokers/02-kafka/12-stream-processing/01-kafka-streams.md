@@ -1,5 +1,9 @@
 # Kafka Streams
 
+[prev: 05-alternatives](../11-schema-registry/05-alternatives.md) | [next: 02-ksqldb](./02-ksqldb.md)
+
+---
+
 ## Описание
 
 **Kafka Streams** - это клиентская библиотека для построения приложений и микросервисов, где входные и выходные данные хранятся в кластерах Apache Kafka. Библиотека позволяет писать масштабируемые, эластичные и отказоустойчивые приложения для потоковой обработки данных.
@@ -434,3 +438,7 @@ TimeWindows.ofSizeWithNoGrace(Duration.ofMinutes(5))
 // Session Window: группировка по активности с gap 10 минут
 SessionWindows.ofInactivityGapWithNoGrace(Duration.ofMinutes(10))
 ```
+
+---
+
+[prev: 05-alternatives](../11-schema-registry/05-alternatives.md) | [next: 02-ksqldb](./02-ksqldb.md)

@@ -1,5 +1,8 @@
 # Methods and Dunder (Методы и магические методы)
 
+[prev: 02-inheritance](./02-inheritance.md) | [next: 04-abc](./04-abc.md)
+---
+
 ## Типы методов
 
 ### 1. Instance Methods (Методы экземпляра)
@@ -253,3 +256,6 @@ points = {Point(1, 2), Point(3, 4)}
 | Контекст | `__enter__`, `__exit__` |
 | Вызов | `__call__` |
 | Хеш | `__hash__` |
+
+---
+[prev: 02-inheritance](./02-inheritance.md) | [next: 04-abc](./04-abc.md)

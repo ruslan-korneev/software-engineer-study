@@ -1,5 +1,8 @@
 # GitHub API
 
+[prev: 06-github-education](../11-github-features/06-github-education.md) | [next: 02-github-apps](./02-github-apps.md)
+---
+
 GitHub предоставляет мощный API для программного взаимодействия с платформой. С его помощью можно автоматизировать рутинные задачи, создавать интеграции и разрабатывать собственные инструменты для работы с репозиториями.
 
 ## REST API v3
@@ -603,3 +606,6 @@ async function getCachedUser(username) {
 - [Octokit.js](https://github.com/octokit/octokit.js)
 - [GitHub API Explorer (GraphQL)](https://docs.github.com/en/graphql/overview/explorer)
 - [PyGithub](https://pygithub.readthedocs.io/)
+
+---
+[prev: 06-github-education](../11-github-features/06-github-education.md) | [next: 02-github-apps](./02-github-apps.md)

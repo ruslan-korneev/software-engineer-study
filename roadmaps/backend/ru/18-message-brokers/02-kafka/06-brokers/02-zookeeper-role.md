@@ -1,5 +1,9 @@
 # Роль ZooKeeper
 
+[prev: 01-broker-intro](./01-broker-intro.md) | [next: 03-broker-config](./03-broker-config.md)
+
+---
+
 ## Описание
 
 **Apache ZooKeeper** — это распределённый сервис координации, который исторически использовался Kafka для управления метаданными кластера, выбора контроллера и отслеживания состояния брокеров. ZooKeeper обеспечивает надёжное хранение критически важной информации о кластере.
@@ -373,3 +377,7 @@ bin/zkCleanup.sh -n 3
 ```
 
 Подробнее о KRaft — в файле `05-kafka-internals.md`.
+
+---
+
+[prev: 01-broker-intro](./01-broker-intro.md) | [next: 03-broker-config](./03-broker-config.md)

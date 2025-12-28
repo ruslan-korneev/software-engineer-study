@@ -1,5 +1,8 @@
 # Testing (Тестирование)
 
+[prev: 12-code-formatting](./12-code-formatting.md) | [next: 01-gil](14-concurrency/01-gil.md)
+---
+
 ## pytest — стандарт
 
 ```bash
@@ -180,3 +183,6 @@ fail_under = 80
 | `@pytest.mark.parametrize` | Много входных данных |
 | `@patch` / `mocker` | Подмена зависимостей |
 | `pytest-cov` | Покрытие кода |
+
+---
+[prev: 12-code-formatting](./12-code-formatting.md) | [next: 01-gil](14-concurrency/01-gil.md)

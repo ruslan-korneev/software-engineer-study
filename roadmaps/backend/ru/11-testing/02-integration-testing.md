@@ -1,5 +1,9 @@
 # Интеграционное тестирование
 
+[prev: 01-unit-testing](./01-unit-testing.md) | [next: 03-functional-testing](./03-functional-testing.md)
+
+---
+
 ## Что такое интеграционное тестирование?
 
 **Интеграционное тестирование** (Integration Testing) — это уровень тестирования, на котором проверяется взаимодействие между различными модулями или компонентами системы. В отличие от unit-тестов, интеграционные тесты проверяют, как модули работают вместе.
@@ -742,3 +746,7 @@ markers =
 - [pytest-docker](https://github.com/avast/pytest-docker)
 - [Testcontainers Python](https://testcontainers-python.readthedocs.io/)
 - [Factory Boy](https://factoryboy.readthedocs.io/)
+
+---
+
+[prev: 01-unit-testing](./01-unit-testing.md) | [next: 03-functional-testing](./03-functional-testing.md)

@@ -1,5 +1,9 @@
 # Инструменты профилирования PostgreSQL
 
+[prev: 01-os-tools](./01-os-tools.md) | [next: 03-log-analysis](./03-log-analysis.md)
+
+---
+
 Профилирование позволяет детально анализировать производительность запросов и находить узкие места в работе PostgreSQL. В этом разделе рассмотрим ключевые инструменты профилирования.
 
 ## pg_stat_statements
@@ -392,3 +396,7 @@ SELECT * FROM v_query_stats LIMIT 20;
 - **pg_stat_kcache** - связать запросы с системными ресурсами
 
 Регулярное профилирование помогает предотвратить проблемы до их появления в production.
+
+---
+
+[prev: 01-os-tools](./01-os-tools.md) | [next: 03-log-analysis](./03-log-analysis.md)

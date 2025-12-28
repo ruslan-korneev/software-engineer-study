@@ -1,5 +1,8 @@
 # Исключения (Exceptions)
 
+[prev: 05-type-casting](./05-type-casting.md) | [next: 07-functions](./07-functions.md)
+---
+
 Исключения — это ошибки, возникающие во время выполнения программы.
 
 ## Что происходит без обработки?
@@ -424,3 +427,6 @@ except BaseException as e:
     log_error(e)
     raise  # обязательно перевыбрасываем!
 ```
+
+---
+[prev: 05-type-casting](./05-type-casting.md) | [next: 07-functions](./07-functions.md)

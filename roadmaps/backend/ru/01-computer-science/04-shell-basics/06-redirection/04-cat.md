@@ -1,5 +1,8 @@
 # Команда cat
 
+[prev: 03-redirecting-errors](./03-redirecting-errors.md) | [next: 05-pipelines](./05-pipelines.md)
+
+---
 ## Что такое cat?
 
 **cat** (concatenate) — команда для вывода содержимого файлов и объединения нескольких файлов.
@@ -266,3 +269,7 @@ $ cat config.conf > config.conf.bak
 3. **Для проверки формата** используйте `cat -A`
 4. **Для объединения файлов** cat — идеальный инструмент
 5. **Установите bat** для цветного вывода с подсветкой
+
+---
+
+[prev: 03-redirecting-errors](./03-redirecting-errors.md) | [next: 05-pipelines](./05-pipelines.md)

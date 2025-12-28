@@ -1,5 +1,8 @@
 # Command Substitution (подстановка команд)
 
+[prev: 04-parameter-expansion](./04-parameter-expansion.md) | [next: 06-quoting](./06-quoting.md)
+
+---
 ## Что такое command substitution?
 
 **Command substitution** — механизм, позволяющий использовать вывод команды как часть другой команды или присвоить его переменной.
@@ -238,3 +241,7 @@ $ echo $?            # 1 (от false)
 3. **Проверяйте `$?`** сразу после подстановки
 4. **Избегайте `$(ls)`** — используйте глоббинг `*`
 5. **Вложенность** — мощный инструмент, но не злоупотребляйте
+
+---
+
+[prev: 04-parameter-expansion](./04-parameter-expansion.md) | [next: 06-quoting](./06-quoting.md)

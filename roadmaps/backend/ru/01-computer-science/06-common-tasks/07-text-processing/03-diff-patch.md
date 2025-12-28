@@ -1,5 +1,8 @@
 # diff и patch - сравнение и применение изменений
 
+[prev: 02-cut-paste-join](./02-cut-paste-join.md) | [next: 04-tr](./04-tr.md)
+
+---
 ## diff - сравнение файлов
 
 ### Что такое diff?
@@ -395,3 +398,7 @@ comm -13 file1.txt file2.txt
 | `patch -p1` | Убрать 1 уровень пути |
 | `patch --dry-run` | Пробный прогон |
 | `patch -b` | С бекапом |
+
+---
+
+[prev: 02-cut-paste-join](./02-cut-paste-join.md) | [next: 04-tr](./04-tr.md)

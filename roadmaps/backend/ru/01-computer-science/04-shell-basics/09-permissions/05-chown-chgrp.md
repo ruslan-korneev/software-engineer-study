@@ -1,5 +1,8 @@
 # Команды chown и chgrp
 
+[prev: 04-su-sudo](./04-su-sudo.md) | [next: 01-how-process-works](../10-processes/01-how-process-works.md)
+
+---
 ## Что такое chown и chgrp?
 
 - **chown** (change owner) — изменить владельца и/или группу файла
@@ -229,3 +232,7 @@ $ sudo chown -R user:group /path
 | Рекурсивно | `chown -R user:group dir/` |
 | По образцу | `chown --reference=ref file` |
 | Только ссылку | `chown -h user link` |
+
+---
+
+[prev: 04-su-sudo](./04-su-sudo.md) | [next: 01-how-process-works](../10-processes/01-how-process-works.md)

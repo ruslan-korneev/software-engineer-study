@@ -1,5 +1,9 @@
 # Системные представления PostgreSQL для диагностики
 
+[prev: 03-log-analysis](./03-log-analysis.md) | [next: 05-postgres-tools](./05-postgres-tools.md)
+
+---
+
 PostgreSQL предоставляет множество системных представлений (system views) и каталогов для мониторинга и диагностики. Эти представления позволяют анализировать активность, блокировки, производительность и состояние базы данных в реальном времени.
 
 ## pg_stat_activity
@@ -598,3 +602,7 @@ SELECT pg_stat_reset_shared('archiver');
 - Наблюдения за долгими операциями
 
 Рекомендуется создать набор мониторинговых запросов и использовать их регулярно или интегрировать в систему мониторинга (Prometheus, Zabbix, Grafana).
+
+---
+
+[prev: 03-log-analysis](./03-log-analysis.md) | [next: 05-postgres-tools](./05-postgres-tools.md)

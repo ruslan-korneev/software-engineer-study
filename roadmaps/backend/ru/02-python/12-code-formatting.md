@@ -1,5 +1,8 @@
 # Code Formatting (Форматирование кода)
 
+[prev: 11-static-typing](./11-static-typing.md) | [next: 13-testing](./13-testing.md)
+---
+
 ## Зачем?
 
 - Консистентность кода
@@ -140,3 +143,6 @@ quote-style = "double"
 - **Ruff** — линтинг + форматирование
 - **Pre-commit** — автоматизация перед коммитом
 - **mypy** — проверка типов
+
+---
+[prev: 11-static-typing](./11-static-typing.md) | [next: 13-testing](./13-testing.md)

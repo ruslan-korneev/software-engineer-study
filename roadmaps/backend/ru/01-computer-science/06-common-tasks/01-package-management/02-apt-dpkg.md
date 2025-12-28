@@ -1,5 +1,8 @@
 # apt и dpkg - управление пакетами в Debian/Ubuntu
 
+[prev: 01-package-systems](./01-package-systems.md) | [next: 03-yum-rpm](./03-yum-rpm.md)
+
+---
 ## Обзор
 
 В системах Debian и Ubuntu используется двухуровневая система управления пакетами:
@@ -398,3 +401,7 @@ apt policy nginx
 | Найти владельца файла | `dpkg -S /path/to/file` |
 | Установить .deb | `sudo dpkg -i file.deb` |
 | Исправить зависимости | `sudo apt install -f` |
+
+---
+
+[prev: 01-package-systems](./01-package-systems.md) | [next: 03-yum-rpm](./03-yum-rpm.md)

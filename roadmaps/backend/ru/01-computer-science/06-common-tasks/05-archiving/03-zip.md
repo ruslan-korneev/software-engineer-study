@@ -1,5 +1,8 @@
 # zip и unzip - работа с ZIP-архивами
 
+[prev: 02-tar](./02-tar.md) | [next: 04-rsync](./04-rsync.md)
+
+---
 ## Что такое ZIP?
 
 **ZIP** - популярный формат архивов, широко используемый в Windows и поддерживаемый во всех операционных системах. В отличие от tar + gzip, ZIP сжимает каждый файл отдельно, что позволяет извлекать отдельные файлы без распаковки всего архива.
@@ -378,3 +381,7 @@ sudo dnf install p7zip p7zip-plugins
 | Проверить | `unzip -t archive.zip` |
 | Перезаписать всё | `unzip -o archive.zip` |
 | Не перезаписывать | `unzip -n archive.zip` |
+
+---
+
+[prev: 02-tar](./02-tar.md) | [next: 04-rsync](./04-rsync.md)

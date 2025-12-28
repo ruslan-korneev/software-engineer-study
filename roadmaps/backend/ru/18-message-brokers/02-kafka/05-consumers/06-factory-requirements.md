@@ -1,5 +1,9 @@
 # Реализация заводских требований и обработка ошибок (Error Handling)
 
+[prev: 05-compacted-topic-reading](./05-compacted-topic-reading.md) | [next: 01-broker-intro](../06-brokers/01-broker-intro.md)
+
+---
+
 ## Описание
 
 Обработка ошибок в Kafka Consumer — критически важный аспект построения надёжных систем обработки сообщений. Ошибки могут возникать на разных уровнях: при подключении к брокерам, десериализации сообщений, обработке бизнес-логики и коммите offset'ов. Правильная стратегия обработки ошибок определяет, будет ли система терять данные, дублировать обработку или останавливаться при сбоях.
@@ -1154,3 +1158,7 @@ shutdownLatch.await(30, TimeUnit.SECONDS);
 - [Confluent Dead Letter Queue Pattern](https://www.confluent.io/blog/kafka-connect-dead-letter-queue/)
 - [Exactly-once Semantics in Kafka](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
 - [Spring Kafka Error Handling](https://docs.spring.io/spring-kafka/docs/current/reference/html/#error-handling)
+
+---
+
+[prev: 05-compacted-topic-reading](./05-compacted-topic-reading.md) | [next: 01-broker-intro](../06-brokers/01-broker-intro.md)

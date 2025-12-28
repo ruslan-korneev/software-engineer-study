@@ -1,5 +1,8 @@
 # История коммитов в Git
 
+[prev: 01-git-stash](./01-git-stash.md) | [next: 03-undoing-changes](./03-undoing-changes.md)
+---
+
 ## Введение
 
 История коммитов — это журнал всех изменений в репозитории. Git предоставляет мощные инструменты для просмотра, поиска и анализа истории. Понимание этих инструментов критически важно для эффективной работы с проектом.
@@ -547,3 +550,6 @@ git log v1.0..v2.0 --pretty=format:"%s" | grep "^feat:"
 | `git show <commit>` | Детали коммита |
 | `git blame file` | Авторство строк |
 | `git reflog` | Журнал действий |
+
+---
+[prev: 01-git-stash](./01-git-stash.md) | [next: 03-undoing-changes](./03-undoing-changes.md)

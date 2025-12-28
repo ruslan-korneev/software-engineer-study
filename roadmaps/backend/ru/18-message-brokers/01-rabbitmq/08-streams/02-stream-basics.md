@@ -1,5 +1,9 @@
 # Основы работы со Streams
 
+[prev: 01-streams-overview](./01-streams-overview.md) | [next: 03-offset-tracking](./03-offset-tracking.md)
+
+---
+
 ## Введение
 
 В этом разделе рассмотрим практические аспекты работы с RabbitMQ Streams: создание streams, публикацию сообщений и их чтение с использованием различных клиентских библиотек.
@@ -609,3 +613,7 @@ asyncio.run(error_handling())
 - Использование Super Streams для масштабирования
 
 Для production рекомендуется использовать Stream Protocol (порт 5552) с библиотекой rstream для максимальной производительности.
+
+---
+
+[prev: 01-streams-overview](./01-streams-overview.md) | [next: 03-offset-tracking](./03-offset-tracking.md)

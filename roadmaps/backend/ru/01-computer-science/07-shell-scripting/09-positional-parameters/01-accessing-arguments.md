@@ -1,5 +1,8 @@
 # Доступ к аргументам
 
+[prev: 02-patterns](../08-flow-control-case/02-patterns.md) | [next: 02-shift](./02-shift.md)
+
+---
 ## Что такое позиционные параметры
 
 Позиционные параметры - это аргументы, переданные скрипту или функции при вызове:
@@ -316,3 +319,7 @@ echo "Аргументы скрипта: $@"
 # Вызов функции с другими аргументами
 my_function "func_arg1" "func_arg2"
 ```
+
+---
+
+[prev: 02-patterns](../08-flow-control-case/02-patterns.md) | [next: 02-shift](./02-shift.md)

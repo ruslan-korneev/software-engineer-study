@@ -1,5 +1,8 @@
 # Развёртывание PostgreSQL в облаке
 
+[prev: 03-connect-using-psql](./03-connect-using-psql.md) | [next: 01-using-systemd](../05-managing-postgres/01-using-systemd.md)
+---
+
 ## Введение
 
 Облачные провайдеры предлагают управляемые сервисы PostgreSQL (Managed PostgreSQL), которые берут на себя администрирование, резервное копирование, масштабирование и обеспечение высокой доступности. Это позволяет сосредоточиться на разработке приложений.
@@ -731,3 +734,6 @@ aws rds create-db-proxy \
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Terraform Google Provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
 - [Terraform Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+
+---
+[prev: 03-connect-using-psql](./03-connect-using-psql.md) | [next: 01-using-systemd](../05-managing-postgres/01-using-systemd.md)

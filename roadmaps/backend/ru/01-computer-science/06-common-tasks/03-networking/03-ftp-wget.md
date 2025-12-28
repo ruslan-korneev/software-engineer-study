@@ -1,5 +1,8 @@
 # FTP, wget и curl - передача файлов
 
+[prev: 02-ip-netstat](./02-ip-netstat.md) | [next: 04-ssh-scp](./04-ssh-scp.md)
+
+---
 ## FTP - File Transfer Protocol
 
 ### Что такое FTP?
@@ -436,3 +439,7 @@ fi
 | Аутентификация | `wget --user --password` | `curl -u user:pass` |
 | Рекурсивно | `wget -r URL` | - |
 | Только заголовки | `wget --spider` | `curl -I URL` |
+
+---
+
+[prev: 02-ip-netstat](./02-ip-netstat.md) | [next: 04-ssh-scp](./04-ssh-scp.md)

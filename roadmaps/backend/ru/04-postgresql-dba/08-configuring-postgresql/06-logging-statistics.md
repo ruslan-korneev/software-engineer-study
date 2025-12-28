@@ -1,5 +1,9 @@
 # Logging & Statistics (Логирование и статистика)
 
+[prev: 05-checkpoints-bgwriter](./05-checkpoints-bgwriter.md) | [next: 07-extensions](./07-extensions.md)
+
+---
+
 Логирование и сбор статистики в PostgreSQL — ключевые инструменты для мониторинга, отладки и оптимизации производительности базы данных.
 
 ## Конфигурация логирования
@@ -443,3 +447,7 @@ track_io_timing = on
 track_functions = all
 track_activity_query_size = 4096
 ```
+
+---
+
+[prev: 05-checkpoints-bgwriter](./05-checkpoints-bgwriter.md) | [next: 07-extensions](./07-extensions.md)

@@ -1,5 +1,9 @@
 # GDPR (General Data Protection Regulation)
 
+[prev: 02-server-sent-events](../10-real-time-apis/02-server-sent-events.md) | [next: 02-ccpa](./02-ccpa.md)
+
+---
+
 ## Введение
 
 **GDPR** (General Data Protection Regulation) — это регламент Европейского Союза о защите персональных данных, который вступил в силу 25 мая 2018 года. Это один из самых строгих и комплексных законов о конфиденциальности данных в мире, который устанавливает правила сбора, хранения и обработки персональных данных граждан ЕС.
@@ -988,3 +992,7 @@ class GDPRComplianceChecker:
 - [Руководства EDPB (European Data Protection Board)](https://edpb.europa.eu/our-work-tools/general-guidance_en)
 - [ICO (UK) Guidance](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/)
 - [CNIL (France) Guidelines](https://www.cnil.fr/en/gdpr-developers-guide)
+
+---
+
+[prev: 02-server-sent-events](../10-real-time-apis/02-server-sent-events.md) | [next: 02-ccpa](./02-ccpa.md)

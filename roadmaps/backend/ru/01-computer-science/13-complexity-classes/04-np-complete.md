@@ -1,5 +1,8 @@
 # NP-полные задачи (NP-Complete)
 
+[prev: 03-class-np](./03-class-np.md) | [next: 05-np-hard](./05-np-hard.md)
+---
+
 ## Определение
 
 ### Формальное определение
@@ -477,3 +480,6 @@ def recognize_np_complete_pattern(problem_description):
 5. **Доказательство NP-полноты**: L ∈ NP + сводимость от известной NP-полной
 6. **Практика**: если задача NP-полная, ищем приближённые решения
 7. **Главный вопрос**: P = NP? Эквивалентен вопросу: можно ли решить SAT за P?
+
+---
+[prev: 03-class-np](./03-class-np.md) | [next: 05-np-hard](./05-np-hard.md)

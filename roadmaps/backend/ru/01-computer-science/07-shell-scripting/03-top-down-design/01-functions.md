@@ -1,5 +1,8 @@
 # Функции в Bash
 
+[prev: 03-here-documents](../02-project-start/03-here-documents.md) | [next: 02-local-variables](./02-local-variables.md)
+
+---
 ## Что такое функции
 
 Функции в bash - это именованные блоки кода, которые можно вызывать многократно. Они позволяют:
@@ -398,3 +401,7 @@ backup_file() {
     return 0
 }
 ```
+
+---
+
+[prev: 03-here-documents](../02-project-start/03-here-documents.md) | [next: 02-local-variables](./02-local-variables.md)

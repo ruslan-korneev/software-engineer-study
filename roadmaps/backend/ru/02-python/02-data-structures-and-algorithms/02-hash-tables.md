@@ -1,5 +1,8 @@
 # Хэш-таблицы (Hash Tables)
 
+[prev: 01-arrays-and-linked-lists](./01-arrays-and-linked-lists.md) | [next: 03-heaps-stacks-queues](./03-heaps-stacks-queues.md)
+---
+
 Структура данных для хранения пар **ключ-значение** с быстрым доступом.
 
 ## Идея
@@ -343,3 +346,6 @@ def bad_hash(s):
 | Кэширование результатов | `dict` или `@lru_cache` |
 | Группировка по ключу | `defaultdict(list)` |
 | Проверка "уже видели?" | `set` |
+
+---
+[prev: 01-arrays-and-linked-lists](./01-arrays-and-linked-lists.md) | [next: 03-heaps-stacks-queues](./03-heaps-stacks-queues.md)

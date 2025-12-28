@@ -1,5 +1,9 @@
 # Логическая репликация PostgreSQL
 
+[prev: 02-pgbouncer-alternatives](../11-connection-pooling/02-pgbouncer-alternatives.md) | [next: 02-streaming-replication](./02-streaming-replication.md)
+
+---
+
 ## Введение
 
 Логическая репликация — это метод репликации данных в PostgreSQL, при котором изменения передаются на уровне строк таблиц (INSERT, UPDATE, DELETE), а не на уровне блоков WAL-файлов. Это позволяет реплицировать данные между серверами PostgreSQL разных версий, выборочно реплицировать отдельные таблицы и выполнять трансформации данных на лету.
@@ -430,3 +434,7 @@ iptables -L -n | grep 5432
 - Интеграции данных из разных источников
 
 При правильной настройке и мониторинге логическая репликация обеспечивает надежную и эффективную синхронизацию данных между серверами PostgreSQL.
+
+---
+
+[prev: 02-pgbouncer-alternatives](../11-connection-pooling/02-pgbouncer-alternatives.md) | [next: 02-streaming-replication](./02-streaming-replication.md)

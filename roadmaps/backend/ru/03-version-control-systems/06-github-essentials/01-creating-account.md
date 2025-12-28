@@ -1,5 +1,8 @@
 # Создание аккаунта GitHub
 
+[prev: 05-merge-strategies](../05-merge-strategies.md) | [next: 02-github-interface](./02-github-interface.md)
+---
+
 ## Введение
 
 GitHub — крупнейшая платформа для хостинга Git-репозиториев и совместной разработки. Более 100 миллионов разработчиков используют GitHub для работы над open-source и коммерческими проектами. Создание аккаунта — первый шаг к участию в этом сообществе.
@@ -393,3 +396,6 @@ Settings → Account → Change username
 - Сохранению recovery codes
 
 Эти шаги защитят вашу профессиональную репутацию и годы работы над проектами.
+
+---
+[prev: 05-merge-strategies](../05-merge-strategies.md) | [next: 02-github-interface](./02-github-interface.md)

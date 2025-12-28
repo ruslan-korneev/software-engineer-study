@@ -1,5 +1,9 @@
 # Установка и настройка Prometheus
 
+[prev: 01-architecture](./01-architecture.md) | [next: 03-promql-basics](./03-promql-basics.md)
+
+---
+
 ## Введение
 
 В этом разделе мы рассмотрим различные способы установки Prometheus и детально разберём конфигурационный файл. Prometheus можно развернуть как на bare-metal серверах, так и в контейнерах Kubernetes.

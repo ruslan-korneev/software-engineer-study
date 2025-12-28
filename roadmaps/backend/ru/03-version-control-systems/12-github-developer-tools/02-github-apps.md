@@ -1,5 +1,8 @@
 # GitHub Apps
 
+[prev: 01-github-api](./01-github-api.md) | [next: 03-webhooks](./03-webhooks.md)
+---
+
 GitHub Apps - это официальный и рекомендуемый способ создания интеграций с GitHub. Они предоставляют более гибкую систему разрешений, лучшую безопасность и могут работать как автономные сервисы.
 
 ## Что такое GitHub Apps
@@ -825,3 +828,6 @@ const octokit = new MyOctokit({
 - [GitHub App Manifest](https://docs.github.com/en/developers/apps/building-github-apps/creating-a-github-app-from-a-manifest)
 - [Octokit Authentication](https://github.com/octokit/authentication-strategies.js)
 - [GitHub Marketplace](https://github.com/marketplace)
+
+---
+[prev: 01-github-api](./01-github-api.md) | [next: 03-webhooks](./03-webhooks.md)

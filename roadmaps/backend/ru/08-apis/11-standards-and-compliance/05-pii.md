@@ -1,5 +1,9 @@
 # PII (Personally Identifiable Information)
 
+[prev: 04-hipaa](./04-hipaa.md) | [next: 12-api-lifecycle-management](../12-api-lifecycle-management.md)
+
+---
+
 ## Введение
 
 **PII** (Personally Identifiable Information) — это любая информация, которая может быть использована для идентификации, контакта или определения местоположения конкретного человека, либо самостоятельно, либо в сочетании с другими источниками данных.
@@ -1338,3 +1342,7 @@ class PIIComplianceChecker:
 - [ISO 27701: Privacy Information Management](https://www.iso.org/standard/71670.html)
 - [OWASP Data Protection Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html)
 - [ICO Guide to PII](https://ico.org.uk/for-organisations/guide-to-data-protection/)
+
+---
+
+[prev: 04-hipaa](./04-hipaa.md) | [next: 12-api-lifecycle-management](../12-api-lifecycle-management.md)

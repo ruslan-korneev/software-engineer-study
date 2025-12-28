@@ -1,5 +1,9 @@
 # Publisher Confirms
 
+[prev: 06-rpc](./06-rpc.md) | [next: 01-streams-overview](../08-streams/01-streams-overview.md)
+
+---
+
 ## Введение
 
 В предыдущих туториалах мы использовали `durable=True` и `delivery_mode=Persistent` для сохранения сообщений. Но этого недостаточно для 100% гарантии доставки. **Publisher Confirms** — механизм, при котором RabbitMQ подтверждает получение каждого сообщения.
@@ -538,3 +542,7 @@ except pika.exceptions.NackError:
 4. **Полная цепочка надёжности** для гарантированной доставки
 
 Это завершает серию туториалов RabbitMQ. Теперь вы знаете все основные паттерны работы с очередями сообщений.
+
+---
+
+[prev: 06-rpc](./06-rpc.md) | [next: 01-streams-overview](../08-streams/01-streams-overview.md)

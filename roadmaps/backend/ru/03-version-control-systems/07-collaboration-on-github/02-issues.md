@@ -1,5 +1,8 @@
 # Issues (Задачи)
 
+[prev: 01-forking-vs-cloning](./01-forking-vs-cloning.md) | [next: 03-pull-requests](./03-pull-requests.md)
+---
+
 ## Введение
 
 **Issues** — это встроенная система отслеживания задач в GitHub. Она используется для:
@@ -521,3 +524,6 @@ Issues — мощный инструмент для:
 - Организации open source проектов
 
 Правильное использование labels, milestones и templates значительно улучшает workflow и помогает поддерживать порядок в проекте.
+
+---
+[prev: 01-forking-vs-cloning](./01-forking-vs-cloning.md) | [next: 03-pull-requests](./03-pull-requests.md)

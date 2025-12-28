@@ -1,5 +1,8 @@
 # Бинарное дерево (Binary Tree)
 
+[prev: 01-tree-basics](./01-tree-basics.md) | [next: 03-binary-search-tree](./03-binary-search-tree.md)
+
+---
 ## Определение
 
 **Бинарное дерево** — это дерево, в котором каждый узел имеет не более двух детей, называемых **левым** и **правым** ребёнком. Это одна из наиболее важных структур данных в computer science.
@@ -724,3 +727,7 @@ Full binary tree с n узлами:
 - Листьев: (n+1)/2
 - Внутренних узлов: (n-1)/2
 ```
+
+---
+
+[prev: 01-tree-basics](./01-tree-basics.md) | [next: 03-binary-search-tree](./03-binary-search-tree.md)

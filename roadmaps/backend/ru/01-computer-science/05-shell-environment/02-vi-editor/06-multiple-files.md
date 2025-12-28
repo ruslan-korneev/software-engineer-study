@@ -1,5 +1,8 @@
 # Работа с несколькими файлами в Vi (Multiple Files)
 
+[prev: 05-search-replace](./05-search-replace.md) | [next: 01-prompt-structure](../03-prompt-customization/01-prompt-structure.md)
+
+---
 ## Открытие нескольких файлов
 
 ### При запуске
@@ -323,3 +326,7 @@ nnoremap <C-l> <C-w>l
 - Окна позволяют видеть несколько буферов одновременно
 - Вкладки группируют окна для разных задач
 - Ctrl+w — префикс для команд работы с окнами
+
+---
+
+[prev: 05-search-replace](./05-search-replace.md) | [next: 01-prompt-structure](../03-prompt-customization/01-prompt-structure.md)

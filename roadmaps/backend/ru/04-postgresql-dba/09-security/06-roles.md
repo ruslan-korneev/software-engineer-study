@@ -1,5 +1,9 @@
 # Роли в PostgreSQL
 
+[prev: 05-authentication-models](./05-authentication-models.md) | [next: 07-pg_hba-conf](./07-pg_hba-conf.md)
+
+---
+
 ## Введение
 
 В PostgreSQL концепция ролей объединяет понятия пользователей и групп. Роль может быть пользователем (может подключаться к БД), группой (содержит другие роли) или и тем, и другим одновременно. Это обеспечивает гибкую систему управления доступом.
@@ -518,3 +522,7 @@ CREATE ROLE app_user WITH SUPERUSER;
 - [GRANT и REVOKE](./02-grant-revoke.md) - управление привилегиями
 - [pg_hba.conf](./07-pg_hba-conf.md) - настройка аутентификации
 - [Модели аутентификации](./05-authentication-models.md) - методы аутентификации
+
+---
+
+[prev: 05-authentication-models](./05-authentication-models.md) | [next: 07-pg_hba-conf](./07-pg_hba-conf.md)

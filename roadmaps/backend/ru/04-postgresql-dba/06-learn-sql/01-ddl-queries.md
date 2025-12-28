@@ -1,5 +1,9 @@
 # DDL Queries (Data Definition Language)
 
+[prev: 03-using-pg_ctlcluster](../05-managing-postgres/03-using-pg_ctlcluster.md) | [next: 02-dml-queries](./02-dml-queries.md)
+
+---
+
 ## Что такое DDL?
 
 **DDL (Data Definition Language)** — это подмножество SQL, предназначенное для определения и управления структурой базы данных. DDL-команды используются для создания, изменения и удаления объектов базы данных: таблиц, индексов, схем, представлений и других объектов.
@@ -422,3 +426,7 @@ SELECT conname, contype, pg_get_constraintdef(oid)
 FROM pg_constraint
 WHERE conrelid = 'users'::regclass;
 ```
+
+---
+
+[prev: 03-using-pg_ctlcluster](../05-managing-postgres/03-using-pg_ctlcluster.md) | [next: 02-dml-queries](./02-dml-queries.md)

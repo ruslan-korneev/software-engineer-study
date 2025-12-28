@@ -1,5 +1,9 @@
 # Шифрование данных в состоянии покоя (Data at Rest)
 
+[prev: 05-quotas](./05-quotas.md) | [next: 01-schema-registry-basics](../11-schema-registry/01-schema-registry-basics.md)
+
+---
+
 ## Описание
 
 Шифрование данных в состоянии покоя (Encryption at Rest) обеспечивает защиту данных, хранящихся на дисках Kafka брокеров. В отличие от шифрования "в движении" (in transit), которое защищает данные при передаче по сети, encryption at rest защищает данные от несанкционированного доступа при физическом доступе к дискам или их компрометации.
@@ -791,3 +795,7 @@ def benchmark_encryption(message_size_kb: int, iterations: int = 1000):
 - [LUKS Documentation](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard)
 - [Confluent Schema Registry Encryption](https://docs.confluent.io/platform/current/schema-registry/security/schema-encryption.html)
 - [NIST Guidelines for Encryption](https://csrc.nist.gov/publications/detail/sp/800-175b/rev-1/final)
+
+---
+
+[prev: 05-quotas](./05-quotas.md) | [next: 01-schema-registry-basics](../11-schema-registry/01-schema-registry-basics.md)

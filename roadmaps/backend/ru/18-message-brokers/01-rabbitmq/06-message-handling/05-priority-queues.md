@@ -1,5 +1,9 @@
 # Priority Queues (Приоритетные очереди)
 
+[prev: 04-message-ttl](./04-message-ttl.md) | [next: 06-prefetch](./06-prefetch.md)
+
+---
+
 ## Введение
 
 Priority Queues - это специальный тип очередей в RabbitMQ, который позволяет обрабатывать сообщения в порядке их приоритета, а не в порядке поступления (FIFO). Сообщения с более высоким приоритетом доставляются потребителям раньше, чем сообщения с низким приоритетом.
@@ -8,11 +12,11 @@ Priority Queues - это специальный тип очередей в Rabbi
 
 ```
 Обычная очередь (FIFO):
-[Msg1] → [Msg2] → [Msg3] → Consumer
+[Msg1] -> [Msg2] -> [Msg3] -> Consumer
 (порядок поступления)
 
 Приоритетная очередь:
-[Msg2(P:10)] → [Msg1(P:5)] → [Msg3(P:1)] → Consumer
+[Msg2(P:10)] -> [Msg1(P:5)] -> [Msg3(P:1)] -> Consumer
 (порядок по приоритету)
 ```
 
@@ -205,11 +209,11 @@ def callback(ch, method, properties, body):
 def process_message(body, priority):
     """Обработка с учетом приоритета"""
     if priority >= 8:
-        print("  → Критическая обработка")
+        print("  -> Критическая обработка")
     elif priority >= 5:
-        print("  → Стандартная обработка")
+        print("  -> Стандартная обработка")
     else:
-        print("  → Фоновая обработка")
+        print("  -> Фоновая обработка")
 
 # Важно: установить prefetch_count для правильной работы приоритетов
 channel.basic_qos(prefetch_count=1)
@@ -743,3 +747,7 @@ Priority Queues - мощный инструмент для управления 
 3. Документируйте систему приоритетов
 4. Защищайтесь от priority starvation
 5. Мониторьте распределение приоритетов в очередях
+
+---
+
+[prev: 04-message-ttl](./04-message-ttl.md) | [next: 06-prefetch](./06-prefetch.md)

@@ -1,5 +1,8 @@
 # DNS — система доменных имён
 
+[prev: 05-how-internet-works](./05-how-internet-works.md) | [next: 07-what-is-domain-name](./07-what-is-domain-name.md)
+
+---
 **DNS (Domain Name System)** — это "телефонная книга" интернета. Преобразует доменные имена в IP-адреса.
 
 ```
@@ -155,3 +158,7 @@ dig +trace example.com
 - **DoT (DNS over TLS)** — DNS-запросы через TLS
 
 Современные браузеры поддерживают DoH (можно включить в настройках).
+
+---
+
+[prev: 05-how-internet-works](./05-how-internet-works.md) | [next: 07-what-is-domain-name](./07-what-is-domain-name.md)

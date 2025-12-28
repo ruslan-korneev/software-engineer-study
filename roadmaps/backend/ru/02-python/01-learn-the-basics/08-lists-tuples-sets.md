@@ -1,5 +1,8 @@
 # Списки, кортежи, множества
 
+[prev: 07-functions](./07-functions.md) | [next: 09-dictionaries](./09-dictionaries.md)
+---
+
 Коллекции для хранения нескольких значений.
 
 ## Сравнение
@@ -422,3 +425,6 @@ deep[2][0] = 300      # original не изменится
 | `pop(0)` | O(n) | — |
 
 Используй `set` для частых проверок вхождения!
+
+---
+[prev: 07-functions](./07-functions.md) | [next: 09-dictionaries](./09-dictionaries.md)

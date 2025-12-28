@@ -1,5 +1,8 @@
 # Choosing a Language
 
+[prev: 03-how-code-runs](./03-how-code-runs.md) | [next: 01-how-networks-work](../09-networking-and-internet/01-how-networks-work.md)
+
+---
 ## Введение
 
 Выбор языка программирования - важное решение, которое влияет на производительность, скорость разработки, доступность разработчиков и долгосрочную поддержку проекта. Нет "лучшего" языка - есть язык, подходящий для конкретной задачи.
@@ -497,3 +500,7 @@ class UserController {
 | DevOps | Python, Go, Bash |
 
 **Главное правило:** Язык - это инструмент. Выбирайте тот, который лучше решает вашу задачу, учитывая контекст (команда, сроки, требования).
+
+---
+
+[prev: 03-how-code-runs](./03-how-code-runs.md) | [next: 01-how-networks-work](../09-networking-and-internet/01-how-networks-work.md)

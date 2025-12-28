@@ -1,5 +1,9 @@
 # Аутентификация в RabbitMQ
 
+[prev: 05-quorum-queues-ha](../09-clustering/05-quorum-queues-ha.md) | [next: 02-authorization](./02-authorization.md)
+
+---
+
 ## Введение
 
 Аутентификация — это процесс проверки подлинности клиента, подключающегося к RabbitMQ. Брокер должен убедиться, что клиент является тем, за кого себя выдаёт, прежде чем разрешить доступ к ресурсам.
@@ -308,3 +312,7 @@ grep "authentication failure" /var/log/rabbitmq/rabbit@hostname.log
 - Всегда удаляйте или блокируйте пользователя guest в production
 - Храните пароли в защищённых хранилищах, не в коде
 - Мониторьте неудачные попытки аутентификации
+
+---
+
+[prev: 05-quorum-queues-ha](../09-clustering/05-quorum-queues-ha.md) | [next: 02-authorization](./02-authorization.md)

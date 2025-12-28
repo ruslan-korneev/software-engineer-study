@@ -1,5 +1,9 @@
 # explain.depesz.com - Визуализатор планов EXPLAIN
 
+[prev: 01-explain](./01-explain.md) | [next: 03-pev2](./03-pev2.md)
+
+---
+
 ## Введение
 
 **explain.depesz.com** - это бесплатный онлайн-инструмент для визуализации и анализа планов выполнения запросов PostgreSQL. Создан Хубертом Депешем Лубашко (Hubert depesz Lubaczewski) - известным PostgreSQL-экспертом.
@@ -196,3 +200,7 @@ depesz покажет зеленым Index Scan.
 - [explain.depesz.com](https://explain.depesz.com/)
 - [Блог depesz](https://www.depesz.com/)
 - [GitHub репозиторий](https://github.com/depesz/explain.depesz.com)
+
+---
+
+[prev: 01-explain](./01-explain.md) | [next: 03-pev2](./03-pev2.md)

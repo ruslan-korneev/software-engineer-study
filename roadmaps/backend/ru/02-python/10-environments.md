@@ -1,5 +1,8 @@
 # Environments (Виртуальные окружения)
 
+[prev: 09-package-managers](./09-package-managers.md) | [next: 10a-pyproject-toml](./10a-pyproject-toml.md)
+---
+
 ## Зачем нужны?
 
 Изоляция зависимостей между проектами:
@@ -136,3 +139,6 @@ python -m venv .venv
 - **Poetry/uv** — автоматизируют создание и управление
 - **.venv/** — не коммить в git
 - **pyenv** — когда нужны разные версии Python
+
+---
+[prev: 09-package-managers](./09-package-managers.md) | [next: 10a-pyproject-toml](./10a-pyproject-toml.md)

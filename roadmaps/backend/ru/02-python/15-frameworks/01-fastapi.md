@@ -1,5 +1,8 @@
 # FastAPI
 
+[prev: 04-asyncio](../14-concurrency/04-asyncio.md) | [next: 02-django](./02-django.md)
+---
+
 Современный async веб-фреймворк с автодокументацией.
 
 ```bash
@@ -160,3 +163,6 @@ app = FastAPI(lifespan=lifespan)
 | Swagger/ReDoc | Автодокументация |
 
 **Когда:** REST API, микросервисы, async приложения.
+
+---
+[prev: 04-asyncio](../14-concurrency/04-asyncio.md) | [next: 02-django](./02-django.md)

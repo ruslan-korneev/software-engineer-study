@@ -1,5 +1,8 @@
 # Класс P (Polynomial Time)
 
+[prev: 01-decision-problems](./01-decision-problems.md) | [next: 03-class-np](./03-class-np.md)
+---
+
 ## Определение
 
 ### Формальное определение
@@ -357,3 +360,6 @@ def is_tree(graph, n):
 4. P замкнут относительно дополнения: P = co-P
 5. Большинство "повседневных" алгоритмических задач лежат в P
 6. Открытый вопрос: P = NP? (проблема тысячелетия)
+
+---
+[prev: 01-decision-problems](./01-decision-problems.md) | [next: 03-class-np](./03-class-np.md)

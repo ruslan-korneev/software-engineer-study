@@ -1,5 +1,8 @@
 # Отмена изменений в Git
 
+[prev: 02-history](./02-history.md) | [next: 04-viewing-diffs](./04-viewing-diffs.md)
+---
+
 ## Введение
 
 Git предоставляет несколько способов отмены изменений на разных стадиях работы. Выбор метода зависит от того, где находятся изменения:
@@ -420,3 +423,6 @@ git push
 | Добавить в последний коммит | `git add file && git commit --amend` |
 | Восстановить после reset | `git reflog` + `git reset --hard HEAD@{n}` |
 | Отменить все незакоммиченные | `git reset --hard HEAD && git clean -fd` |
+
+---
+[prev: 02-history](./02-history.md) | [next: 04-viewing-diffs](./04-viewing-diffs.md)

@@ -1,5 +1,8 @@
 # Базовый синтаксис Python
 
+[prev: 05-bloom-filters](../../01-computer-science/14-advanced-structures/05-bloom-filters.md) | [next: 02-variables-and-data-types](./02-variables-and-data-types.md)
+---
+
 ## Что такое Python?
 
 **Python** — высокоуровневый интерпретируемый язык программирования. Популярен благодаря:
@@ -198,3 +201,6 @@ if num2 != 0:
 else:
     print("Деление на ноль невозможно!")
 ```
+
+---
+[prev: 05-bloom-filters](../../01-computer-science/14-advanced-structures/05-bloom-filters.md) | [next: 02-variables-and-data-types](./02-variables-and-data-types.md)

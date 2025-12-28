@@ -1,5 +1,9 @@
 # Федерация GraphQL
 
+[prev: 11-security](./11-security.md) | [next: 13-common-gql-over-http-errors](./13-common-gql-over-http-errors.md)
+
+---
+
 ## Введение
 
 **Apollo Federation** — это архитектура для построения распределённого GraphQL API из нескольких независимых сервисов (subgraphs). Каждый сервис отвечает за свою часть схемы, а Gateway объединяет их в единый граф.
@@ -470,3 +474,7 @@ const gateway = new ApolloGateway({
 ## Заключение
 
 Apollo Federation позволяет строить масштабируемые GraphQL API из независимых микросервисов. Каждая команда может владеть своим subgraph, деплоить независимо, при этом клиенты видят единый граф данных.
+
+---
+
+[prev: 11-security](./11-security.md) | [next: 13-common-gql-over-http-errors](./13-common-gql-over-http-errors.md)

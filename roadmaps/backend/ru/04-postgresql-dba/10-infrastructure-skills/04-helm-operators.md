@@ -1,5 +1,9 @@
 # Helm и Kubernetes Operators для PostgreSQL
 
+[prev: 03-stateful-setup](./03-stateful-setup.md) | [next: 05-monitoring-tools](./05-monitoring-tools.md)
+
+---
+
 ## Введение
 
 Управление PostgreSQL в Kubernetes можно значительно упростить с помощью Helm charts и Kubernetes Operators. Эти инструменты автоматизируют развертывание, настройку, обновление и обслуживание баз данных.
@@ -653,3 +657,7 @@ kubectl cnpg psql my-cluster -- -c "SELECT version();"
 - [Zalando Postgres Operator](https://github.com/zalando/postgres-operator)
 - [CrunchyData PGO](https://access.crunchydata.com/documentation/postgres-operator/)
 - [Bitnami PostgreSQL Chart](https://github.com/bitnami/charts/tree/main/bitnami/postgresql)
+
+---
+
+[prev: 03-stateful-setup](./03-stateful-setup.md) | [next: 05-monitoring-tools](./05-monitoring-tools.md)

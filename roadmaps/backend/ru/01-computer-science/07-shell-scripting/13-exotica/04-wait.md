@@ -1,5 +1,8 @@
 # Команда wait
 
+[prev: 03-traps](./03-traps.md) | [next: 05-named-pipes](./05-named-pipes.md)
+
+---
 ## Что такое wait
 
 Команда `wait` приостанавливает выполнение скрипта до завершения фоновых процессов. Используется для:
@@ -370,3 +373,7 @@ if $failed; then
     exit 1
 fi
 ```
+
+---
+
+[prev: 03-traps](./03-traps.md) | [next: 05-named-pipes](./05-named-pipes.md)

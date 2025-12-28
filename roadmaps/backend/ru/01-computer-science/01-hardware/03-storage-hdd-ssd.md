@@ -1,5 +1,9 @@
 # Storage (HDD, SSD)
 
+[prev: 02-memory-ram-rom](./02-memory-ram-rom.md) | [next: 04-motherboard-buses](./04-motherboard-buses.md)
+
+---
+
 ## HDD (Hard Disk Drive)
 
 Магнитные вращающиеся диски с головкой чтения/записи.
@@ -44,3 +48,7 @@ Flash-память без движущихся частей.
 - **Архивы, бэкапы** → HDD
 - **RAID 1/10** → отказоустойчивость
 - Мониторинг: `iostat -x 1`
+
+---
+
+[prev: 02-memory-ram-rom](./02-memory-ram-rom.md) | [next: 04-motherboard-buses](./04-motherboard-buses.md)

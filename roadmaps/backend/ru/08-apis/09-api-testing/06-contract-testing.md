@@ -1,5 +1,9 @@
 # Contract Testing (Контрактное тестирование)
 
+[prev: 05-mocking-apis](./05-mocking-apis.md) | [next: 07-error-handling-retries](./07-error-handling-retries.md)
+
+---
+
 ## Введение
 
 **Контрактное тестирование** - это методология тестирования, при которой проверяется соответствие взаимодействия между сервисами заранее определенному контракту. Контракт описывает ожидаемые запросы и ответы между потребителем (consumer) и провайдером (provider) API.
@@ -723,3 +727,7 @@ pact-broker publish ./pacts \
 - Provider гарантирует выполнение контрактов
 - Контракты версионируются и хранятся централизованно
 - Интеграция с CI/CD обеспечивает автоматическую проверку
+
+---
+
+[prev: 05-mocking-apis](./05-mocking-apis.md) | [next: 07-error-handling-retries](./07-error-handling-retries.md)

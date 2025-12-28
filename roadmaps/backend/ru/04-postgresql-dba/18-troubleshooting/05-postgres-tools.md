@@ -1,5 +1,9 @@
 # Встроенные инструменты PostgreSQL для диагностики
 
+[prev: 04-system-views](./04-system-views.md) | [next: 01-explain](../19-query-analysis/01-explain.md)
+
+---
+
 PostgreSQL включает множество встроенных инструментов и функций для анализа производительности и диагностики проблем. В этом разделе рассмотрим основные инструменты: pg_stat_*, функции для анализа размеров и EXPLAIN ANALYZE.
 
 ## Функции pg_stat_*
@@ -533,3 +537,7 @@ EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) <ваш запрос>;
 - Понимать поведение запросов
 - Планировать оптимизации и масштабирование
 - Поддерживать здоровое состояние базы данных
+
+---
+
+[prev: 04-system-views](./04-system-views.md) | [next: 01-explain](../19-query-analysis/01-explain.md)

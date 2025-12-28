@@ -1,5 +1,8 @@
 # Git Config (Конфигурация Git)
 
+[prev: 05-viewing-commit-history](./05-viewing-commit-history.md) | [next: 01-creating-branches](../03-branching/01-creating-branches.md)
+---
+
 ## Введение
 
 **Git config** — система настроек Git, которая позволяет персонализировать поведение Git под ваши нужды. Настройки хранятся на трёх уровнях с разным приоритетом.
@@ -497,3 +500,6 @@ git config --list
 - **Условные конфигурации** — разные настройки для разных проектов
 - `git config --list --show-origin` — отладка настроек
 - Храните полезные настройки в `~/.gitconfig` и синхронизируйте между машинами
+
+---
+[prev: 05-viewing-commit-history](./05-viewing-commit-history.md) | [next: 01-creating-branches](../03-branching/01-creating-branches.md)

@@ -1,5 +1,8 @@
 # Установка PostgreSQL с использованием Docker
 
+[prev: 05-query-processing](../03-high-level-database-concepts/05-query-processing.md) | [next: 02-package-managers](./02-package-managers.md)
+---
+
 ## Введение
 
 Docker — это платформа для контейнеризации приложений, которая позволяет запускать PostgreSQL изолированно от основной системы. Это идеальный вариант для разработки, тестирования и даже production-окружений.
@@ -303,3 +306,6 @@ host    replication     replicator      172.16.0.0/12           scram-sha-256
 - [Официальный образ PostgreSQL на Docker Hub](https://hub.docker.com/_/postgres)
 - [Docker Compose документация](https://docs.docker.com/compose/)
 - [PostgreSQL Docker Best Practices](https://www.postgresql.org/docs/)
+
+---
+[prev: 05-query-processing](../03-high-level-database-concepts/05-query-processing.md) | [next: 02-package-managers](./02-package-managers.md)

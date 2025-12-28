@@ -1,5 +1,8 @@
 # Стратегии слияния в Git
 
+[prev: 03-fetch](04-git-remotes/03-fetch.md) | [next: 01-creating-account](06-github-essentials/01-creating-account.md)
+---
+
 ## Введение
 
 Слияние (merge) — это фундаментальная операция в Git, которая объединяет изменения из разных веток. Выбор правильной стратегии слияния критически важен для поддержания чистой истории проекта и эффективной командной работы.
@@ -453,3 +456,6 @@ git config --global pull.rebase true  # rebase вместо merge при pull
 - Конкретной ситуации
 
 Не существует единственно правильного подхода. Главное — последовательность и понимание последствий каждой стратегии.
+
+---
+[prev: 03-fetch](04-git-remotes/03-fetch.md) | [next: 01-creating-account](06-github-essentials/01-creating-account.md)

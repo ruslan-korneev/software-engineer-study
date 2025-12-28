@@ -1,5 +1,8 @@
 # Команды su и sudo
 
+[prev: 03-umask](./03-umask.md) | [next: 05-chown-chgrp](./05-chown-chgrp.md)
+
+---
 ## Обзор
 
 **su** и **sudo** — команды для выполнения действий от имени другого пользователя (обычно root).
@@ -237,3 +240,7 @@ $ sudo -i
 # выполнить команды...
 # exit
 ```
+
+---
+
+[prev: 03-umask](./03-umask.md) | [next: 05-chown-chgrp](./05-chown-chgrp.md)

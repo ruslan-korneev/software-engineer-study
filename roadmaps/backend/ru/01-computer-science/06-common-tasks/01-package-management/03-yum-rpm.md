@@ -1,5 +1,8 @@
 # yum, dnf и rpm - управление пакетами в Red Hat/Fedora/CentOS
 
+[prev: 02-apt-dpkg](./02-apt-dpkg.md) | [next: 01-mounting](../02-storage-devices/01-mounting.md)
+
+---
 ## Обзор
 
 В системах семейства Red Hat используется двухуровневая система:
@@ -493,3 +496,7 @@ sudo dnf install ./package.rpm
 | Список файлов | `rpm -ql pkg` | `yum provides` | `dnf provides` |
 | Владелец файла | `rpm -qf /path` | `yum provides` | `dnf provides` |
 | Очистка кеша | - | `yum clean all` | `dnf clean all` |
+
+---
+
+[prev: 02-apt-dpkg](./02-apt-dpkg.md) | [next: 01-mounting](../02-storage-devices/01-mounting.md)

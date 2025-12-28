@@ -1,5 +1,8 @@
 # Обработка сигналов (trap)
 
+[prev: 02-process-substitution](./02-process-substitution.md) | [next: 04-wait](./04-wait.md)
+
+---
 ## Что такое trap
 
 Команда `trap` позволяет перехватывать сигналы и выполнять код при их получении. Используется для:
@@ -310,3 +313,7 @@ local_effect() {
 3. **Документируйте** какие сигналы обрабатываются
 4. **Тестируйте** обработку сигналов (kill -TERM, Ctrl+C)
 5. **Не игнорируйте** SIGTERM без причины
+
+---
+
+[prev: 02-process-substitution](./02-process-substitution.md) | [next: 04-wait](./04-wait.md)

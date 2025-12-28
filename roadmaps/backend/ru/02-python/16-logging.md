@@ -1,5 +1,8 @@
 # Логирование (Logging)
 
+[prev: 03-flask](15-frameworks/03-flask.md) | [next: 17-debugging](./17-debugging.md)
+---
+
 ## Зачем логирование?
 
 **Логирование** — запись событий в программе для отладки, мониторинга и аудита. В отличие от `print()`, логирование:
@@ -471,3 +474,6 @@ A: Используйте RotatingFileHandler или TimedRotatingFileHandler.
 
 **Q: structlog vs logging?**
 A: structlog — для structured logging (JSON). Стандартный logging — для простых случаев.
+
+---
+[prev: 03-flask](15-frameworks/03-flask.md) | [next: 17-debugging](./17-debugging.md)

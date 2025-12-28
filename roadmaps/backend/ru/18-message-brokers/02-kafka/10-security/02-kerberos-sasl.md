@@ -1,5 +1,9 @@
 # Kerberos и SASL в Apache Kafka
 
+[prev: 01-security-basics](./01-security-basics.md) | [next: 03-authorization](./03-authorization.md)
+
+---
+
 ## Описание
 
 SASL (Simple Authentication and Security Layer) — это фреймворк для аутентификации, который позволяет подключать различные механизмы проверки подлинности. Apache Kafka поддерживает несколько SASL механизмов, включая интеграцию с Kerberos для корпоративных сред.
@@ -623,3 +627,7 @@ kafka-console-producer.sh \
 - [MIT Kerberos Documentation](https://web.mit.edu/kerberos/)
 - [RFC 5802 - SCRAM](https://tools.ietf.org/html/rfc5802)
 - [RFC 6749 - OAuth 2.0](https://tools.ietf.org/html/rfc6749)
+
+---
+
+[prev: 01-security-basics](./01-security-basics.md) | [next: 03-authorization](./03-authorization.md)

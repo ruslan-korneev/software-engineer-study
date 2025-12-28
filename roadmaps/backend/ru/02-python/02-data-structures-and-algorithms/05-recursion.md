@@ -1,5 +1,8 @@
 # Рекурсия (Recursion)
 
+[prev: 04-binary-search-tree](./04-binary-search-tree.md) | [next: 06-sorting-algorithms](./06-sorting-algorithms.md)
+---
+
 **Рекурсия** — когда функция вызывает сама себя для решения меньшей подзадачи.
 
 ```python
@@ -469,3 +472,6 @@ def fib(n):
 ```
 
 **Эффект:** сложность падает с экспоненциальной O(2^n) до линейной O(n), потому что каждое уникальное значение вычисляется только один раз
+
+---
+[prev: 04-binary-search-tree](./04-binary-search-tree.md) | [next: 06-sorting-algorithms](./06-sorting-algorithms.md)

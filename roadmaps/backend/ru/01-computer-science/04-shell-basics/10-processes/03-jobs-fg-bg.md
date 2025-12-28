@@ -1,5 +1,8 @@
 # Управление заданиями: jobs, fg, bg
 
+[prev: 02-ps-top](./02-ps-top.md) | [next: 04-signals-kill](./04-signals-kill.md)
+
+---
 ## Foreground и Background
 
 - **Foreground** — процесс занимает терминал, получает ввод
@@ -273,3 +276,7 @@ $ disown %1
 | `fg` | Вернуть в foreground |
 | `disown` | Отвязать от shell |
 | `nohup` | Защита от SIGHUP |
+
+---
+
+[prev: 02-ps-top](./02-ps-top.md) | [next: 04-signals-kill](./04-signals-kill.md)

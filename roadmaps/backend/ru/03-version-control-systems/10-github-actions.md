@@ -1,5 +1,8 @@
 # GitHub Actions
 
+[prev: 09-github-cli](./09-github-cli.md) | [next: 01-github-pages](11-github-features/01-github-pages.md)
+---
+
 ## Что такое GitHub Actions
 
 **GitHub Actions** — это встроенная CI/CD платформа GitHub, которая позволяет автоматизировать процессы сборки, тестирования и деплоя приложений прямо из репозитория. С помощью GitHub Actions можно создавать автоматизированные рабочие процессы (workflows), которые запускаются в ответ на различные события в репозитории.
@@ -981,3 +984,6 @@ act -j build
 - [GitHub Actions Marketplace](https://github.com/marketplace?type=actions)
 - [Awesome Actions](https://github.com/sdras/awesome-actions) — коллекция полезных actions
 - [act](https://github.com/nektos/act) — локальный запуск actions
+
+---
+[prev: 09-github-cli](./09-github-cli.md) | [next: 01-github-pages](11-github-features/01-github-pages.md)

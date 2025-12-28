@@ -1,5 +1,9 @@
 # Разработка проекта на основе Kafka
 
+[prev: 06-stream-processing-terminology](../02-getting-acquainted/06-stream-processing-terminology.md) | [next: 02-sensor-events](./02-sensor-events.md)
+
+---
+
 ## Описание
 
 Разработка проекта с использованием Apache Kafka требует тщательного планирования архитектуры, правильной организации структуры проекта и настройки окружения для разработки. В этом разделе мы рассмотрим полный цикл создания проекта на основе Kafka: от структуры директорий до Docker Compose конфигурации.
@@ -611,3 +615,7 @@ if __name__ == "__main__":
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
 - [confluent-kafka-python](https://github.com/confluentinc/confluent-kafka-python)
 - [Kafka UI](https://github.com/provectus/kafka-ui)
+
+---
+
+[prev: 06-stream-processing-terminology](../02-getting-acquainted/06-stream-processing-terminology.md) | [next: 02-sensor-events](./02-sensor-events.md)

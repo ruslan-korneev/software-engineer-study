@@ -1,5 +1,9 @@
 # explain.dalibo.com - Визуализатор планов Dalibo
 
+[prev: 03-pev2](./03-pev2.md) | [next: 01-use-method](../20-monitoring-techniques/01-use-method.md)
+
+---
+
 ## Введение
 
 **explain.dalibo.com** - это бесплатный онлайн-сервис от компании Dalibo (французская компания, специализирующаяся на PostgreSQL) для визуализации и анализа планов выполнения запросов. Инструмент основан на PEV2 и предоставляет удобный веб-интерфейс.
@@ -345,3 +349,7 @@ webbrowser.open(f"https://explain.dalibo.com/analyze/new?plan={encoded}")
 - [Dalibo - PostgreSQL experts](https://dalibo.com/)
 - [PEV2 на GitHub](https://github.com/dalibo/pev2)
 - [Документация PostgreSQL](https://www.postgresql.org/docs/current/sql-explain.html)
+
+---
+
+[prev: 03-pev2](./03-pev2.md) | [next: 01-use-method](../20-monitoring-techniques/01-use-method.md)

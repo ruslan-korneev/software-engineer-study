@@ -1,5 +1,9 @@
 # События датчиков
 
+[prev: 01-kafka-based-project](./01-kafka-based-project.md) | [next: 03-data-format](./03-data-format.md)
+
+---
+
 ## Описание
 
 События датчиков (Sensor Events) представляют собой типичный use-case для Apache Kafka в IoT и промышленных системах. Датчики генерируют непрерывный поток данных, который необходимо собирать, обрабатывать и анализировать в реальном времени. Kafka идеально подходит для этой задачи благодаря высокой пропускной способности, надежности и возможности масштабирования.
@@ -758,3 +762,7 @@ class DeadLetterQueueHandler:
 - [Apache Kafka Best Practices](https://kafka.apache.org/documentation/#design)
 - [Event-Driven Architecture](https://martinfowler.com/articles/201701-event-driven.html)
 - [Designing Events](https://developer.confluent.io/patterns/event/event-envelope/)
+
+---
+
+[prev: 01-kafka-based-project](./01-kafka-based-project.md) | [next: 03-data-format](./03-data-format.md)

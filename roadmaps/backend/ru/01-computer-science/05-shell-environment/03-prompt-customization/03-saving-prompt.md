@@ -1,5 +1,8 @@
 # Сохранение настроек Prompt (Saving Prompt)
 
+[prev: 02-colors](./02-colors.md) | [next: 01-package-systems](../../06-common-tasks/01-package-management/01-package-systems.md)
+
+---
 ## Временные изменения vs Постоянные
 
 ### Временное изменение
@@ -316,3 +319,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 - Применяйте изменения через `source ~/.bashrc`
 - Проверяйте синтаксис: `bash -n ~/.bashrc`
 - Для сложных промптов используйте функции и PROMPT_COMMAND
+
+---
+
+[prev: 02-colors](./02-colors.md) | [next: 01-package-systems](../../06-common-tasks/01-package-management/01-package-systems.md)

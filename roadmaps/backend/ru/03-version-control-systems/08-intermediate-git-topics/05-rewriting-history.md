@@ -1,5 +1,8 @@
 # Переписывание истории в Git
 
+[prev: 04-viewing-diffs](./04-viewing-diffs.md) | [next: 06-tagging](./06-tagging.md)
+---
+
 ## Введение
 
 Переписывание истории — мощная возможность Git, позволяющая изменять уже сделанные коммиты. Это полезно для:
@@ -535,3 +538,6 @@ git reset --hard ORIG_HEAD
 | Разделить коммит | `git rebase -i` + `edit` + `reset` |
 | Изменить порядок коммитов | `git rebase -i` + переставить строки |
 | Удалить файл из всей истории | `git filter-repo` |
+
+---
+[prev: 04-viewing-diffs](./04-viewing-diffs.md) | [next: 06-tagging](./06-tagging.md)

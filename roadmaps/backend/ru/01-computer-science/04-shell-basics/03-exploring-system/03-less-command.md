@@ -1,5 +1,8 @@
 # Команда less
 
+[prev: 02-file-command](./02-file-command.md) | [next: 04-symbolic-hard-links](./04-symbolic-hard-links.md)
+
+---
 ## Что такое less?
 
 **less** — программа для постраничного просмотра текстовых файлов (pager). Название происходит от игры слов: "less is more than more" (less — это больше, чем more, где `more` — более старая программа с аналогичной функцией).
@@ -167,3 +170,7 @@ $ less +F /var/log/syslog
 3. `less -N` для просмотра кода — удобно видеть номера строк
 4. `less +F` для логов — комбинация `less` и `tail -f`
 5. Используйте `less` вместо `cat` для больших файлов
+
+---
+
+[prev: 02-file-command](./02-file-command.md) | [next: 04-symbolic-hard-links](./04-symbolic-hard-links.md)

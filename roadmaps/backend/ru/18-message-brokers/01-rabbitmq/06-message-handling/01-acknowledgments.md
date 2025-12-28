@@ -1,5 +1,9 @@
 # Acknowledgments (Подтверждения)
 
+[prev: 04-message-flow](../05-bindings-routing/04-message-flow.md) | [next: 02-publisher-confirms](./02-publisher-confirms.md)
+
+---
+
 ## Введение
 
 Acknowledgments (подтверждения) - это механизм RabbitMQ, который гарантирует надежную доставку сообщений от брокера к потребителю. Когда потребитель получает сообщение, он должен сообщить брокеру о результате обработки. Это позволяет RabbitMQ знать, можно ли удалить сообщение из очереди или нужно его переотправить.
@@ -330,3 +334,7 @@ def callback(ch, method, properties, body):
 ## Заключение
 
 Механизм acknowledgments - ключевой элемент надежности RabbitMQ. Правильное использование подтверждений гарантирует, что ни одно важное сообщение не будет потеряно, а проблемные сообщения будут корректно обработаны.
+
+---
+
+[prev: 04-message-flow](../05-bindings-routing/04-message-flow.md) | [next: 02-publisher-confirms](./02-publisher-confirms.md)

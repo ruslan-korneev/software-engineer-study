@@ -1,5 +1,8 @@
 # ip и netstat - настройка сети и мониторинг соединений
 
+[prev: 01-ping-traceroute](./01-ping-traceroute.md) | [next: 03-ftp-wget](./03-ftp-wget.md)
+
+---
 ## Команда ip - современный инструмент управления сетью
 
 ### Что такое ip?
@@ -483,3 +486,7 @@ sudo ethtool -s eth0 speed 1000 duplex full
 | Все TCP соединения | `ss -tn` |
 | Фильтр по порту | `ss -tn 'dport = :80'` |
 | Статистика сокетов | `ss -s` |
+
+---
+
+[prev: 01-ping-traceroute](./01-ping-traceroute.md) | [next: 03-ftp-wget](./03-ftp-wget.md)

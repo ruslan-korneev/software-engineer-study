@@ -1,5 +1,9 @@
 # Запуск Kafka как службы systemd
 
+[prev: 01-admin-clients](./01-admin-clients.md) | [next: 03-logs](./03-logs.md)
+
+---
+
 ## Описание
 
 Systemd — это система инициализации и управления службами в современных Linux-дистрибутивах. Настройка Kafka как службы systemd позволяет автоматически запускать брокеры при загрузке системы, управлять жизненным циклом процессов, настраивать зависимости между службами и обеспечивать автоматический перезапуск при сбоях.
@@ -454,3 +458,7 @@ SystemMaxUse=2G
 SystemKeepFree=1G
 MaxRetentionSec=1month
 ```
+
+---
+
+[prev: 01-admin-clients](./01-admin-clients.md) | [next: 03-logs](./03-logs.md)

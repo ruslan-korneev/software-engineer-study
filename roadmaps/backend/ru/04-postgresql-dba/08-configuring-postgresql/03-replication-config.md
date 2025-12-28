@@ -1,5 +1,9 @@
 # Replication Config (Настройка репликации)
 
+[prev: 02-vacuums](./02-vacuums.md) | [next: 04-query-planner](./04-query-planner.md)
+
+---
+
 Репликация PostgreSQL позволяет создавать копии данных на нескольких серверах для высокой доступности, балансировки нагрузки и резервного копирования.
 
 ## Типы репликации
@@ -330,3 +334,7 @@ SELECT
     pg_size_pretty(pg_wal_lsn_diff(sent_lsn, replay_lsn)) as lag
 FROM pg_stat_replication;
 ```
+
+---
+
+[prev: 02-vacuums](./02-vacuums.md) | [next: 04-query-planner](./04-query-planner.md)

@@ -1,5 +1,8 @@
 # Space Complexity (Пространственная сложность)
 
+[prev: 05-common-complexities](./05-common-complexities.md) | [next: 01-static-arrays](../11-data-structures/01-arrays/01-static-arrays.md)
+
+---
 ## Определение
 
 **Пространственная сложность** — это мера количества памяти, которое использует алгоритм в зависимости от размера входных данных. Она показывает, как растёт потребление памяти при увеличении n.
@@ -500,3 +503,7 @@ def intersection(arr1, arr2):
 - Генераторы экономят память по сравнению со списками
 - Часто возможен **trade-off** между временем и памятью
 - Оптимизация DP таблиц может снизить O(n²) до O(n) или O(1)
+
+---
+
+[prev: 05-common-complexities](./05-common-complexities.md) | [next: 01-static-arrays](../11-data-structures/01-arrays/01-static-arrays.md)

@@ -1,5 +1,8 @@
 # Установка PostgreSQL через Package Managers
 
+[prev: 01-using-docker](./01-using-docker.md) | [next: 03-connect-using-psql](./03-connect-using-psql.md)
+---
+
 ## Введение
 
 Package managers (менеджеры пакетов) — это основной способ установки PostgreSQL на серверы и рабочие станции. Каждая операционная система имеет свой менеджер пакетов с репозиториями PostgreSQL.
@@ -429,3 +432,6 @@ sudo -u postgres psql -l
 - [Официальная документация по установке](https://www.postgresql.org/download/)
 - [PostgreSQL APT Repository](https://wiki.postgresql.org/wiki/Apt)
 - [PostgreSQL YUM Repository](https://www.postgresql.org/download/linux/redhat/)
+
+---
+[prev: 01-using-docker](./01-using-docker.md) | [next: 03-connect-using-psql](./03-connect-using-psql.md)

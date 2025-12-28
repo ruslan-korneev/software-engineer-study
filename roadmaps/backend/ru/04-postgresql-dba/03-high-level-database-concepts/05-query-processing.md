@@ -1,5 +1,8 @@
 # Query Processing — Обработка запросов в PostgreSQL
 
+[prev: 04-write-ahead-log](./04-write-ahead-log.md) | [next: 01-using-docker](../04-installation-and-setup/01-using-docker.md)
+---
+
 ## Введение
 
 Когда вы выполняете SQL-запрос, PostgreSQL проходит через несколько этапов обработки, прежде чем вернуть результат. Понимание этих этапов критически важно для оптимизации запросов и диагностики проблем производительности.
@@ -561,3 +564,6 @@ SELECT * FROM logs ORDER BY created_at DESC LIMIT 100;
 4. **Настраивать PostgreSQL** для конкретной нагрузки
 
 Ключевые инструменты: `EXPLAIN`, `EXPLAIN ANALYZE`, `EXPLAIN (BUFFERS)` и понимание статистики.
+
+---
+[prev: 04-write-ahead-log](./04-write-ahead-log.md) | [next: 01-using-docker](../04-installation-and-setup/01-using-docker.md)

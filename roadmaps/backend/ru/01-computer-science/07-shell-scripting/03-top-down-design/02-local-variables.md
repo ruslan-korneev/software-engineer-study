@@ -1,5 +1,8 @@
 # Локальные переменные
 
+[prev: 01-functions](./01-functions.md) | [next: 03-script-structure](./03-script-structure.md)
+
+---
 ## Проблема глобальных переменных
 
 По умолчанию все переменные в bash являются глобальными:
@@ -346,3 +349,7 @@ calculate_tax() {
     echo "$tax"
 }
 ```
+
+---
+
+[prev: 01-functions](./01-functions.md) | [next: 03-script-structure](./03-script-structure.md)

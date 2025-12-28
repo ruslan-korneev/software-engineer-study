@@ -1,5 +1,8 @@
 # Управление памятью (Memory Management)
 
+[prev: 02-processes-and-threads](./02-processes-and-threads.md) | [next: 04-file-systems](./04-file-systems.md)
+
+---
 ## Определение
 
 **Управление памятью** — это функция операционной системы, отвечающая за эффективное распределение оперативной памяти (RAM) между процессами, защиту памяти и оптимизацию её использования.
@@ -415,3 +418,7 @@ dmesg | grep -i "killed process"
 - Настройки серверных приложений
 
 Для backend-разработчика важно понимать, как ОС управляет памятью, чтобы правильно настраивать приложения и контейнеры.
+
+---
+
+[prev: 02-processes-and-threads](./02-processes-and-threads.md) | [next: 04-file-systems](./04-file-systems.md)

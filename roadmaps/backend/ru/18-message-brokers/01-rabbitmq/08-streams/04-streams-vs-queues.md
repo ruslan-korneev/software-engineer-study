@@ -1,5 +1,9 @@
 # Streams vs Queues: сравнение и выбор
 
+[prev: 03-offset-tracking](./03-offset-tracking.md) | [next: 01-cluster-basics](../09-clustering/01-cluster-basics.md)
+
+---
+
 ## Введение
 
 RabbitMQ предлагает два типа структур данных для обмена сообщениями: классические очереди (Queues) и потоки (Streams). Понимание различий между ними критично для правильного выбора архитектуры.
@@ -622,3 +626,7 @@ async def hybrid_architecture():
 - Нужно и хранение истории, и конкурентная обработка
 - Разные части системы имеют разные требования
 - Требуется максимальная гибкость архитектуры
+
+---
+
+[prev: 03-offset-tracking](./03-offset-tracking.md) | [next: 01-cluster-basics](../09-clustering/01-cluster-basics.md)

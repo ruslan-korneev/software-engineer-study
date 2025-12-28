@@ -1,5 +1,8 @@
 # Операции со строками
 
+[prev: 01-parameter-expansion](./01-parameter-expansion.md) | [next: 03-arithmetic](./03-arithmetic.md)
+
+---
 ## Конкатенация
 
 ```bash
@@ -315,3 +318,7 @@ mask_password() {
 
 mask_password "secret123"  # se*****23
 ```
+
+---
+
+[prev: 01-parameter-expansion](./01-parameter-expansion.md) | [next: 03-arithmetic](./03-arithmetic.md)

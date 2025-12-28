@@ -1,5 +1,8 @@
 # Задачи принятия решений (Decision Problems)
 
+[prev: 04-classic-problems](../12-algorithms/08-dynamic-programming/04-classic-problems.md) | [next: 02-class-p](./02-class-p.md)
+---
+
 ## Определение
 
 ### Формальное определение
@@ -248,3 +251,6 @@ def find_optimal_via_decision(graph, s, t):
 3. Классы P, NP, NP-полные определяются через задачи принятия решений
 4. Язык задачи L — множество "положительных" входов
 5. Изучение задач принятия решений позволяет классифицировать вычислительную сложность
+
+---
+[prev: 04-classic-problems](../12-algorithms/08-dynamic-programming/04-classic-problems.md) | [next: 02-class-p](./02-class-p.md)

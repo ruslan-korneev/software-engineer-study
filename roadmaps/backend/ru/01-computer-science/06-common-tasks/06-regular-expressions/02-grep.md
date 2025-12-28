@@ -1,5 +1,8 @@
 # grep - поиск по шаблону
 
+[prev: 01-what-is-regex](./01-what-is-regex.md) | [next: 03-metacharacters](./03-metacharacters.md)
+
+---
 ## Что такое grep?
 
 **grep** (Global Regular Expression Print) - утилита для поиска строк, соответствующих шаблону. Это одна из самых используемых команд в Unix/Linux.
@@ -370,3 +373,7 @@ LC_ALL=C grep 'pattern' file.txt
 | `-C n` | n строк контекста |
 | `-m n` | Максимум n совпадений |
 | `-q` | Тихий режим (только код возврата) |
+
+---
+
+[prev: 01-what-is-regex](./01-what-is-regex.md) | [next: 03-metacharacters](./03-metacharacters.md)

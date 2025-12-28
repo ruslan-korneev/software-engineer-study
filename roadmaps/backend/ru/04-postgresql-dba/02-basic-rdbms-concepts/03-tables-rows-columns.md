@@ -1,5 +1,8 @@
 # Таблицы, строки и столбцы в PostgreSQL
 
+[prev: 02-relational-model](./02-relational-model.md) | [next: 04-schemas-databases](./04-schemas-databases.md)
+---
+
 ## Введение
 
 **Таблица** (Table) — основная структура хранения данных в реляционных СУБД. Таблица состоит из **столбцов** (Columns), определяющих структуру данных, и **строк** (Rows), содержащих сами данные.
@@ -479,3 +482,6 @@ CREATE TABLE events (
 ```
 
 Таблицы, строки и столбцы — фундаментальные концепции работы с PostgreSQL. Правильное их использование обеспечивает целостность данных и производительность системы.
+
+---
+[prev: 02-relational-model](./02-relational-model.md) | [next: 04-schemas-databases](./04-schemas-databases.md)

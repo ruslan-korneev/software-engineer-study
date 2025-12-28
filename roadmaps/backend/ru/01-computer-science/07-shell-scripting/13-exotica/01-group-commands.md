@@ -1,5 +1,8 @@
 # Группировка команд
 
+[prev: 03-associative-arrays](../12-arrays/03-associative-arrays.md) | [next: 02-process-substitution](./02-process-substitution.md)
+
+---
 ## Зачем группировать команды
 
 Группировка позволяет:
@@ -316,3 +319,7 @@ $condition && {
 - Временные изменения окружения
 - Безопасное выполнение с `set -e`
 - Параллельное выполнение
+
+---
+
+[prev: 03-associative-arrays](../12-arrays/03-associative-arrays.md) | [next: 02-process-substitution](./02-process-substitution.md)

@@ -1,5 +1,9 @@
 # Персистентность сообщений
 
+[prev: 02-publisher-confirms](./02-publisher-confirms.md) | [next: 04-message-ttl](./04-message-ttl.md)
+
+---
+
 ## Введение
 
 Персистентность (persistence) в RabbitMQ - это механизм сохранения сообщений на диск для защиты от потери данных при перезапуске брокера или сбое системы. Без персистентности все сообщения хранятся только в оперативной памяти и теряются при остановке RabbitMQ.
@@ -605,3 +609,7 @@ channel.basic_publish(exchange='', routing_key='q', body='data')
 3. Рассмотрите quorum queues для продакшена
 4. Мониторьте дисковое пространство и производительность
 5. Персистентность снижает производительность - это компромисс
+
+---
+
+[prev: 02-publisher-confirms](./02-publisher-confirms.md) | [next: 04-message-ttl](./04-message-ttl.md)

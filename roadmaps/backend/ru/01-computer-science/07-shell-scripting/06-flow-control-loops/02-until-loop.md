@@ -1,5 +1,8 @@
 # Цикл until
 
+[prev: 01-while-loop](./01-while-loop.md) | [next: 03-break-continue](./03-break-continue.md)
+
+---
 ## Базовый синтаксис
 
 Цикл `until` выполняет команды, пока условие **ложно** (противоположность `while`):
@@ -318,3 +321,7 @@ until ping -c 1 server.com &>/dev/null; do
     sleep 5
 done
 ```
+
+---
+
+[prev: 01-while-loop](./01-while-loop.md) | [next: 03-break-continue](./03-break-continue.md)

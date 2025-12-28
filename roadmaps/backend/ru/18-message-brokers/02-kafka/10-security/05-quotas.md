@@ -1,5 +1,9 @@
 # Квоты в Apache Kafka
 
+[prev: 04-zookeeper-security](./04-zookeeper-security.md) | [next: 06-data-at-rest](./06-data-at-rest.md)
+
+---
+
 ## Описание
 
 Квоты (Quotas) в Kafka — это механизм ограничения ресурсов, который позволяет контролировать пропускную способность клиентов и защищать кластер от перегрузки. Квоты предотвращают ситуации, когда один "шумный" клиент потребляет все ресурсы кластера, влияя на работу других клиентов.
@@ -754,3 +758,7 @@ class AdaptiveProducer:
 - [Apache Kafka Quotas](https://kafka.apache.org/documentation/#design_quotas)
 - [KIP-124 - Request Quotas](https://cwiki.apache.org/confluence/display/KAFKA/KIP-124+-+Request+rate+quotas)
 - [KIP-219 - Connection Rate Quotas](https://cwiki.apache.org/confluence/display/KAFKA/KIP-219+-+Improve+connection+quota+throttling)
+
+---
+
+[prev: 04-zookeeper-security](./04-zookeeper-security.md) | [next: 06-data-at-rest](./06-data-at-rest.md)

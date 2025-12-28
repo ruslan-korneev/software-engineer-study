@@ -1,5 +1,8 @@
 # Установка Git
 
+[prev: 03-git-vs-other-vcs](./03-git-vs-other-vcs.md) | [next: 05-repository-initialization](./05-repository-initialization.md)
+---
+
 ## Проверка установки
 
 Перед установкой проверьте, не установлен ли Git уже:
@@ -413,3 +416,6 @@ ssh-keygen -t ed25519 -C "your@email.com"
 ```
 
 Теперь вы готовы работать с Git!
+
+---
+[prev: 03-git-vs-other-vcs](./03-git-vs-other-vcs.md) | [next: 05-repository-initialization](./05-repository-initialization.md)

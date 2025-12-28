@@ -1,5 +1,8 @@
 # Дескрипторы (Descriptors)
 
+[prev: 08c-dataclasses](./08c-dataclasses.md) | [next: 08e-metaclasses](./08e-metaclasses.md)
+---
+
 ## Что такое дескриптор?
 
 **Дескриптор** — объект, который определяет, как происходит доступ к атрибуту другого объекта. Реализует один или несколько методов протокола дескрипторов: `__get__`, `__set__`, `__delete__`.
@@ -422,3 +425,6 @@ A: Да, но нужно хранить данные не в instance __dict__ (
 
 **Q: Дескрипторы работают с classmethod/staticmethod?**
 A: classmethod и staticmethod сами являются дескрипторами. Их можно комбинировать с другими дескрипторами.
+
+---
+[prev: 08c-dataclasses](./08c-dataclasses.md) | [next: 08e-metaclasses](./08e-metaclasses.md)

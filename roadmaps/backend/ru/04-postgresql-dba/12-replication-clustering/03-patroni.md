@@ -1,5 +1,9 @@
 # Patroni для High Availability кластеров PostgreSQL
 
+[prev: 02-streaming-replication](./02-streaming-replication.md) | [next: 04-kubernetes-deployment](./04-kubernetes-deployment.md)
+
+---
+
 ## Введение
 
 Patroni — это open-source решение для автоматического управления высокодоступными кластерами PostgreSQL. Написан на Python, разработан компанией Zalando. Patroni обеспечивает автоматический failover, управление репликацией и интеграцию с распределенными системами хранения конфигурации (DCS).
@@ -738,3 +742,7 @@ Patroni обеспечивает:
 - Настройте минимум 3 узла etcd
 - Регулярно тестируйте процедуры failover
 - Мониторьте задержку репликации и состояние кластера
+
+---
+
+[prev: 02-streaming-replication](./02-streaming-replication.md) | [next: 04-kubernetes-deployment](./04-kubernetes-deployment.md)

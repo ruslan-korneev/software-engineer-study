@@ -1,5 +1,8 @@
 # Владельцы и группы (Owners and Groups)
 
+[prev: 04-history](../08-keyboard-tricks/04-history.md) | [next: 02-chmod](./02-chmod.md)
+
+---
 ## Модель безопасности Unix
 
 В Unix/Linux каждый файл и директория имеют:
@@ -206,3 +209,7 @@ $ ls -la                   # все файлы включая скрытые
 $ stat file.txt            # подробная информация
 $ namei -l /path/to/file   # права всей цепочки директорий
 ```
+
+---
+
+[prev: 04-history](../08-keyboard-tricks/04-history.md) | [next: 02-chmod](./02-chmod.md)

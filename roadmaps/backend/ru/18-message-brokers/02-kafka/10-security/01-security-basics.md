@@ -1,5 +1,9 @@
 # Основы безопасности Kafka
 
+[prev: 07-monitoring-tools](../09-management/07-monitoring-tools.md) | [next: 02-kerberos-sasl](./02-kerberos-sasl.md)
+
+---
+
 ## Описание
 
 Безопасность Apache Kafka охватывает комплекс мер по защите данных, передаваемых через кластер, от несанкционированного доступа, перехвата и модификации. Kafka изначально разрабатывалась без встроенных механизмов безопасности, но начиная с версии 0.9 были добавлены полноценные возможности аутентификации, авторизации и шифрования.
@@ -356,3 +360,7 @@ log4j.appender.authorizerAppender.MaxBackupIndex=10
 - [Apache Kafka Security](https://kafka.apache.org/documentation/#security)
 - [Confluent Security Overview](https://docs.confluent.io/platform/current/security/index.html)
 - [OWASP Kafka Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Apache_Kafka_Security_Cheat_Sheet.html)
+
+---
+
+[prev: 07-monitoring-tools](../09-management/07-monitoring-tools.md) | [next: 02-kerberos-sasl](./02-kerberos-sasl.md)

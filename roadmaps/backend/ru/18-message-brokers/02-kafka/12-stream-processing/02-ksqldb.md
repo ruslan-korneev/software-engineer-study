@@ -1,5 +1,9 @@
 # ksqlDB
 
+[prev: 01-kafka-streams](./01-kafka-streams.md) | [next: 03-next-steps](./03-next-steps.md)
+
+---
+
 ## Описание
 
 **ksqlDB** - это база данных для потоковой обработки, построенная поверх Apache Kafka. Она позволяет выполнять SQL-запросы над потоками данных в реальном времени без написания кода на Java или Scala.
@@ -597,3 +601,7 @@ DROP TABLE IF EXISTS table_name;
 - Интеграция с существующим Java-кодом
 - Максимальный контроль над обработкой
 - Кастомные операции с состоянием
+
+---
+
+[prev: 01-kafka-streams](./01-kafka-streams.md) | [next: 03-next-steps](./03-next-steps.md)

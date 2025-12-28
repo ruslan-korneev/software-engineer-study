@@ -1,5 +1,9 @@
 # Разделы (Partitions)
 
+[prev: 01-topics](./01-topics.md) | [next: 03-embedded-kafka-testing](./03-embedded-kafka-testing.md)
+
+---
+
 ## Описание
 
 **Partition (партиция/раздел)** — это базовая единица параллелизма в Apache Kafka. Каждый топик разделен на одну или несколько партиций, которые представляют собой упорядоченные, неизменяемые последовательности записей (лог).
@@ -603,3 +607,7 @@ kafka.server:type=ReplicaManager,name=UnderReplicatedPartitions
 - [Топики](./01-topics.md)
 - [Тестирование с EmbeddedKafka](./03-embedded-kafka-testing.md)
 - [Сжатые топики](./04-compacted-topics.md)
+
+---
+
+[prev: 01-topics](./01-topics.md) | [next: 03-embedded-kafka-testing](./03-embedded-kafka-testing.md)

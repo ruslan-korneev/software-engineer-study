@@ -1,5 +1,9 @@
 # Сжатые темы (Compacted Topics)
 
+[prev: 03-embedded-kafka-testing](./03-embedded-kafka-testing.md) | [next: 01-data-retention](../08-kafka-storage/01-data-retention.md)
+
+---
+
 ## Описание
 
 **Compacted Topic (сжатый топик)** — это специальный тип топика в Apache Kafka с политикой очистки `cleanup.policy=compact`. В отличие от обычных топиков, где данные удаляются по времени или размеру, в сжатых топиках Kafka сохраняет только **последнее значение для каждого ключа**.
@@ -707,3 +711,7 @@ kafka-topics.sh --create \
 - [Топики](./01-topics.md)
 - [Партиции](./02-partitions.md)
 - [Тестирование с EmbeddedKafka](./03-embedded-kafka-testing.md)
+
+---
+
+[prev: 03-embedded-kafka-testing](./03-embedded-kafka-testing.md) | [next: 01-data-retention](../08-kafka-storage/01-data-retention.md)

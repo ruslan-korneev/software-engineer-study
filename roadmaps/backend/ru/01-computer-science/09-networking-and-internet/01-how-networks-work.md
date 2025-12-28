@@ -1,5 +1,8 @@
 # How Networks Work
 
+[prev: 04-choosing-language](../08-programming-basics/04-choosing-language.md) | [next: 02-ip-addresses](./02-ip-addresses.md)
+
+---
 ## Что такое компьютерная сеть?
 
 **Компьютерная сеть** — это группа устройств (компьютеров, серверов, смартфонов, принтеров и т.д.), соединённых между собой для обмена данными и совместного использования ресурсов.
@@ -343,3 +346,7 @@ ss -tuln               # Linux (современный)
 | **Задержка (Latency)** | Время прохождения пакета от A до B |
 | **Jitter** | Вариация задержки |
 | **Throughput** | Реальная скорость передачи данных |
+
+---
+
+[prev: 04-choosing-language](../08-programming-basics/04-choosing-language.md) | [next: 02-ip-addresses](./02-ip-addresses.md)

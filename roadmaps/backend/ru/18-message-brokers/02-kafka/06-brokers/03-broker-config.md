@@ -1,5 +1,9 @@
 # Конфигурационные параметры брокеров
 
+[prev: 02-zookeeper-role](./02-zookeeper-role.md) | [next: 04-partition-leaders](./04-partition-leaders.md)
+
+---
+
 ## Описание
 
 Конфигурация брокера Kafka определяет его поведение, производительность и взаимодействие с другими компонентами кластера. Параметры настраиваются в файле `server.properties` или передаются при запуске. Понимание ключевых параметров критически важно для построения надёжного и производительного кластера.
@@ -541,3 +545,7 @@ replica.lag.time.max.ms=5000  # слишком мало
 replica.lag.time.max.ms=30000
 zookeeper.session.timeout.ms=18000
 ```
+
+---
+
+[prev: 02-zookeeper-role](./02-zookeeper-role.md) | [next: 04-partition-leaders](./04-partition-leaders.md)

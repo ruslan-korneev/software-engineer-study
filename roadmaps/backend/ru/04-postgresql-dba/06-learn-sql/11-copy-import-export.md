@@ -1,5 +1,9 @@
 # COPY: Импорт и экспорт данных
 
+[prev: 10-set-operations](./10-set-operations.md) | [next: 01-procedures-and-functions](../07-advanced-sql/01-procedures-and-functions.md)
+
+---
+
 ## Обзор команды COPY
 
 **COPY** — это команда PostgreSQL для быстрого импорта и экспорта данных между таблицами и файлами. Существует две формы:
@@ -591,3 +595,7 @@ INSERT INTO users SELECT * FROM staging;
 6. **Используйте транзакции** для атомарности импорта
 7. **Сжимайте большие файлы** через PROGRAM
 8. **Логируйте операции** импорта/экспорта
+
+---
+
+[prev: 10-set-operations](./10-set-operations.md) | [next: 01-procedures-and-functions](../07-advanced-sql/01-procedures-and-functions.md)

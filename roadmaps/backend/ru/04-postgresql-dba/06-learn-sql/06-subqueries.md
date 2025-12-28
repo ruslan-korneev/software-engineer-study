@@ -1,5 +1,9 @@
 # Подзапросы (Subqueries)
 
+[prev: 05-transactions](./05-transactions.md) | [next: 07-advanced-topics](./07-advanced-topics.md)
+
+---
+
 ## Что такое подзапрос?
 
 **Подзапрос** — это запрос, вложенный в другой SQL-запрос. Подзапрос заключается в круглые скобки и может использоваться в различных частях основного запроса.
@@ -533,3 +537,7 @@ SELECT u.name, d.name AS dept_name
 FROM users u
 LEFT JOIN departments d ON u.department_id = d.id;
 ```
+
+---
+
+[prev: 05-transactions](./05-transactions.md) | [next: 07-advanced-topics](./07-advanced-topics.md)

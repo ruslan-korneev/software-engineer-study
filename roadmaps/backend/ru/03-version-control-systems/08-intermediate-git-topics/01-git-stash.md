@@ -1,5 +1,8 @@
 # Git Stash
 
+[prev: 05-collaborators](../07-collaboration-on-github/05-collaborators.md) | [next: 02-history](./02-history.md)
+---
+
 ## Что такое Stash и зачем нужен
 
 **Git Stash** — это механизм временного сохранения незавершённых изменений без создания коммита. Stash работает как "черновик", куда можно отложить текущую работу, чтобы переключиться на другую задачу.
@@ -351,3 +354,6 @@ git stash list
 | `git stash drop` | Удалить stash |
 | `git stash clear` | Удалить все stash-и |
 | `git stash branch <name>` | Создать ветку из stash |
+
+---
+[prev: 05-collaborators](../07-collaboration-on-github/05-collaborators.md) | [next: 02-history](./02-history.md)

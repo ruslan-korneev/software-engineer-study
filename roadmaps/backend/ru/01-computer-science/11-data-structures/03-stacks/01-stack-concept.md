@@ -1,5 +1,8 @@
 # Стек — концепция (Stack Concept)
 
+[prev: 03-circular-linked](../02-linked-lists/03-circular-linked.md) | [next: 02-stack-applications](./02-stack-applications.md)
+
+---
 ## Определение
 
 **Стек** — это линейная структура данных, работающая по принципу LIFO (Last In, First Out — «последним пришёл, первым вышел»). Элементы добавляются и удаляются только с одного конца, называемого **вершиной** (top) стека.
@@ -507,3 +510,7 @@ result = a - b   # 5 - 3 = 2, НЕ 3 - 5!
 - Нужен доступ к произвольным элементам
 - Нужен порядок FIFO (используй очередь)
 - Нужно удалять из середины
+
+---
+
+[prev: 03-circular-linked](../02-linked-lists/03-circular-linked.md) | [next: 02-stack-applications](./02-stack-applications.md)

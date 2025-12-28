@@ -1,5 +1,9 @@
 # Привилегии объектов в PostgreSQL
 
+[prev: 08-postgresql-conf](../08-configuring-postgresql/08-postgresql-conf.md) | [next: 02-grant-revoke](./02-grant-revoke.md)
+
+---
+
 ## Введение
 
 Привилегии объектов (Object Privileges) в PostgreSQL определяют, какие действия пользователи или роли могут выполнять над конкретными объектами базы данных. Это фундаментальный механизм контроля доступа, обеспечивающий безопасность данных.
@@ -331,3 +335,7 @@ REVOKE SELECT ON employees FROM manager CASCADE;
 - [Привилегии по умолчанию](./03-default-privileges.md) - настройка привилегий для новых объектов
 - [Row Level Security](./04-row-level-security.md) - контроль доступа на уровне строк
 - [Роли](./06-roles.md) - система ролей PostgreSQL
+
+---
+
+[prev: 08-postgresql-conf](../08-configuring-postgresql/08-postgresql-conf.md) | [next: 02-grant-revoke](./02-grant-revoke.md)

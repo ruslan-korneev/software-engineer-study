@@ -1,5 +1,9 @@
 # Темы (Topics)
 
+[prev: 07-exercise](../06-brokers/07-exercise.md) | [next: 02-partitions](./02-partitions.md)
+
+---
+
 ## Описание
 
 **Topic (тема/топик)** — это фундаментальная абстракция в Apache Kafka, представляющая собой категорию или канал для публикации сообщений. Топик можно рассматривать как аналог таблицы в базе данных или папки в файловой системе, но с особенностями, специфичными для потоковой обработки данных.
@@ -422,3 +426,7 @@ segment.ms=300000
 - [Партиции](./02-partitions.md)
 - [Сжатые топики](./04-compacted-topics.md)
 - [Тестирование с EmbeddedKafka](./03-embedded-kafka-testing.md)
+
+---
+
+[prev: 07-exercise](../06-brokers/07-exercise.md) | [next: 02-partitions](./02-partitions.md)

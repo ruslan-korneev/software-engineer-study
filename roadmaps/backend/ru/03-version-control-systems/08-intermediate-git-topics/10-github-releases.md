@@ -1,5 +1,8 @@
 # GitHub Releases
 
+[prev: 09-reset-modes](./09-reset-modes.md) | [next: 09-github-cli](../09-github-cli.md)
+---
+
 ## Что такое релизы
 
 **GitHub Releases** — это механизм для публикации версий вашего программного обеспечения. Релизы позволяют:
@@ -641,3 +644,6 @@ sha256sum -c checksums.txt
 - [GitHub CLI Release Commands](https://cli.github.com/manual/gh_release)
 - [Semantic Versioning](https://semver.org/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
+
+---
+[prev: 09-reset-modes](./09-reset-modes.md) | [next: 09-github-cli](../09-github-cli.md)

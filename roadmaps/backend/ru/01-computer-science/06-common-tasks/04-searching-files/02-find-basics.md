@@ -1,5 +1,8 @@
 # find - базовый поиск файлов
 
+[prev: 01-locate](./01-locate.md) | [next: 03-find-advanced](./03-find-advanced.md)
+
+---
 ## Что такое find?
 
 **find** - мощная утилита для поиска файлов и директорий в реальном времени. В отличие от `locate`, find сканирует файловую систему непосредственно при запуске, что гарантирует актуальные результаты.
@@ -353,3 +356,7 @@ find / -name "*.conf" 2>&1 >/dev/null
 | `-a` | AND (по умолчанию) |
 | `-o` | OR |
 | `!` или `-not` | NOT |
+
+---
+
+[prev: 01-locate](./01-locate.md) | [next: 03-find-advanced](./03-find-advanced.md)

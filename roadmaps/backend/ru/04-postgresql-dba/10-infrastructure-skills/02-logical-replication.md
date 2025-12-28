@@ -1,5 +1,9 @@
 # Логическая репликация в PostgreSQL
 
+[prev: 01-pg_upgrade](./01-pg_upgrade.md) | [next: 03-stateful-setup](./03-stateful-setup.md)
+
+---
+
 ## Что такое логическая репликация
 
 **Логическая репликация** — это метод репликации данных в PostgreSQL, который передает изменения на уровне строк (INSERT, UPDATE, DELETE) между серверами. В отличие от физической репликации, логическая репликация позволяет:
@@ -452,3 +456,7 @@ SELECT pg_drop_replication_slot('unused_slot');
 - [Официальная документация по логической репликации](https://www.postgresql.org/docs/current/logical-replication.html)
 - [Publication](https://www.postgresql.org/docs/current/sql-createpublication.html)
 - [Subscription](https://www.postgresql.org/docs/current/sql-createsubscription.html)
+
+---
+
+[prev: 01-pg_upgrade](./01-pg_upgrade.md) | [next: 03-stateful-setup](./03-stateful-setup.md)

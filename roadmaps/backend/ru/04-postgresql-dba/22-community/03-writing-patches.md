@@ -1,5 +1,9 @@
 # Написание патчей для PostgreSQL
 
+[prev: 02-reviewing-patches](./02-reviewing-patches.md) | [next: 01-basics](../../05-nosql-databases/02-document/01-mongodb/01-basics.md)
+
+---
+
 Создание патчей для PostgreSQL — это способ внести вклад в развитие одной из самых мощных СУБД с открытым исходным кодом.
 
 ## Подготовка окружения
@@ -444,3 +448,7 @@ Changes from v1:
 - [Running Tests](https://wiki.postgresql.org/wiki/Running_tests)
 - [PostgreSQL Git Repository](https://git.postgresql.org/)
 - [CommitFest](https://commitfest.postgresql.org/)
+
+---
+
+[prev: 02-reviewing-patches](./02-reviewing-patches.md) | [next: 01-basics](../../05-nosql-databases/02-document/01-mongodb/01-basics.md)

@@ -1,5 +1,8 @@
 # Бинарное дерево поиска (Binary Search Tree)
 
+[prev: 03-heaps-stacks-queues](./03-heaps-stacks-queues.md) | [next: 05-recursion](./05-recursion.md)
+---
+
 **BST** — дерево, где для каждого узла:
 - Все элементы **слева меньше**
 - Все элементы **справа больше**
@@ -467,3 +470,6 @@ def lca(root, p, q):
             return root
     return None
 ```
+
+---
+[prev: 03-heaps-stacks-queues](./03-heaps-stacks-queues.md) | [next: 05-recursion](./05-recursion.md)

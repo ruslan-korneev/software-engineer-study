@@ -1,5 +1,9 @@
 # Соединение таблиц (JOIN)
 
+[prev: 03-data-types](./03-data-types.md) | [next: 05-transactions](./05-transactions.md)
+
+---
+
 ## Что такое JOIN?
 
 **JOIN** — это операция объединения строк из двух или более таблиц на основе связанных столбцов. JOIN позволяет получать данные из нескольких таблиц в одном запросе.
@@ -558,3 +562,7 @@ JOIN table2 t2 ON t1.nullable_col IS NOT DISTINCT FROM t2.nullable_col;
 4. **Используйте EXPLAIN** для анализа производительности
 5. **Выбирайте правильный тип JOIN** в зависимости от задачи
 6. **Фильтруйте раньше** — используйте WHERE до JOIN где возможно
+
+---
+
+[prev: 03-data-types](./03-data-types.md) | [next: 05-transactions](./05-transactions.md)

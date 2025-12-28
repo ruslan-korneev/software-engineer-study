@@ -1,5 +1,8 @@
 # GitHub Codespaces
 
+[prev: 03-github-packages](./03-github-packages.md) | [next: 05-github-sponsors](./05-github-sponsors.md)
+---
+
 ## Что такое GitHub Codespaces?
 
 **GitHub Codespaces** - это облачная среда разработки, которая позволяет писать, запускать и отлаживать код прямо в браузере или через VS Code. По сути, это полноценная виртуальная машина с настроенным окружением разработки.
@@ -578,3 +581,6 @@ gh repo view
 - [Dev Container Specification](https://containers.dev/)
 - [Available Features](https://containers.dev/features)
 - [VS Code Remote Development](https://code.visualstudio.com/docs/remote/codespaces)
+
+---
+[prev: 03-github-packages](./03-github-packages.md) | [next: 05-github-sponsors](./05-github-sponsors.md)

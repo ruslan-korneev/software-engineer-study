@@ -1,5 +1,8 @@
 # Client vs Server Hooks - Клиентские и серверные хуки
 
+[prev: 01-what-and-why](./01-what-and-why.md) | [next: 03-common-hooks](./03-common-hooks.md)
+---
+
 ## Обзор
 
 Git хуки делятся на две категории в зависимости от того, где они выполняются:
@@ -558,3 +561,6 @@ if ! grep -q "\\[$TICKET\\]" "$COMMIT_MSG_FILE"; then
     sed -i "1s/^/[$TICKET] /" "$COMMIT_MSG_FILE"
 fi
 ```
+
+---
+[prev: 01-what-and-why](./01-what-and-why.md) | [next: 03-common-hooks](./03-common-hooks.md)

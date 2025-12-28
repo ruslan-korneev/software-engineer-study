@@ -1,5 +1,9 @@
 # Привилегии по умолчанию (Default Privileges)
 
+[prev: 02-grant-revoke](./02-grant-revoke.md) | [next: 04-row-level-security](./04-row-level-security.md)
+
+---
+
 ## Введение
 
 Default Privileges (привилегии по умолчанию) позволяют автоматически назначать привилегии на объекты, которые будут созданы в будущем. Это решает важную проблему: обычные команды `GRANT` действуют только на существующие объекты, а новые объекты создаются без автоматических прав для других пользователей.
@@ -462,3 +466,7 @@ SELECT setup_role_privileges(
 - [Привилегии объектов](./01-object-privileges.md) - типы привилегий
 - [GRANT и REVOKE](./02-grant-revoke.md) - команды управления привилегиями
 - [Роли](./06-roles.md) - создание и управление ролями
+
+---
+
+[prev: 02-grant-revoke](./02-grant-revoke.md) | [next: 04-row-level-security](./04-row-level-security.md)

@@ -1,5 +1,8 @@
 # Очередь — концепция (Queue Concept)
 
+[prev: 02-stack-applications](../03-stacks/02-stack-applications.md) | [next: 02-deque](./02-deque.md)
+
+---
 ## Определение
 
 **Очередь** — это линейная структура данных, работающая по принципу FIFO (First In, First Out — «первым пришёл, первым вышел»). Элементы добавляются в конец очереди (rear/back) и удаляются из начала (front).
@@ -623,3 +626,7 @@ while queue:
 - Нужен порядок LIFO (используй стек)
 - Нужен доступ к произвольным элементам
 - Нужна приоритизация (используй priority queue)
+
+---
+
+[prev: 02-stack-applications](../03-stacks/02-stack-applications.md) | [next: 02-deque](./02-deque.md)

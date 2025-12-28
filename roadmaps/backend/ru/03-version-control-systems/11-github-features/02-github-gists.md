@@ -1,5 +1,8 @@
 # GitHub Gists
 
+[prev: 01-github-pages](./01-github-pages.md) | [next: 03-github-packages](./03-github-packages.md)
+---
+
 ## Что такое GitHub Gists?
 
 **GitHub Gists** - это простой способ делиться фрагментами кода, заметками и другими текстовыми данными. По сути, каждый gist - это мини-репозиторий Git, который можно клонировать, форкать и версионировать.
@@ -469,3 +472,6 @@ curl -X POST \
 - [GitHub Gists](https://gist.github.com)
 - [Gists API Documentation](https://docs.github.com/en/rest/gists)
 - [GitHub CLI - Gist](https://cli.github.com/manual/gh_gist)
+
+---
+[prev: 01-github-pages](./01-github-pages.md) | [next: 03-github-packages](./03-github-packages.md)

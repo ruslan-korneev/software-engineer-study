@@ -1,5 +1,9 @@
 # Обзор RabbitMQ Streams
 
+[prev: 07-publisher-confirms](../07-tutorials/07-publisher-confirms.md) | [next: 02-stream-basics](./02-stream-basics.md)
+
+---
+
 ## Введение
 
 RabbitMQ Streams — это новый тип данных, представленный в RabbitMQ 3.9, который предоставляет функциональность append-only log (журнала с добавлением в конец). Streams разработаны для сценариев, где требуется высокая пропускная способность, повторное чтение сообщений и долгосрочное хранение данных.
@@ -267,3 +271,7 @@ RabbitMQ Streams представляют собой мощный инструм
 - Долгосрочного хранения событий
 
 Они дополняют классические очереди RabbitMQ, предоставляя функциональность, аналогичную Apache Kafka, но в рамках экосистемы RabbitMQ.
+
+---
+
+[prev: 07-publisher-confirms](../07-tutorials/07-publisher-confirms.md) | [next: 02-stream-basics](./02-stream-basics.md)

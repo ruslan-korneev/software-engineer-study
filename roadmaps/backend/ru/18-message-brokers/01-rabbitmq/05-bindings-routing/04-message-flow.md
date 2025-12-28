@@ -1,5 +1,9 @@
 # Поток сообщений
 
+[prev: 03-routing-patterns](./03-routing-patterns.md) | [next: 01-acknowledgments](../06-message-handling/01-acknowledgments.md)
+
+---
+
 ## Обзор потока сообщений в RabbitMQ
 
 Понимание полного пути сообщения от producer до consumer — ключ к эффективной работе с RabbitMQ. В этом разделе мы детально рассмотрим каждый этап прохождения сообщения через систему.
@@ -643,3 +647,7 @@ class RobustPublisher:
 - Consumer Acknowledgements гарантируют обработку
 - Трассировка помогает отлаживать маршрутизацию
 - Правильная обработка ошибок критична для надёжности системы
+
+---
+
+[prev: 03-routing-patterns](./03-routing-patterns.md) | [next: 01-acknowledgments](../06-message-handling/01-acknowledgments.md)

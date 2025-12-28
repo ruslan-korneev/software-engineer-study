@@ -1,5 +1,8 @@
 # Working Directory (Рабочий каталог)
 
+[prev: 05-repository-initialization](../01-learn-the-basics/05-repository-initialization.md) | [next: 02-staging-area](./02-staging-area.md)
+---
+
 ## Что такое Working Directory?
 
 **Working Directory** (рабочий каталог) — это директория на вашем компьютере, где находятся все файлы проекта, с которыми вы непосредственно работаете. Это "рабочая копия" вашего репозитория.
@@ -207,3 +210,6 @@ git df    # вместо git diff
 - `git diff` — показывает конкретные изменения в файлах
 - `git restore` — отменяет изменения (осторожно, данные теряются!)
 - `git clean` — удаляет неотслеживаемые файлы
+
+---
+[prev: 05-repository-initialization](../01-learn-the-basics/05-repository-initialization.md) | [next: 02-staging-area](./02-staging-area.md)

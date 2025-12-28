@@ -1,5 +1,8 @@
 # Как работают процессы
 
+[prev: 05-chown-chgrp](../09-permissions/05-chown-chgrp.md) | [next: 02-ps-top](./02-ps-top.md)
+
+---
 ## Что такое процесс?
 
 **Процесс** — это экземпляр выполняющейся программы. Когда вы запускаете команду, ядро создаёт процесс, выделяет ему память и ресурсы.
@@ -220,3 +223,7 @@ PID   PPID  USER     COMMAND         STAT
 $ ps -o ppid= -p $$
 12340
 ```
+
+---
+
+[prev: 05-chown-chgrp](../09-permissions/05-chown-chgrp.md) | [next: 02-ps-top](./02-ps-top.md)

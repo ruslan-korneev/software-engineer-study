@@ -1,5 +1,8 @@
 # mkfs и fsck - создание и проверка файловых систем
 
+[prev: 02-fdisk](./02-fdisk.md) | [next: 04-dd](./04-dd.md)
+
+---
 ## mkfs - создание файловых систем
 
 ### Что такое mkfs?
@@ -425,3 +428,7 @@ sudo e2fsck -f /dev/sdb1
 | Настроить ext | `sudo tune2fs -l /dev/sdX1` |
 | Изменить метку | `sudo tune2fs -L "Label" /dev/sdX1` |
 | Проверить блоки | `sudo badblocks -v /dev/sdX` |
+
+---
+
+[prev: 02-fdisk](./02-fdisk.md) | [next: 04-dd](./04-dd.md)

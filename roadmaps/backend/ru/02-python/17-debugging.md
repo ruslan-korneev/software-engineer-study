@@ -1,5 +1,8 @@
 # Отладка (Debugging)
 
+[prev: 16-logging](./16-logging.md) | [next: 01-what-is-version-control](../03-version-control-systems/01-learn-the-basics/01-what-is-version-control.md)
+---
+
 ## Методы отладки
 
 1. **Print debugging** — простой, но ограниченный
@@ -420,3 +423,6 @@ A: Проверьте PYTHONBREAKPOINT. Если установлен в 0, brea
 
 **Q: Как профилировать production код?**
 A: Используйте py-spy — он может профилировать запущенный процесс без модификации кода.
+
+---
+[prev: 16-logging](./16-logging.md) | [next: 01-what-is-version-control](../03-version-control-systems/01-learn-the-basics/01-what-is-version-control.md)

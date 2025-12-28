@@ -1,5 +1,9 @@
 # Настройка PostgreSQL под рабочую нагрузку
 
+[prev: 06-system-catalog](./06-system-catalog.md) | [next: 01-os-tools](../18-troubleshooting/01-os-tools.md)
+
+---
+
 ## Типы рабочих нагрузок
 
 ### OLTP (Online Transaction Processing)
@@ -351,3 +355,7 @@ WHERE name IN (
 )
 ORDER BY name;
 ```
+
+---
+
+[prev: 06-system-catalog](./06-system-catalog.md) | [next: 01-os-tools](../18-troubleshooting/01-os-tools.md)

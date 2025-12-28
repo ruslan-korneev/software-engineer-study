@@ -1,5 +1,8 @@
 # Операции над массивами (Array Operations)
 
+[prev: 02-dynamic-arrays](./02-dynamic-arrays.md) | [next: 01-singly-linked](../02-linked-lists/01-singly-linked.md)
+
+---
 ## Определение
 
 **Операции над массивами** — это базовые алгоритмы и действия, которые можно выполнять с массивами: доступ, поиск, вставка, удаление, сортировка, слияние и другие манипуляции с элементами.
@@ -614,3 +617,7 @@ def binary_search_recursive(arr, target, left, right):
 
 # ПРАВИЛЬНО — добавить return
 ```
+
+---
+
+[prev: 02-dynamic-arrays](./02-dynamic-arrays.md) | [next: 01-singly-linked](../02-linked-lists/01-singly-linked.md)

@@ -1,5 +1,8 @@
 # Обработка коллизий (Collision Handling)
 
+[prev: 01-hash-functions](./01-hash-functions.md) | [next: 03-hash-table-operations](./03-hash-table-operations.md)
+
+---
 ## Определение
 
 **Коллизия** — это ситуация, когда два или более различных ключа получают одинаковый хэш-код. Поскольку хэш-функция отображает бесконечное множество ключей в конечное множество индексов, коллизии неизбежны (принцип Дирихле).
@@ -578,3 +581,7 @@ def _hash2(self, key):
 3. **Для гарантированного O(1)** — Cuckoo hashing
 4. **Load factor** — держи ниже 0.7 для открытой адресации
 5. **Размер таблицы** — простое число или степень 2
+
+---
+
+[prev: 01-hash-functions](./01-hash-functions.md) | [next: 03-hash-table-operations](./03-hash-table-operations.md)

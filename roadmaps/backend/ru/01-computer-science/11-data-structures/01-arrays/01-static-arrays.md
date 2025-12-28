@@ -1,5 +1,8 @@
 # Статические массивы (Static Arrays)
 
+[prev: 06-space-complexity](../../10-asymptotic-notation/06-space-complexity.md) | [next: 02-dynamic-arrays](./02-dynamic-arrays.md)
+
+---
 ## Определение
 
 **Статический массив** — это структура данных фиксированного размера, которая хранит элементы одного типа в последовательных (смежных) ячейках памяти. Размер массива определяется при создании и не может быть изменён во время выполнения программы.
@@ -242,3 +245,7 @@ result = [x for x in arr if x % 2 != 0]
 | Накладные расходы | Минимальные | Есть (амортизация) |
 | Безопасность | Предсказуемое поведение | Может быть reallocation |
 | Применение | Embedded, буферы | Общего назначения |
+
+---
+
+[prev: 06-space-complexity](../../10-asymptotic-notation/06-space-complexity.md) | [next: 02-dynamic-arrays](./02-dynamic-arrays.md)

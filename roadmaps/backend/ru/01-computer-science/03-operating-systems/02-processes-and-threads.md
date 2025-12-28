@@ -1,5 +1,8 @@
 # Процессы и потоки (Processes and Threads)
 
+[prev: 01-what-is-os](./01-what-is-os.md) | [next: 03-memory-management](./03-memory-management.md)
+
+---
 ## Определение
 
 **Процесс** — это экземпляр выполняющейся программы. Каждый процесс имеет собственное изолированное адресное пространство, ресурсы и состояние.
@@ -372,3 +375,7 @@ consumer_thread.join()
 - Правильного проектирования серверных приложений
 
 Для backend-разработчика особенно важно понимать модели параллелизма веб-серверов (fork, prefork, threaded, async).
+
+---
+
+[prev: 01-what-is-os](./01-what-is-os.md) | [next: 03-memory-management](./03-memory-management.md)

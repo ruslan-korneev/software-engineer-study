@@ -1,5 +1,9 @@
 # Массовая загрузка данных (Bulk Loading)
 
+[prev: 04-migration-tools](../15-automation/04-migration-tools.md) | [next: 02-data-partitioning](./02-data-partitioning.md)
+
+---
+
 ## Введение
 
 Массовая загрузка данных (Bulk Loading) - это процесс эффективной загрузки больших объемов данных в PostgreSQL. Стандартные INSERT-операции неэффективны для миллионов записей, поэтому PostgreSQL предоставляет специализированные инструменты для быстрой загрузки данных.
@@ -345,3 +349,7 @@ FROM pg_stat_progress_copy;
 3. **Синхронный коммит** - отключите для массовой загрузки
 4. **Игнорирование ANALYZE** - после загрузки обязательно обновите статистику
 5. **Неправильная кодировка файла** - всегда указывайте ENCODING
+
+---
+
+[prev: 04-migration-tools](../15-automation/04-migration-tools.md) | [next: 02-data-partitioning](./02-data-partitioning.md)

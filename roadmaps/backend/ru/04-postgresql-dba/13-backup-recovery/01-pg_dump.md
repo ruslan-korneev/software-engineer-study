@@ -1,5 +1,9 @@
 # pg_dump - Утилита логического бэкапа PostgreSQL
 
+[prev: 06-load-balancing](../12-replication-clustering/06-load-balancing.md) | [next: 02-pg_restore](./02-pg_restore.md)
+
+---
+
 ## Введение
 
 **pg_dump** - это стандартная утилита PostgreSQL для создания логических резервных копий баз данных. Она извлекает содержимое базы данных в виде SQL-скрипта или архивного файла, который можно использовать для восстановления базы данных.
@@ -363,3 +367,7 @@ pg_dump -a --disable-triggers mydb > data_only.sql
 ## Заключение
 
 pg_dump остается основным инструментом для логического бэкапа PostgreSQL благодаря своей гибкости и надежности. Для критичных production-систем рекомендуется комбинировать pg_dump с физическими бэкапами (pg_basebackup, WAL-G, pgBackRest) для обеспечения полноценной стратегии резервного копирования с возможностью Point-in-Time Recovery.
+
+---
+
+[prev: 06-load-balancing](../12-replication-clustering/06-load-balancing.md) | [next: 02-pg_restore](./02-pg_restore.md)

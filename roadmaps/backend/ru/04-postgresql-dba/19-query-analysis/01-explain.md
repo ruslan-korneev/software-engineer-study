@@ -1,5 +1,9 @@
 # EXPLAIN и EXPLAIN ANALYZE
 
+[prev: 05-postgres-tools](../18-troubleshooting/05-postgres-tools.md) | [next: 02-depesz](./02-depesz.md)
+
+---
+
 ## Введение
 
 EXPLAIN - это команда PostgreSQL, которая показывает план выполнения запроса без его фактического выполнения. Это фундаментальный инструмент для анализа и оптимизации производительности SQL-запросов.
@@ -236,3 +240,7 @@ EXPLAIN (ANALYZE, FORMAT JSON) SELECT * FROM users WHERE id = 1;
 
 - [Официальная документация EXPLAIN](https://www.postgresql.org/docs/current/sql-explain.html)
 - [Using EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html)
+
+---
+
+[prev: 05-postgres-tools](../18-troubleshooting/05-postgres-tools.md) | [next: 02-depesz](./02-depesz.md)

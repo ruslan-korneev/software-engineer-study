@@ -1,5 +1,8 @@
 # Структура командной строки (Prompt Structure)
 
+[prev: 06-multiple-files](../02-vi-editor/06-multiple-files.md) | [next: 02-colors](./02-colors.md)
+
+---
 ## Что такое Prompt?
 
 **Prompt** (приглашение командной строки) — это текст, который shell показывает перед каждой командой. Он сообщает пользователю информацию о системе и готовности принимать ввод.
@@ -301,3 +304,7 @@ PS1='test> '
 - `\w` — директория
 - `\$` — символ prompt ($ или #)
 - `\t` — время
+
+---
+
+[prev: 06-multiple-files](../02-vi-editor/06-multiple-files.md) | [next: 02-colors](./02-colors.md)

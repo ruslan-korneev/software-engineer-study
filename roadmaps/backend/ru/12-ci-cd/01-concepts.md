@@ -1,5 +1,9 @@
 # Основные концепции CI/CD
 
+[prev: 03-functional-testing](../11-testing/03-functional-testing.md) | [next: 02-github-actions](./02-github-actions.md)
+
+---
+
 ## Введение
 
 CI/CD (Continuous Integration / Continuous Delivery / Continuous Deployment) — это набор практик и методологий, которые позволяют командам разработчиков часто и надёжно доставлять изменения кода в production. Эти практики являются фундаментом современной разработки программного обеспечения и DevOps-культуры.
@@ -409,3 +413,7 @@ CI/CD — это не просто инструменты, а культура �
 - [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/)
 - [Continuous Delivery by Jez Humble](https://continuousdelivery.com/)
 - [DORA Metrics](https://www.devops-research.com/research.html)
+
+---
+
+[prev: 03-functional-testing](../11-testing/03-functional-testing.md) | [next: 02-github-actions](./02-github-actions.md)

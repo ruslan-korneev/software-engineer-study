@@ -1,5 +1,8 @@
 # Переменная IFS
 
+[prev: 01-read-command](./01-read-command.md) | [next: 03-validating-input](./03-validating-input.md)
+
+---
 ## Что такое IFS
 
 **IFS** (Internal Field Separator) - это специальная переменная, определяющая символы-разделители для разбиения строк на слова. По умолчанию IFS содержит пробел, табуляцию и новую строку.
@@ -303,3 +306,7 @@ while IFS=':' read -r a b c; do
 done < file.txt
 # После цикла IFS не изменён
 ```
+
+---
+
+[prev: 01-read-command](./01-read-command.md) | [next: 03-validating-input](./03-validating-input.md)

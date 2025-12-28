@@ -1,5 +1,8 @@
 # find - расширенные возможности
 
+[prev: 02-find-basics](./02-find-basics.md) | [next: 04-xargs](./04-xargs.md)
+
+---
 ## Действия над найденными файлами
 
 ### -print (по умолчанию)
@@ -350,3 +353,7 @@ find . -name "*.tmp" -ok rm {} \;
 | Форматированный вывод | `-printf "format"` |
 | Вывод как ls | `-ls` |
 | С xargs | `find ... -print0 \| xargs -0 cmd` |
+
+---
+
+[prev: 02-find-basics](./02-find-basics.md) | [next: 04-xargs](./04-xargs.md)

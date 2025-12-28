@@ -1,5 +1,8 @@
 # GitHub Packages
 
+[prev: 02-github-gists](./02-github-gists.md) | [next: 04-github-codespaces](./04-github-codespaces.md)
+---
+
 ## Что такое GitHub Packages?
 
 **GitHub Packages** - это платформа для хостинга пакетов, интегрированная с GitHub. Она позволяет публиковать, хранить и устанавливать пакеты рядом с исходным кодом, используя единую систему аутентификации и прав доступа.
@@ -586,3 +589,6 @@ registries:
 - [Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
 - [npm Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
 - [Working with Actions](https://docs.github.com/en/packages/managing-github-packages-using-github-actions-workflows)
+
+---
+[prev: 02-github-gists](./02-github-gists.md) | [next: 04-github-codespaces](./04-github-codespaces.md)

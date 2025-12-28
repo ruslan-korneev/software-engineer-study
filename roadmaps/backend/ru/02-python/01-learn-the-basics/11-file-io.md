@@ -1,5 +1,8 @@
 # Работа с файлами (File I/O)
 
+[prev: 10-comprehensions](./10-comprehensions.md) | [next: 12-builtin-functions](./12-builtin-functions.md)
+---
+
 ## Основы работы с файлами
 
 ### Открытие и закрытие
@@ -439,3 +442,6 @@ A: Для небольших файлов: `reversed(path.read_text().splitlines
 
 **Q: Почему newline='' при записи CSV?**
 A: Модуль csv сам управляет переносами строк. Без `newline=''` могут появиться лишние пустые строки на Windows.
+
+---
+[prev: 10-comprehensions](./10-comprehensions.md) | [next: 12-builtin-functions](./12-builtin-functions.md)

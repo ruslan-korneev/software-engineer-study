@@ -1,5 +1,9 @@
 # CORS (Cross-Origin Resource Sharing)
 
+[prev: 02-owasp-risks](./02-owasp-risks.md) | [next: 04-ssl-tls](./04-ssl-tls.md)
+
+---
+
 ## Что такое CORS?
 
 **CORS** (Cross-Origin Resource Sharing) — это механизм безопасности браузера, который контролирует, какие веб-страницы могут делать запросы к ресурсам на другом домене. CORS позволяет серверу указать, каким источникам разрешено получать доступ к его ресурсам.
@@ -412,3 +416,7 @@ CORS — важный механизм безопасности браузера
 3. **Проверяйте Origin** — белый список надёжнее wildcard
 4. **Тестируйте preflight** — сложные запросы требуют OPTIONS
 5. **Credentials требуют конкретный origin** — нельзя совмещать с `*`
+
+---
+
+[prev: 02-owasp-risks](./02-owasp-risks.md) | [next: 04-ssl-tls](./04-ssl-tls.md)

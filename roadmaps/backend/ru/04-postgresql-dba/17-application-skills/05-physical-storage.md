@@ -1,5 +1,9 @@
 # Физическое хранение данных в PostgreSQL
 
+[prev: 04-lock-management](./04-lock-management.md) | [next: 06-system-catalog](./06-system-catalog.md)
+
+---
+
 ## Структура каталогов
 
 При инициализации PostgreSQL создает директорию данных (PGDATA):
@@ -325,3 +329,7 @@ WHERE schemaname = 'public';
 3. **Tablespaces**: размещайте индексы и "горячие" таблицы на SSD
 4. **Размер страницы**: не меняйте без веской причины (требует пересборки)
 5. **pageinspect**: используйте для диагностики проблем на уровне страниц
+
+---
+
+[prev: 04-lock-management](./04-lock-management.md) | [next: 06-system-catalog](./06-system-catalog.md)

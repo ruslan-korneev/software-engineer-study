@@ -1,5 +1,8 @@
 # GIL (Global Interpreter Lock)
 
+[prev: 13-testing](../13-testing.md) | [next: 02-threading](./02-threading.md)
+---
+
 ## Что это?
 
 Глобальная блокировка — только один поток выполняет Python-байткод в любой момент.
@@ -76,3 +79,6 @@ sys._is_gil_enabled()  # False (экспериментально)
 |--------|------|---------|
 | CPU-bound | Мешает | `multiprocessing` |
 | I/O-bound | Не мешает | `threading`, `asyncio` |
+
+---
+[prev: 13-testing](../13-testing.md) | [next: 02-threading](./02-threading.md)

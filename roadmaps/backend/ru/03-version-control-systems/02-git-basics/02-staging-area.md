@@ -1,5 +1,8 @@
 # Staging Area (Область подготовки)
 
+[prev: 01-working-directory](./01-working-directory.md) | [next: 03-committing-changes](./03-committing-changes.md)
+---
+
 ## Что такое Staging Area?
 
 **Staging Area** (также называется **Index**) — это промежуточная область между вашим рабочим каталогом и репозиторием Git. Здесь вы собираете изменения, которые войдут в следующий коммит.
@@ -309,3 +312,6 @@ git commit -a -m "Message"
 - `git diff --staged` — показывает, что будет закоммичено
 - Staging area позволяет создавать чистые, атомарные коммиты
 - Всегда проверяйте `git diff --staged` перед коммитом
+
+---
+[prev: 01-working-directory](./01-working-directory.md) | [next: 03-committing-changes](./03-committing-changes.md)

@@ -1,5 +1,9 @@
 # Взгляд внутрь Kafka
 
+[prev: 04-partition-leaders](./04-partition-leaders.md) | [next: 06-stateful-systems](./06-stateful-systems.md)
+
+---
+
 ## Описание
 
 Понимание внутреннего устройства Kafka помогает принимать правильные архитектурные решения, оптимизировать производительность и эффективно решать проблемы. В этом разделе рассмотрим ключевые компоненты: контроллер, режим KRaft, межброкерную коммуникацию и внутренние механизмы работы.
@@ -483,3 +487,7 @@ socket.receive.buffer.bytes=1048576
 num.replica.fetchers=4
 replica.fetch.max.bytes=10485760
 ```
+
+---
+
+[prev: 04-partition-leaders](./04-partition-leaders.md) | [next: 06-stateful-systems](./06-stateful-systems.md)

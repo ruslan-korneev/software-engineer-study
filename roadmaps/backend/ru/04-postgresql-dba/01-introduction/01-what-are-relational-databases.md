@@ -1,5 +1,8 @@
 # Что такое реляционные базы данных?
 
+[prev: 07-git-patch](../../03-version-control-systems/15-advanced-git/07-git-patch.md) | [next: 02-rdbms-benefits-limitations](./02-rdbms-benefits-limitations.md)
+---
+
 ## Определение
 
 **Реляционная база данных** — это тип базы данных, который хранит и организует данные в виде таблиц (отношений), связанных между собой по определённым правилам. Концепция была предложена Эдгаром Коддом в 1970 году в его работе "A Relational Model of Data for Large Shared Data Banks".
@@ -212,3 +215,6 @@ INNER JOIN orders ON users.id = orders.user_id;
 - Очень высокой нагрузки на запись (миллионы записей в секунду)
 - Горизонтального масштабирования на сотни серверов
 - Данных с часто меняющейся схемой
+
+---
+[prev: 07-git-patch](../../03-version-control-systems/15-advanced-git/07-git-patch.md) | [next: 02-rdbms-benefits-limitations](./02-rdbms-benefits-limitations.md)

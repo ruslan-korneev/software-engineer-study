@@ -1,5 +1,8 @@
 # Git vs другие системы контроля версий
 
+[prev: 02-why-use-version-control](./02-why-use-version-control.md) | [next: 04-installing-git](./04-installing-git.md)
+---
+
 ## Обзор систем контроля версий
 
 ### Эволюция VCS
@@ -342,3 +345,6 @@ hg-fast-export.sh -r /path/to/hg-repo
 3. **Строгий контроль** — централизованные системы
 
 **Рекомендация:** Для 95% проектов Git — лучший выбор. Изучайте Git как основной инструмент.
+
+---
+[prev: 02-why-use-version-control](./02-why-use-version-control.md) | [next: 04-installing-git](./04-installing-git.md)

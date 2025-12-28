@@ -1,5 +1,8 @@
 # Merging Basics
 
+[prev: 04-switching-branches](./04-switching-branches.md) | [next: 01-managing-remotes](../04-git-remotes/01-managing-remotes.md)
+---
+
 ## Что такое слияние (merge)?
 
 **Слияние (merge)** — это операция объединения изменений из одной ветки в другую. При слиянии Git анализирует историю обеих веток и создаёт новый коммит, объединяющий их изменения.
@@ -396,3 +399,6 @@ git merge --no-ff hotfix-1.0.1
 git checkout develop
 git merge --no-ff hotfix-1.0.1
 ```
+
+---
+[prev: 04-switching-branches](./04-switching-branches.md) | [next: 01-managing-remotes](../04-git-remotes/01-managing-remotes.md)

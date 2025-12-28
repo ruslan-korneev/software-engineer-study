@@ -1,5 +1,9 @@
 # Различные пакеты исходного кода
 
+[prev: 03-kafka-tour](./03-kafka-tour.md) | [next: 05-confluent-clients](./05-confluent-clients.md)
+
+---
+
 ## Описание
 
 Apache Kafka имеет модульную структуру и распространяется в нескольких формах. Понимание различных пакетов исходного кода и дистрибутивов поможет вам выбрать правильный вариант для вашего проекта и понять, как устроена экосистема Kafka.
@@ -565,3 +569,7 @@ kafka-broker-api-versions.sh --bootstrap-server localhost:9092
 - [Confluent Platform Downloads](https://www.confluent.io/installation/)
 - [Kafka Clients](https://cwiki.apache.org/confluence/display/KAFKA/Clients)
 - [librdkafka](https://github.com/edenhill/librdkafka)
+
+---
+
+[prev: 03-kafka-tour](./03-kafka-tour.md) | [next: 05-confluent-clients](./05-confluent-clients.md)

@@ -1,5 +1,8 @@
 # Советы по форматированию
 
+[prev: 03-permissions-path](./03-permissions-path.md) | [next: 01-variables](../02-project-start/01-variables.md)
+
+---
 ## Читаемость кода
 
 Shell-скрипты должны быть читаемыми не только для компьютера, но и для людей (включая вас через полгода).
@@ -320,3 +323,7 @@ brew install shfmt  # macOS
 shfmt -w script.sh  # Форматировать на месте
 shfmt -d script.sh  # Показать diff
 ```
+
+---
+
+[prev: 03-permissions-path](./03-permissions-path.md) | [next: 01-variables](../02-project-start/01-variables.md)

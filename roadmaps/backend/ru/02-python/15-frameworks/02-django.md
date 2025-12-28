@@ -1,5 +1,8 @@
 # Django
 
+[prev: 01-fastapi](./01-fastapi.md) | [next: 03-flask](./03-flask.md)
+---
+
 "Batteries included" — ORM, админка, аутентификация из коробки.
 
 ```bash
@@ -149,3 +152,6 @@ class UserViewSet(viewsets.ModelViewSet):
 | Auth | Аутентификация из коробки |
 
 **Когда:** Полноценные веб-приложения, админки, CRUD.
+
+---
+[prev: 01-fastapi](./01-fastapi.md) | [next: 03-flask](./03-flask.md)

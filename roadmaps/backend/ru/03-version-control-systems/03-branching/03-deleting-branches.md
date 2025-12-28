@@ -1,5 +1,8 @@
 # Deleting Branches
 
+[prev: 02-renaming-branches](./02-renaming-branches.md) | [next: 04-switching-branches](./04-switching-branches.md)
+---
+
 ## Зачем удалять ветки?
 
 Удаление веток — важная часть гигиены репозитория:
@@ -282,3 +285,6 @@ Settings → General → Pull Requests → Automatically delete head branches
 В настройках merge request:
 
 Settings → Merge Requests → Merge options → Delete source branch when merge request is accepted
+
+---
+[prev: 02-renaming-branches](./02-renaming-branches.md) | [next: 04-switching-branches](./04-switching-branches.md)

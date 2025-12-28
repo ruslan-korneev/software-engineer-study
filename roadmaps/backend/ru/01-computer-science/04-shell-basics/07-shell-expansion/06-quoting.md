@@ -1,5 +1,8 @@
 # Quoting (кавычки и экранирование)
 
+[prev: 05-command-substitution](./05-command-substitution.md) | [next: 01-cursor-movement](../08-keyboard-tricks/01-cursor-movement.md)
+
+---
 ## Зачем нужны кавычки?
 
 Кавычки контролируют, какие раскрытия (expansions) shell выполняет:
@@ -275,3 +278,7 @@ $ echo "Path: $HOME"         # Правильно
 $ echo "It's a "problem""    # Ошибка!
 $ echo "It's a \"problem\""  # Правильно
 ```
+
+---
+
+[prev: 05-command-substitution](./05-command-substitution.md) | [next: 01-cursor-movement](../08-keyboard-tricks/01-cursor-movement.md)

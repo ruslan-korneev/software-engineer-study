@@ -1,5 +1,9 @@
 # Routing Keys
 
+[prev: 01-bindings-basics](./01-bindings-basics.md) | [next: 03-routing-patterns](./03-routing-patterns.md)
+
+---
+
 ## Что такое Routing Key?
 
 **Routing Key** — это строковый идентификатор, который используется для определения маршрута сообщения от exchange к очередям. Это ключевой механизм маршрутизации в RabbitMQ.
@@ -481,3 +485,7 @@ routing_key = "v2.order.created"
 - В **Topic** exchange можно использовать wildcards (`*`, `#`)
 - Используйте константы и builders для консистентности
 - Валидируйте ключи перед использованием
+
+---
+
+[prev: 01-bindings-basics](./01-bindings-basics.md) | [next: 03-routing-patterns](./03-routing-patterns.md)

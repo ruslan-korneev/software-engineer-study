@@ -1,5 +1,8 @@
 # GitHub Marketplace
 
+[prev: 13-github-security](./13-github-security.md) | [next: 01-reflog](15-advanced-git/01-reflog.md)
+---
+
 ## Введение
 
 GitHub Marketplace — это централизованная платформа для поиска, установки и управления инструментами, которые расширяют функциональность GitHub. Marketplace объединяет тысячи приложений и actions, созданных как самим GitHub, так и сторонними разработчиками.
@@ -693,3 +696,6 @@ permissions:
 - [Creating Actions](https://docs.github.com/en/actions/creating-actions)
 - [Marketplace Developer Agreement](https://docs.github.com/en/site-policy/github-terms/github-marketplace-developer-agreement)
 - [Awesome Actions](https://github.com/sdras/awesome-actions)
+
+---
+[prev: 13-github-security](./13-github-security.md) | [next: 01-reflog](15-advanced-git/01-reflog.md)

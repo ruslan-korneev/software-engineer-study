@@ -1,5 +1,8 @@
 # Static Typing (Статическая типизация)
 
+[prev: 10c-pattern-matching](./10c-pattern-matching.md) | [next: 12-code-formatting](./12-code-formatting.md)
+---
+
 ## Зачем?
 
 - Раннее обнаружение ошибок
@@ -250,3 +253,6 @@ T_contra = TypeVar("T_contra", contravariant=True)  # Контравариант
 - Type hints не влияют на runtime
 - mypy проверяет типы статически
 - `strict = true` для строгой проверки
+
+---
+[prev: 10c-pattern-matching](./10c-pattern-matching.md) | [next: 12-code-formatting](./12-code-formatting.md)

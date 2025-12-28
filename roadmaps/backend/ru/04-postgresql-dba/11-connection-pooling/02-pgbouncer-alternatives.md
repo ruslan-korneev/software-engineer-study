@@ -1,5 +1,9 @@
 # Альтернативы PgBouncer
 
+[prev: 01-pgbouncer](./01-pgbouncer.md) | [next: 01-logical-replication](../12-replication-clustering/01-logical-replication.md)
+
+---
+
 ## Введение
 
 Хотя PgBouncer является наиболее популярным пулером соединений для PostgreSQL, существует ряд альтернативных решений, каждое со своими особенностями и преимуществами. В этом разделе рассмотрим основные альтернативы:
@@ -735,3 +739,7 @@ const pool = new Pool({
 4. **PgCat** — перспективное решение для cloud-native и sharding
 
 Часто используют комбинацию инструментов: например, PgBouncer для пулинга + Patroni для failover + HAProxy для load balancing.
+
+---
+
+[prev: 01-pgbouncer](./01-pgbouncer.md) | [next: 01-logical-replication](../12-replication-clustering/01-logical-replication.md)

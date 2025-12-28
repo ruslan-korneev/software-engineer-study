@@ -1,5 +1,9 @@
 # RPC (Remote Procedure Call)
 
+[prev: 05-topics](./05-topics.md) | [next: 07-publisher-confirms](./07-publisher-confirms.md)
+
+---
+
 ## Введение
 
 До сих пор мы рассматривали односторонние сценарии: producer отправляет, consumer получает. Но что если нам нужен ответ? В этом туториале мы реализуем паттерн **Request/Reply** (он же RPC) через RabbitMQ.
@@ -558,3 +562,7 @@ while self.response is None:
 4. **Масштабирование** — несколько серверов на одну очередь
 
 Следующий туториал: **Publisher Confirms** — гарантированная публикация сообщений.
+
+---
+
+[prev: 05-topics](./05-topics.md) | [next: 07-publisher-confirms](./07-publisher-confirms.md)

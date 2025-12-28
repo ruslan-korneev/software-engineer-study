@@ -1,5 +1,9 @@
 # Системы с сохранением состояния
 
+[prev: 05-kafka-internals](./05-kafka-internals.md) | [next: 07-exercise](./07-exercise.md)
+
+---
+
 ## Описание
 
 Kafka является **stateful системой** — брокеры хранят данные на диске и поддерживают состояние (метаданные, оффсеты, ISR). Это отличает Kafka от stateless систем и требует особого подхода к проектированию, развёртыванию и операционному обслуживанию кластера.
@@ -532,3 +536,7 @@ local.retention.ms=86400000  # 1 день
 log.retention.hours=8760  # 1 год
 log.retention.bytes=-1
 ```
+
+---
+
+[prev: 05-kafka-internals](./05-kafka-internals.md) | [next: 07-exercise](./07-exercise.md)

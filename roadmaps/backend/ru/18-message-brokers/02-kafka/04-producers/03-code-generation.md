@@ -1,5 +1,9 @@
 # Паттерны отправки сообщений - Sending Patterns
 
+[prev: 02-producer-options](./02-producer-options.md) | [next: 01-example](../05-consumers/01-example.md)
+
+---
+
 ## Описание
 
 Kafka Producer поддерживает различные паттерны отправки сообщений, которые отличаются по гарантиям доставки, производительности и сложности реализации. Выбор правильного паттерна зависит от требований к надёжности, задержкам и обработке ошибок.
@@ -687,3 +691,7 @@ producer.commit_transaction()  # Одна транзакция на batch
 - [Idempotent Producer](https://kafka.apache.org/documentation/#producerconfigs_enable.idempotence)
 - [Transactions in Kafka](https://kafka.apache.org/documentation/#semantics)
 - [Exactly-Once Semantics](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
+
+---
+
+[prev: 02-producer-options](./02-producer-options.md) | [next: 01-example](../05-consumers/01-example.md)

@@ -1,5 +1,8 @@
 # Что такое хостинг?
 
+[prev: 08-what-is-http](./08-what-is-http.md) | [next: 10-browsers-and-how-they-work](./10-browsers-and-how-they-work.md)
+
+---
 **Хостинг** — это услуга размещения сайта/приложения на сервере, доступном через интернет 24/7.
 
 ```
@@ -133,3 +136,7 @@ git push → Автоматический деплой → Сайт работа
 2. Арендуешь хостинг (получаешь IP-адрес сервера)
 3. В настройках домена указываешь DNS-запись: `example.com → 123.45.67.89`
 4. Теперь домен ведёт на твой сервер
+
+---
+
+[prev: 08-what-is-http](./08-what-is-http.md) | [next: 10-browsers-and-how-they-work](./10-browsers-and-how-they-work.md)

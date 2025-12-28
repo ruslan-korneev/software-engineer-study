@@ -1,5 +1,8 @@
 # Asyncio (Асинхронное программирование)
 
+[prev: 03-multiprocessing](./03-multiprocessing.md) | [next: 01-fastapi](../15-frameworks/01-fastapi.md)
+---
+
 ## Что это?
 
 Кооперативная многозадачность — один поток, но задачи отдают управление при I/O.
@@ -213,3 +216,6 @@ class APIClient:
 | `aiolimiter` | Rate limiting (запросы/время) |
 
 Используй для **I/O-bound** с большим количеством операций.
+
+---
+[prev: 03-multiprocessing](./03-multiprocessing.md) | [next: 01-fastapi](../15-frameworks/01-fastapi.md)

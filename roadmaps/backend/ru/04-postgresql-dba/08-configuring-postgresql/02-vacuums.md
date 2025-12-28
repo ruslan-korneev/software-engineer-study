@@ -1,5 +1,9 @@
 # Vacuums (Очистка)
 
+[prev: 01-resource-usage](./01-resource-usage.md) | [next: 03-replication-config](./03-replication-config.md)
+
+---
+
 VACUUM — процесс очистки и обслуживания таблиц в PostgreSQL. Из-за MVCC (Multi-Version Concurrency Control) старые версии строк накапливаются и требуют периодической очистки.
 
 ## Зачем нужен VACUUM
@@ -317,3 +321,7 @@ ALTER SYSTEM SET autovacuum_vacuum_cost_limit = 1000;
 ALTER SYSTEM SET autovacuum_vacuum_scale_factor = 0.05;
 SELECT pg_reload_conf();
 ```
+
+---
+
+[prev: 01-resource-usage](./01-resource-usage.md) | [next: 03-replication-config](./03-replication-config.md)

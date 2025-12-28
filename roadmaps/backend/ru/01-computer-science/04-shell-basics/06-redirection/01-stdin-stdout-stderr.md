@@ -1,5 +1,8 @@
 # Стандартные потоки: stdin, stdout, stderr
 
+[prev: 03-alias](../05-working-with-commands/03-alias.md) | [next: 02-redirecting-output](./02-redirecting-output.md)
+
+---
 ## Концепция потоков
 
 В Unix/Linux каждая программа имеет три стандартных потока данных:
@@ -192,3 +195,7 @@ $ command 2>&1 >/dev/null
 # Всё в один файл
 $ command > log.txt 2>&1
 ```
+
+---
+
+[prev: 03-alias](../05-working-with-commands/03-alias.md) | [next: 02-redirecting-output](./02-redirecting-output.md)

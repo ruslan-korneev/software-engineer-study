@@ -1,5 +1,8 @@
 # Перенаправление ошибок (stderr)
 
+[prev: 02-redirecting-output](./02-redirecting-output.md) | [next: 04-cat](./04-cat.md)
+
+---
 ## Операторы для stderr
 
 | Оператор | Действие |
@@ -225,3 +228,7 @@ ls nonexistent  # ошибки тоже в лог
    $ command 2> file    # правильно
    $ command 2 > file   # неправильно (2 — аргумент)
    ```
+
+---
+
+[prev: 02-redirecting-output](./02-redirecting-output.md) | [next: 04-cat](./04-cat.md)

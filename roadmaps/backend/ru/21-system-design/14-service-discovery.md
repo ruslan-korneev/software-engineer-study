@@ -1,5 +1,9 @@
 # Service Discovery
 
+[prev: 13-microservices](./13-microservices.md) | [next: 15-api-gateway](./15-api-gateway.md)
+
+---
+
 ## Что такое Service Discovery?
 
 **Service Discovery** (обнаружение сервисов) — это механизм автоматического определения сетевого расположения экземпляров сервисов в распределённой системе. В микросервисной архитектуре сервисы должны находить друг друга для взаимодействия, и Service Discovery решает эту задачу.

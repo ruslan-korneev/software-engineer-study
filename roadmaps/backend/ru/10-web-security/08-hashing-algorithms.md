@@ -1,5 +1,9 @@
 # Алгоритмы хэширования
 
+[prev: 07-api-security-best-practices](./07-api-security-best-practices.md) | [next: 01-unit-testing](../11-testing/01-unit-testing.md)
+
+---
+
 ## Что такое хэширование?
 
 **Хэширование** — это процесс преобразования данных произвольной длины в строку фиксированной длины (хэш). Хэш-функции являются односторонними: получить исходные данные из хэша невозможно.
@@ -541,3 +545,7 @@ class PasswordService:
 4. **Рассмотрите использование pepper**
 5. **Регулярно увеличивайте параметры сложности**
 6. **Реализуйте перехэширование при входе пользователя**
+
+---
+
+[prev: 07-api-security-best-practices](./07-api-security-best-practices.md) | [next: 01-unit-testing](../11-testing/01-unit-testing.md)

@@ -1,5 +1,8 @@
 # Кодирование Хаффмана (Huffman Coding)
 
+[prev: 02-activity-selection](./02-activity-selection.md) | [next: 01-dp-concept](../08-dynamic-programming/01-dp-concept.md)
+---
+
 ## Определение
 
 **Кодирование Хаффмана** — жадный алгоритм для сжатия данных без потерь. Создаёт оптимальный префиксный код, где часто встречающиеся символы кодируются короткими последовательностями битов, а редкие — длинными.
@@ -428,3 +431,6 @@ def bytes_to_bits(data):
 3. Канонический код проще хранить и передавать
 4. Для практического сжатия комбинируйте с LZ77/LZ78 (DEFLATE)
 5. Проверяйте edge cases: один символ, пустой текст, Unicode
+
+---
+[prev: 02-activity-selection](./02-activity-selection.md) | [next: 01-dp-concept](../08-dynamic-programming/01-dp-concept.md)

@@ -1,5 +1,9 @@
 # Клиенты Confluent
 
+[prev: 04-source-packages](./04-source-packages.md) | [next: 06-stream-processing-terminology](./06-stream-processing-terminology.md)
+
+---
+
 ## Описание
 
 Confluent — компания, основанная создателями Apache Kafka, которая предоставляет коммерческую поддержку и дополнительные инструменты для работы с Kafka. Клиенты Confluent (Confluent Clients) — это набор высокопроизводительных клиентских библиотек для различных языков программирования, основанных на библиотеке librdkafka.
@@ -781,3 +785,7 @@ producer = Producer({
 - [Confluent .NET Client](https://docs.confluent.io/kafka-clients/dotnet/current/overview.html)
 - [librdkafka Configuration](https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md)
 - [Schema Registry](https://docs.confluent.io/platform/current/schema-registry/index.html)
+
+---
+
+[prev: 04-source-packages](./04-source-packages.md) | [next: 06-stream-processing-terminology](./06-stream-processing-terminology.md)

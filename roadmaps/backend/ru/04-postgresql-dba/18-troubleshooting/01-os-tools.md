@@ -1,5 +1,9 @@
 # Инструменты операционной системы для диагностики PostgreSQL
 
+[prev: 07-workload-tuning](../17-application-skills/07-workload-tuning.md) | [next: 02-profiling-tools](./02-profiling-tools.md)
+
+---
+
 При диагностике проблем с производительностью PostgreSQL важно понимать, как база данных взаимодействует с операционной системой. Инструменты ОС помогают выявить узкие места на уровне CPU, памяти, дисковой подсистемы и сети.
 
 ## top и htop
@@ -286,3 +290,7 @@ alias pgnet='ss -tnp | grep postgres'
 - Глубокого профилирования (strace, perf)
 
 Рекомендуется использовать их в комбинации с инструментами PostgreSQL (pg_stat_* представления) для полной картины.
+
+---
+
+[prev: 07-workload-tuning](../17-application-skills/07-workload-tuning.md) | [next: 02-profiling-tools](./02-profiling-tools.md)

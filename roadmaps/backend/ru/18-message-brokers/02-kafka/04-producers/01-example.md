@@ -1,5 +1,9 @@
 # Producer API - Основы API производителя
 
+[prev: 03-data-format](../03-project-development/03-data-format.md) | [next: 02-producer-options](./02-producer-options.md)
+
+---
+
 ## Описание
 
 Kafka Producer — это клиентское приложение, которое публикует (записывает) сообщения в топики Kafka. Producer API предоставляет интерфейс для отправки записей в кластер Kafka. Каждая запись состоит из ключа, значения и опциональных заголовков.
@@ -374,3 +378,7 @@ producer.send('topic', key='consistent-key', value=b'data')
 - [Официальная документация Kafka Producer](https://kafka.apache.org/documentation/#producerapi)
 - [confluent-kafka-python](https://github.com/confluentinc/confluent-kafka-python)
 - [kafka-python](https://kafka-python.readthedocs.io/)
+
+---
+
+[prev: 03-data-format](../03-project-development/03-data-format.md) | [next: 02-producer-options](./02-producer-options.md)

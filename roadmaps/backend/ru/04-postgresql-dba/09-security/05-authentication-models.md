@@ -1,5 +1,9 @@
 # Модели аутентификации в PostgreSQL
 
+[prev: 04-row-level-security](./04-row-level-security.md) | [next: 06-roles](./06-roles.md)
+
+---
+
 ## Введение
 
 Аутентификация - это процесс проверки подлинности пользователя, пытающегося подключиться к базе данных. PostgreSQL поддерживает множество методов аутентификации, от простых (trust, password) до корпоративных (LDAP, Kerberos, RADIUS). Выбор метода зависит от требований безопасности и инфраструктуры организации.
@@ -466,3 +470,7 @@ ALTER USER app_user WITH PASSWORD 'password';  -- Пересоздаст хэш 
 - [pg_hba.conf](./07-pg_hba-conf.md) - конфигурация аутентификации
 - [SSL Settings](./08-ssl-settings.md) - настройка шифрования
 - [Роли](./06-roles.md) - управление пользователями
+
+---
+
+[prev: 04-row-level-security](./04-row-level-security.md) | [next: 06-roles](./06-roles.md)

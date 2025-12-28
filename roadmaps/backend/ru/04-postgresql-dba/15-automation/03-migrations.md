@@ -1,5 +1,9 @@
 # Миграции схемы базы данных PostgreSQL
 
+[prev: 02-configuration-management](./02-configuration-management.md) | [next: 04-migration-tools](./04-migration-tools.md)
+
+---
+
 ## Введение
 
 Миграции базы данных (Database Migrations) - это способ управления изменениями структуры базы данных версионированным и воспроизводимым образом. Миграции позволяют отслеживать историю изменений схемы, откатывать изменения и синхронизировать структуру БД между различными окружениями.
@@ -557,3 +561,7 @@ Development          Staging              Production
 6. **Мониторьте выполнение** - отслеживайте время и ошибки
 
 Следующий шаг - изучение конкретных инструментов миграций (Flyway, Liquibase, Alembic и др.).
+
+---
+
+[prev: 02-configuration-management](./02-configuration-management.md) | [next: 04-migration-tools](./04-migration-tools.md)

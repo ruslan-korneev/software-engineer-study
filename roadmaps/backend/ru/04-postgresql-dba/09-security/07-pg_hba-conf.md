@@ -1,5 +1,9 @@
 # Конфигурация pg_hba.conf
 
+[prev: 06-roles](./06-roles.md) | [next: 08-ssl-settings](./08-ssl-settings.md)
+
+---
+
 ## Введение
 
 `pg_hba.conf` (PostgreSQL Host-Based Authentication) - это файл конфигурации, определяющий правила аутентификации клиентов при подключении к PostgreSQL. Этот файл контролирует, какие пользователи могут подключаться, с каких хостов и какой метод аутентификации будет использоваться.
@@ -536,3 +540,7 @@ pg_config --version
 - [Модели аутентификации](./05-authentication-models.md) - детали методов аутентификации
 - [SSL Settings](./08-ssl-settings.md) - настройка SSL соединений
 - [Роли](./06-roles.md) - управление пользователями
+
+---
+
+[prev: 06-roles](./06-roles.md) | [next: 08-ssl-settings](./08-ssl-settings.md)

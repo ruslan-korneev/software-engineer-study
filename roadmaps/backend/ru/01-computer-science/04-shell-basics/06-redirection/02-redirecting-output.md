@@ -1,5 +1,8 @@
 # Перенаправление вывода
 
+[prev: 01-stdin-stdout-stderr](./01-stdin-stdout-stderr.md) | [next: 03-redirecting-errors](./03-redirecting-errors.md)
+
+---
 ## Операторы перенаправления stdout
 
 | Оператор | Действие |
@@ -241,3 +244,7 @@ tar -czvf backup.tar.gz /data 2>&1 | tee backup.log
    ```bash
    $ cat file.txt > file.txt   # ОШИБКА! Файл очистится до чтения
    ```
+
+---
+
+[prev: 01-stdin-stdout-stderr](./01-stdin-stdout-stderr.md) | [next: 03-redirecting-errors](./03-redirecting-errors.md)

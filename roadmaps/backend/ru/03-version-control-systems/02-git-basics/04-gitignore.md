@@ -1,5 +1,8 @@
 # .gitignore (Игнорирование файлов)
 
+[prev: 03-committing-changes](./03-committing-changes.md) | [next: 05-viewing-commit-history](./05-viewing-commit-history.md)
+---
+
 ## Что такое .gitignore?
 
 **`.gitignore`** — это специальный файл, который указывает Git, какие файлы и директории нужно игнорировать. Игнорируемые файлы не отслеживаются и не попадают в репозиторий.
@@ -445,3 +448,6 @@ build/
 - Файлы, уже добавленные в Git, нужно сначала удалить из отслеживания (`git rm --cached`)
 - Глобальный .gitignore — для ваших личных настроек (IDE, OS)
 - **Никогда не коммитьте секреты!** Даже если потом добавите в .gitignore
+
+---
+[prev: 03-committing-changes](./03-committing-changes.md) | [next: 05-viewing-commit-history](./05-viewing-commit-history.md)

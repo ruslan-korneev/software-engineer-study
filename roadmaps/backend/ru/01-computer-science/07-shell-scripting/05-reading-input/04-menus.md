@@ -1,5 +1,8 @@
 # Меню в bash-скриптах
 
+[prev: 03-validating-input](./03-validating-input.md) | [next: 01-while-loop](../06-flow-control-loops/01-while-loop.md)
+
+---
 ## Базовое меню с select
 
 Команда `select` создаёт простое меню выбора:
@@ -407,3 +410,7 @@ done
 4. **Очищайте экран** для лучшей читаемости
 5. **Используйте паузу** после вывода результатов
 6. **Перехватывайте сигналы** (Ctrl+C)
+
+---
+
+[prev: 03-validating-input](./03-validating-input.md) | [next: 01-while-loop](../06-flow-control-loops/01-while-loop.md)

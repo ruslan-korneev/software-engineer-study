@@ -1,5 +1,8 @@
 # Tilde Expansion (раскрытие тильды)
 
+[prev: 01-pathname-expansion](./01-pathname-expansion.md) | [next: 03-brace-expansion](./03-brace-expansion.md)
+
+---
 ## Что такое tilde expansion?
 
 **Tilde expansion** — механизм shell, который заменяет `~` на путь к домашней директории.
@@ -225,3 +228,7 @@ $ echo $VAR
 3. **~ не работает в двойных кавычках** — используйте $HOME
 4. **~username** требует существующего пользователя
 5. **~+ и ~-** полезны для навигации между директориями
+
+---
+
+[prev: 01-pathname-expansion](./01-pathname-expansion.md) | [next: 03-brace-expansion](./03-brace-expansion.md)

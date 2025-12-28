@@ -1,5 +1,8 @@
 # Печать в Linux - lpr, lpstat и система CUPS
 
+[prev: 03-groff](../08-formatting-output/03-groff.md) | [next: 01-what-is-compiling](../10-compiling/01-what-is-compiling.md)
+
+---
 ## Введение в печать в Linux
 
 В Linux печать управляется системой **CUPS** (Common Unix Printing System). CUPS предоставляет:
@@ -416,3 +419,7 @@ lpr /usr/share/cups/data/testprint
 | `lpadmin -p name` | Настроить принтер |
 | `lpoptions -l` | Опции принтера |
 | `cancel -a` | Отменить все задания |
+
+---
+
+[prev: 03-groff](../08-formatting-output/03-groff.md) | [next: 01-what-is-compiling](../10-compiling/01-what-is-compiling.md)

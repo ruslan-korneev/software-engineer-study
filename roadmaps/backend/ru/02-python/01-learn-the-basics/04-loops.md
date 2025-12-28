@@ -1,5 +1,8 @@
 # Циклы (Loops)
 
+[prev: 03-conditionals](./03-conditionals.md) | [next: 05-type-casting](./05-type-casting.md)
+---
+
 Циклы позволяют выполнять код многократно.
 
 ## for — перебор элементов
@@ -395,3 +398,6 @@ print(f"Максимум: {maximum}")  # 9
 # Или встроенной функцией
 print(max(numbers))
 ```
+
+---
+[prev: 03-conditionals](./03-conditionals.md) | [next: 05-type-casting](./05-type-casting.md)

@@ -1,5 +1,8 @@
 # Forking vs Cloning
 
+[prev: 06-profile-readme](../06-github-essentials/06-profile-readme.md) | [next: 02-issues](./02-issues.md)
+---
+
 ## Введение
 
 При работе с GitHub существует два основных способа получить копию репозитория: **fork** (форк) и **clone** (клонирование). Понимание разницы между ними критически важно для эффективной работы в команде и участия в open source проектах.
@@ -300,3 +303,6 @@ git branch -r | grep upstream
 - **Origin** — указывает на ваш репозиторий (форк или оригинал)
 - **Upstream** — указывает на оригинальный репозиторий (при работе с форком)
 - Регулярная синхронизация форка предотвращает конфликты при создании PR
+
+---
+[prev: 06-profile-readme](../06-github-essentials/06-profile-readme.md) | [next: 02-issues](./02-issues.md)

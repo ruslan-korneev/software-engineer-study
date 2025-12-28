@@ -1,5 +1,8 @@
 # Git Attributes
 
+[prev: 03-worktree](./03-worktree.md) | [next: 05-git-lfs](./05-git-lfs.md)
+---
+
 ## Что такое .gitattributes
 
 **`.gitattributes`** - это файл конфигурации, который задает атрибуты для файлов и путей в репозитории. Он позволяет настраивать:
@@ -529,3 +532,6 @@ git ls-files | xargs git check-attr text eol binary
 - Настраивает представление репозитория на GitHub
 
 Рекомендуется добавлять `.gitattributes` в каждый проект с самого начала.
+
+---
+[prev: 03-worktree](./03-worktree.md) | [next: 05-git-lfs](./05-git-lfs.md)

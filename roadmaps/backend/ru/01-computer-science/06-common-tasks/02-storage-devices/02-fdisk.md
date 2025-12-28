@@ -1,5 +1,8 @@
 # fdisk - управление разделами дисков
 
+[prev: 01-mounting](./01-mounting.md) | [next: 03-mkfs-fsck](./03-mkfs-fsck.md)
+
+---
 ## Что такое fdisk?
 
 **fdisk** - это классическая утилита для создания и управления таблицей разделов на дисках. Она работает с таблицами разделов MBR (Master Boot Record) и GPT (GUID Partition Table).
@@ -392,3 +395,7 @@ o - создать MBR
 sudo partprobe /dev/sdX    # обновить ядро
 sudo mkfs.ext4 /dev/sdX1   # создать ФС
 ```
+
+---
+
+[prev: 01-mounting](./01-mounting.md) | [next: 03-mkfs-fsck](./03-mkfs-fsck.md)

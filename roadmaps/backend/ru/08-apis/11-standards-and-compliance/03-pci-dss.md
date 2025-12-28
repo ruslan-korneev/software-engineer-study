@@ -1,5 +1,9 @@
 # PCI DSS (Payment Card Industry Data Security Standard)
 
+[prev: 02-ccpa](./02-ccpa.md) | [next: 04-hipaa](./04-hipaa.md)
+
+---
+
 ## Введение
 
 **PCI DSS** (Payment Card Industry Data Security Standard) — это глобальный стандарт безопасности данных платёжных карт, разработанный ведущими платёжными системами мира. Стандарт устанавливает требования к защите данных держателей карт при их хранении, обработке и передаче.
@@ -1568,3 +1572,7 @@ class PCIDSSAPIChecklist:
 - [SAQ Templates](https://www.pcisecuritystandards.org/document_library/?category=saqs)
 - [List of ASV Companies](https://www.pcisecuritystandards.org/assessors_and_solutions/approved_scanning_vendors)
 - [PCI SSC Blog](https://blog.pcisecuritystandards.org/)
+
+---
+
+[prev: 02-ccpa](./02-ccpa.md) | [next: 04-hipaa](./04-hipaa.md)

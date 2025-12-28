@@ -1,5 +1,9 @@
 # DML Queries (Data Manipulation Language)
 
+[prev: 01-ddl-queries](./01-ddl-queries.md) | [next: 03-data-types](./03-data-types.md)
+
+---
+
 ## Что такое DML?
 
 **DML (Data Manipulation Language)** — это подмножество SQL для работы с данными в таблицах. DML-команды позволяют добавлять, изменять, удалять и извлекать данные.
@@ -611,3 +615,7 @@ ON CONFLICT (page_id) DO UPDATE SET
     view_count = page_views.view_count + 1
 RETURNING view_count;
 ```
+
+---
+
+[prev: 01-ddl-queries](./01-ddl-queries.md) | [next: 03-data-types](./03-data-types.md)

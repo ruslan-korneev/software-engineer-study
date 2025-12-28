@@ -1,5 +1,9 @@
 # Инструменты миграций базы данных
 
+[prev: 03-migrations](./03-migrations.md) | [next: 01-bulk-loading](../16-data-processing/01-bulk-loading.md)
+
+---
+
 ## Обзор инструментов
 
 | Инструмент | Язык | Формат миграций | Особенности |
@@ -978,3 +982,7 @@ ALTER TABLE users ADD COLUMN created_by INTEGER;
 - Тестирование миграций
 - Автоматизация через CI/CD
 - Документирование изменений
+
+---
+
+[prev: 03-migrations](./03-migrations.md) | [next: 01-bulk-loading](../16-data-processing/01-bulk-loading.md)

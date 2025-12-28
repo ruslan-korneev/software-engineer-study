@@ -1,5 +1,9 @@
 # Основы PromQL
 
+[prev: 02-setup-and-configuration](./02-setup-and-configuration.md) | [next: 04-monitoring-targets](./04-monitoring-targets.md)
+
+---
+
 ## Введение
 
 PromQL (Prometheus Query Language) — это функциональный язык запросов, разработанный специально для работы с временными рядами в Prometheus. PromQL позволяет выполнять агрегации, фильтрации и математические операции над метриками в реальном времени.

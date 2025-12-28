@@ -1,5 +1,9 @@
 # Row Level Security (RLS) в PostgreSQL
 
+[prev: 03-default-privileges](./03-default-privileges.md) | [next: 05-authentication-models](./05-authentication-models.md)
+
+---
+
 ## Введение
 
 Row Level Security (RLS) - это механизм PostgreSQL, позволяющий контролировать доступ к отдельным строкам таблицы на основе политик безопасности. В отличие от обычных привилегий, которые работают на уровне таблицы или столбца, RLS позволяет определить, какие именно строки пользователь может видеть или изменять.
@@ -573,3 +577,7 @@ CREATE POLICY check_permissions ON documents
 - [Привилегии объектов](./01-object-privileges.md) - базовые привилегии
 - [GRANT и REVOKE](./02-grant-revoke.md) - управление привилегиями
 - [Роли](./06-roles.md) - система ролей PostgreSQL
+
+---
+
+[prev: 03-default-privileges](./03-default-privileges.md) | [next: 05-authentication-models](./05-authentication-models.md)

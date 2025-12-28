@@ -1,5 +1,9 @@
 # CLI инструменты
 
+[prev: 01-management-ui](./01-management-ui.md) | [next: 03-monitoring](./03-monitoring.md)
+
+---
+
 ## Обзор
 
 RabbitMQ предоставляет набор мощных CLI инструментов для управления, мониторинга и диагностики брокера сообщений. Основные инструменты:
@@ -631,3 +635,7 @@ CLI инструменты RabbitMQ предоставляют полный ко
 - **rabbitmqadmin** — удобный клиент для HTTP API
 
 Комбинирование этих инструментов позволяет автоматизировать все аспекты управления RabbitMQ.
+
+---
+
+[prev: 01-management-ui](./01-management-ui.md) | [next: 03-monitoring](./03-monitoring.md)

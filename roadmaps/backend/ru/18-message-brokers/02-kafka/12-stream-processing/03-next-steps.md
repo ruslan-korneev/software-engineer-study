@@ -1,5 +1,9 @@
 # Куда пойти дальше
 
+[prev: 02-ksqldb](./02-ksqldb.md) | [next: 01-websockets](../../../19-real-time-data/01-websockets.md)
+
+---
+
 ## Описание
 
 После изучения основ потоковой обработки с Kafka Streams и ksqlDB, важно углубить знания в продвинутых паттернах обработки потоков, архитектурных решениях и экосистеме инструментов.
@@ -450,3 +454,7 @@ void testAggregation() {
 3. **Освойте мониторинг** - настройка алертов, метрики
 4. **Изучите альтернативы** - Flink, Spark Streaming для расширения кругозора
 5. **Участвуйте в сообществе** - Confluent Community, Stack Overflow
+
+---
+
+[prev: 02-ksqldb](./02-ksqldb.md) | [next: 01-websockets](../../../19-real-time-data/01-websockets.md)

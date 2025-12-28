@@ -1,5 +1,8 @@
 # Ограничения (Constraints) в PostgreSQL
 
+[prev: 05-data-types](./05-data-types.md) | [next: 07-null-handling](./07-null-handling.md)
+---
+
 ## Введение
 
 **Ограничения** (Constraints) — это правила, которые обеспечивают целостность данных на уровне базы данных. Они гарантируют, что данные соответствуют определённым условиям, независимо от того, как они были введены.
@@ -494,3 +497,6 @@ CREATE INDEX idx_order_items_product ON order_items(product_id);
 ```
 
 Ограничения — это фундамент целостности данных. Используйте их максимально, чтобы база данных сама защищала себя от некорректных данных.
+
+---
+[prev: 05-data-types](./05-data-types.md) | [next: 07-null-handling](./07-null-handling.md)

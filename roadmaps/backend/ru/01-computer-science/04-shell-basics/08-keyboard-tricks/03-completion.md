@@ -1,5 +1,8 @@
 # Автодополнение (Tab Completion)
 
+[prev: 02-text-editing](./02-text-editing.md) | [next: 04-history](./04-history.md)
+
+---
 ## Что такое автодополнение?
 
 **Автодополнение** — функция shell, которая завершает частично введённые команды, пути к файлам и аргументы при нажатии клавиши Tab.
@@ -250,3 +253,7 @@ $ source /etc/bash_completion
 # Посмотрите доступные файлы дополнений
 $ ls /usr/share/bash-completion/completions/
 ```
+
+---
+
+[prev: 02-text-editing](./02-text-editing.md) | [next: 04-history](./04-history.md)

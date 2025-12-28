@@ -1,5 +1,8 @@
 # Трассировка выполнения
 
+[prev: 03-testing](./03-testing.md) | [next: 01-case-statement](../08-flow-control-case/01-case-statement.md)
+
+---
 ## Режим трассировки (set -x)
 
 Режим трассировки выводит каждую команду перед выполнением:
@@ -423,3 +426,7 @@ TRACE=true ./script.sh "test"
 # С отладкой и трассировкой
 DEBUG=true TRACE=true ./script.sh "test"
 ```
+
+---
+
+[prev: 03-testing](./03-testing.md) | [next: 01-case-statement](../08-flow-control-case/01-case-statement.md)

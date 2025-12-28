@@ -1,5 +1,8 @@
 # Parameter Expansion (раскрытие параметров)
 
+[prev: 03-brace-expansion](./03-brace-expansion.md) | [next: 05-command-substitution](./05-command-substitution.md)
+
+---
 ## Что такое parameter expansion?
 
 **Parameter expansion** — механизм получения и преобразования значений переменных shell.
@@ -275,3 +278,7 @@ BACKUP="${FILE%.*}-$(date +%Y%m%d).${FILE##*.}"
 | `${var//old/new}` | Заменить все |
 | `${var^}` / `${var^^}` | В верхний регистр |
 | `${var,}` / `${var,,}` | В нижний регистр |
+
+---
+
+[prev: 03-brace-expansion](./03-brace-expansion.md) | [next: 05-command-substitution](./05-command-substitution.md)

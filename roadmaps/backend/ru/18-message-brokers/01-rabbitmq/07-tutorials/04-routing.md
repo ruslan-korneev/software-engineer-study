@@ -1,5 +1,9 @@
 # Routing
 
+[prev: 03-publish-subscribe](./03-publish-subscribe.md) | [next: 05-topics](./05-topics.md)
+
+---
+
 ## Введение
 
 В предыдущем туториале мы использовали fanout exchange, который отправляет сообщения во все очереди. Теперь мы научимся **выборочно получать сообщения** с помощью **direct exchange**.
@@ -453,3 +457,7 @@ inequivalent arg 'type' for exchange 'logs'")
 4. **Selective receiving** — получение только нужных сообщений
 
 Следующий туториал: **Topics** — шаблонная маршрутизация с wildcards.
+
+---
+
+[prev: 03-publish-subscribe](./03-publish-subscribe.md) | [next: 05-topics](./05-topics.md)

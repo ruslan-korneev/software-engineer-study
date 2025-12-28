@@ -1,5 +1,9 @@
 # Авторизация в Apache Kafka
 
+[prev: 02-kerberos-sasl](./02-kerberos-sasl.md) | [next: 04-zookeeper-security](./04-zookeeper-security.md)
+
+---
+
 ## Описание
 
 Авторизация в Kafka — это механизм контроля доступа, определяющий, какие операции могут выполнять аутентифицированные пользователи над ресурсами кластера. После успешной аутентификации Kafka проверяет, имеет ли пользователь право на запрашиваемую операцию.
@@ -871,3 +875,7 @@ kafka-acls.sh --bootstrap-server kafka:9094 \
 - [Apache Kafka Authorization](https://kafka.apache.org/documentation/#security_authz)
 - [KIP-11 - Authorization Interface](https://cwiki.apache.org/confluence/display/KAFKA/KIP-11+-+Authorization+Interface)
 - [Confluent RBAC](https://docs.confluent.io/platform/current/security/rbac/index.html)
+
+---
+
+[prev: 02-kerberos-sasl](./02-kerberos-sasl.md) | [next: 04-zookeeper-security](./04-zookeeper-security.md)

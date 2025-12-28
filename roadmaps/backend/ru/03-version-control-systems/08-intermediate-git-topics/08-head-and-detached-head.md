@@ -1,5 +1,8 @@
 # HEAD и Detached HEAD
 
+[prev: 03-common-hooks](07-git-hooks/03-common-hooks.md) | [next: 09-reset-modes](./09-reset-modes.md)
+---
+
 ## Что такое HEAD
 
 **HEAD** — это специальный указатель (ссылка), который показывает, где вы сейчас находитесь в истории Git. Это "текущая позиция" в репозитории.
@@ -570,3 +573,6 @@ git reset --hard HEAD~    # HEAD + staging + working dir
 # Проверить, detached ли HEAD
 git symbolic-ref -q HEAD && echo "On branch" || echo "Detached HEAD"
 ```
+
+---
+[prev: 03-common-hooks](07-git-hooks/03-common-hooks.md) | [next: 09-reset-modes](./09-reset-modes.md)

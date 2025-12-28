@@ -1,5 +1,8 @@
 # Почему Vi (Why Vi)
 
+[prev: 03-modifying-environment](../01-environment/03-modifying-environment.md) | [next: 02-editing-modes](./02-editing-modes.md)
+
+---
 ## Введение в Vi/Vim
 
 **Vi** (Visual editor) — один из старейших и наиболее распространённых текстовых редакторов в Unix-системах. **Vim** (Vi IMproved) — его улучшенная версия с дополнительными функциями.
@@ -275,3 +278,7 @@ vi practice.txt
 - Минимум: научитесь выходить из Vi и делать простые правки
 - Vimtutor — лучший способ начать обучение
 - Модальный подход Vi становится интуитивным с практикой
+
+---
+
+[prev: 03-modifying-environment](../01-environment/03-modifying-environment.md) | [next: 02-editing-modes](./02-editing-modes.md)

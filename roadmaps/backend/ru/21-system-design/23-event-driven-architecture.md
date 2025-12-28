@@ -1,5 +1,9 @@
 # Event-Driven Architecture
 
+[prev: 22-communication](./22-communication.md) | [next: 24-performance-antipatterns](./24-performance-antipatterns.md)
+
+---
+
 ## Введение
 
 **Event-Driven Architecture (EDA)** — это архитектурный стиль, в котором компоненты системы взаимодействуют через события. Событие — это факт о чём-то, что произошло в системе (например, "заказ создан", "платёж обработан").

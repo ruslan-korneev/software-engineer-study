@@ -1,5 +1,8 @@
 # cat, sort, uniq - базовая обработка текста
 
+[prev: 05-quantifiers](../06-regular-expressions/05-quantifiers.md) | [next: 02-cut-paste-join](./02-cut-paste-join.md)
+
+---
 ## cat - объединение и вывод файлов
 
 ### Что такое cat?
@@ -353,3 +356,7 @@ sed -n '20,30p' file.txt
 | `head -n 10` | Первые 10 строк |
 | `tail -n 10` | Последние 10 строк |
 | `tail -f` | Следить за файлом |
+
+---
+
+[prev: 05-quantifiers](../06-regular-expressions/05-quantifiers.md) | [next: 02-cut-paste-join](./02-cut-paste-join.md)

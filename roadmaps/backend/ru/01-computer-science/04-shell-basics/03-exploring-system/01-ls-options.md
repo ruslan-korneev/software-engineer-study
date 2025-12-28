@@ -1,5 +1,8 @@
 # Команда ls и её опции
 
+[prev: 04-paths-absolute-relative](../02-navigation/04-paths-absolute-relative.md) | [next: 02-file-command](./02-file-command.md)
+
+---
 ## Что такое ls?
 
 **ls** (list) — команда для вывода содержимого директории. Это одна из самых используемых команд в терминале.
@@ -167,3 +170,7 @@ $ tree -L 2                   # глубина 2 уровня
 2. Используйте Tab для автодополнения путей
 
 3. `ls -la` — ваш друг для понимания содержимого любой директории
+
+---
+
+[prev: 04-paths-absolute-relative](../02-navigation/04-paths-absolute-relative.md) | [next: 02-file-command](./02-file-command.md)

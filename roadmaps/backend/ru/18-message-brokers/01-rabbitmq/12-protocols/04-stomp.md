@@ -1,5 +1,9 @@
 # STOMP
 
+[prev: 03-mqtt](./03-mqtt.md) | [next: 01-what-is-kafka](../../02-kafka/01-introduction/01-what-is-kafka.md)
+
+---
+
 ## Введение
 
 **STOMP** (Simple Text Oriented Messaging Protocol) — это простой текстовый протокол обмена сообщениями. В отличие от бинарных протоколов (AMQP, MQTT), STOMP использует человекочитаемый формат, что делает его удобным для отладки и интеграции с веб-приложениями. RabbitMQ поддерживает STOMP через плагин `rabbitmq_stomp`.
@@ -758,3 +762,7 @@ rabbitmqctl list_consumers
 ## Заключение
 
 STOMP — это простой и удобный текстовый протокол, идеально подходящий для веб-приложений и сценариев, где важна простота отладки и интеграции. RabbitMQ через плагины `rabbitmq_stomp` и `rabbitmq_web_stomp` обеспечивает полную поддержку STOMP, включая WebSocket для браузерных приложений. Выбирайте STOMP, когда работаете с веб-интерфейсами, нужна простая интеграция или требуется человекочитаемый протокол для отладки.
+
+---
+
+[prev: 03-mqtt](./03-mqtt.md) | [next: 01-what-is-kafka](../../02-kafka/01-introduction/01-what-is-kafka.md)

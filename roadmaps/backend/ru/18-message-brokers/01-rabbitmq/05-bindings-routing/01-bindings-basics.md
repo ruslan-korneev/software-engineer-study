@@ -1,5 +1,9 @@
 # Основы привязок (Bindings)
 
+[prev: 06-dead-letter-queues](../04-queues/06-dead-letter-queues.md) | [next: 02-routing-keys](./02-routing-keys.md)
+
+---
+
 ## Что такое Binding?
 
 **Binding (привязка)** — это связь между exchange и queue в RabbitMQ. Привязка определяет правила, по которым сообщения из exchange попадают в определённую очередь.
@@ -373,3 +377,7 @@ except ChannelClosedByBroker as e:
 - Привязки создаются через `queue_bind()` и удаляются через `queue_unbind()`
 - Exchange можно привязывать к другим exchange через `exchange_bind()`
 - Привязки идемпотентны — повторное создание безопасно
+
+---
+
+[prev: 06-dead-letter-queues](../04-queues/06-dead-letter-queues.md) | [next: 02-routing-keys](./02-routing-keys.md)

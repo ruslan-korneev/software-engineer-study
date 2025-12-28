@@ -1,5 +1,8 @@
 # Common Packages (Популярные пакеты)
 
+[prev: 10a-pyproject-toml](./10a-pyproject-toml.md) | [next: 10c-pattern-matching](./10c-pattern-matching.md)
+---
+
 ## Встроенные модули
 
 ### `json`
@@ -149,3 +152,6 @@ def hello(name):
 | Логирование | `logging` | `loguru` |
 | CLI | `argparse` | `click`, `typer` |
 | Env | `os.environ` | `python-dotenv` |
+
+---
+[prev: 10a-pyproject-toml](./10a-pyproject-toml.md) | [next: 10c-pattern-matching](./10c-pattern-matching.md)

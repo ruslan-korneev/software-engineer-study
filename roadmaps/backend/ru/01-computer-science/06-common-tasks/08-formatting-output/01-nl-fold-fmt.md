@@ -1,5 +1,8 @@
 # nl, fold, fmt - форматирование текста
 
+[prev: 05-sed](../07-text-processing/05-sed.md) | [next: 02-pr-printf](./02-pr-printf.md)
+
+---
 ## nl - нумерация строк
 
 ### Что такое nl?
@@ -310,3 +313,7 @@ expand -t 4 file.txt
 | `fmt -w 75` | Переформатировать с шириной 75 |
 | `fmt -s` | Только разбивать строки |
 | `fmt -u` | Нормализовать пробелы |
+
+---
+
+[prev: 05-sed](../07-text-processing/05-sed.md) | [next: 02-pr-printf](./02-pr-printf.md)

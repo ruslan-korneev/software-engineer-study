@@ -1,5 +1,9 @@
 # Управление буферами в PostgreSQL
 
+[prev: 02-vacuum-processing](./02-vacuum-processing.md) | [next: 04-lock-management](./04-lock-management.md)
+
+---
+
 ## Обзор Buffer Management
 
 **Buffer Manager** — компонент PostgreSQL, управляющий кэшированием страниц данных в памяти. Он минимизирует дисковый ввод-вывод, сохраняя часто используемые данные в оперативной памяти.
@@ -263,3 +267,7 @@ $$ LANGUAGE sql;
 4. **Используйте huge pages**: для больших shared_buffers
 5. **effective_cache_size**: установите 50-75% RAM
 6. **Регулярно анализируйте** использование буферов через pg_buffercache
+
+---
+
+[prev: 02-vacuum-processing](./02-vacuum-processing.md) | [next: 04-lock-management](./04-lock-management.md)

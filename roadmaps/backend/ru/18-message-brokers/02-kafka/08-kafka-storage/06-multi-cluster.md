@@ -1,5 +1,9 @@
 # Окружения с несколькими кластерами (Multi-Cluster)
 
+[prev: 05-architectures](./05-architectures.md) | [next: 07-cloud-container-storage](./07-cloud-container-storage.md)
+
+---
+
 ## Описание
 
 Multi-cluster архитектура Kafka позволяет организовать распределённую инфраструктуру для обеспечения высокой доступности, disaster recovery, географического распределения данных и изоляции рабочих нагрузок. В этом разделе рассматриваются паттерны и инструменты для работы с несколькими кластерами Kafka.
@@ -571,3 +575,7 @@ echo "Failing back to primary..."
 - [Возврат данных](./04-data-return.md) — восстановление после failover
 - [Архитектуры](./05-architectures.md) — паттерны с мульти-кластером
 - [Облачное хранение](./07-cloud-container-storage.md) — cross-region репликация
+
+---
+
+[prev: 05-architectures](./05-architectures.md) | [next: 07-cloud-container-storage](./07-cloud-container-storage.md)

@@ -1,5 +1,8 @@
 # Системы управления пакетами
 
+[prev: 03-saving-prompt](../../05-shell-environment/03-prompt-customization/03-saving-prompt.md) | [next: 02-apt-dpkg](./02-apt-dpkg.md)
+
+---
 ## Что такое пакет?
 
 **Пакет** (package) - это архив, содержащий файлы программы и метаданные, необходимые для её установки. Пакет включает:
@@ -275,3 +278,7 @@ chmod +x application.AppImage
 - Всегда используйте официальные репозитории когда возможно
 - Регулярно обновляйте систему для безопасности
 - Новые форматы (Flatpak, Snap) решают проблему совместимости между дистрибутивами
+
+---
+
+[prev: 03-saving-prompt](../../05-shell-environment/03-prompt-customization/03-saving-prompt.md) | [next: 02-apt-dpkg](./02-apt-dpkg.md)

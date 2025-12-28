@@ -1,5 +1,8 @@
 # GitHub Education
 
+[prev: 05-github-sponsors](./05-github-sponsors.md) | [next: 01-github-api](../12-github-developer-tools/01-github-api.md)
+---
+
 ## Что такое GitHub Education?
 
 **GitHub Education** - это комплекс образовательных программ и инструментов от GitHub, предназначенных для студентов, преподавателей и учебных заведений. Программа предоставляет бесплатный доступ к профессиональным инструментам разработки.
@@ -454,3 +457,6 @@ learning-journal/
 - [GitHub Campus Experts](https://education.github.com/experts)
 - [GitHub Skills](https://skills.github.com)
 - [GitHub for Teachers](https://education.github.com/teachers)
+
+---
+[prev: 05-github-sponsors](./05-github-sponsors.md) | [next: 01-github-api](../12-github-developer-tools/01-github-api.md)

@@ -1,5 +1,9 @@
 # RED Method для мониторинга PostgreSQL
 
+[prev: 01-use-method](./01-use-method.md) | [next: 03-golden-signals](./03-golden-signals.md)
+
+---
+
 ## Что такое RED Method
 
 **RED Method** — методология мониторинга, разработанная Томом Уилки (Tom Wilkie) из Weaveworks. Ориентирована на мониторинг **сервисов**, а не ресурсов. Аббревиатура:
@@ -335,3 +339,7 @@ groups:
 
 - [Tom Wilkie - RED Method](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/)
 - [PostgreSQL pg_stat_statements](https://www.postgresql.org/docs/current/pgstatstatements.html)
+
+---
+
+[prev: 01-use-method](./01-use-method.md) | [next: 03-golden-signals](./03-golden-signals.md)

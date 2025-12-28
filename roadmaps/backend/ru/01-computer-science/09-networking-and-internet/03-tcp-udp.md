@@ -1,5 +1,8 @@
 # TCP and UDP
 
+[prev: 02-ip-addresses](./02-ip-addresses.md) | [next: 04-ports](./04-ports.md)
+
+---
 ## Введение
 
 **TCP (Transmission Control Protocol)** и **UDP (User Datagram Protocol)** — это два основных протокола транспортного уровня (Layer 4). Они отвечают за доставку данных между приложениями на разных компьютерах.
@@ -505,3 +508,7 @@ wireshark             # GUI инструмент
 4. **DNS** — обычно UDP, но большие ответы могут использовать TCP
 5. **Нагрузочное тестирование** — понимание TCP важно для анализа проблем
 6. **Keep-Alive** — переиспользование TCP-соединений для производительности
+
+---
+
+[prev: 02-ip-addresses](./02-ip-addresses.md) | [next: 04-ports](./04-ports.md)

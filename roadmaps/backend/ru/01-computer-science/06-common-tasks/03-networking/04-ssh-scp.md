@@ -1,5 +1,8 @@
 # SSH и SCP - безопасное удалённое подключение и передача файлов
 
+[prev: 03-ftp-wget](./03-ftp-wget.md) | [next: 01-locate](../04-searching-files/01-locate.md)
+
+---
 ## SSH - Secure Shell
 
 ### Что такое SSH?
@@ -447,3 +450,7 @@ mkdir -p ~/.ssh/sockets
 | Синхронизировать | `rsync -avz /local/ user@host:/remote/` |
 | Генерация ключа | `ssh-keygen -t ed25519` |
 | Копировать ключ | `ssh-copy-id user@host` |
+
+---
+
+[prev: 03-ftp-wget](./03-ftp-wget.md) | [next: 01-locate](../04-searching-files/01-locate.md)

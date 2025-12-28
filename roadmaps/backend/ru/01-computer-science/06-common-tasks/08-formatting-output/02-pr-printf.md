@@ -1,5 +1,8 @@
 # pr и printf - форматированный вывод
 
+[prev: 01-nl-fold-fmt](./01-nl-fold-fmt.md) | [next: 03-groff](./03-groff.md)
+
+---
 ## pr - подготовка файлов к печати
 
 ### Что такое pr?
@@ -331,3 +334,7 @@ printf "Line1\nLine2\n"
 | `%-Ns` | Выравнивание влево |
 | `%0Nd` | Ведущие нули |
 | `%.Nf` | N знаков после точки |
+
+---
+
+[prev: 01-nl-fold-fmt](./01-nl-fold-fmt.md) | [next: 03-groff](./03-groff.md)

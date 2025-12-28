@@ -1,5 +1,9 @@
 # Observability в распределённых системах
 
+[prev: 01-what-is-observability](./01-what-is-observability.md) | [next: 01-architecture](../02-prometheus/01-architecture.md)
+
+---
+
 ## Введение
 
 Распределённые системы — это системы, где компоненты расположены на разных машинах и взаимодействуют через сеть. Microservices, serverless-функции, контейнеризованные приложения — всё это примеры распределённых архитектур.

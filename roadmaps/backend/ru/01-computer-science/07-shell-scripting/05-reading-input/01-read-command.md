@@ -1,5 +1,8 @@
 # Команда read
 
+[prev: 04-logical-operators](../04-flow-control-if/04-logical-operators.md) | [next: 02-ifs](./02-ifs.md)
+
+---
 ## Основы команды read
 
 Команда `read` считывает строку из стандартного ввода и присваивает её переменной:
@@ -339,3 +342,7 @@ echo "Вы выбрали: $choice"
        echo "$value"
    }
    ```
+
+---
+
+[prev: 04-logical-operators](../04-flow-control-if/04-logical-operators.md) | [next: 02-ifs](./02-ifs.md)

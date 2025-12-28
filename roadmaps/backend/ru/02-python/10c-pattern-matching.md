@@ -1,5 +1,8 @@
 # Pattern Matching (Сопоставление с образцом)
 
+[prev: 10b-common-packages](./10b-common-packages.md) | [next: 11-static-typing](./11-static-typing.md)
+---
+
 ## Введение
 
 **Pattern Matching** (PEP 634, Python 3.10+) — мощный механизм для сопоставления значений с шаблонами. Похоже на `switch/case` в других языках, но гораздо мощнее.
@@ -455,3 +458,6 @@ A: Да, но нужно использовать dotted names: `case Status.OK:
 
 **Q: match влияет на производительность?**
 A: Компилятор оптимизирует match, производительность сравнима с if/elif.
+
+---
+[prev: 10b-common-packages](./10b-common-packages.md) | [next: 11-static-typing](./11-static-typing.md)

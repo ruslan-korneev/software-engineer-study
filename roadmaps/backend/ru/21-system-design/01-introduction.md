@@ -1,5 +1,9 @@
 # Введение в System Design (Проектирование систем)
 
+[prev: 13-common-gql-over-http-errors](../20-graphql/02-practical-guidelines/13-common-gql-over-http-errors.md) | [next: 02-performance-vs-scalability](./02-performance-vs-scalability.md)
+
+---
+
 ## Что такое System Design?
 
 **System Design** (проектирование систем) — это процесс определения архитектуры, компонентов, модулей, интерфейсов и данных системы для удовлетворения заданных требований. Это искусство и наука создания масштабируемых, надёжных и эффективных программных систем.

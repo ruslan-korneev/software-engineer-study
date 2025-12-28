@@ -1,5 +1,8 @@
 # Синтаксические ошибки
 
+[prev: 04-reading-files](../06-flow-control-loops/04-reading-files.md) | [next: 02-logical-errors](./02-logical-errors.md)
+
+---
 ## Типы синтаксических ошибок
 
 Синтаксические ошибки возникают, когда код нарушает правила языка bash. Такие ошибки обнаруживаются при парсинге скрипта, до его выполнения.
@@ -357,3 +360,7 @@ case $name in
     John) echo "Hello John" ;;  # Добавлены ) и ;;
 esac
 ```
+
+---
+
+[prev: 04-reading-files](../06-flow-control-loops/04-reading-files.md) | [next: 02-logical-errors](./02-logical-errors.md)

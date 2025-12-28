@@ -1,5 +1,8 @@
 # Абсолютные и относительные пути
 
+[prev: 03-cd](./03-cd.md) | [next: 01-ls-options](../03-exploring-system/01-ls-options.md)
+
+---
 ## Два типа путей
 
 В Unix/Linux существует два способа указать расположение файла или директории:
@@ -170,3 +173,7 @@ fi
    ~/documents       # работает → /home/user/documents
    /home/~/test      # НЕ работает, ~ остаётся как символ
    ```
+
+---
+
+[prev: 03-cd](./03-cd.md) | [next: 01-ls-options](../03-exploring-system/01-ls-options.md)

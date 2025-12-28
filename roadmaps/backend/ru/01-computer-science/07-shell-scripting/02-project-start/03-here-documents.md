@@ -1,5 +1,8 @@
 # Here Documents (Here-документы)
 
+[prev: 02-constants](./02-constants.md) | [next: 01-functions](../03-top-down-design/01-functions.md)
+
+---
 ## Что такое Here Documents
 
 **Here Document** (heredoc) - это способ передачи многострочного текста команде. Это удобный инструмент для:
@@ -373,3 +376,7 @@ EOF'
    ...
    EOF
    ```
+
+---
+
+[prev: 02-constants](./02-constants.md) | [next: 01-functions](../03-top-down-design/01-functions.md)

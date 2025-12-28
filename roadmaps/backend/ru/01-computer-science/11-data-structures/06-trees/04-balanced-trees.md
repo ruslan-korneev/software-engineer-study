@@ -1,5 +1,8 @@
 # Сбалансированные деревья (Balanced Trees)
 
+[prev: 03-binary-search-tree](./03-binary-search-tree.md) | [next: 05-heap](./05-heap.md)
+---
+
 ## Определение
 
 **Сбалансированные деревья** — это бинарные деревья поиска, которые автоматически поддерживают баланс (ограничение на разницу высот поддеревьев), гарантируя O(log n) для всех операций.
@@ -600,3 +603,6 @@ TreeSet<Integer> set = new TreeSet<>();
 std::map<int, std::string> map;
 std::set<int> set;
 ```
+
+---
+[prev: 03-binary-search-tree](./03-binary-search-tree.md) | [next: 05-heap](./05-heap.md)

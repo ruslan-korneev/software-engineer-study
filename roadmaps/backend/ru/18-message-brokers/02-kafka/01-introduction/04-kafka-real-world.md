@@ -1,5 +1,9 @@
 # Kafka в реальном мире
 
+[prev: 03-kafka-myths](./03-kafka-myths.md) | [next: 05-online-resources](./05-online-resources.md)
+
+---
+
 ## Описание
 
 Apache Kafka используется крупнейшими технологическими компаниями мира для обработки триллионов сообщений ежедневно. В этом разделе мы рассмотрим реальные примеры использования Kafka, архитектурные решения и уроки, извлечённые из production-систем. Эти кейсы помогут понять, как применять Kafka в собственных проектах.
@@ -816,3 +820,7 @@ class OrderSagaOrchestrator:
 ## Краткое резюме
 
 Реальные примеры использования Kafka в крупных компаниях показывают её универсальность: от activity tracking в LinkedIn до fraud detection в банках, от персонализации в Netflix до event sourcing в Uber. Ключевые уроки: начинайте с простых use cases, инвестируйте в мониторинг и observability, планируйте схему данных заранее, и не бойтесь использовать паттерны вроде Event Sourcing и Saga для сложных бизнес-процессов.
+
+---
+
+[prev: 03-kafka-myths](./03-kafka-myths.md) | [next: 05-online-resources](./05-online-resources.md)

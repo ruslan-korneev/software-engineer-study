@@ -1,5 +1,8 @@
 # Графический интерфейс vs Командная строка (GUI vs CLI)
 
+[prev: 04-file-systems](./04-file-systems.md) | [next: 01-terminal-emulators](../04-shell-basics/01-what-is-shell/01-terminal-emulators.md)
+
+---
 ## Определения
 
 **GUI (Graphical User Interface)** — графический пользовательский интерфейс, позволяющий взаимодействовать с компьютером через визуальные элементы: окна, кнопки, иконки, меню.
@@ -486,3 +489,7 @@ PROMPT='%F{cyan}%~%f $(git_prompt_info) %# '
 4. Практиковаться ежедневно
 
 GUI и CLI дополняют друг друга — используйте каждый там, где он наиболее эффективен.
+
+---
+
+[prev: 04-file-systems](./04-file-systems.md) | [next: 01-terminal-emulators](../04-shell-basics/01-what-is-shell/01-terminal-emulators.md)

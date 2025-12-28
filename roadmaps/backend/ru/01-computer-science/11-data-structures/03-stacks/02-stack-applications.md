@@ -1,5 +1,8 @@
 # Применение стека (Stack Applications)
 
+[prev: 01-stack-concept](./01-stack-concept.md) | [next: 01-queue-concept](../04-queues/01-queue-concept.md)
+
+---
 ## Определение
 
 Стек — одна из наиболее часто используемых структур данных благодаря своей простоте и эффективности. Принцип LIFO находит применение во множестве алгоритмов и систем.
@@ -735,3 +738,7 @@ while stack:
     visited.add(pos)
     # ...
 ```
+
+---
+
+[prev: 01-stack-concept](./01-stack-concept.md) | [next: 01-queue-concept](../04-queues/01-queue-concept.md)

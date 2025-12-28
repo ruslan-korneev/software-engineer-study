@@ -1,5 +1,8 @@
 # Простые команды
 
+[prev: 03-command-history](./03-command-history.md) | [next: 01-directory-tree](../02-navigation/01-directory-tree.md)
+
+---
 ## Структура команды в shell
 
 Команда в shell имеет следующую структуру:
@@ -147,3 +150,7 @@ $ wc -c file.txt                # только байты
    ```bash
    $ ls -lah     # подробно, включая скрытые, человекочитаемо
    ```
+
+---
+
+[prev: 03-command-history](./03-command-history.md) | [next: 01-directory-tree](../02-navigation/01-directory-tree.md)

@@ -1,5 +1,9 @@
 # Основы кластера RabbitMQ
 
+[prev: 04-streams-vs-queues](../08-streams/04-streams-vs-queues.md) | [next: 02-node-configuration](./02-node-configuration.md)
+
+---
+
 ## Введение в кластеризацию
 
 Кластеризация RabbitMQ позволяет объединить несколько узлов (nodes) в единую логическую систему обмена сообщениями. Это обеспечивает высокую доступность, масштабируемость и отказоустойчивость системы.
@@ -265,3 +269,7 @@ cluster_partition_handling = pause_minority
 - Метаданные реплицируются, очереди (classic) — нет
 - Минимум 3 узла для production
 - Erlang cookie обеспечивает аутентификацию между узлами
+
+---
+
+[prev: 04-streams-vs-queues](../08-streams/04-streams-vs-queues.md) | [next: 02-node-configuration](./02-node-configuration.md)

@@ -1,5 +1,8 @@
 # sed - потоковый редактор
 
+[prev: 04-tr](./04-tr.md) | [next: 01-nl-fold-fmt](../08-formatting-output/01-nl-fold-fmt.md)
+
+---
 ## Что такое sed?
 
 **sed** (stream editor) - мощный инструмент для обработки текстовых потоков. Позволяет выполнять сложные преобразования текста без интерактивного редактирования.
@@ -345,3 +348,7 @@ sed -f commands.sed input.txt
 | `-i` | Редактировать файл |
 | `-n` | Без автопечати |
 | `-E` | Extended regex |
+
+---
+
+[prev: 04-tr](./04-tr.md) | [next: 01-nl-fold-fmt](../08-formatting-output/01-nl-fold-fmt.md)

@@ -1,5 +1,8 @@
 # Жадные алгоритмы (Greedy Algorithms)
 
+[prev: 03-maze-solving](../06-backtracking/03-maze-solving.md) | [next: 02-activity-selection](./02-activity-selection.md)
+---
+
 ## Определение
 
 **Жадный алгоритм** — это алгоритмическая парадигма, которая на каждом шаге делает **локально оптимальный выбор** в надежде получить **глобально оптимальное решение**.
@@ -354,3 +357,6 @@ def greedy_safe(items):
 3. Сортировка — ключевая часть большинства жадных алгоритмов
 4. Если жадный не работает — попробуйте DP
 5. Жадный часто даёт хорошее приближение, даже если не оптимален
+
+---
+[prev: 03-maze-solving](../06-backtracking/03-maze-solving.md) | [next: 02-activity-selection](./02-activity-selection.md)

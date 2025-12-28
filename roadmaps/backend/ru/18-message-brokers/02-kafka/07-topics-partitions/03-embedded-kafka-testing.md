@@ -1,5 +1,9 @@
 # Тестирование с EmbeddedKafkaCluster
 
+[prev: 02-partitions](./02-partitions.md) | [next: 04-compacted-topics](./04-compacted-topics.md)
+
+---
+
 ## Описание
 
 **EmbeddedKafka** — это встраиваемый Kafka-брокер для локального тестирования, который позволяет запускать полноценный Kafka-кластер в памяти без необходимости внешней инфраструктуры. Это критически важный инструмент для написания интеграционных тестов приложений, работающих с Kafka.
@@ -712,3 +716,7 @@ void shouldCompleteWithinTimeout() {
 - [Топики](./01-topics.md)
 - [Партиции](./02-partitions.md)
 - [Сжатые топики](./04-compacted-topics.md)
+
+---
+
+[prev: 02-partitions](./02-partitions.md) | [next: 04-compacted-topics](./04-compacted-topics.md)

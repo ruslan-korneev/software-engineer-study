@@ -1,5 +1,8 @@
 # What and Why - Что такое Git Hooks
 
+[prev: 06-tagging](../06-tagging.md) | [next: 02-client-vs-server](./02-client-vs-server.md)
+---
+
 ## Концепция хуков
 
 **Git Hooks** (хуки) — это скрипты, которые Git автоматически выполняет до или после определённых событий: коммит, пуш, мердж и т.д. Это механизм для автоматизации и кастомизации рабочего процесса Git.
@@ -355,3 +358,6 @@ git config core.hooksPath ./my-hooks
 # Сброс директории хуков на default
 git config --unset core.hooksPath
 ```
+
+---
+[prev: 06-tagging](../06-tagging.md) | [next: 02-client-vs-server](./02-client-vs-server.md)

@@ -1,5 +1,8 @@
 # Перемещение курсора в Vi (Cursor Movement)
 
+[prev: 02-editing-modes](./02-editing-modes.md) | [next: 04-basic-editing](./04-basic-editing.md)
+
+---
 ## Базовое перемещение: h, j, k, l
 
 Основные клавиши навигации в Normal mode:
@@ -329,3 +332,7 @@ d%
 - Комбинируйте числа с движениями: 5j, 3w
 - f и t — мощные команды для навигации в строке
 - Команды движения работают с d, c, y для редактирования
+
+---
+
+[prev: 02-editing-modes](./02-editing-modes.md) | [next: 04-basic-editing](./04-basic-editing.md)

@@ -1,5 +1,8 @@
 # C-style цикл for
 
+[prev: 01-for-traditional](./01-for-traditional.md) | [next: 01-parameter-expansion](../11-strings-numbers/01-parameter-expansion.md)
+
+---
 ## Базовый синтаксис
 
 ```bash
@@ -317,3 +320,7 @@ time for ((i = 1; i <= 100000; i++)); do :; done
 2. **Обход файлов** по glob-паттерну
 3. **Обработка аргументов** `"$@"`
 4. **Итерация по массиву** `"${array[@]}"`
+
+---
+
+[prev: 01-for-traditional](./01-for-traditional.md) | [next: 01-parameter-expansion](../11-strings-numbers/01-parameter-expansion.md)

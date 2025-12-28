@@ -1,5 +1,8 @@
 # Операции хэш-таблицы (Hash Table Operations)
 
+[prev: 02-collision-handling](./02-collision-handling.md) | [next: 01-tree-basics](../06-trees/01-tree-basics.md)
+
+---
 ## Определение
 
 **Хэш-таблица** — это структура данных, реализующая ассоциативный массив (отображение ключ → значение). Обеспечивает O(1) в среднем для операций поиска, вставки и удаления.
@@ -637,3 +640,7 @@ from collections import OrderedDict
 - Нужен порядок по ключам (используй TreeMap)
 - Ключи — изменяемые объекты
 - Мало элементов (list может быть быстрее)
+
+---
+
+[prev: 02-collision-handling](./02-collision-handling.md) | [next: 01-tree-basics](../06-trees/01-tree-basics.md)

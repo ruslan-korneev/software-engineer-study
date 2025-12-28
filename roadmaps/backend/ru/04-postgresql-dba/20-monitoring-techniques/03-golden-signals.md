@@ -1,5 +1,9 @@
 # Golden Signals для мониторинга PostgreSQL
 
+[prev: 02-red-method](./02-red-method.md) | [next: 01-schema-design-patterns](../21-sql-optimization/01-schema-design-patterns.md)
+
+---
+
 ## Что такое Golden Signals
 
 **Golden Signals** — методология мониторинга от Google SRE, описанная в книге "Site Reliability Engineering". Это четыре ключевых сигнала для мониторинга любой системы:
@@ -472,3 +476,7 @@ groups:
 - [Google SRE Book - Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
 - [The Four Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals)
 - [PostgreSQL Monitoring Documentation](https://www.postgresql.org/docs/current/monitoring.html)
+
+---
+
+[prev: 02-red-method](./02-red-method.md) | [next: 01-schema-design-patterns](../21-sql-optimization/01-schema-design-patterns.md)

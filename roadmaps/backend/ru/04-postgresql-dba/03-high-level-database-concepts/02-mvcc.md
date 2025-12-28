@@ -1,5 +1,8 @@
 # MVCC — Multiversion Concurrency Control
 
+[prev: 01-acid](./01-acid.md) | [next: 03-transactions](./03-transactions.md)
+---
+
 ## Введение
 
 **MVCC (Multiversion Concurrency Control)** — это механизм управления параллельным доступом к данным, при котором каждая транзакция видит согласованный снимок (snapshot) базы данных. MVCC позволяет читателям не блокировать писателей и наоборот.
@@ -368,3 +371,6 @@ MVCC — это ключевой механизм PostgreSQL, обеспечив
 - Настройки VACUUM и предотвращения bloat
 - Оптимизации UPDATE-тяжёлых нагрузок
 - Диагностики проблем с производительностью
+
+---
+[prev: 01-acid](./01-acid.md) | [next: 03-transactions](./03-transactions.md)

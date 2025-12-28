@@ -1,5 +1,9 @@
 # Long Polling (Длинный опрос)
 
+[prev: 02-server-sent-events](./02-server-sent-events.md) | [next: 04-short-polling](./04-short-polling.md)
+
+---
+
 ## Введение
 
 **Long Polling** — это техника взаимодействия клиента с сервером, которая позволяет получать обновления данных в режиме, близком к реальному времени. В отличие от обычного (short) polling, где клиент постоянно отправляет запросы с фиксированным интервалом, long polling держит соединение открытым до тех пор, пока сервер не получит новые данные для отправки.
@@ -1270,3 +1274,7 @@ Long Polling остаётся актуальной технологией для
 3. **Реализуйте reconnect логику** с exponential backoff
 4. **Рассмотрите WebSocket** для высокочастотных обновлений или двусторонней связи
 5. **Комбинируйте технологии** — WebSocket с fallback на Long Polling
+
+---
+
+[prev: 02-server-sent-events](./02-server-sent-events.md) | [next: 04-short-polling](./04-short-polling.md)

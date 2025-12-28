@@ -1,5 +1,8 @@
 # Формат shell-скрипта
 
+[prev: 01-what-is-script](./01-what-is-script.md) | [next: 03-permissions-path](./03-permissions-path.md)
+
+---
 ## Shebang (шебанг)
 
 Первая строка скрипта должна начинаться с **shebang** - специальной последовательности `#!`, за которой следует путь к интерпретатору:
@@ -176,3 +179,7 @@ script         # Без расширения (часто для утилит)
 ```
 
 Расширение - это просто соглашение для удобства. Система определяет интерпретатор по shebang, а не по расширению.
+
+---
+
+[prev: 01-what-is-script](./01-what-is-script.md) | [next: 03-permissions-path](./03-permissions-path.md)

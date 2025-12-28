@@ -1,5 +1,8 @@
 # Ports
 
+[prev: 03-tcp-udp](./03-tcp-udp.md) | [next: 05-how-internet-works](./05-how-internet-works.md)
+
+---
 ## Что такое порт?
 
 **Порт** — это числовой идентификатор (от 0 до 65535), который позволяет различать разные приложения и сервисы на одном компьютере.
@@ -534,3 +537,7 @@ kill $(lsof -t -i:port) # Освободить порт
 5. **Reverse proxy** — nginx/traefik на 80/443, приложение на высоком порту
 6. **Docker port mapping** — `-p host:container`
 7. **Мониторинг** — знай, какие порты открыты на твоём сервере
+
+---
+
+[prev: 03-tcp-udp](./03-tcp-udp.md) | [next: 05-how-internet-works](./05-how-internet-works.md)

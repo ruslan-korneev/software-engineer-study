@@ -1,5 +1,8 @@
 # Инициализация репозитория Git
 
+[prev: 04-installing-git](./04-installing-git.md) | [next: 01-working-directory](../02-git-basics/01-working-directory.md)
+---
+
 ## Два способа начать работу
 
 ### Способ 1: Создать новый репозиторий (`git init`)
@@ -529,3 +532,6 @@ git status
 | `git remote add origin URL` | Добавить удалённый репозиторий |
 
 Теперь вы готовы создавать и клонировать репозитории Git!
+
+---
+[prev: 04-installing-git](./04-installing-git.md) | [next: 01-working-directory](../02-git-basics/01-working-directory.md)

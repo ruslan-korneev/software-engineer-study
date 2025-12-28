@@ -1,5 +1,8 @@
 # Flask
 
+[prev: 02-django](./02-django.md) | [next: 16-logging](../16-logging.md)
+---
+
 Микрофреймворк — минимум из коробки, максимум гибкости.
 
 ```bash
@@ -154,3 +157,6 @@ User.query.filter_by(name="Анна").first()
 | Async | Да | Частично | Нет |
 | Скорость | Высокая | Средняя | Средняя |
 | Когда | API, микросервисы | Большие проекты | Простые API |
+
+---
+[prev: 02-django](./02-django.md) | [next: 16-logging](../16-logging.md)

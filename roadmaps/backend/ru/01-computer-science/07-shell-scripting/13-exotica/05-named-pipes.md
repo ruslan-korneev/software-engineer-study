@@ -1,5 +1,8 @@
 # Именованные каналы (Named Pipes / FIFO)
 
+[prev: 04-wait](./04-wait.md) | [next: 01-what-is-programming](../../08-programming-basics/01-what-is-programming.md)
+
+---
 ## Что такое именованные каналы
 
 **Именованный канал (FIFO)** - это специальный файл, который работает как pipe, но существует в файловой системе. Позволяет связать два независимых процесса.
@@ -290,3 +293,7 @@ trap cleanup EXIT
 - Блокируют при открытии без партнёра
 - Размер буфера ограничен (обычно 64KB)
 - Данные читаются только один раз
+
+---
+
+[prev: 04-wait](./04-wait.md) | [next: 01-what-is-programming](../../08-programming-basics/01-what-is-programming.md)

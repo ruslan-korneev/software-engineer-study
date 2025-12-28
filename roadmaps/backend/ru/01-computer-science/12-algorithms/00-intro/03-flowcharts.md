@@ -1,5 +1,8 @@
 # Блок-схемы (Flowcharts)
 
+[prev: 02-pseudocode](./02-pseudocode.md) | [next: 04-complexity-basics](./04-complexity-basics.md)
+---
+
 ## Что такое блок-схема?
 
 **Блок-схема** — это графическое представление алгоритма, использующее стандартные геометрические фигуры для обозначения различных типов операций и стрелки для показа последовательности выполнения.
@@ -425,3 +428,6 @@ flowchart TD
 
 **Предыдущая тема:** [Псевдокод](./02-pseudocode.md)
 **Следующая тема:** [Основы сложности алгоритмов](./04-complexity-basics.md)
+
+---
+[prev: 02-pseudocode](./02-pseudocode.md) | [next: 04-complexity-basics](./04-complexity-basics.md)

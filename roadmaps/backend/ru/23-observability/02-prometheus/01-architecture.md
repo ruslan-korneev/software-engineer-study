@@ -1,5 +1,9 @@
 # Архитектура Prometheus
 
+[prev: 02-distributed-systems](../01-introduction/02-distributed-systems.md) | [next: 02-setup-and-configuration](./02-setup-and-configuration.md)
+
+---
+
 ## Введение
 
 Prometheus — это система мониторинга и оповещения с открытым исходным кодом, изначально разработанная в SoundCloud. С 2016 года Prometheus является частью Cloud Native Computing Foundation (CNCF). Prometheus использует pull-модель сбора метрик, что означает, что сервер Prometheus активно опрашивает целевые системы для получения метрик.

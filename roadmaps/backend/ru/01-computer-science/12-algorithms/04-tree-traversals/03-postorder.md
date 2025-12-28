@@ -1,5 +1,8 @@
 # Обратный обход дерева (Postorder Traversal)
 
+[prev: 02-inorder](./02-inorder.md) | [next: 04-level-order-bfs](./04-level-order-bfs.md)
+---
+
 ## Определение
 
 **Обратный обход (Postorder)** — это способ обхода дерева, при котором сначала рекурсивно обходится левое поддерево, затем правое поддерево, и только потом посещается сам узел.
@@ -500,3 +503,6 @@ def lowest_common_ancestor(root, p, q):
 3. Итеративная версия сложнее, чем preorder/inorder
 4. Трюк с reverse(NRL) — простой способ получить postorder
 5. Помните порядок: Левое → Правое → Корень
+
+---
+[prev: 02-inorder](./02-inorder.md) | [next: 04-level-order-bfs](./04-level-order-bfs.md)

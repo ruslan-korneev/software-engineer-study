@@ -1,5 +1,9 @@
 # Онлайн-ресурсы
 
+[prev: 04-kafka-real-world](./04-kafka-real-world.md) | [next: 01-send-receive-message](../02-getting-acquainted/01-send-receive-message.md)
+
+---
+
 ## Описание
 
 Изучение Apache Kafka требует разнообразных источников — от официальной документации до практических курсов и сообществ. В этом разделе собраны лучшие ресурсы для изучения Kafka на разных уровнях: от начинающих до продвинутых пользователей.
@@ -459,3 +463,7 @@ services:
 ## Краткое резюме
 
 Для эффективного изучения Kafka комбинируйте разные типы ресурсов: начните с официальных курсов Confluent Developer, закрепите теорию книгой "Kafka: The Definitive Guide", практикуйтесь с Docker локально, и участвуйте в сообществе через Slack и митапы. Регулярно следите за блогом Confluent и техническими блогами крупных компаний для изучения реальных кейсов. Для серьёзного развития рассмотрите сертификацию Confluent Certified Developer.
+
+---
+
+[prev: 04-kafka-real-world](./04-kafka-real-world.md) | [next: 01-send-receive-message](../02-getting-acquainted/01-send-receive-message.md)

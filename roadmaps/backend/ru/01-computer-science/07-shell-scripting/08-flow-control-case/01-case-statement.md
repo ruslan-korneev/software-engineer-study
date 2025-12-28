@@ -1,5 +1,8 @@
 # Оператор case
 
+[prev: 04-tracing](../07-debugging/04-tracing.md) | [next: 02-patterns](./02-patterns.md)
+
+---
 ## Базовый синтаксис
 
 Оператор `case` позволяет выбирать между несколькими вариантами на основе значения переменной:
@@ -401,3 +404,7 @@ case $1 in
         ;;
 esac
 ```
+
+---
+
+[prev: 04-tracing](../07-debugging/04-tracing.md) | [next: 02-patterns](./02-patterns.md)

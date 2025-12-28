@@ -1,5 +1,8 @@
 # Классические NP-задачи
 
+[prev: 06-p-vs-np](./06-p-vs-np.md) | [next: 01-avl-trees](../14-advanced-structures/01-avl-trees.md)
+---
+
 ## Обзор
 
 В этом разделе подробно рассмотрим четыре классические NP-полные задачи:
@@ -802,3 +805,6 @@ def remove_vertex(graph, v):
    - Динамическое программирование для Knapsack
    - Жадные алгоритмы для Vertex Cover
 6. Выбор метода зависит от размера входа и требуемой точности
+
+---
+[prev: 06-p-vs-np](./06-p-vs-np.md) | [next: 01-avl-trees](../14-advanced-structures/01-avl-trees.md)

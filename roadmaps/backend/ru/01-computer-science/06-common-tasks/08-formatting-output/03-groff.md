@@ -1,5 +1,8 @@
 # groff - форматирование документов
 
+[prev: 02-pr-printf](./02-pr-printf.md) | [next: 01-lpr-lpstat](../09-printing/01-lpr-lpstat.md)
+
+---
 ## Что такое groff?
 
 **groff** (GNU troff) - система форматирования текста для создания документов. Используется для:
@@ -447,3 +450,7 @@ help2man ./myprogram > myprogram.1
 | 6 | Игры |
 | 7 | Разное |
 | 8 | Администрирование |
+
+---
+
+[prev: 02-pr-printf](./02-pr-printf.md) | [next: 01-lpr-lpstat](../09-printing/01-lpr-lpstat.md)

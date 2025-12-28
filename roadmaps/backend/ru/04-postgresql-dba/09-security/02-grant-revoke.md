@@ -1,5 +1,9 @@
 # GRANT и REVOKE в PostgreSQL
 
+[prev: 01-object-privileges](./01-object-privileges.md) | [next: 03-default-privileges](./03-default-privileges.md)
+
+---
+
 ## Введение
 
 `GRANT` и `REVOKE` - это основные SQL-команды для управления привилегиями в PostgreSQL. `GRANT` выдаёт привилегии пользователям и ролям, а `REVOKE` отзывает их. Эти команды являются частью стандарта SQL и реализуют дискреционный контроль доступа (DAC).
@@ -465,3 +469,7 @@ ALTER TABLE orders OWNER TO new_owner;
 - [Привилегии объектов](./01-object-privileges.md) - типы привилегий
 - [Привилегии по умолчанию](./03-default-privileges.md) - автоматическое назначение
 - [Роли](./06-roles.md) - создание и управление ролями
+
+---
+
+[prev: 01-object-privileges](./01-object-privileges.md) | [next: 03-default-privileges](./03-default-privileges.md)

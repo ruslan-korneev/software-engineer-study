@@ -1,5 +1,8 @@
 # Теги в Git
 
+[prev: 05-rewriting-history](./05-rewriting-history.md) | [next: 01-what-and-why](07-git-hooks/01-what-and-why.md)
+---
+
 ## Введение
 
 **Теги (tags)** — это именованные ссылки на определённые коммиты в истории. В отличие от веток, теги не перемещаются при новых коммитах — они навсегда привязаны к конкретному моменту в истории.
@@ -570,3 +573,6 @@ git config --global push.followTags true
 | `git describe --tags` | Описание текущей позиции |
 | `git log v1.0..v2.0` | История между тегами |
 | `git diff v1.0 v2.0` | Diff между тегами |
+
+---
+[prev: 05-rewriting-history](./05-rewriting-history.md) | [next: 01-what-and-why](07-git-hooks/01-what-and-why.md)

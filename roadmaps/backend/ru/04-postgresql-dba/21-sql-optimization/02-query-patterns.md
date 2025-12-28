@@ -1,5 +1,9 @@
 # Паттерны написания оптимальных запросов
 
+[prev: 01-schema-design-patterns](./01-schema-design-patterns.md) | [next: 01-btree](./03-indexes/01-btree.md)
+
+---
+
 ## Введение
 
 Оптимизация SQL-запросов — ключевой навык для работы с PostgreSQL. Правильно написанный запрос может работать в сотни раз быстрее неоптимального. В этом разделе рассмотрим основные паттерны и антипаттерны.
@@ -560,3 +564,7 @@ ON CONFLICT (user_id) DO UPDATE SET
 | Иерархия | Recursive CTE |
 | Пагинация | Keyset (WHERE id > last), не OFFSET |
 | Условные агрегаты | `COUNT() FILTER (WHERE ...)` |
+
+---
+
+[prev: 01-schema-design-patterns](./01-schema-design-patterns.md) | [next: 01-btree](./03-indexes/01-btree.md)

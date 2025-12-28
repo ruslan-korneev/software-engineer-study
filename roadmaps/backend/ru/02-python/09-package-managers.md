@@ -1,5 +1,8 @@
 # Package Managers (Менеджеры пакетов)
 
+[prev: 08e-metaclasses](./08e-metaclasses.md) | [next: 10-environments](./10-environments.md)
+---
+
 Инструменты для установки, обновления и удаления внешних библиотек.
 
 ---
@@ -142,3 +145,6 @@ uv run python main.py       # Запуск
 - **uv** — будущее Python, очень быстрый
 - **pyproject.toml** — современный стандарт конфигурации (PEP 518)
 - **Lock-файлы** — фиксируют версии, коммить в git
+
+---
+[prev: 08e-metaclasses](./08e-metaclasses.md) | [next: 10-environments](./10-environments.md)

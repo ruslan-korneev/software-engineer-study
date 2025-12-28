@@ -1,5 +1,8 @@
 # Creating Branches
 
+[prev: 06-git-config](../02-git-basics/06-git-config.md) | [next: 02-renaming-branches](./02-renaming-branches.md)
+---
+
 ## Что такое ветка в Git?
 
 **Ветка (branch)** — это легковесный указатель на определённый коммит. По сути, ветка — это просто файл, содержащий 40-символьный SHA-1 хеш коммита, на который она указывает. Это делает создание веток в Git чрезвычайно быстрой и дешёвой операцией.
@@ -223,3 +226,6 @@ git rev-parse main
 ```
 
 Это объясняет, почему создание веток в Git такое быстрое — нужно просто создать маленький файл с хешем коммита.
+
+---
+[prev: 06-git-config](../02-git-basics/06-git-config.md) | [next: 02-renaming-branches](./02-renaming-branches.md)

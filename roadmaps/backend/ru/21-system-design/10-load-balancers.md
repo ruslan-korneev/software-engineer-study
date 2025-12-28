@@ -1,5 +1,9 @@
 # Load Balancers (Балансировщики нагрузки)
 
+[prev: 09-cdn](./09-cdn.md) | [next: 11-horizontal-vs-vertical-scaling](./11-horizontal-vs-vertical-scaling.md)
+
+---
+
 ## Что такое Load Balancer и зачем он нужен
 
 **Load Balancer (балансировщик нагрузки)** — это компонент инфраструктуры, который распределяет входящий сетевой трафик между несколькими серверами (backend servers), обеспечивая:

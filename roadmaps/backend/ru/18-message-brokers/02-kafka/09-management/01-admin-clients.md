@@ -1,5 +1,9 @@
 # Клиенты администрирования Kafka
 
+[prev: 07-cloud-container-storage](../08-kafka-storage/07-cloud-container-storage.md) | [next: 02-systemd-service](./02-systemd-service.md)
+
+---
+
 ## Описание
 
 Клиенты администрирования Kafka — это набор инструментов командной строки и программных API, которые позволяют управлять кластером Kafka. Они используются для создания и удаления топиков, управления партициями, настройки конфигурации, мониторинга состояния кластера и выполнения других административных задач.
@@ -410,3 +414,7 @@ public class SafeAdminOperations {
 - **Terraform Provider** — управление инфраструктурой как кодом
 - **Strimzi Operator** — управление Kafka в Kubernetes
 - **Cruise Control** — автоматическая балансировка кластера
+
+---
+
+[prev: 07-cloud-container-storage](../08-kafka-storage/07-cloud-container-storage.md) | [next: 02-systemd-service](./02-systemd-service.md)

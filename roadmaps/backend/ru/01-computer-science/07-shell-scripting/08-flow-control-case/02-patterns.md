@@ -1,5 +1,8 @@
 # Паттерны в case
 
+[prev: 01-case-statement](./01-case-statement.md) | [next: 01-accessing-arguments](../09-positional-parameters/01-accessing-arguments.md)
+
+---
 ## Типы паттернов
 
 В операторе `case` можно использовать различные паттерны для сопоставления:
@@ -429,3 +432,7 @@ case $filename in
         ;;
 esac
 ```
+
+---
+
+[prev: 01-case-statement](./01-case-statement.md) | [next: 01-accessing-arguments](../09-positional-parameters/01-accessing-arguments.md)

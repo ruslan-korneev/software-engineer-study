@@ -1,5 +1,9 @@
 # Hello World
 
+[prev: 06-prefetch](../06-message-handling/06-prefetch.md) | [next: 02-work-queues](./02-work-queues.md)
+
+---
+
 ## Введение
 
 Это первый туториал из серии RabbitMQ. В нём мы создадим простейшее приложение: producer (отправитель) будет отправлять сообщение, а consumer (получатель) будет его принимать и выводить на экран.
@@ -239,3 +243,7 @@ pika.exceptions.ChannelClosedByBroker: (404, "NOT_FOUND - no queue 'hello'")
 4. Получили и обработали сообщение
 
 Это базовая модель работы с RabbitMQ. В следующем туториале мы рассмотрим Work Queues — распределение задач между несколькими workers.
+
+---
+
+[prev: 06-prefetch](../06-message-handling/06-prefetch.md) | [next: 02-work-queues](./02-work-queues.md)

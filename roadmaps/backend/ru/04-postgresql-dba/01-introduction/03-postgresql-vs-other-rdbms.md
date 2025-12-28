@@ -1,5 +1,8 @@
 # PostgreSQL vs другие RDBMS
 
+[prev: 02-rdbms-benefits-limitations](./02-rdbms-benefits-limitations.md) | [next: 04-postgresql-vs-nosql](./04-postgresql-vs-nosql.md)
+---
+
 ## Обзор основных RDBMS
 
 ### PostgreSQL
@@ -394,3 +397,6 @@ Oracle/SQL Server оправданы когда:
 - Есть бюджет на лицензии
 - Требуется enterprise поддержка
 - Существующая инфраструктура завязана на этих СУБД
+
+---
+[prev: 02-rdbms-benefits-limitations](./02-rdbms-benefits-limitations.md) | [next: 04-postgresql-vs-nosql](./04-postgresql-vs-nosql.md)

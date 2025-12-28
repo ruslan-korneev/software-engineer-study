@@ -1,5 +1,9 @@
 # Формат представления данных
 
+[prev: 02-sensor-events](./02-sensor-events.md) | [next: 01-example](../04-producers/01-example.md)
+
+---
+
 ## Описание
 
 Выбор формата сериализации данных в Apache Kafka критически важен для производительности, совместимости и масштабируемости системы. В этом разделе мы рассмотрим основные форматы данных: JSON, Apache Avro, Protocol Buffers и их применение в реальных проектах.
@@ -721,3 +725,7 @@ def benchmark_serialization(serializer, data, iterations=10000):
 - [Protocol Buffers Guide](https://developers.google.com/protocol-buffers/docs/pythontutorial)
 - [Confluent Schema Registry](https://docs.confluent.io/platform/current/schema-registry/index.html)
 - [Schema Evolution Best Practices](https://docs.confluent.io/platform/current/schema-registry/avro.html)
+
+---
+
+[prev: 02-sensor-events](./02-sensor-events.md) | [next: 01-example](../04-producers/01-example.md)

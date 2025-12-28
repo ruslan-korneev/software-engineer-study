@@ -1,5 +1,8 @@
 # Получение справки: help, man, info
 
+[prev: 01-type-which](./01-type-which.md) | [next: 03-alias](./03-alias.md)
+
+---
 ## Обзор систем справки
 
 В Unix/Linux есть несколько способов получить справку:
@@ -215,3 +218,7 @@ $ man -t ls | ps2pdf - ls.pdf      # PDF
    $ npm install -g tldr
    $ tldr tar
    ```
+
+---
+
+[prev: 01-type-which](./01-type-which.md) | [next: 03-alias](./03-alias.md)

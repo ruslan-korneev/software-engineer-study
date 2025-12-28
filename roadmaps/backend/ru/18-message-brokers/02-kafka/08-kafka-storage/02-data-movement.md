@@ -1,5 +1,9 @@
 # Перемещение данных (Data Movement)
 
+[prev: 01-data-retention](./01-data-retention.md) | [next: 03-tools](./03-tools.md)
+
+---
+
 ## Описание
 
 Перемещение данных в Kafka охватывает механизмы передачи сообщений между брокерами, кластерами и внешними системами. Понимание внутренней структуры хранения (log segments, indexes) и механизмов репликации критически важно для эффективной работы с Kafka.
@@ -357,3 +361,7 @@ kafka-replica-verification.sh \
 - [Инструменты](./03-tools.md) — CLI утилиты
 - [Архитектуры](./05-architectures.md) — паттерны архитектуры
 - [Мульти-кластер](./06-multi-cluster.md) — межкластерная репликация
+
+---
+
+[prev: 01-data-retention](./01-data-retention.md) | [next: 03-tools](./03-tools.md)

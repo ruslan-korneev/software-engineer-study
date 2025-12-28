@@ -1,5 +1,8 @@
 # Lambda-функции
 
+[prev: 03-modules](./03-modules.md) | [next: 05-decorators](./05-decorators.md)
+---
+
 ## Что такое lambda?
 
 **Lambda** — это анонимная (безымянная) функция, записываемая в одну строку.
@@ -172,3 +175,6 @@ result = sorted(
     key=lambda x: x['price'],
     reverse=True
 )
+
+---
+[prev: 03-modules](./03-modules.md) | [next: 05-decorators](./05-decorators.md)

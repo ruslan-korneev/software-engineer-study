@@ -1,5 +1,9 @@
 # Peripherals
 
+[prev: 04-motherboard-buses](./04-motherboard-buses.md) | [next: 01-binary-system](../02-bits-bytes-encoding/01-binary-system.md)
+
+---
+
 ## Что такое периферия?
 
 **Периферийные устройства** — внешние устройства для ввода, вывода и хранения данных.
@@ -56,3 +60,7 @@
 - IPMI, iLO, iDRAC
 - KVM over IP
 - Доступ к серверу даже при зависшей ОС
+
+---
+
+[prev: 04-motherboard-buses](./04-motherboard-buses.md) | [next: 01-binary-system](../02-bits-bytes-encoding/01-binary-system.md)

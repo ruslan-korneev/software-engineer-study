@@ -1,5 +1,8 @@
 # Comprehensions (Генераторы списков/словарей/множеств)
 
+[prev: 09-dictionaries](./09-dictionaries.md) | [next: 11-file-io](./11-file-io.md)
+---
+
 ## Что такое Comprehension?
 
 **Comprehension** — краткий синтаксис для создания коллекций на основе итерируемых объектов. Это одна из самых "питонических" конструкций языка.
@@ -350,3 +353,6 @@ A: Разбейте на части и проверяйте промежуточ
 filtered = [x for x in data if condition(x)]
 transformed = [transform(x) for x in filtered]
 ```
+
+---
+[prev: 09-dictionaries](./09-dictionaries.md) | [next: 11-file-io](./11-file-io.md)

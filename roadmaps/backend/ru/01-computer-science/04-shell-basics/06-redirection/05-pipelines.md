@@ -1,5 +1,8 @@
 # Конвейеры (Pipelines)
 
+[prev: 04-cat](./04-cat.md) | [next: 01-pathname-expansion](../07-shell-expansion/01-pathname-expansion.md)
+
+---
 ## Что такое pipe (конвейер)?
 
 **Pipe** (`|`) — оператор, который передаёт stdout одной команды на stdin другой. Это позволяет объединять простые команды в мощные цепочки обработки данных.
@@ -227,3 +230,7 @@ $ history | awk '{print $2}' | sort | uniq -c | sort -rn | head -10
 4. **sort перед uniq** — uniq работает только с соседними строками
 5. **xargs -I {}** для подстановки аргумента в середину команды
 6. **Включите pipefail** в скриптах для надёжной обработки ошибок
+
+---
+
+[prev: 04-cat](./04-cat.md) | [next: 01-pathname-expansion](../07-shell-expansion/01-pathname-expansion.md)

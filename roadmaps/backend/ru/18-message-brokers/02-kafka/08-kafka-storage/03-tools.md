@@ -1,5 +1,9 @@
 # Инструменты для работы с Kafka Storage
 
+[prev: 02-data-movement](./02-data-movement.md) | [next: 04-data-return](./04-data-return.md)
+
+---
+
 ## Описание
 
 Kafka предоставляет набор CLI-инструментов для управления хранилищем, диагностики проблем и работы с данными. Эти утилиты критически важны для администрирования кластера и отладки.
@@ -590,3 +594,7 @@ kafka-log-dirs.sh --describe \
 - [Срок хранения данных](./01-data-retention.md) — настройка retention
 - [Перемещение данных](./02-data-movement.md) — структура хранения
 - [Мульти-кластер](./06-multi-cluster.md) — управление кластерами
+
+---
+
+[prev: 02-data-movement](./02-data-movement.md) | [next: 04-data-return](./04-data-return.md)

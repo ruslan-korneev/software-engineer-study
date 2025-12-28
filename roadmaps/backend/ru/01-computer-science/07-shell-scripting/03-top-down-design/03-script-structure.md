@@ -1,5 +1,8 @@
 # Структура скрипта
 
+[prev: 02-local-variables](./02-local-variables.md) | [next: 01-if-statement](../04-flow-control-if/01-if-statement.md)
+
+---
 ## Проектирование сверху вниз (Top-Down Design)
 
 **Top-Down Design** - это методология разработки, при которой сначала определяется общая структура программы, а затем детализируются отдельные компоненты.
@@ -463,3 +466,7 @@ process_file() {
     # обработка
 }
 ```
+
+---
+
+[prev: 02-local-variables](./02-local-variables.md) | [next: 01-if-statement](../04-flow-control-if/01-if-statement.md)

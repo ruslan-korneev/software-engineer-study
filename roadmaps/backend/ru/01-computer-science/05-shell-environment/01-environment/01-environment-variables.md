@@ -1,5 +1,8 @@
 # Переменные окружения (Environment Variables)
 
+[prev: 05-shutdown](../../04-shell-basics/10-processes/05-shutdown.md) | [next: 02-startup-files](./02-startup-files.md)
+
+---
 ## Что такое переменные окружения?
 
 **Переменные окружения** (environment variables) — это именованные значения, которые хранят настройки для программ и системы. Они представляют собой пары "имя=значение" и доступны всем процессам в системе.
@@ -264,3 +267,7 @@ fi
 - HOME, USER, SHELL — базовые переменные о пользователе
 - Shell-переменные локальны, переменные окружения наследуются
 - Используйте `$VAR` для обращения к значению переменной
+
+---
+
+[prev: 05-shutdown](../../04-shell-basics/10-processes/05-shutdown.md) | [next: 02-startup-files](./02-startup-files.md)

@@ -1,5 +1,9 @@
 # Паттерны маршрутизации
 
+[prev: 02-routing-keys](./02-routing-keys.md) | [next: 04-message-flow](./04-message-flow.md)
+
+---
+
 ## Введение в паттерны маршрутизации
 
 Паттерны маршрутизации позволяют гибко направлять сообщения в очереди на основе routing keys. Topic exchange в RabbitMQ предоставляет мощный механизм pattern matching с использованием wildcards.
@@ -613,3 +617,7 @@ for key, matches in results.items():
 - Topic exchange обеспечивает гибкую маршрутизацию
 - Производительность зависит от специфичности паттерна
 - Используйте иерархические routing keys для сложных сценариев
+
+---
+
+[prev: 02-routing-keys](./02-routing-keys.md) | [next: 04-message-flow](./04-message-flow.md)

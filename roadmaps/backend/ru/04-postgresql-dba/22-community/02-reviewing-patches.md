@@ -1,5 +1,9 @@
 # Ревью патчей PostgreSQL
 
+[prev: 01-mailing-lists](./01-mailing-lists.md) | [next: 03-writing-patches](./03-writing-patches.md)
+
+---
+
 Ревью патчей — важная часть участия в сообществе PostgreSQL. Это помогает улучшить качество кода и ускорить включение новых функций в релизы.
 
 ## Что такое CommitFest
@@ -275,3 +279,7 @@ scan-build make
 - [Submitting a Patch](https://wiki.postgresql.org/wiki/Submitting_a_Patch)
 - [CommitFest](https://commitfest.postgresql.org/)
 - [Mailing List Archives](https://www.postgresql.org/list/pgsql-hackers/)
+
+---
+
+[prev: 01-mailing-lists](./01-mailing-lists.md) | [next: 03-writing-patches](./03-writing-patches.md)

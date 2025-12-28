@@ -1,5 +1,8 @@
 # Команда chmod
 
+[prev: 01-owners-groups](./01-owners-groups.md) | [next: 03-umask](./03-umask.md)
+
+---
 ## Что такое chmod?
 
 **chmod** (change mode) — команда для изменения прав доступа к файлам и директориям.
@@ -216,3 +219,7 @@ $ stat -c "%a %n" file.txt
 3. **Никогда 777** — это дыра в безопасности
 4. **Используйте find** для раздельной настройки файлов и директорий
 5. **Проверяйте права** командой `ls -l`
+
+---
+
+[prev: 01-owners-groups](./01-owners-groups.md) | [next: 03-umask](./03-umask.md)

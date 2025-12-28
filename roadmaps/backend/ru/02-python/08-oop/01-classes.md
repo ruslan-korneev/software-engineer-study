@@ -1,5 +1,8 @@
 # Classes (Классы)
 
+[prev: 07-regular-expressions](../07-regular-expressions.md) | [next: 02-inheritance](./02-inheritance.md)
+---
+
 ## Что такое класс?
 
 **Класс** — это шаблон (чертёж) для создания объектов. Определяет:
@@ -124,3 +127,6 @@ print(c.area)    # 314.159
 - Атрибуты класса — общие, атрибуты экземпляра — индивидуальные
 - `_` и `__` — конвенции для "приватности"
 - `@property` — геттеры/сеттеры в Pythonic стиле
+
+---
+[prev: 07-regular-expressions](../07-regular-expressions.md) | [next: 02-inheritance](./02-inheritance.md)

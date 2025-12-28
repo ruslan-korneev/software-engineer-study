@@ -1,5 +1,8 @@
 # Поиск и замена в Vi (Search and Replace)
 
+[prev: 04-basic-editing](./04-basic-editing.md) | [next: 06-multiple-files](./06-multiple-files.md)
+
+---
 ## Базовый поиск
 
 ### Поиск вперёд
@@ -343,3 +346,7 @@ u       # отменить последнюю замену
 - Флаг `g` нужен для замены всех вхождений в строке
 - Флаг `c` позволяет подтверждать каждую замену
 - `:g/pattern/d` — удаление строк с паттерном
+
+---
+
+[prev: 04-basic-editing](./04-basic-editing.md) | [next: 06-multiple-files](./06-multiple-files.md)

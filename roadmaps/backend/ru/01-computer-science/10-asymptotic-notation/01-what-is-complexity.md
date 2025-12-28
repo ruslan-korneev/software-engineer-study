@@ -1,5 +1,8 @@
 # Что такое сложность алгоритма (Complexity)
 
+[prev: 10-browsers-and-how-they-work](../09-networking-and-internet/10-browsers-and-how-they-work.md) | [next: 02-big-o](./02-big-o.md)
+
+---
 ## Определение
 
 **Сложность алгоритма** — это мера количества ресурсов (времени или памяти), необходимых для выполнения алгоритма в зависимости от размера входных данных.
@@ -210,3 +213,7 @@ for s in strings:
 - Анализируем худший случай (worst case)
 - Отбрасываем константы и младшие члены
 - Важно знать сложность стандартных операций в языке
+
+---
+
+[prev: 10-browsers-and-how-they-work](../09-networking-and-internet/10-browsers-and-how-they-work.md) | [next: 02-big-o](./02-big-o.md)

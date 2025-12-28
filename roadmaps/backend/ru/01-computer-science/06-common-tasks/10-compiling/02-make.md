@@ -1,5 +1,8 @@
 # make и Makefile - автоматизация сборки
 
+[prev: 01-what-is-compiling](./01-what-is-compiling.md) | [next: 01-what-is-script](../../07-shell-scripting/01-first-script/01-what-is-script.md)
+
+---
 ## Что такое make?
 
 **make** - утилита для автоматизации сборки программ. Она использует файл `Makefile` с правилами, определяющими как собирать проект.
@@ -450,3 +453,7 @@ target: dependencies
 | `$^` | Все зависимости |
 | `$*` | Основа имени файла |
 | `$?` | Изменённые зависимости |
+
+---
+
+[prev: 01-what-is-compiling](./01-what-is-compiling.md) | [next: 01-what-is-script](../../07-shell-scripting/01-first-script/01-what-is-script.md)

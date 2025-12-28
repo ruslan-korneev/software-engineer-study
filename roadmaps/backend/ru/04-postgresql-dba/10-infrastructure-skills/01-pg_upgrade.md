@@ -1,5 +1,9 @@
 # pg_upgrade - Обновление PostgreSQL
 
+[prev: 08-ssl-settings](../09-security/08-ssl-settings.md) | [next: 02-logical-replication](./02-logical-replication.md)
+
+---
+
 ## Что такое pg_upgrade
 
 **pg_upgrade** — это утилита PostgreSQL, позволяющая обновить кластер базы данных с одной мажорной версии PostgreSQL на другую без полного дампа и восстановления данных. Это значительно ускоряет процесс миграции, особенно для больших баз данных.
@@ -273,3 +277,7 @@ initdb -D /var/lib/postgresql/16/main
 - [Официальная документация pg_upgrade](https://www.postgresql.org/docs/current/pgupgrade.html)
 - [PostgreSQL Release Notes](https://www.postgresql.org/docs/release/)
 - [PostgreSQL Upgrade Best Practices](https://wiki.postgresql.org/wiki/Upgrade)
+
+---
+
+[prev: 08-ssl-settings](../09-security/08-ssl-settings.md) | [next: 02-logical-replication](./02-logical-replication.md)

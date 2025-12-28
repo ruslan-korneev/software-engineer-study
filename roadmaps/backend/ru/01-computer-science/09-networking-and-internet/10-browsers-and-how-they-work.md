@@ -1,5 +1,8 @@
 # Как работают браузеры
 
+[prev: 09-what-is-hosting](./09-what-is-hosting.md) | [next: 01-what-is-complexity](../10-asymptotic-notation/01-what-is-complexity.md)
+
+---
 **Браузер** — программа, которая загружает веб-страницы и отображает их пользователю.
 
 ```
@@ -280,3 +283,7 @@ Chrome
 
 **Почему Chrome не оптимизирует:**
 Google сознательно выбрал безопасность и стабильность выше экономии памяти. При нехватке RAM Chrome умеет "выгружать" неактивные вкладки.
+
+---
+
+[prev: 09-what-is-hosting](./09-what-is-hosting.md) | [next: 01-what-is-complexity](../10-asymptotic-notation/01-what-is-complexity.md)

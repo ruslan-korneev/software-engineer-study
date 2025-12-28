@@ -1,5 +1,8 @@
 # Git Patch
 
+[prev: 06-submodules](./06-submodules.md) | [next: 01-what-are-relational-databases](../../04-postgresql-dba/01-introduction/01-what-are-relational-databases.md)
+---
+
 ## Что такое патчи
 
 **Патч (patch)** - это текстовый файл, содержащий описание изменений между двумя версиями файлов. В Git патчи используются для:
@@ -444,3 +447,6 @@ Git патчи - классический способ обмена измене
 - `git apply` - применение патчей без коммита
 - `git am` - применение патчей с созданием коммитов
 - `git send-email` - отправка патчей по email
+
+---
+[prev: 06-submodules](./06-submodules.md) | [next: 01-what-are-relational-databases](../../04-postgresql-dba/01-introduction/01-what-are-relational-databases.md)

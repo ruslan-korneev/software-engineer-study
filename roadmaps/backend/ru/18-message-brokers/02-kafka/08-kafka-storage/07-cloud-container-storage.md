@@ -1,5 +1,9 @@
 # Хранение в облаке и контейнерах
 
+[prev: 06-multi-cluster](./06-multi-cluster.md) | [next: 01-admin-clients](../09-management/01-admin-clients.md)
+
+---
+
 ## Описание
 
 Развёртывание Kafka в облачных средах и контейнерах требует особого подхода к организации хранилища данных. Эта тема охватывает best practices для работы с Kafka в Kubernetes, Docker, а также использование облачных сервисов хранения (S3, EBS, Azure Blob, GCS).
@@ -629,3 +633,7 @@ confluent kafka cluster create production-cluster \
 - [Перемещение данных](./02-data-movement.md) — backup и restore
 - [Мульти-кластер](./06-multi-cluster.md) — cross-region deployment
 - [Архитектуры](./05-architectures.md) — cloud-native архитектуры
+
+---
+
+[prev: 06-multi-cluster](./06-multi-cluster.md) | [next: 01-admin-clients](../09-management/01-admin-clients.md)

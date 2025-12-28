@@ -1,5 +1,8 @@
 # Кучи, стеки и очереди
 
+[prev: 02-hash-tables](./02-hash-tables.md) | [next: 04-binary-search-tree](./04-binary-search-tree.md)
+---
+
 Три важные структуры данных с разным поведением.
 
 ## Stack (Стек) — LIFO
@@ -430,3 +433,6 @@ pq.get()  # (3, "низкий приоритет")
 | Удалить | O(1) | O(1) | O(log n) |
 | Посмотреть | O(1) | O(1) | O(1) |
 | Поиск | O(n) | O(n) | O(n) |
+
+---
+[prev: 02-hash-tables](./02-hash-tables.md) | [next: 04-binary-search-tree](./04-binary-search-tree.md)

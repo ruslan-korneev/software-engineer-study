@@ -1,5 +1,9 @@
 # Потоковая репликация PostgreSQL (Streaming Replication)
 
+[prev: 01-logical-replication](./01-logical-replication.md) | [next: 03-ha-clustering](./03-ha-clustering.md)
+
+---
+
 ## Введение
 
 Потоковая репликация (Streaming Replication) — это физический метод репликации в PostgreSQL, при котором изменения передаются на уровне WAL-записей (Write-Ahead Log) в режиме реального времени. Это основной метод создания отказоустойчивых кластеров PostgreSQL.
@@ -516,3 +520,7 @@ SELECT count(*) FROM pg_stat_replication;
 - Настройте синхронную репликацию для критичных данных
 - Регулярно тестируйте процедуры failover
 - Мониторьте задержку репликации
+
+---
+
+[prev: 01-logical-replication](./01-logical-replication.md) | [next: 03-ha-clustering](./03-ha-clustering.md)

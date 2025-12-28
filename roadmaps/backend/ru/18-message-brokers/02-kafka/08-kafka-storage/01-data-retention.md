@@ -1,5 +1,9 @@
 # Срок хранения данных (Data Retention)
 
+[prev: 04-compacted-topics](../07-topics-partitions/04-compacted-topics.md) | [next: 02-data-movement](./02-data-movement.md)
+
+---
+
 ## Описание
 
 Kafka хранит сообщения на диске в виде логов (commit logs). В отличие от традиционных брокеров сообщений, Kafka не удаляет сообщения после их потребления — они остаются доступными для повторного чтения. Политики хранения (retention policies) определяют, как долго данные будут храниться в топике и когда они будут удалены.
@@ -242,3 +246,7 @@ min.cleanable.dirty.ratio=0.3
 - [Log Segments](./02-data-movement.md) — подробнее о структуре сегментов
 - [Инструменты](./03-tools.md) — утилиты для работы с данными
 - [Архитектуры](./05-architectures.md) — паттерны использования retention
+
+---
+
+[prev: 04-compacted-topics](../07-topics-partitions/04-compacted-topics.md) | [next: 02-data-movement](./02-data-movement.md)

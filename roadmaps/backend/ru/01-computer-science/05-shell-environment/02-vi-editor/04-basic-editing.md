@@ -1,5 +1,8 @@
 # Базовое редактирование в Vi (Basic Editing)
 
+[prev: 03-cursor-movement](./03-cursor-movement.md) | [next: 05-search-replace](./05-search-replace.md)
+
+---
 ## Удаление текста
 
 ### Команда d (delete)
@@ -335,3 +338,7 @@ di[     # удалить содержимое []
 - `u` и `Ctrl+r` — отмена и повтор
 - `.` — повторение последней команды
 - Регистры позволяют хранить несколько фрагментов текста
+
+---
+
+[prev: 03-cursor-movement](./03-cursor-movement.md) | [next: 05-search-replace](./05-search-replace.md)

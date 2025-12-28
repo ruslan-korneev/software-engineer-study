@@ -1,5 +1,8 @@
 # Дек (Deque — Double-Ended Queue)
 
+[prev: 01-queue-concept](./01-queue-concept.md) | [next: 03-priority-queue](./03-priority-queue.md)
+
+---
 ## Определение
 
 **Дек (Deque)** — это структура данных, которая позволяет добавлять и удалять элементы с обоих концов за O(1). Название происходит от "Double-Ended Queue" — двусторонняя очередь.
@@ -666,3 +669,7 @@ while dq and nums[dq[-1]] < nums[i]:  # сравниваем значения
 - Нужен только FIFO (queue проще)
 - Нужен доступ по произвольному индексу (массив лучше)
 - Нужна приоритизация (используй heap)
+
+---
+
+[prev: 01-queue-concept](./01-queue-concept.md) | [next: 03-priority-queue](./03-priority-queue.md)

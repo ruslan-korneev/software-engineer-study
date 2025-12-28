@@ -1,5 +1,9 @@
 # Shell Scripts для автоматизации PostgreSQL
 
+[prev: 14-capacity-planning](../14-capacity-planning.md) | [next: 02-configuration-management](./02-configuration-management.md)
+
+---
+
 ## Введение
 
 Shell-скрипты являются основным инструментом автоматизации рутинных задач администрирования PostgreSQL. Они позволяют автоматизировать резервное копирование, мониторинг, обслуживание базы данных и многие другие операции.
@@ -581,3 +585,7 @@ Shell-скрипты являются мощным инструментом дл
 6. **Отправляйте оповещения** при критических событиях
 
 Следующий шаг - изучение инструментов управления конфигурацией (Ansible, Puppet) для более масштабной автоматизации.
+
+---
+
+[prev: 14-capacity-planning](../14-capacity-planning.md) | [next: 02-configuration-management](./02-configuration-management.md)

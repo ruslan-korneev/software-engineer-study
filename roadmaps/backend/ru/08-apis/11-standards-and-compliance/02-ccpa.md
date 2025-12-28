@@ -1,5 +1,9 @@
 # CCPA (California Consumer Privacy Act)
 
+[prev: 01-gdpr](./01-gdpr.md) | [next: 03-pci-dss](./03-pci-dss.md)
+
+---
+
 ## Введение
 
 **CCPA** (California Consumer Privacy Act) — это закон штата Калифорния о защите персональных данных потребителей, вступивший в силу 1 января 2020 года. Это один из самых строгих законов о конфиденциальности в США, который предоставляет жителям Калифорнии значительные права в отношении их персональных данных.
@@ -1257,3 +1261,7 @@ class CCPAComplianceChecker:
 - [CCPA Regulations](https://oag.ca.gov/privacy/ccpa/regulations)
 - [CPRA Text](https://vig.cdn.sos.ca.gov/2020/general/pdf/topl-prop24.pdf)
 - [Global Privacy Control](https://globalprivacycontrol.org/)
+
+---
+
+[prev: 01-gdpr](./01-gdpr.md) | [next: 03-pci-dss](./03-pci-dss.md)

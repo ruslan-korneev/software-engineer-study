@@ -1,5 +1,8 @@
 # Изменение окружения (Modifying Environment)
 
+[prev: 02-startup-files](./02-startup-files.md) | [next: 01-why-vi](../02-vi-editor/01-why-vi.md)
+
+---
 ## Создание и изменение переменных
 
 ### Создание shell-переменной
@@ -389,3 +392,7 @@ echo "Connecting to $DB_HOST:$DB_PORT"
 - Используйте `source` для применения изменений конфигурации
 - Добавляйте директории в PATH с сохранением старого значения
 - Сохраняйте постоянные переменные в `~/.bash_profile` или `~/.bashrc`
+
+---
+
+[prev: 02-startup-files](./02-startup-files.md) | [next: 01-why-vi](../02-vi-editor/01-why-vi.md)

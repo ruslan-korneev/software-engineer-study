@@ -1,5 +1,9 @@
 # Как взаимодействуют потребители (Consumer Groups)
 
+[prev: 01-example](./01-example.md) | [next: 03-tracing](./03-tracing.md)
+
+---
+
 ## Описание
 
 Consumer Group (группа потребителей) — это механизм масштабирования и отказоустойчивости в Apache Kafka, позволяющий нескольким потребителям совместно обрабатывать сообщения из топика. Каждая партиция топика назначается только одному потребителю в группе, что обеспечивает параллельную обработку и исключает дублирование. Группы потребителей — ключевая концепция для построения масштабируемых систем обработки данных.
@@ -527,3 +531,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 \
 - [Kafka Consumer Groups Documentation](https://kafka.apache.org/documentation/#intro_consumers)
 - [Confluent Consumer Group Guide](https://docs.confluent.io/platform/current/clients/consumer.html#consumer-groups)
 - [Kafka Consumer Group Management](https://kafka.apache.org/documentation/#impl_consumer)
+
+---
+
+[prev: 01-example](./01-example.md) | [next: 03-tracing](./03-tracing.md)

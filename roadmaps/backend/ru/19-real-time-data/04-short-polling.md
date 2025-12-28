@@ -1,5 +1,9 @@
 # Short Polling (Короткий опрос)
 
+[prev: 03-long-polling](./03-long-polling.md) | [next: 01-basics](../20-graphql/01-basics.md)
+
+---
+
 ## Введение
 
 **Short Polling** (короткий опрос) — это самый простой и базовый метод получения обновлений от сервера в реальном времени. Суть метода заключается в том, что клиент периодически отправляет HTTP-запросы к серверу через фиксированные интервалы времени, чтобы проверить, появились ли новые данные.
@@ -1228,3 +1232,7 @@ app.add_middleware(GZipMiddleware, minimum_size=100)
 - [MDN: setInterval](https://developer.mozilla.org/ru/docs/Web/API/setInterval)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [Flask Documentation](https://flask.palletsprojects.com/)
+
+---
+
+[prev: 03-long-polling](./03-long-polling.md) | [next: 01-introduction](../20-graphql/01-getting-started/01-introduction.md)

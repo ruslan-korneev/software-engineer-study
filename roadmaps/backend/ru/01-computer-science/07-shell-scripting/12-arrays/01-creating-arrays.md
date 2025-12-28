@@ -1,5 +1,8 @@
 # Создание массивов
 
+[prev: 04-bc](../11-strings-numbers/04-bc.md) | [next: 02-array-operations](./02-array-operations.md)
+
+---
 ## Типы массивов в Bash
 
 Bash поддерживает два типа массивов:
@@ -280,3 +283,7 @@ export arr  # Не сработает как ожидается
 declare -A hash
 hash[123]="value"     # 123 становится строкой "123"
 ```
+
+---
+
+[prev: 04-bc](../11-strings-numbers/04-bc.md) | [next: 02-array-operations](./02-array-operations.md)

@@ -1,5 +1,9 @@
 # MQTT
 
+[prev: 02-amqp-10](./02-amqp-10.md) | [next: 04-stomp](./04-stomp.md)
+
+---
+
 ## Введение
 
 **MQTT** (Message Queuing Telemetry Transport) — это легковесный протокол обмена сообщениями, разработанный для устройств с ограниченными ресурсами и нестабильных сетей. Изначально создан для IoT (Internet of Things) и M2M (Machine-to-Machine) коммуникаций. RabbitMQ поддерживает MQTT через плагин `rabbitmq_mqtt`.
@@ -639,3 +643,7 @@ rabbitmqctl list_queues name messages_ready messages_unacknowledged
 ## Заключение
 
 MQTT — это идеальный протокол для IoT и мобильных приложений благодаря своей легковесности и простоте. RabbitMQ через плагин `rabbitmq_mqtt` позволяет интегрировать MQTT устройства с корпоративной инфраструктурой обмена сообщениями, маппируя MQTT topics на AMQP routing keys. Выбирайте MQTT, когда работаете с устройствами с ограниченными ресурсами или нестабильными сетями.
+
+---
+
+[prev: 02-amqp-10](./02-amqp-10.md) | [next: 04-stomp](./04-stomp.md)

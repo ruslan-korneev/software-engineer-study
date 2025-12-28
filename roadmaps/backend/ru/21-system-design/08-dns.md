@@ -1,5 +1,9 @@
 # DNS (Domain Name System)
 
+[prev: 07-availability-patterns](./07-availability-patterns.md) | [next: 09-cdn](./09-cdn.md)
+
+---
+
 ## Что такое DNS и зачем он нужен
 
 **DNS (Domain Name System)** — это распределённая иерархическая система, которая преобразует доменные имена (например, `google.com`) в IP-адреса (например, `142.250.74.46`). DNS часто называют "телефонной книгой интернета".

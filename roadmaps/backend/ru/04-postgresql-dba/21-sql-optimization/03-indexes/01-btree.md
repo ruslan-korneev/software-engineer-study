@@ -1,5 +1,9 @@
 # B-Tree индексы
 
+[prev: 02-query-patterns](../02-query-patterns.md) | [next: 02-hash](./02-hash.md)
+
+---
+
 ## Введение
 
 B-Tree (Balanced Tree) — это **тип индекса по умолчанию** в PostgreSQL. Если вы создаёте индекс без указания типа, будет создан именно B-Tree индекс. Это самый универсальный и часто используемый тип индекса.
@@ -386,3 +390,7 @@ WHERE schemaname = 'public';
 5. Используйте частичные индексы для экономии места
 6. Применяйте `INCLUDE` для Index Only Scan
 7. Мониторьте bloat индексов и делайте REINDEX при необходимости
+
+---
+
+[prev: 02-query-patterns](../02-query-patterns.md) | [next: 02-hash](./02-hash.md)

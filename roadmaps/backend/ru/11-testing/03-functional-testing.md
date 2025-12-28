@@ -1,5 +1,9 @@
 # Функциональное тестирование
 
+[prev: 02-integration-testing](./02-integration-testing.md) | [next: 01-concepts](../12-ci-cd/01-concepts.md)
+
+---
+
 ## Что такое функциональное тестирование?
 
 **Функциональное тестирование** (Functional Testing) — это тип тестирования программного обеспечения, который проверяет, что система выполняет свои функции в соответствии с требованиями. Тесты фокусируются на том, **что** система делает, а не на том, **как** она это делает.
@@ -859,3 +863,7 @@ def test_user_login():
 - [Playwright Python](https://playwright.dev/python/)
 - [Allure Framework](https://docs.qameta.io/allure/)
 - [Page Object Pattern](https://martinfowler.com/bliki/PageObject.html)
+
+---
+
+[prev: 02-integration-testing](./02-integration-testing.md) | [next: 01-concepts](../12-ci-cd/01-concepts.md)

@@ -1,5 +1,8 @@
 # Switching Branches
 
+[prev: 03-deleting-branches](./03-deleting-branches.md) | [next: 05-merging-basics](./05-merging-basics.md)
+---
+
 ## Что происходит при переключении?
 
 При переключении веток Git выполняет следующие действия:
@@ -300,3 +303,6 @@ git reset --hard origin/main
 | Отменить изменения | `git checkout -- file` | `git restore file` |
 
 **Рекомендация:** Для новых проектов используйте `git switch` и `git restore` — они более интуитивно понятны и разделены по функциональности.
+
+---
+[prev: 03-deleting-branches](./03-deleting-branches.md) | [next: 05-merging-basics](./05-merging-basics.md)

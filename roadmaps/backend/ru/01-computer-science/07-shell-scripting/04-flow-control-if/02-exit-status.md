@@ -1,5 +1,8 @@
 # Код возврата (Exit Status)
 
+[prev: 01-if-statement](./01-if-statement.md) | [next: 03-test-command](./03-test-command.md)
+
+---
 ## Что такое код возврата
 
 Каждая команда в Linux возвращает целое число от 0 до 255, называемое **кодом возврата** (exit status, exit code, return code).
@@ -319,3 +322,7 @@ trap cleanup EXIT
 # Код скрипта...
 echo "Выполнение..."
 ```
+
+---
+
+[prev: 01-if-statement](./01-if-statement.md) | [next: 03-test-command](./03-test-command.md)

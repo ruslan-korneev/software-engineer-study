@@ -1,5 +1,9 @@
 # Архитектура процессов и памяти PostgreSQL
 
+[prev: 05-queues](../16-data-processing/05-queues.md) | [next: 02-vacuum-processing](./02-vacuum-processing.md)
+
+---
+
 ## Обзор архитектуры
 
 PostgreSQL использует **мультипроцессную архитектуру** (process-per-connection), где каждое клиентское подключение обслуживается отдельным серверным процессом. Это обеспечивает высокую стабильность — сбой одного процесса не влияет на другие.
@@ -186,3 +190,7 @@ ALTER SYSTEM SET work_mem = '64MB';
 ALTER SYSTEM SET maintenance_work_mem = '2GB';
 ALTER SYSTEM SET effective_cache_size = '24GB';
 ```
+
+---
+
+[prev: 05-queues](../16-data-processing/05-queues.md) | [next: 02-vacuum-processing](./02-vacuum-processing.md)

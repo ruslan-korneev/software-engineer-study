@@ -1,5 +1,9 @@
 # Маркировка местонахождения (Offsets)
 
+[prev: 03-tracing](./03-tracing.md) | [next: 05-compacted-topic-reading](./05-compacted-topic-reading.md)
+
+---
+
 ## Описание
 
 Offset (смещение) — это уникальный идентификатор позиции сообщения в партиции Kafka. Каждое сообщение в партиции имеет последовательный номер, начиная с 0. Consumer использует offset для отслеживания прогресса чтения — какие сообщения уже обработаны, а какие ещё предстоит прочитать. Правильное управление offset'ами критически важно для обеспечения гарантий доставки сообщений: at-least-once, at-most-once или exactly-once.
@@ -808,3 +812,7 @@ consumer.subscribe(Collections.singletonList("topic"), new ConsumerRebalanceList
 - [Kafka Consumer Offset Management](https://kafka.apache.org/documentation/#consumerconfigs)
 - [Confluent Offset Management Guide](https://docs.confluent.io/platform/current/clients/consumer.html#offset-management)
 - [Exactly-once Semantics in Kafka](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
+
+---
+
+[prev: 03-tracing](./03-tracing.md) | [next: 05-compacted-topic-reading](./05-compacted-topic-reading.md)

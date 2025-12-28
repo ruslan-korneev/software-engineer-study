@@ -1,5 +1,9 @@
 # Очереди в PostgreSQL (Queues)
 
+[prev: 04-normalization](./04-normalization.md) | [next: 01-processes-memory-architecture](../17-application-skills/01-processes-memory-architecture.md)
+
+---
+
 ## Введение
 
 Очереди сообщений в PostgreSQL позволяют реализовать асинхронную обработку задач без внешних систем (Redis, RabbitMQ). PostgreSQL предоставляет встроенные механизмы (LISTEN/NOTIFY) и расширения (pgq, pg_boss) для реализации очередей.
@@ -654,3 +658,7 @@ SELECT * FROM dequeue_task(100);  -- Batch из 100 задач
 4. **Нет retry логики** - потеря задач при ошибках
 5. **Нет мониторинга** - не видно проблем с очередью
 6. **Не очищаются старые записи** - рост таблицы
+
+---
+
+[prev: 04-normalization](./04-normalization.md) | [next: 01-processes-memory-architecture](../17-application-skills/01-processes-memory-architecture.md)

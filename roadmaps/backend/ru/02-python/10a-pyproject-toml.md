@@ -1,5 +1,8 @@
 # pyproject.toml (Конфигурация проекта)
 
+[prev: 10-environments](./10-environments.md) | [next: 10b-common-packages](./10b-common-packages.md)
+---
+
 Стандартный файл конфигурации Python-проекта (PEP 518, 621).
 
 ---
@@ -151,3 +154,6 @@ build-backend = "hatchling.build"
 - Один файл вместо setup.py, setup.cfg, requirements.txt
 - Стандарт PEP 518/621
 - Все инструменты в одном месте
+
+---
+[prev: 10-environments](./10-environments.md) | [next: 10b-common-packages](./10b-common-packages.md)

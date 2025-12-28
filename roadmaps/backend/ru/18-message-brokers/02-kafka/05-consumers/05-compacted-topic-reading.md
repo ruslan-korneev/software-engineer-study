@@ -1,5 +1,9 @@
 # Чтение из сжатой темы и Ребалансировка (Rebalancing)
 
+[prev: 04-offset-marking](./04-offset-marking.md) | [next: 06-factory-requirements](./06-factory-requirements.md)
+
+---
+
 ## Описание
 
 Ребалансировка (Rebalancing) — это процесс перераспределения партиций между consumer'ами в группе. Она происходит при добавлении/удалении consumer'ов, изменении подписки на топики или при сбоях. Во время ребалансировки потребление данных приостанавливается, поэтому важно минимизировать её влияние на систему.
@@ -746,3 +750,7 @@ props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
 - [Cooperative Rebalancing KIP-429](https://cwiki.apache.org/confluence/display/KAFKA/KIP-429)
 - [Compacted Topics Documentation](https://kafka.apache.org/documentation/#compaction)
 - [Static Membership KIP-345](https://cwiki.apache.org/confluence/display/KAFKA/KIP-345)
+
+---
+
+[prev: 04-offset-marking](./04-offset-marking.md) | [next: 06-factory-requirements](./06-factory-requirements.md)

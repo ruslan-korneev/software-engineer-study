@@ -1,5 +1,9 @@
 # Memcached
 
+[prev: 04-caching-strategies](./04-caching-strategies.md) | [next: 01-https](../10-web-security/01-https.md)
+
+---
+
 ## Что такое Memcached?
 
 **Memcached** — это высокопроизводительная распределённая система кэширования объектов в памяти. Изначально разработана для LiveJournal, сейчас используется Facebook, Twitter, YouTube и многими другими крупными проектами.
@@ -753,3 +757,7 @@ Memcached — отличный выбор для:
 - Мониторьте hit ratio и evictions
 - Всегда указывайте TTL
 - Помните об ограничении в 1MB на значение
+
+---
+
+[prev: 04-caching-strategies](./04-caching-strategies.md) | [next: 01-https](../10-web-security/01-https.md)

@@ -1,5 +1,9 @@
 # Правила совместимости
 
+[prev: 03-registry-components](./03-registry-components.md) | [next: 05-alternatives](./05-alternatives.md)
+
+---
+
 ## Описание
 
 Эволюция схем (Schema Evolution) — это процесс изменения структуры данных с течением времени при сохранении совместимости между разными версиями продюсеров и консьюмеров. Schema Registry обеспечивает контроль совместимости, проверяя каждую новую версию схемы перед регистрацией на соответствие заданным правилам.
@@ -694,3 +698,7 @@ if __name__ == "__main__":
        "aliases": ["user_name", "username"]
    }
    ```
+
+---
+
+[prev: 03-registry-components](./03-registry-components.md) | [next: 05-alternatives](./05-alternatives.md)

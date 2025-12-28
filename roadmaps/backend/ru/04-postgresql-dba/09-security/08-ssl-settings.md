@@ -1,5 +1,9 @@
 # Настройки SSL в PostgreSQL
 
+[prev: 07-pg_hba-conf](./07-pg_hba-conf.md) | [next: 01-pg_upgrade](../10-infrastructure-skills/01-pg_upgrade.md)
+
+---
+
 ## Введение
 
 SSL (Secure Sockets Layer) / TLS (Transport Layer Security) обеспечивает шифрование данных при передаче между клиентом и сервером PostgreSQL. Это критически важно для защиты конфиденциальных данных, особенно при подключении через ненадёжные сети.
@@ -573,3 +577,7 @@ nmap --script ssl-enum-ciphers -p 5432 db.example.com
 - [pg_hba.conf](./07-pg_hba-conf.md) - настройка аутентификации
 - [Модели аутентификации](./05-authentication-models.md) - методы аутентификации
 - [Роли](./06-roles.md) - управление пользователями
+
+---
+
+[prev: 07-pg_hba-conf](./07-pg_hba-conf.md) | [next: 01-pg_upgrade](../10-infrastructure-skills/01-pg_upgrade.md)

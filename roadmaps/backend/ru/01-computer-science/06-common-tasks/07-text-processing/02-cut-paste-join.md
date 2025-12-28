@@ -1,5 +1,8 @@
 # cut, paste, join - работа с колонками
 
+[prev: 01-cat-sort-uniq](./01-cat-sort-uniq.md) | [next: 03-diff-patch](./03-diff-patch.md)
+
+---
 ## cut - извлечение колонок
 
 ### Что такое cut?
@@ -339,3 +342,7 @@ awk 'FNR==NR {a[$1]=$0; next} $1 in a {print a[$1],$2}' file1.txt file2.txt
 | `join -a 1` | LEFT JOIN |
 | `join -v 1` | Только из f1 |
 | `join -t','` | Разделитель полей |
+
+---
+
+[prev: 01-cat-sort-uniq](./01-cat-sort-uniq.md) | [next: 03-diff-patch](./03-diff-patch.md)

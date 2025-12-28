@@ -1,5 +1,8 @@
 # Pathname Expansion (Globbing)
 
+[prev: 05-pipelines](../06-redirection/05-pipelines.md) | [next: 02-tilde-expansion](./02-tilde-expansion.md)
+
+---
 ## Что такое pathname expansion?
 
 **Pathname expansion** (раскрытие путей, также называемое globbing) — механизм shell, который преобразует шаблоны с wildcards в список подходящих файлов.
@@ -195,3 +198,7 @@ $ ls 'file?.txt'             # файл с именем "file?.txt"
 $ ls */*.txt         # только один уровень вложенности
 $ ls **/*.txt        # все уровни (с globstar)
 ```
+
+---
+
+[prev: 05-pipelines](../06-redirection/05-pipelines.md) | [next: 02-tilde-expansion](./02-tilde-expansion.md)

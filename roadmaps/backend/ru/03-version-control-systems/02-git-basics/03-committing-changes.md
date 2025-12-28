@@ -1,5 +1,8 @@
 # Committing Changes (Создание коммитов)
 
+[prev: 02-staging-area](./02-staging-area.md) | [next: 04-gitignore](./04-gitignore.md)
+---
+
 ## Что такое коммит?
 
 **Коммит** (commit) — это снимок (snapshot) вашего проекта в определённый момент времени. Каждый коммит содержит:
@@ -358,3 +361,6 @@ git config --global core.editor "vim"           # Vim
 - Пишите осмысленные сообщения в императиве
 - Делайте атомарные коммиты (один коммит = одна задача)
 - Всегда проверяйте `git diff --staged` перед коммитом
+
+---
+[prev: 02-staging-area](./02-staging-area.md) | [next: 04-gitignore](./04-gitignore.md)

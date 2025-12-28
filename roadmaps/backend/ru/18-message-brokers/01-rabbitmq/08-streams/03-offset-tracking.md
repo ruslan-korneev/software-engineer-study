@@ -1,5 +1,9 @@
 # Offset Tracking в RabbitMQ Streams
 
+[prev: 02-stream-basics](./02-stream-basics.md) | [next: 04-streams-vs-queues](./04-streams-vs-queues.md)
+
+---
+
 ## Введение
 
 Offset (смещение) — это позиция сообщения в stream. В отличие от классических очередей, где сообщение удаляется после подтверждения, в streams offset позволяет:
@@ -644,3 +648,7 @@ Offset tracking в RabbitMQ Streams:
 - Возможность replay данных
 - Независимую работу нескольких consumers
 - Восстановление после сбоев
+
+---
+
+[prev: 02-stream-basics](./02-stream-basics.md) | [next: 04-streams-vs-queues](./04-streams-vs-queues.md)

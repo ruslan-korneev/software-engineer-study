@@ -1,5 +1,9 @@
 # GitHub Actions
 
+[prev: 01-concepts](./01-concepts.md) | [next: 03-best-practices](./03-best-practices.md)
+
+---
+
 ## Введение
 
 **GitHub Actions** — это платформа для автоматизации CI/CD, встроенная непосредственно в GitHub. Она позволяет создавать автоматизированные рабочие процессы (workflows) прямо в репозитории.
@@ -1023,3 +1027,7 @@ GitHub Actions — мощный и гибкий инструмент для CI/C
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [GitHub Actions Marketplace](https://github.com/marketplace?type=actions)
 - [Awesome Actions](https://github.com/sdras/awesome-actions)
+
+---
+
+[prev: 01-concepts](./01-concepts.md) | [next: 03-best-practices](./03-best-practices.md)

@@ -1,5 +1,8 @@
 # Ориентированные и неориентированные графы
 
+[prev: 01-graph-basics](./01-graph-basics.md) | [next: 03-representations](./03-representations.md)
+---
+
 ## Определение
 
 ### Неориентированный граф (Undirected Graph)
@@ -523,3 +526,6 @@ def topological_sort_safe(graph, vertices):
 - Зависимости, потоки данных
 - Ссылки, подписки
 - Порядок выполнения
+
+---
+[prev: 01-graph-basics](./01-graph-basics.md) | [next: 03-representations](./03-representations.md)

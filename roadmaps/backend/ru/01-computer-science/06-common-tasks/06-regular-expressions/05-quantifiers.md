@@ -1,5 +1,8 @@
 # Квантификаторы в регулярных выражениях
 
+[prev: 04-posix-classes](./04-posix-classes.md) | [next: 01-cat-sort-uniq](../07-text-processing/01-cat-sort-uniq.md)
+
+---
 ## Что такое квантификаторы?
 
 **Квантификаторы** определяют, сколько раз может повторяться предыдущий элемент (символ, группа или класс символов).
@@ -305,3 +308,7 @@ grep 'a\{2,4\}' file.txt
 grep -E 'a+' file.txt
 grep -E 'a{2,4}' file.txt
 ```
+
+---
+
+[prev: 04-posix-classes](./04-posix-classes.md) | [next: 01-cat-sort-uniq](../07-text-processing/01-cat-sort-uniq.md)

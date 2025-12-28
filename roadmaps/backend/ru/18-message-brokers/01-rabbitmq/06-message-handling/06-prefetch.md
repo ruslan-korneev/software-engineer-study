@@ -1,5 +1,9 @@
 # Prefetch (QoS)
 
+[prev: 05-priority-queues](./05-priority-queues.md) | [next: 01-hello-world](../07-tutorials/01-hello-world.md)
+
+---
+
 ## Введение
 
 Prefetch (Quality of Service, QoS) - это механизм RabbitMQ, который контролирует количество непотвержденных сообщений, которые могут быть отправлены потребителю одновременно. Правильная настройка prefetch критически важна для производительности, балансировки нагрузки и корректной работы приоритетных очередей.
@@ -8,15 +12,15 @@ Prefetch (Quality of Service, QoS) - это механизм RabbitMQ, кото�
 
 ```
 Без prefetch (по умолчанию):
-RabbitMQ → [Msg1][Msg2][Msg3][Msg4][Msg5] → Consumer
+RabbitMQ -> [Msg1][Msg2][Msg3][Msg4][Msg5] -> Consumer
            (все сообщения отправлены сразу)
 
 С prefetch_count=2:
-RabbitMQ → [Msg1][Msg2] → Consumer (обрабатывает)
+RabbitMQ -> [Msg1][Msg2] -> Consumer (обрабатывает)
            [Msg3][Msg4][Msg5] (ждут в очереди)
 
 После ACK для Msg1:
-RabbitMQ → [Msg2][Msg3] → Consumer
+RabbitMQ -> [Msg2][Msg3] -> Consumer
            [Msg4][Msg5] (ждут в очереди)
 ```
 
@@ -234,10 +238,10 @@ prefetch_count = (RTT / processing_time) * safety_factor
 - safety_factor = 2-3 (запас)
 
 Примеры:
-- RTT = 1мс, processing = 10мс → prefetch = (1/10) * 2 = 1
-- RTT = 1мс, processing = 1мс → prefetch = (1/1) * 2 = 2
-- RTT = 10мс, processing = 100мс → prefetch = (10/100) * 2 = 1
-- RTT = 10мс, processing = 1мс → prefetch = (10/1) * 2 = 20
+- RTT = 1мс, processing = 10мс -> prefetch = (1/10) * 2 = 1
+- RTT = 1мс, processing = 1мс -> prefetch = (1/1) * 2 = 2
+- RTT = 10мс, processing = 100мс -> prefetch = (10/100) * 2 = 1
+- RTT = 10мс, processing = 1мс -> prefetch = (10/1) * 2 = 20
 """
 
 def calculate_prefetch(rtt_ms, processing_time_ms, safety_factor=2):
@@ -311,7 +315,7 @@ class AdaptivePrefetchConsumer:
         new_prefetch = max(1, min(100, new_prefetch))
 
         if new_prefetch != self.current_prefetch:
-            print(f"Изменение prefetch: {self.current_prefetch} → {new_prefetch}")
+            print(f"Изменение prefetch: {self.current_prefetch} -> {new_prefetch}")
             self.current_prefetch = new_prefetch
             self.channel.basic_qos(prefetch_count=new_prefetch)
 
@@ -697,7 +701,4 @@ Prefetch (QoS) - ключевой механизм управления пото
 
 1. Всегда устанавливайте prefetch_count > 0
 2. Используйте prefetch_count=1 для fair dispatch и приоритетных очередей
-3. Увеличивайте prefetch для быстрых однородных задач
-4. Обязательно используйте auto_ack=False
-5. Мониторьте unacked сообщения и адаптируйте настройки
-6. Помните: prefetch влияет на производительность, балансировку и использование памяти
+3. Увеличивайте prefetch для быстрых одн
