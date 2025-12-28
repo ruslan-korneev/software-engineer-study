@@ -6,11 +6,11 @@
 
 ## Содержание
 
-- [ ] [Введение в модуль threading](./01-threading-intro.md)
-- [ ] [Совместное использование потоков и asyncio](./02-threads-asyncio.md)
-- [ ] [Блокировки и взаимоблокировки](./03-locks-deadlocks.md)
-- [ ] [Циклы событий в отдельных потоках](./04-event-loop-threads.md)
-- [ ] [Потоки для счетных задач](./05-cpu-bound-threads.md)
+- [x] [Введение в модуль threading](./01-threading-intro.md)
+- [x] [Совместное использование потоков и asyncio](./02-threads-asyncio.md)
+- [x] [Блокировки и взаимоблокировки](./03-locks-deadlocks.md)
+- [x] [Циклы событий в отдельных потоках](./04-event-loop-threads.md)
+- [x] [Потоки для счетных задач](./05-cpu-bound-threads.md)
 
 ---
 
