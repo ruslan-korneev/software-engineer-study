@@ -6,8 +6,8 @@
 
 ## Содержание
 
-- [ ] [Создание подпроцесса](./01-create-subprocess.md)
-- [ ] [Взаимодействие с подпроцессами](./02-subprocess-communication.md)
+- [x] [Создание подпроцесса](./01-create-subprocess.md)
+- [x] [Взаимодействие с подпроцессами](./02-subprocess-communication.md)
 
 ---
 
