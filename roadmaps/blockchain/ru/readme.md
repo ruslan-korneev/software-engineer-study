@@ -9,26 +9,26 @@
 ## Основные разделы
 
 ### 01. Основы блокчейна
-- [ ] [Что такое блокчейн](./01-blockchain-basics/01-what-is-blockchain/readme.md)
-- [ ] [Децентрализация](./01-blockchain-basics/02-decentralization/readme.md)
-- [ ] [Структура блокчейна](./01-blockchain-basics/03-blockchain-structure/readme.md)
-- [ ] [Базовые операции](./01-blockchain-basics/04-basic-operations/readme.md)
-- [ ] [Применение и использование](./01-blockchain-basics/05-applications-and-uses/readme.md)
+- [x] [Что такое блокчейн](./01-blockchain-basics/01-what-is-blockchain/readme.md)
+- [x] [Децентрализация](./01-blockchain-basics/02-decentralization/readme.md)
+- [x] [Структура блокчейна](./01-blockchain-basics/03-blockchain-structure/readme.md)
+- [x] [Базовые операции](./01-blockchain-basics/04-basic-operations/readme.md)
+- [x] [Применение и использование](./01-blockchain-basics/05-applications-and-uses/readme.md)
 
 ### 02. Фундаментальные концепции
-- [ ] [Криптография и хеширование](./02-blockchain-fundamentals/01-cryptography-and-hashing/readme.md)
-- [ ] [Майнинг и системы поощрения](./02-blockchain-fundamentals/02-mining-and-incentives/readme.md)
-- [ ] [Децентрализация vs Доверие](./02-blockchain-fundamentals/03-decentralization-vs-trust/readme.md)
-- [ ] [Форки блокчейна](./02-blockchain-fundamentals/04-blockchain-forking/readme.md)
-- [ ] [Криптовалюты](./02-blockchain-fundamentals/05-cryptocurrencies/readme.md)
-- [ ] [Криптокошельки](./02-blockchain-fundamentals/06-cryptowallets/readme.md)
-- [ ] [Интероперабельность](./02-blockchain-fundamentals/07-blockchain-interoperability/readme.md)
+- [x] [Криптография и хеширование](./02-blockchain-fundamentals/01-cryptography-and-hashing/readme.md)
+- [x] [Майнинг и системы поощрения](./02-blockchain-fundamentals/02-mining-and-incentives/readme.md)
+- [x] [Децентрализация vs Доверие](./02-blockchain-fundamentals/03-decentralization-vs-trust/readme.md)
+- [x] [Форки блокчейна](./02-blockchain-fundamentals/04-blockchain-forking/readme.md)
+- [x] [Криптовалюты](./02-blockchain-fundamentals/05-cryptocurrencies/readme.md)
+- [x] [Криптокошельки](./02-blockchain-fundamentals/06-cryptowallets/readme.md)
+- [x] [Интероперабельность](./02-blockchain-fundamentals/07-blockchain-interoperability/readme.md)
 
 ### 03. Типы блокчейнов
-- [ ] [EVM-совместимые](./03-blockchain-types/01-evm-based/readme.md) (Ethereum, Polygon, BNB Chain)
-- [ ] [L2 блокчейны](./03-blockchain-types/02-l2-blockchains/readme.md) (Arbitrum, Optimism)
-- [ ] [TVM-based](./03-blockchain-types/03-tvm-based/readme.md) (TON, Everscale)
-- [ ] [Альтернативные сети](./03-blockchain-types/04-alternative-networks/readme.md) (Solana, StarkNet)
+- [x] [EVM-совместимые](./03-blockchain-types/01-evm-based/readme.md) (Ethereum, Polygon, BNB Chain)
+- [x] [L2 блокчейны](./03-blockchain-types/02-l2-blockchains/readme.md) (Arbitrum, Optimism)
+- [x] [TVM-based](./03-blockchain-types/03-tvm-based/readme.md) (TON, Everscale)
+- [x] [Альтернативные сети](./03-blockchain-types/04-alternative-networks/readme.md) (Solana, StarkNet)
 
 ### 04. Смарт-контракты
 - [ ] [Solidity](./04-smart-contracts/01-solidity/readme.md)
