@@ -31,20 +31,20 @@
 - [x] [Альтернативные сети](./03-blockchain-types/04-alternative-networks/readme.md) (Solana, StarkNet)
 
 ### 04. Смарт-контракты
-- [ ] [Solidity](./04-smart-contracts/01-solidity/readme.md)
-- [ ] [Vyper](./04-smart-contracts/02-vyper/readme.md)
-- [ ] [Rust для блокчейна](./04-smart-contracts/03-rust-for-blockchain/readme.md)
-- [ ] [ERC токены](./04-smart-contracts/04-erc-tokens/readme.md)
-- [ ] [Тестирование](./04-smart-contracts/05-testing/readme.md)
-- [ ] [Деплой](./04-smart-contracts/06-deployment/readme.md)
-- [ ] [Мониторинг](./04-smart-contracts/07-monitoring/readme.md)
-- [ ] [Обновления контрактов](./04-smart-contracts/08-upgrades/readme.md)
+- [x] [Solidity](./04-smart-contracts/01-solidity/readme.md)
+- [x] [Vyper](./04-smart-contracts/02-vyper/readme.md)
+- [x] [Rust для блокчейна](./04-smart-contracts/03-rust-for-blockchain/readme.md)
+- [x] [ERC токены](./04-smart-contracts/04-erc-tokens/readme.md)
+- [x] [Тестирование](./04-smart-contracts/05-testing/readme.md)
+- [x] [Деплой](./04-smart-contracts/06-deployment/readme.md)
+- [x] [Мониторинг](./04-smart-contracts/07-monitoring/readme.md)
+- [x] [Обновления контрактов](./04-smart-contracts/08-upgrades/readme.md)
 
 ### 05. Безопасность
-- [ ] [Распространённые уязвимости](./05-security/01-common-vulnerabilities/readme.md)
-- [ ] [Практики безопасности](./05-security/02-security-practices/readme.md)
-- [ ] [Инструменты безопасности](./05-security/03-security-tools/readme.md)
-- [ ] [Процесс аудита](./05-security/04-audit-process/readme.md)
+- [x] [Распространённые уязвимости](./05-security/01-common-vulnerabilities/readme.md)
+- [x] [Практики безопасности](./05-security/02-security-practices/readme.md)
+- [x] [Инструменты безопасности](./05-security/03-security-tools/readme.md)
+- [x] [Процесс аудита](./05-security/04-audit-process/readme.md)
 
 ### 06. Инструменты разработки
 - [ ] [IDE](./06-development-tools/01-ides/readme.md) (Remix, VS Code)
