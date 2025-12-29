@@ -47,21 +47,21 @@
 - [x] [Процесс аудита](./05-security/04-audit-process/readme.md)
 
 ### 06. Инструменты разработки
-- [ ] [IDE](./06-development-tools/01-ides/readme.md) (Remix, VS Code)
-- [ ] [Фреймворки](./06-development-tools/02-frameworks/readme.md) (Hardhat, Foundry, Truffle)
-- [ ] [Контроль версий](./06-development-tools/03-version-control/readme.md)
+- [x] [IDE](./06-development-tools/01-ides/readme.md) (Remix, VS Code)
+- [x] [Фреймворки](./06-development-tools/02-frameworks/readme.md) (Hardhat, Foundry, Truffle)
+- [x] [Контроль версий](./06-development-tools/03-version-control/readme.md)
 
 ### 07. dApps
-- [ ] [Интеграция с фронтендом](./07-dapps/01-frontend-integration/readme.md)
-- [ ] [DeFi](./07-dapps/02-defi/readme.md)
-- [ ] [DAO](./07-dapps/03-dao/readme.md)
-- [ ] [NFT](./07-dapps/04-nft/readme.md)
-- [ ] [Платежи](./07-dapps/05-payments/readme.md)
+- [x] [Интеграция с фронтендом](./07-dapps/01-frontend-integration/readme.md)
+- [x] [DeFi](./07-dapps/02-defi/readme.md)
+- [x] [DAO](./07-dapps/03-dao/readme.md)
+- [x] [NFT](./07-dapps/04-nft/readme.md)
+- [x] [Платежи](./07-dapps/05-payments/readme.md)
 
 ### 08. Инфраструктура
-- [ ] [Провайдеры нод](./08-infrastructure/01-node-providers/readme.md) (Alchemy, Infura)
-- [ ] [Клиентские библиотеки](./08-infrastructure/02-client-libraries/readme.md) (ethers.js, web3.js, viem)
-- [ ] [Клиентские ноды](./08-infrastructure/03-client-nodes/readme.md) (Geth, Besu)
+- [x] [Провайдеры нод](./08-infrastructure/01-node-providers/readme.md) (Alchemy, Infura)
+- [x] [Клиентские библиотеки](./08-infrastructure/02-client-libraries/readme.md) (ethers.js, web3.js, viem)
+- [x] [Клиентские ноды](./08-infrastructure/03-client-nodes/readme.md) (Geth, Besu)
 
 ### 09. Продвинутые темы
 - [ ] [Оракулы](./09-advanced-topics/01-oracles/readme.md) (Chainlink)
